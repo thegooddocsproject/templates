@@ -1,2 +1,2 @@
-# templates
+# Templates
 Templates
