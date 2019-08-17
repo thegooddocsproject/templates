@@ -1,2 +1,2 @@
 # Templates
-Templates 6
+Templates 7
