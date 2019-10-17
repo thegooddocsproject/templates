@@ -1,0 +1,29 @@
+// Global Docs Parameters
+:toc: left
+:toclevels: 3
+:experimental:
+:sectnums:
+:data-uri:
+:source-highlighter: highlightjs
+:sectanchors:
+:icons: font
+:safe-mode-safe:
+:version: "latest"
+:uri-repo: https://github.com/projectname
+:company: REPLACEME
+:product: ##Set the product parameter to add the product name here.##
+:app: ##Insert the name of the app here.##
+:keywords: {app}, {product}, ##Set other global keywords here.##
+
+// 1-developer-guide parameters
+:api-version: ##For API Overviews articles. Replace with the current version of the API##
+:api-url: ##For API Overviews articles. Example is https://api.{company}.com.au ##
+:app-url: ##Set the app-url parameter to replace this value with a URL like https://{app}.{company}.com.au
+
+// 2-qa-and-testing Parameters
+:code-lang: ##put the dominant code language used in {app} that you lint against##
+
+// 3-infrastructure Parameters
+
+
+// 4-how-to-guides

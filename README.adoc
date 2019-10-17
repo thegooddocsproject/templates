@@ -1,0 +1,273 @@
+= Writing with Content Templates
+:sectnums:
+:notitle:
+
+This README provides a primer about the four different template types {company} uses to create internal documentation.
+Each article listed in this discussion article explains basic tips you can use to create great internal content.
+
+== Overview
+
+There are four types of documentation templates we use to help us write consistently:
+
+* Tutorials
+* How To
+* Discussions
+* Reference
+
+== Template Types Overview
+
+Each template type is described below in more detail, with a link to a discussion article containing basic tips on creating content using the template.
+
+.What nobody tells you about documentation
+video::t4vKPhjcMZg[youtube,640,480]
+
+== General writing guidelines for writing
+
+Follow these writing guidelines when developing content using content templates in your application repository.
+
+=== Language and Tone
+
+* Use consistent language and tone throughout your docs.
+* Describe things as clearly and accurately as possible.
+* Run your text through a grammar linter to check how readable it is.
+** Tools like Grammarly help you identify grammar issues
+** Tools like `Vale` help you identify style issues.
+* Avoid colloquialisms and jargon. Even when writing for an internal audience, these tend to distract you if you aren't a native English speaker.
+* Avoid adding your own opinions, or the opinions of others. It clouds a reader's ability to draw conclusions about the discussion.
+
+=== Page Structure
+
+* Create a skeleton of the headings you want to include in the document before you start writing.
+** You can use this skeleton to test the information progression in your articles.
+** It's a lot easier to move things around with headings than to move blocks of content.
+* You may also find that you need to create two articles if the subject starts to branch.
+* Add any links you mention in the body of your discussion topic into the "See also" section. The inline links may get lost in long articles, and scanning for links add to your audience's cognitive load.
+
+==== Mirror the directory structure
+
+If you are documenting a UI-based tool or code-base, structure the docs using the same directory structure or page tree navigation as the tool or code base.
+
+You'll notice that the `/docs` directory structure in this repository follows this recommendation so the content can be matched easily to the confluence pages it is loaded into.
+
+=== Titles and Filenames
+
+* Make the title descriptive of the content contained within the article.
+* Make the title unique within your application space.
+* Make the title and filename the same: it makes it difficult to identify the file name when the title and filename differ.
+
+Here are some title examples and their suggested file name structures:
+
+* Using a toaster
+** `using-a-toaster.adoc`
+* Toast a slice of bread.
+** `toast-a-slice-of-bread.adoc`
+
+=== Overviews
+
+The goal of a good overview statement is to give your audience a clear understanding of what they'll get out of reading your content.
+
+Here are some examples you can use as inspiration:
+
+* Learn about the different attributes that make up a config file.
+* This article provides you with an overview of the user onboarding journey so you can understand how a client moves through the app.
+
+=== Definitions
+
+If you are repeatedly using terms throughout a large article, you can define them once here and then use them repeatedly in the body of the article.
+
+NOTE: If you don't need this section, you can remove it from your discussion topic.
+
+== Tutorial articles
+
+Tutorials are learning-oriented lessons that guide you through a series of steps to complete a project.
+
+They are essential to give new users a feeling that they can achieve something quickly with the product or application.
+
+Tutorial articles work well when they offer the following features:
+
+* Built around specific outcomes or actions.
+* Develop practical knowledge not theoretical knowledge.
+* Inspire confidence by showing progress towards the tutorial goal at each main step.
+* Give a feeling of achievement by giving that "small win" at each main step.
+* Function 100% on the platforms you indicate are supported.
+* Exclude distractions that make your audience have to choose a path in the tutorial.
+
+=== About the "Goal" Section
+
+Summarise the goals of your tutorial in the `goals` attribute. The text you write here is reused in the Goals section and included in HTML description tags when the file is published to HTML.
+
+You should write this panel *after* you have finished the article so you can summarise it properly.
+
+=== About the "Before you Start" section
+
+Have you ever got half-way through a tutorial, only to discover you need to go and read other documentation before you can continue?
+This section is designed to prevent this from happening in the first place.
+
+Describe what the audience needs to know, or needs to have, before attempting this Tutorial.
+By stating the requirements up-front, you prevent your audience from having a bad experience with your tutorial.
+
+.Example "Before you Start" statements for an API article
+Make sure you meet the following pre-requisites before starting the tutorial steps:
+
+* API credentials for the {company} v3.5 API.
+* Access to the Postman application.
+* An understanding about what a RESTful API is conceptually.
+* (Optional) A development tool (IDE) that displays API responses formatted for readability.
+
+=== Structuring your tutorial parts
+
+There are two ways of structuring each part in your tutorial:
+
+* Structured
+* Informal
+
+==== Structured
+
+The structured approach features distinct headings for each step part:
+
+.Structured Tutorial
+[example]
+```
+Part One
+  Goal
+  Procedure
+  Outcome
+Part Two
+  Goal
+  Procedure
+  Outcome
+```
+
+This structure is great for beginners because it tells them exactly what each part will teach them, and what they should expect at the end of each part.
+
+If your tutorial is going to be broken up into separate files, you should _absolutely_ consider this type of structure.
+You should also consider this approach if your tutorial is complex and contains many procedural steps.
+
+==== Informal
+
+The informal approach is great for less complex (read, one-page) tutorial topics.
+You can use this style when you only need to create a simple lesson with a few steps and a basic concept to teach.
+
+.Informal Tutorial
+[example]
+```
+Narrative flow
+Conversational procedural structure, with a few ordered steps described in the body.
+No outcome statement.
+```
+
+You get a more conversational flow with this tutorial style, however some of the prescriptive clarity is lost by not having the headings.
+
+== How-to articles
+
+How-to Guides take the reader through a series of steps required to solve a specific, real-world problem.
+Think of them as recipes for getting stuff done!
+
+How-to articles can often be confused with tutorials, but you won't fall into this trap if you remember they are _problem_-oriented not _learning_-oriented.
+
+New users typically don't look for how-to guides when they first start using an application.
+How-to articles are used by those who have experience with the product and need a specific question answered.
+
+When you are explaining steps in a process, it can often be useful to include a screenshot for each part of the process. What can often happen is that when you try to insert a graphic or screenshot into the flow of the procedure, it breaks the procedural content up and makes the instructions difficult to read.
+
+=== Tabular vs Ordered steps
+
+In the `tmpl-howto.adoc` file, you'll notice the tabular step format in the Step-by-step section of the template. The tabular format allows you to add in your procedural steps right next to the screenshot and reference steps with call-outs.
+
+If you procedural steps do not require screenshots, then you can default to an ordered list.
+
+=== Writing procedural steps
+
+Here are some recommendations you can use when creating procedural steps:
+
+* Usability studies show that procedures should not be more than seven primary steps long.
+* Each step is a single sentence (you should be able to read it aloud, and it should make grammatical sense).
+* When describing a step, include a lead-in sentence to remind the reader what they will be doing when following the sub-steps.
+* Aim for no more than four sub-steps in any primary step.
+* If you are indenting sub-steps beyond one indent level, break out your steps into a new main step block.
+* Too many sub-steps could suggest that you need to break out some of these steps into a new step section.
+* Screenshots and images are recommended, particularly if you can include call outs to the specific parts of the screen you are referring to.
+
+== Discussion articles
+
+Discussions provide understanding-oriented background information and context-specific knowledge on a particular topic.
+
+The goals of a Discussion article are understanding-oriented, not procedural or learning.
+
+Discussion articles work well when they deliver the following types of information:
+
+* They give context to a subject or topic that your audience may not have
+* They explain the "why" about a topic that may not be evident in reference or how-to articles
+* They suggest alternative approaches or different ways of thinking about a customer challenge or technical topic
+* They allow your audience to make connections between related concepts so they can form a better understanding of the subject.
+
+=== Structuring discussion articles
+
+Think about structuring discussion topics like you would a presentation to a group of folks who don't know anything about your chosen subject.
+Your discussion should introduce ideas gradually so your audience can grow their understanding of the concepts in your discussion.
+
+It can be easy to blend Discussions with other types of content, like How To or Reference articles.
+Avoid instructions, procedures, or any content that doesn't focus solely on building upon the conceptual understanding of the discussion topic.
+If you find yourself writing steps or describing how to do something in detail in your Discussion article, chances are you need to shift your focus away from the "doing" and remind yourself of the main goals:
+
+.Help, I'm mixing content types
+[cols=2*a,options="header"]
+|===
+|Clue
+|Solution
+
+|You start to write steps to achieve something that you're describing in your topic.
+|Look for opportunities to link to other topics that complement your discussion content.
+Link to these articles in-line or at the end of the document in the "Where to next" section.
+
+|You think that inserting a tutorial video about the discussion item directly into the discussion is necessary.
+|Link to the video in the "Where to next" section, so your audience doesn't get distracted by the video.
+
+|You begin including YAML and JSON structures of end-points that you can call in your conceptual API discussion.
+|You are mixing too much reference content into your Discussion article. Try these approaches:
+
+* Bring the focus back to understanding the structures, not documenting all the things you can do with them.
+* If your discussion article still needs to link back to the API, you can add the link with a brief explanation to the Related Articles section.
+|===
+
+== Reference articles
+Reference documentation provides information-oriented descriptions of specific technology parts.
+
+The purpose of reference articles is to tell the facts about the technology as consistently and accurately as possible, without mixing procedural or instructional content.
+
+Reference articles work well when they are:
+
+* consistent in structure, language and tone
+* contain descriptive information that is relevant to the reference topic's overview only
+* focus on information accuracy and the facts only.
+
+Article titles should be descriptive of the subject you want to cover, so your audience can quickly identify what the discussion is about.
+
+Here are some good title examples of Reference docs for a UI interface:
+
+* Set Alerts
+* Billing Profiles
+* Client Endpoints
+
+Reference articles can often be replaced by thoroughly-written auto-doc output from your code. This is particularly the case with content such as API reference docs and package descriptions that are documented in code doc-blocks.
+
+Follow these suggestions when structuring and writing your reference topics.
+
+* Employ DRY (Don't Repeat Yourself) methods when writing reference documentation.
+** Re-use content using the https://asciidoctor.org/docs/user-manual/#include-directive[Asciidoctor Include Directive] if:
+** The content is written for the same audience.
+** The content fits in with your reference document without modification.
+* If you are referring to a screen in a UI:
+** Use a Reference table explaining the fields and their meanings.
+** Use call-outs in screen shots to help your audience find the field in the reference table.
+
+== Logging articles
+Logging articles are a special type of template that is used only to describe log pipelines specific to your application.
+
+This article type aligns itself closely with the Reference style of article, so the same content guidelines apply.
+
+You don't need to describe the mandatory logging parameters sent by default to the log pipeline.
+Only describe the parameters unique to your application or common parameters that are being reused from other applications.
+
+The biggest tip for writing logging articles is to be as descriptive as possible with each logging parameter.
+Think about why you would want to query this parameter in the logs and what insights or benefits the parameter adds to the log.

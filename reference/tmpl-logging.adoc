@@ -1,0 +1,82 @@
+= {pipeline} for {app}
+// Article variables (delete the #highlights# and add in the values)
+// The adoc-parameters.txt parameter assumes this template is positioned as a child of each numbered docs sub-folder. Change the pathing if this is not the case.
+include::../adoc-parameters.txt[]
+:pipeline: #Specify the name of the logstash pipeline in this field.#
+:description: #Summarise why this log format exists, or why you would look for this log. What you put here is reused in the Log description section and included in HTML description tags.#
+:format: #Specify the format of the log file: XML or JSON.#
+:keywords: logging, {app}, {product}
+
+////
+For help with writing and structuring a log article, see the README.adoc in the template directory for basic guidelines and links.
+Check out https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/ if you get stuck with AsciiDoc syntax.
+////
+
+== Description
+
+[cols="h,a" options="autowidth"]
+|===
+|Log pipeline name
+|{pipeline}
+
+|Description
+|{description}
+
+|Log format
+|{format}
+
+|Log transfer method
+|// Select from one of two options
+
+#Single-line curl using MSSQL Service Broker.#
+
+#App writes to a log file which is shipped to logstash using filebeat.#
+
+|Output location
+|#If the output location uses curl, then specify a URL similar to `https://logs.{company}.com.au/csdb_appflow`#
+
+#If the output location is to a file, specify the `/path/to/the/logfile`.#
+
+|===
+
+== Logging example
+
+.Logging example
+[source,XML]
+----
+<message>
+   <detail>
+      <dt>2017-05-22T13:35:27.013</dt>
+      <appId>4240263</appId>
+      <sourceId>3585996</sourceId>
+      <refreshId>0</refreshId>
+      <dt2>2017-05-22T13:35:27.013+1000</dt2>
+      <action>appReady</action>
+      <apiGuid>BB31E8B6-88C8-4DEB-9529-8EFD7F680C0B</apiGuid>
+   </detail>
+</message>
+----
+
+== Log properties
+
+In addition to the mandatory logging properties sent for all log pipelines, the following log properties are sent for this pipeline.
+
+.Log properties
+[cols="m,a,m,a" options="header,autowidth"]
+|===
+|Property name
+|Description
+|Logstash type
+|Example value (optional)
+
+|#This example row will give you an idea of what to put in this table#
+csdb_appflow.api-guid
+|The unique API GUID from a {company} application flow. This information is extracted from the <apiGuid> element in the XML log
+|#Choose One# string {vbar} integer {vbar} float {vbar}
+|`BB31E8B6-88C8-4DEB-9529-8EFD7F680C0B`
+
+|
+|
+|
+|
+|===
