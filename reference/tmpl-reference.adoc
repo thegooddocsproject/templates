@@ -1,0 +1,101 @@
+// Describe the title of your article by replacing "Reference template" with the page name you want to publish.
+
+= Reference template
+// Article variables (delete the comments and add in the values)
+:description: Summarise what this reference article is about. What you put here is reused in the Overview section and include in HTML description tags.
+:keywords: // These are like labels
+
+== Overview
+
+{description}
+
+'''
+
+////
+Begin your Reference topic in this section. 
+For help with writing and structuring a reference article, see the README.adoc in the template directory for basic guidelines and links.
+Check out https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/ if you get stuck with AsciiDoc syntax.
+////
+
+== Parameters
+
+
+
+.Example Parameter Reference Template
+[cols="a,a,a,a" options="header,autowidth"]
+|===
+|Name
+|Type
+|Required
+|Description
+
+|productCode
+|`string`
+|Yes
+|Code of the document product to return the schema for.
+
+* Here is a bulleted list with a {vbar} (pipe) inside a table.
+* Another bulleted list.
+** An indented list
+* Back to the list.
+
+|
+|
+|
+|
+|===
+
+== Field Reference
+
+image::https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Resources/Images/Forms/kbf2.x1.jpg[Tux,250,350]
+
+.Example Field Name Reference Template
+[cols="a,a,a,a" options="header,autowidth"]
+|===
+|Name
+|Type
+|Required
+|Description
+
+|Company
+|`string`
+|No
+|The name of the company the person works at or is representing.
+
+|First Name
+|`string`
+|Yes
+|The first name of the person requiring training.
+
+|Last Name
+|`string`
+|Yes
+|The surname of the person requiring training.
+
+|===
+
+image::https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Resources/Images/Forms/kbf2.x1.jpg[Tux,250,350]
+
+.Example Nested Table
+[cols="1,2a"]
+|===
+| Col 1 | Col 2
+
+| Cell 1.1
+| Cell 1.2
+
+| Cell 2.1
+| Cell 2.2
+
+[cols="2,1" options="header"]
+!===
+! Nested header 1
+! Nested header 2
+
+! Nested cell 1
+! Nested cell 2
+
+!===
+
+|Cell 3.1
+|Cell 3.2
