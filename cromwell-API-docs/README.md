@@ -15,4 +15,3 @@ git commit --amend --signoff
 
 ~~~
 
-If your PR is not working, and you haven't signed off, the signoff is probably the reason. Click through the failing test to see instructions for how to fix your request.
