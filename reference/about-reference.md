@@ -1,49 +1,64 @@
-**This template is still a work in progress.**
+# The Reference Article
 
-# Reference Section
+### When Do I Need a Reference Article?
 
-## About the Reference Section
+Reference articles provides information-oriented descriptions of specific technology parts.
 
-The reference section is the main event for you API documentation. New users will start with other documents to help them get going, but experienced users will refer more frequently to the reference section for the detailed information they need to make use of the API.
-The reference section should contain a full listing of endpoints, methods, and parameters
+The purpose of reference articles is to tell the facts about the technology as consistently and accurately as possible, without mixing procedural or instructional content.
 
-## The General Contents
+Reference articles work well when they are:
 
-The reference section is generally a collection of short entries, arranged in alphabetical order.
+* consistent in structure, language and tone
+* contain descriptive information that is relevant to the reference topic's overview only
+* focus on information accuracy and the facts only.
 
-### Reference Entries
+## Content of Your Reference Article
 
-Each reference listing should contain:
-* The HTTP method, if applicable
-* An example of the syntax
-* A description of the endpoint in question (What is it for, and what can it do?)
-* All the parameters for each endpoint (at a minimum: name, data type, description, comments)
-* An example request
-* An example response
-* Response schema
+### About the "Overview" Section
 
-### Special Reference Topics
+Summarise what the reader will get from reading the reference article.
 
-* Authentication
-* Error-handling. Make sure users can find an explanation for any error code they might receive.
-* Throttling
+Creating a good overview comes down to thinking about who is going to be using it:
 
-## Best Practices for Reference Docs
+* Are you writing only for end-users? For developers?
+* Are you writing only for people who have a certain problem to solve?
+* Is it intended for a particular industry.
 
-Each detailed reference entry should contain all the information a user might need to know when using a parameter.
+Your overview should be descriptive of the subject you want to cover, so your audience can quickly identify what the reference article is about.
 
-Include these:
+### About the "Body" Section
 
-Description of what the parameter does and when to use it
-   * Data type
-   * All the acceptable values, if there is a limited set of options
-   * whether the parameter is required or optional
+There is no specific structure to use in Reference articles because the structure will vary based on the type of factual information you are documenting.
 
-If more than one endpoint or parameter can get the job done, explain which one pertains to what situation. (Each probably exists for a specific reason, but the user needs to know.)
+For example, the example included in the more specific `api-reference` template type in this repository describes how you would structure an API endpoint.
+This reference structure is prescriptive, but only relevant for this documentation type.
 
-Each reference entry should include both a syntax and a working example. The example code should be followed by extensive comments that explain how it works.
+In most cases your content will take on a tabular format of some type.
+It is often easier to present reference style information in a table.
 
-## Examples
+Here are some overall suggestions about how you can structure your Reference articles.
 
-examples:
-https://developers.google.com/gmail/api/v1/reference
+#### Structure Suggestions
+
+Follow these suggestions when structuring and writing your reference topics.
+
+* Employ DRY (Don't Repeat Yourself) methods when writing reference documentation.
+** Re-use content using the https://asciidoctor.org/docs/user-manual/#include-directive[Asciidoctor Include Directive] if:
+** The content is written for the same audience.
+** The content fits in with your reference document without modification.
+* If you are referring to a screen in a UI:
+** Use a Reference table explaining the fields and their meanings.
+** Use call-outs in screen shots to help your audience find the field in the reference table.
+
+### Code-generated Documentation
+
+Reference articles can often be replaced by _thoroughly-written_ auto-doc output from your code.
+This is particularly the case with content such as API reference docs and package descriptions that are documented in code doc-blocks or are produced with tools such as the Open API toolchain.
+
+If you need to provide more narrative style content to complement your API reference endpoints, see the `api-` template types in this repository.
+
+## How-to Article Examples
+
+* **Example 1**.
+
+* **Example 2**.
