@@ -9,7 +9,6 @@
 
 {description}
 
-
 == Before you start
 // Delete this section if your readers can dive straight into the lesson without requiring any pre-requisite knowledge.
 Make sure you meet the following pre-requisites before starting the tutorial steps:
