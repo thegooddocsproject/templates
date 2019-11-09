@@ -47,7 +47,7 @@ Logging reference | reference
 
 | Recipe name | Description |Constituent templates |
 | ------- | ------- | ----------------- |
-| API reference guide | A chapter in your full API documentation | Reference entries (multiple reference) + error information (reference) + throttling (concept) + authentication (task) |
+| API reference | One chapter in your full API documentation | Reference entries (multiple reference) + error information (reference) + throttling (concept) + authentication (task) |
 | API guide: good | The starter set for API docs | API project overvew + setup instructions (task) + Reference section (see recipe above) + Quickstart |
 | API guide: better | Improved API docs, after learning about users | API project overvew + setup instructions (task) + Reference(s) + Quickstart + How-to(s) |
 
