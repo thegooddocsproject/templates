@@ -19,14 +19,14 @@ There's a guideline in technical writing that most information falls into one of
 When writing your documentation, it helps to think about the following.
 
 * Who you are writing for
-* What they will be trying to acomplish when they read the documentation
+* What they will be trying to accomplish when they read the documentation
 * The information type. Is it a concept, a task or reference? 
 
 On the last point, it's best not to add *a lot* of conceptual or task-based information in the middle of your API reference section; however, do make common sense adjustments such as adding comments (which are sort of conceptual) after your examples in an API reference.
 
 ## How to use these templates
 
-We like to compare the three template types to aisles in a grocery store. The templates they contain are ingredients that you can combine to create your documentation. You'll definitely need more than one template to build your full set of documentation. You'll aso need to think about the recipes that you use to combine these ingredients into effective documentation. 
+We like to compare the three template types to aisles in a grocery store. The templates they contain are ingredients that you can combine to create your documentation. You'll definitely need more than one template to build your full set of documentation. You'll also need to think about the recipes that you use to combine these ingredients into effective documentation. 
 
 ## The templates
 
@@ -48,8 +48,8 @@ Logging reference | reference
 | Recipe name | Description |Constituent templates |
 | ------- | ------- | ----------------- |
 | API reference | One chapter in your full API documentation | Reference entries (multiple reference) + error information (reference) + throttling (concept) + authentication (task) |
-| API guide: good | The starter set for API docs | API project overvew + setup instructions (task) + Reference section (see recipe above) + Quickstart |
-| API guide: better | Improved API docs, after learning about users | API project overvew + setup instructions (task) + Reference(s) + Quickstart + How-to(s) |
+| API guide: good | The starter set for API docs | API project overview + setup instructions (task) + Reference section (see recipe above) + Quickstart |
+| API guide: better | Improved API docs, after learning about users | API project overview + setup instructions (task) + Reference(s) + Quickstart + How-to(s) |
 
 
 
