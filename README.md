@@ -16,7 +16,7 @@ The templates here are generally divided into three categories, and each templat
 
 There's a guideline in technical writing that most information falls into one of these categories, and that the information types need to be consolidated as much as possible, rather than mixed together. It makes sense to categorize the templates according to these types, because your writing most likely calls for chunks of information that can be categorized this way.
 
-When writing your documentation, it helps to think about three things. Fortunately, all of the templates mention these factors.
+When writing your documentation, it helps to think about the following.
 
 * Who you are writing for
 * What they will be trying to acomplish when they read the documentation
@@ -35,7 +35,8 @@ Here are the templates we currently offer. (More to come soon.)
 | Template name | Type |
 | ---------------------- | ------- |
 API Project overview | concept 
-Quickstart | task
+API Quickstart | task
+API Reference | reference
 Discussion | concept
 How-to | task
 Tutorial | task
@@ -46,7 +47,7 @@ Logging reference | reference
 
 | Recipe name | Description |Constituent templates |
 | ------- | ------- | ----------------- |
-| API reference section | A chapter in the full API guide | Reference entries (multiple reference) + error information (reference) + throttling (concept) + authentication (task) |
+| API reference guide | A chapter in your full API documentation | Reference entries (multiple reference) + error information (reference) + throttling (concept) + authentication (task) |
 | API guide: good | The starter set for API docs | API project overvew + setup instructions (task) + Reference section (see recipe above) + Quickstart |
 | API guide: better | Improved API docs, after learning about users | API project overvew + setup instructions (task) + Reference(s) + Quickstart + How-to(s) |
 
