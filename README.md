@@ -14,13 +14,15 @@ The templates here are generally divided into three categories, and each templat
 **Reference**
 : Contains structured information or specifications that users need to make a product work. Reference sections tend to exhaustively catalog data such as error messages, return codes, or endpoints and their parameters.
 
-There's a guideline in technical writing that most information falls into one of these categories, and that the information types need to be consolidated as much as possible. It makes sense to categorize the templates according to these types, because your writing most likely calls for chunks of information that can be categorized this way.
+There's a guideline in technical writing that most information falls into one of these categories, and that the information types need to be consolidated as much as possible, rather than mixed together. It makes sense to categorize the templates according to these types, because your writing most likely calls for chunks of information that can be categorized this way.
 
 When writing your documentation, it helps to think about three things. Fortunately, all of the templates mention these factors.
 
-* The information type. Is it a concept, a task or reference? (That is, don't start to add a lot of conceptual or task-based information in the middle of your API reference section. Think about creating separate documents, such as an overview, a how-to, etc.)
 * Who you are writing for
-* What wil they be trying to acomplish, when they read the documentation
+* What they will be trying to acomplish when they read the documentation
+* The information type. Is it a concept, a task or reference? 
+
+On the last point, it's best not to add *a lot* of conceptual or task-based information in the middle of your API reference section; however, do make common sense adjustments such as adding comments (which are sort of conceptual) after your examples in an API reference.
 
 ## How to use these templates
 
@@ -45,7 +47,8 @@ Logging reference | reference
 | Recipe name | Description |Constituent templates |
 | ------- | ------- | ----------------- |
 | API reference section | A chapter in the full API guide | Reference entries (multiple reference) + error information (reference) + throttling (concept) + authentication (task) |
-| API guide: good | The starter set for API docs | API project overvew + Reference section (see recipe above) + Quickstart |
-| API guide: better | Improved API docs, after learning about users | API project overvew + Reference(s) + Quickstart + How-to(s) |
+| API guide: good | The starter set for API docs | API project overvew + setup instructions (task) + Reference section (see recipe above) + Quickstart |
+| API guide: better | Improved API docs, after learning about users | API project overvew + setup instructions (task) + Reference(s) + Quickstart + How-to(s) |
+
 
 
