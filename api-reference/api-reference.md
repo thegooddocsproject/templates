@@ -37,15 +37,14 @@ Parameter_two | int  | N | Stores a postal code, like the U.S. ZIP code.
 
 <!-- Follow with comments to explain what each part of the request is doing -->
 
-### Response
+#### Response
 
 ```HTTP
-<!--  An actual response returned by the  -->
+<!--  An actual response returned by this endpoint for the request just above.  -->
 
 ```
 
-<!-- Write a comment explainig the response, if it would be helpful. For a response with complicated parameters, create a table like the one used above for the request.  --> 
+<!-- Write a comment explainig the response, if it would be helpful. For a response with a complicated schema, create a table like the one used above for the request.  --> 
 
-<!-- Response schema, if applicable -->
 
 
