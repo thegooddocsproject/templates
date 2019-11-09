@@ -24,9 +24,7 @@ When writing your documentation, it helps to think about three things. Fortunate
 
 ## How to use these templates
 
-We like to compare the three template types to aisles in a grocery store. The templates they contain are ingredients that you can combine to create your documentation. 
-
-You'll definitely need more than one template to build your full set of documentation. You'll aso need to think about the recipesthat you use to combine these ingredients into effective documentation. 
+We like to compare the three template types to aisles in a grocery store. The templates they contain are ingredients that you can combine to create your documentation. You'll definitely need more than one template to build your full set of documentation. You'll aso need to think about the recipes that you use to combine these ingredients into effective documentation. 
 
 ## The templates
 
@@ -42,6 +40,12 @@ Tutorial | task
 General reference entry | reference
 Logging reference | reference
 
+## The cookbook
 
+| Recipe name | Constituent templates |
+| ------- | ----------------- |
+| API reference section |  Reference entries (multiple reference) + error information (reference) + throttling (concept) + authentication (task) |
+| API guide -- good | API project overvew + Reference section (see recipe above) + Quickstart |
+| API guide -- better | API project overvew + Reference(s) + Quickstart + How-to(s) |
 
 
