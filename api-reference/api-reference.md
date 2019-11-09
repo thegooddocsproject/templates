@@ -20,10 +20,10 @@ Parameters
 
 Name | type | Req. | Description 
 ---- | ----- | ----- | --------------------
-Customer_name | string | Y |  Stores the customer name
-Customer_zip | int  | N | Stores a postal code, like the U.S. ZIP code. 
+Parameter_one | string | Y |  Stores the customer name
+Parameter_two | int  | N | Stores a postal code, like the U.S. ZIP code. 
 
-<!-- Delete this comment after deleting the example parameters above and including all yours. -->
+<!-- Delete this comment after deleting the two example rows above and including rows for all your parameters. -->
 
 ### Examples 
 
