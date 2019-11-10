@@ -1,38 +1,38 @@
 # About the Templates Repo
 
-Everything you need to know to build documentation from these templates. 
+This repository contains best practice templates to help build documention for open source software, which incidentally is directly applicable to other domains too.
 
-## The three information types
-The templates here are generally divided into three categories, and each template will tell you the category it belongs in. You've probably seen these before: The categories are based on information types that are often applied to technical information.
+Here we provide tips for using these templates.
 
-**Concept**
-: Describes how and why things work. Concepts are normally written to help the reader with understanding a technology, prior to using it. 
+## Core documentation types
+The templates are categorised in line with standard [DITA](http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/archSpec/technicalContent/dita-technicalContent-InformationTypes.html#dita_technicalContent_InformationTypes) documentation types:
 
-**Task**
-: Gives specific instructions about how to get something done. In practice, Tasks tend to have a specific goal and usually consist of a set of numbered steps that the reader can follow to achieve the goal. 
+**Concept**: Describes how and why things work. Concepts are normally written to help the reader with understanding a technology, prior to using it. 
 
-**Reference**
-: Contains structured information or specifications that users need to make a product work. Reference sections tend to exhaustively catalog data such as error messages, return codes, or endpoints and their parameters.
+**Task**: Gives specific instructions about how to get something done. In practice, Tasks tend to have a specific goal and usually consist of a set of numbered steps that the reader can follow to achieve the goal. 
 
-There's a guideline in technical writing that most information falls into one of these categories, and that the information types need to be consolidated as much as possible, rather than mixed together. It makes sense to categorize the templates according to these types, because your writing most likely calls for chunks of information that can be categorized this way.
+**Reference**: Contains structured information or specifications that users need to make a product work. Reference sections should comprehensively catalog data such as functions and their parameters, return codes and error messages.
 
-When writing your documentation, it helps to think about the following.
+Our templates follow these categorizations, and you should find your information naturally chunks this way.
 
-* Who you are writing for
-* What they will be trying to accomplish when they read the documentation
+
+## How to use these templates
+
+We like to compare documentation types to aisles in a grocery store. Each aisle includes related templates, which you can think of as ingredients. Use recipes to mix templates and create targetted documentation sets for a specific scenarios.
+
+When writing your documentation, it helps to think about the following:
+
+* Who are you writing for?
+* What will they be trying to accomplish when they read the documentation?
 * The information type. Is it a concept, a task or reference? 
 
 On the last point, it's best not to add *a lot* of conceptual or task-based information in the middle of your API reference section; however, do make common sense adjustments such as adding comments (which are sort of conceptual) after your examples in an API reference.
 
-## How to use these templates
-
-We like to compare the three template types to aisles in a grocery store. The templates they contain are ingredients that you can combine to create your documentation. You'll definitely need more than one template to build your full set of documentation. You'll also need to think about the recipes that you use to combine these ingredients into effective documentation. 
-
 ## The templates
 
-Here are the templates we currently offer. (More to come soon.)
+Templates we currently offer:
 
-| Template name | Type |
+| Template name | Documentation type |
 | ---------------------- | ------- |
 API Project overview | concept 
 API Quickstart | task
