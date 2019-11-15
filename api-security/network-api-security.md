@@ -28,8 +28,11 @@ e.g. Generating Self Signed certificates
 
 ### In Test
 
+This section is only required if set up for test is different
+to dev or prod. For example installing self signed certificates.
+
 Test environments are often more complex than development and
-security
+security setup can be different.
 
 #### Setup
 
@@ -37,7 +40,6 @@ security
 
 1. Step 1
 2. Step 2
-
 
 ### Production
 
