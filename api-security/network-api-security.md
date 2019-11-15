@@ -7,6 +7,10 @@ An overview of security on this API.
 API XXX uses RESTful/Grpc/XML-RPC/... network API Technology.
 The API security is based on TLS/http authorisation/API keys/...
 
+## Development Considerations
+
+List any specific security measures the developer must include when writing code to your API.
+
 ## Setting Up Security TLS certificates/API Keys/...
 
 ### Common Security Setup
