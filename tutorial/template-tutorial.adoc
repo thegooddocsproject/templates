@@ -10,11 +10,11 @@
 {description}
 
 == Before you start
-// Delete this section if your readers can dive straight into the lesson without requiring any pre-requisite knowledge.
-Make sure you meet the following pre-requisites before starting the tutorial steps:
+// Delete this section if your readers can dive straight into the lesson without requiring any prerequisite knowledge.
+Make sure you meet the following prerequisites before starting the tutorial steps:
 
-* Pre-requisite one
-* Pre-requisite two
+* Prerequisite one
+* Prerequisite two
 * etc
 
 '''

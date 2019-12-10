@@ -38,7 +38,7 @@ By stating the requirements up-front, you prevent your audience from having a ba
 Here are some example Before you Start statements:
 
 ```
-Make sure you meet the following pre-requisites before following the steps:
+Make sure you meet the following prerequisites before following the steps:
 
 * API credentials for the {company} v3.5 API.
 * Access to the Postman application.

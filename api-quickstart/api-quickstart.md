@@ -2,10 +2,10 @@
 
 ## Before you start
 
-Make sure you meet the following pre-requisites before starting the tutorial steps:
+Make sure you meet the following prerequisites before starting the tutorial steps:
 
-* Pre-requisite one
-* Pre-requisite two
+* Prerequisite one
+* Prerequisite two
 * etc
 
 ## Get Started
