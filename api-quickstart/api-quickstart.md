@@ -1,4 +1,4 @@
-# Quikstart template
+# Quickstart template
 
 ## Before you start
 
