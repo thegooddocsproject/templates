@@ -4,7 +4,7 @@
 
 Always.
 
-This document tells potential users or buyers of the product the things they might want to know before adoption.
+This document tells potential users or buyers what they might want to know before deciding to use your API.
 
 Many users install or plug into your service immediately because they are already familiar with it or someone else has decided that the team will use this solution. All of those people will go to your Quickstart, or will just get to work.
 
