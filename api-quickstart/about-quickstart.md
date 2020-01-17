@@ -1,7 +1,8 @@
 ## What is a Quickstart
 
-* It should be a clear, concise, step-by-step procedure. (A set of numbered steps.)
-* It should describe the easiest way to get the intended results from the API, as opposed to the most optimized production modes or the most advanced uses of the API. Another way to describe a quickstart is that it shows potential users what your API can do, rather than tell them; if they follow the steps, any benefits (and the ease of obtaining them) ought to be apparent.
+* It should be a clear, concise, ordered step-by-step procedure.
+* It should describe the easiest way for them to achieve a result that shows off the capabilities of your product.
+* It should not delve into optimizations or advanced use cases.
 
 ## Contents of Your Quickstart
 
