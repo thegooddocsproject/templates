@@ -8,7 +8,7 @@ This document tells potential users or buyers what they might want to know befor
 
 Many users install or plug into your service immediately because they are already familiar with it or someone else has decided that the team will use this solution. All of those people will go to your Quickstart, or will just get to work.
 
-There are other groups, however, who need to assess your product in order to decide whether they want to use it. They are either the managers responsible for a business decision, or they are engineers who don't know enough about your product to decide whether it can accomplish what they want it to do. People who fall in either of these groups might decide to not adopt your product unless you provide an overview that answers their questions. As such your API documentation should always include an overview document. 
+There are other groups, however, who need to assess your product in order to decide whether they want to use it. For example, managers responsible for a business decision or engineers responsible for a technical assessment of your product. People in these groups might decide to not adopt your product unless you provide an overview that answers their questions. As such your API documentation should always include an overview document. 
 
 ## Content of Your Overview
 
