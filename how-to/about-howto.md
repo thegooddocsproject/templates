@@ -3,7 +3,7 @@
 ### When Do I Need a How-to Article?
 
 Sometimes you need to explain in detail how to do a specific task to a user.
-You don't need to teach them anything, but you do need to prescribe a set of sequential steps they must do in that order otherwise they won't be able to use a feature properly.
+You don't need to teach them concepts, but you do need to prescribe a set of sequential steps they must do in that order otherwise they won't be able to use a feature properly.
 
 This is the job of a How-to article.
 
