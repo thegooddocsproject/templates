@@ -7,7 +7,7 @@ Here we provide tips for using these templates.
 ## Core documentation types
 The templates are categorised in line with standard [DITA](http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/archSpec/technicalContent/dita-technicalContent-InformationTypes.html#dita_technicalContent_InformationTypes) documentation types:
 
-**Concept**: Describes how and why things work. Concepts are normally written to help the reader to understand a technology, prior to using it. 
+**Concept**: Describes how and why things work. Concepts are normally written to help the reader understand a technology, prior to using it. 
 
 **Task**: Gives specific instructions about how to get something done. In practice, Tasks tend to have a specific goal and usually consist of a set of numbered steps that the reader can follow to achieve the goal. 
 
