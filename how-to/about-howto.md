@@ -25,7 +25,7 @@ Creating a good overview comes down to thinking about who is going to be using i
 
 * Are you writing only for end-users? For developers?
 * Are you writing only for people who have a certain problem to solve?
-* Is it intended for a particular industry.
+* Is it intended for a particular industry?
 
 ### About the "Before you Start" section
 
