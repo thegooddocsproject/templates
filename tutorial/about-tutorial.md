@@ -14,7 +14,7 @@ Tutorial articles can often be confused with how-to articles, but you won't fall
 
 * Are you writing only for end-users? For developers?
 * Are you writing only for people who have a certain problem to solve?
-* Is it intended for a particular industry.
+* Is it intended for a particular industry?
 
 ### Body of the Tutorial
 
