@@ -34,7 +34,9 @@ Lead-in sentence for an ordered list:
 
 === Descriptive title for code snippet
 
-Lead in sentence explaining the code snippet. E.g.: Run the `apt` command to install the Asciidoctor package and check the version.
+Lead in sentence explaining the code snippet. E.g.: 
+
+Run the `apt` command to install the Asciidoctor package and check the version.
 
 [source]
 ----
