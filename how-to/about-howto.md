@@ -49,14 +49,7 @@ Make sure you meet the following prerequisites before following the steps:
 
 ### About the "Step by step guide" sections
 
-When you are explaining steps in a process, it can often be useful to include a screenshot for each part of the process.
-What can often happen is that when you try to insert a graphic or screenshot into the flow of the procedure, it breaks the procedural content up and makes the instructions difficult to read.
-
-In the `template-howto.adoc` file, you'll notice the tabular step format in the Step-by-step section of the template.
-The tabular format allows you to add in your procedural steps right next to the screenshot and reference steps with call-outs.
-
-If you procedural steps do not require screenshots, then you can default to an ordered list.
-You can also get this structure in Markdown, but you may need to resort to HTML tables. For Markdown, keep the list as an Ordered list.
+..
 
 ## How-to Article Examples
 
