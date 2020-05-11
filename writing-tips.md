@@ -30,7 +30,7 @@ Here are some recommendations you can use when creating procedural steps:
   * You can use this skeleton to test the information progression in your articles.
   * It's a lot easier to move things around with headings than to move blocks of content.
 * You may also find that you need to create two articles if the subject starts to branch.
-* Add any links you mention in the body of your discussion topic into the "See also" section. The inline links may get lost in long articles, and scanning for links add to your audience's cognitive load.
+* Add any links you mention in the body of your discussion topic into the "See also" section. The inline links may get lost in long articles, and scanning for links adds to your audience's cognitive load.
 
 ### Mirror the directory structure
 
