@@ -7,15 +7,16 @@
 ## Contents of Your Quickstart
 
 ### Prerequisites
-* What knowledge do I need before I begin? What tasks must be completed (installation, configuring the environment?)
+* What knowledge do I need before I begin? 
+* What tasks must be completed (installation, configuring the environment?)
 * Where to get tokens or API keys, etc. if needed
 
 ### The Main Body Should Follow These Guidelines.
 
 * Start by telling users what the quickstart will do. What task does this guide help the reader to complete?
-* It should be explaining the basic operations that most users will want to perform on the site, or the operations they will perform when they use the API.
+* It should explain the basic operations that most users will want to perform on the site, or the operations they will perform when they use the API.
 * Steps should be explained in the most logical order to complete a task
-* Each step should contain all the information necessary to complete it. And the Quickstart should not contain any additional info that is not needed--because it will be easier to understand if it is as brief as possible.
+* Each step should contain all the information necessary to complete it. It should exclude any extraneous information.
 * A step should include code samples (examples) that users can copy and paste, if executing code is necessary. Each code sample should be explained in comments that follow directly after the example, so newcomers can quickly understand how the API works.
 
 ### The Quickstart Should Not Include:
