@@ -29,7 +29,7 @@ Creating a good overview comes down to thinking about who is going to be using i
 
 ### About the "Before you Start" section
 
-Have you ever got half-way through a how-to, only to discover you need to go and read other documentation before you can continue?
+Have you ever got halfway through a how-to, only to discover you need to go and read other documentation before you can continue?
 This section is designed to prevent this from happening in the first place.
 
 Describe what the audience needs to know, or needs to have, before attempting this how-to.
