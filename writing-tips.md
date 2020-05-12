@@ -1,4 +1,4 @@
-# General writing guidelines for writing
+# General writing guidelines
 
 Follow these writing guidelines when developing content using the templates available in this repository.
 
@@ -26,11 +26,11 @@ Here are some recommendations you can use when creating procedural steps:
 
 ## Page Structure
 
-* Create a skeleton of the headings you want to include in the document before you start writing.
-  * You can use this skeleton to test the information progression in your articles.
+* Create an outline of the headings you want to include in the document before you start writing.
+  * You can use this outline to test the information progression in your articles.
   * It's a lot easier to move things around with headings than to move blocks of content.
 * You may also find that you need to create two articles if the subject starts to branch.
-* Add any links you mention in the body of your discussion topic into the "See also" section. The inline links may get lost in long articles, and scanning for links add to your audience's cognitive load.
+* Add any links you mention in the body of your discussion topic into the "See also" section. The inline links may get lost in long articles, and scanning for links adds to your audience's cognitive load.
 
 ### Mirror the directory structure
 
