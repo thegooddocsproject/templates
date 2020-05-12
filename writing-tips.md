@@ -6,9 +6,9 @@ Follow these writing guidelines when developing content using the templates avai
 
 * Use consistent language and tone throughout your docs.
 * Describe things as clearly and accurately as possible.
-* Run your text through a grammar linter to check how readable it is.
+* Run your text through a grammar [linter](https://en.wikipedia.org/wiki/Lint_(software)) to check how readable it is.
   * Tools like Grammarly help you identify grammar issues
-  * Tools like `Vale` help you identify style issues.
+  * Tools like `Vale` help you identify style issues. ([This article](https://hackernoon.com/lint-lint-and-away-linters-for-the-english-language-70f4b22cc73c) includes a list of other linter tools.)
 * Avoid colloquialisms and jargon because it makes it harder for a non-native English speaker to understand your words.
 * Avoid adding your own opinions, or the opinions of others. Doing this clouds a reader's ability to draw conclusions about the discussion.
 
