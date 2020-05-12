@@ -20,9 +20,9 @@ Only describe the parameters unique to your application or common parameters tha
 
 ### About the "Logging example" Section
 
-It can be extremely frustrating to get a call late at night when you're trying to debug a problem, if you don't provide an example of how to interpret a logfile.
+Not having good log file examples can make it hard to debug a problem when you are on-call.
 
-If you can describe what you will see in the log file, it will be immensely helpful to the person trying to fix a critical issue at 2 am in the morning.
+Proper description of the content in a log file can make it easier for the person on-call to solve the problem.
 
 ### About the "Log properties" Section
 
