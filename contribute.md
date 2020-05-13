@@ -28,6 +28,11 @@ You can improve our documentation by submitting a pull request to our [Github te
 
 For all but minor typos, it is s a good idea to discuss your proposed changes with us before submitting a pull request. 
 
+1. Create an issue in the [github  tracker](https://github.com/thegooddocsproject/templates/issues).
+2. Be as specific as you can in the scope of work within the issue. Be sure to include the "why" for considering the work.
+3. Share the link to the bug on the #general channel in our [Slack instance](https://thegooddocs.slack.com) to get a review of your idea.
+4. Once folks agree on your proposed changes you can begin work.
+
 ### Issue tracker
 
 We track outstanding work in our [github  tracker](https://github.com/thegooddocsproject/templates/issues). To keep our issue tracker manageable, we prefer you discuss suggestions or issues in one of our forums, typically our email list, before adding an issue to the tracker. 
