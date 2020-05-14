@@ -1,6 +1,6 @@
 = {pipeline} for {app}
 // Article variables (delete the #highlights# and add in the values)
-// The adoc-parameters.txt parameter assumes this template is positioned as a child of each numbered docs sub-folder. Change the pathing if this is not the case.
+// The adoc-parameters.txt parameter assumes this template is positioned as a child of each numbered docs sub-folder. Change the path if this is not the case.
 include::../adoc-parameters.txt[]
 :pipeline: #Specify the name of the logstash pipeline in this field.#
 :description: #Summarise why this log format exists, or why you would look for this log. What you put here is reused in the Log description section and included in HTML description tags.#
