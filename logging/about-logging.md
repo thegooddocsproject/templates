@@ -14,7 +14,7 @@ The description section gives the reader all the key information they need to un
 
 You complete the sections as they relate to your logs and logging pipelines.
 
-You don't need to describe the mandatory logging parameters sent by default to the log pipeline. These parameters should be defined in higher-level reference documentation for your project.
+You don't need to describe the mandatory logging parameters sent by default to the log pipeline. Define these parameters in higher-level reference documentation for your project.
 
 Only describe the parameters unique to your application or common parameters that are being reused from other applications.
 
