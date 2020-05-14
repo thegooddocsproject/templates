@@ -17,7 +17,7 @@ Our templates follow these documentation types, and you should find that your in
 
 ## How to use these templates
 
-We like to compare documentation types to aisles in a grocery store. Each aisle includes related templates, which you can think of as ingredients. Use these ingredients in documentation cookbooks to whip up docs that are hot and ready to eat for your readers.
+We like to compare documentation types to aisles in a grocery store. Each aisle includes related templates, which you can think of as ingredients. Use these ingredients in documentation cookbooks to whip up docs for your readers.
 
 When writing your documentation, it helps to think about the following:
 
