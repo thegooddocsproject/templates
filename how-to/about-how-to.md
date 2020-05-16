@@ -2,15 +2,13 @@
 
 ### When Do I Need a How-to Article?
 
-Sometimes you need to explain in detail how to do a specific task to a user.
-You don't need to teach them concepts, but you do need to prescribe a set of sequential steps they must do in that order otherwise they won't be able to use a feature properly.
-
-This is the job of a How-to article.
-
 How-to articles take the reader through a series of steps required to solve a specific, real-world problem.
 Think of them as recipes for getting stuff done!
 
-How-to articles are often confused with tutorials, but you won't fall into this trap if you remember they are _problem_-oriented not _learning_-oriented.
+Sometimes you need to explain in detail how to do a specific task to a user.
+You don't need to teach them concepts, but you do need to prescribe a set of sequential steps they must do in that order otherwise they won't be able to use a feature properly.
+
+How-to articles are often confused with tutorials, which is not the case as they are _problem_-oriented not _learning_-oriented.
 
 New users typically don't look for how-to articles when they first start using an application.
 How-to articles are used by those who have experience with the product and need a specific question answered.
