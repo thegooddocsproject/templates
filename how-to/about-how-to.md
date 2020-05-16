@@ -10,8 +10,8 @@ You don't need to teach them concepts, but you do need to prescribe a set of seq
 
 How-to articles are often confused with tutorials, which is not the case as they are _problem_-oriented not _learning_-oriented.
 
-New users typically don't look for how-to articles when they first start using an application.
 How-to articles are used by those who have experience with the product and need a specific question answered.
+New users who want to solve a problem instantly can also benefit from how-to articles provided they are well-written and clearly state any prerequisite knowledge required to complete the how-to.
 
 ## Content of Your How-to Article
 
