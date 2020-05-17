@@ -42,7 +42,7 @@ Here are some overall suggestions about how you can structure your Reference art
 
 Follow these suggestions when structuring and writing your reference topics.
 
-* Employ DRY (Don't Repeat Yourself) methods when writing reference documentation.
+* Employ Don't Repeat Yourself (DRY) methods when writing reference documentation.
 ** Re-use content using the https://asciidoctor.org/docs/user-manual/#include-directive[Asciidoctor Include Directive] if:
 ** The content is written for the same audience.
 ** The content fits in with your reference document without modification.
