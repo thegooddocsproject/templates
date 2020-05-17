@@ -6,7 +6,7 @@ How-to articles take the reader through a series of steps required to solve a sp
 Think of them as recipes for getting stuff done!
 
 Sometimes you need to explain in detail how to do a specific task to a user.
-You don't need to teach them concepts, but you do need to prescribe a set of sequential steps they must do in that order otherwise they won't be able to use a feature properly.
+You don't need to teach them concepts, but you do need to prescribe a set of sequential steps they must do in that order otherwise they won't be able to use a feature properly.zz
 
 How-to articles are often confused with tutorials, which is not the case as they are _problem_-oriented not _learning_-oriented.
 
@@ -30,18 +30,23 @@ Creating a good overview comes down to thinking about who is going to be using i
 Have you ever got halfway through a how-to, only to discover you need to go and read other documentation before you can continue?
 This section is designed to prevent this from happening in the first place.
 
+Pre-reqs aren't always about going to read something else. Sometimes they are just about dependencies like "you need an internet connection".
 Describe what the audience needs to know, or needs to have, before attempting this how-to.
 By stating the requirements up-front, you prevent your audience from having a bad experience with your tutorial.
+And give them useful pointers about how to get whatever they need. Link to procedures or info.
 
 Here are some example Before you Start statements:
 
 ```
+
 Make sure you meet the following prerequisites before following the steps:
 
-* API credentials for the {company} v3.5 API.
+* API credentials for the {company} v3.5 API. Refer to creating your API credentials.
 * Access to the Postman application.
-* An understanding about what a RESTful API is conceptually.
+* An understanding about what a RESTful API is conceptually.Read about the RESTful API. 
 * (Optional) A development tool (IDE) that displays API responses formatted for readability.
+* You need to have a list of Favourites before you can manage them. Refer to “Create Favourites” for mre details.
+
 
 ```
 
