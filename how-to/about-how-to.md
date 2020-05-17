@@ -38,7 +38,6 @@ And give them useful pointers about how to get whatever they need. Link to proce
 Here are some example Before you Start statements:
 
 ```
-
 Make sure you meet the following prerequisites before following the steps:
 
 * API credentials for the {company} v3.5 API. Refer to creating your API credentials.
@@ -46,7 +45,6 @@ Make sure you meet the following prerequisites before following the steps:
 * An understanding about what a RESTful API is conceptually.Read about the RESTful API. 
 * (Optional) A development tool (IDE) that displays API responses formatted for readability.
 * You need to have a list of Favourites before you can manage them. Refer to “Create Favourites” for mre details.
-
 
 ```
 
