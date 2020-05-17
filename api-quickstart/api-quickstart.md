@@ -8,7 +8,7 @@ Make sure you meet the following prerequisites before starting the tutorial step
 * Prerequisite two
 * etc
 
-## Get Started
+## Get started
 
 ## Step 1 - <One-sentence description of the step.>
 
