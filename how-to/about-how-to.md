@@ -17,7 +17,7 @@ New users who want to solve a problem instantly can also benefit from how-to art
 
 ### About the "Overview" Section
 
-Summarise what the reader will get from reading the how-to articles.
+Summarize what the reader will get from reading the how-to articles.
 
 Creating a good overview comes down to thinking about who is going to be using it:
 
