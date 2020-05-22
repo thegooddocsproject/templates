@@ -40,7 +40,7 @@ Make sure you meet the following prerequisites before following the steps:
 
 * API credentials for the {company} v3.5 API.
 * Access to the Postman application.
-* An understanding about what a RESTful API is conceptually.
+* An understanding about what a RESTful API is, conceptually.
 * (Optional) A development tool (IDE) that displays API responses formatted for readability.
 
 ```
