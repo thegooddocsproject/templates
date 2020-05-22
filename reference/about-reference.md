@@ -43,7 +43,7 @@ Here are some overall suggestions about how you can structure your Reference art
 Follow these suggestions when structuring and writing your reference topics.
 
 * Employ Don't Repeat Yourself (DRY) methods when writing reference documentation.
-** Re-use content using the https://asciidoctor.org/docs/user-manual/#include-directive[Asciidoctor Include Directive] if:
+** Re-use content using the [Asciidoctor User Manual](https://asciidoctor.org/docs/user-manual/#include-directive[Asciidoctor%20Include%20Directive]) if:
 ** The content is written for the same audience.
 ** The content fits in with your reference document without modification.
 * If you are referring to a screen in a UI:

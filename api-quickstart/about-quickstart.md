@@ -31,6 +31,6 @@
 
 ## Links to Examples
 
-* **Jekyll**. This SSG offers an excellent quickstart. Note that the setup info is in a separate document, but it is linked in the first step. https://jekyllrb.com/docs/
+* **Jekyll**. [This SSG](https://jekyllrb.com/docs/) offers an excellent quickstart. Note that the setup info is in a separate document, but it is linked in the first step.
 
-* **GitHub API**. This collection of quickstarts from GitHub is worth a look. https://developer.github.com/apps/quickstart-guides/
+* **GitHub API**. [This collection of quickstarts](https://developer.github.com/apps/quickstart-guides/) from GitHub is worth a look. 
