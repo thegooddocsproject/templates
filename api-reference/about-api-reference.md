@@ -43,4 +43,4 @@ Each reference entry should include both a syntax and a working example. The exa
 ## Examples
 
 examples:
-https://developers.google.com/gmail/api/v1/reference
+[API reference of various resource types](https://developers.google.com/gmail/api/v1/reference)
