@@ -36,7 +36,7 @@ Declaring them here lets you use any abbreviated forms of the terminology you're
 Think about structuring discussion topics like you would a presentation to a group of folks who don't know anything about your chosen subject.
 Your discussion should introduce ideas gradually so your audience can grow their understanding of the concepts in your discussion.
 
-It can be easy to blend discussions with other types of content, like How-to or Reference articles.
+It can be easy to blend discussions with other types of content, like how-to or reference articles.
 Here are a few tips to avoid mixing documentatation types:
 
 * Avoid instructions, procedures, or any content that doesn't focus solely on building upon the conceptual understanding of the discussion topic.

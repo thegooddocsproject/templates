@@ -7,6 +7,7 @@
 ## Contents of your quickstart
 
 ### Prerequisites
+
 * What knowledge do I need before I begin? 
 * What tasks must be completed (installation, configuring the environment?)
 * Where to get tokens or API keys, etc. if needed
