@@ -48,7 +48,7 @@ Make sure you meet the following prerequisites before starting the tutorial step
 
 * API credentials for the {company} v3.5 API.
 * Access to the Postman application.
-* An understanding about what a RESTful API is, conceptually.
+* An understanding of what a RESTful API is, conceptually.
 * (Optional) A development tool (IDE) that displays API responses formatted for readability.
 
 ```
@@ -91,7 +91,7 @@ Conversational procedural structure, with a few ordered steps described in the b
 No outcome statement.
 ```
 
-You get a more conversational flow with this tutorial style, however, some of the prescriptive clarity is lost by not having the headings.
+You get a more conversational flow with this tutorial style; however, some of the prescriptive clarity is lost by not having the headings.
 
 If you find your tutorial only has one main procedure, consider using a `how-to` template, which you can find in this template repository.
 
