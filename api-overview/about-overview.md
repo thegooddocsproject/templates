@@ -20,7 +20,7 @@ There are other groups, however, who need to assess your product in order to dec
 
 Contains information that helps the developer or decision-maker get oriented to the API. Answers these questions.
 
-* What is it supposed to do? (What problem does it solve, and for whom)
+* What is it supposed to do? (What problem does it solve, and for whom?)
 * What exact capabilities are available to the user? What services does it offer?
 * What does it NOT do that developers should know about?
 * What are the typical use cases?
@@ -31,14 +31,14 @@ Contains information that helps the developer or decision-maker get oriented to 
 
 ### Postrequisites
 
-* What comes next? Do you want to direct users to the quickstart, to try it out?
+* What comes next? Do you want to direct users to the quickstart to try it out?
 * How does one get started using the API?
 
 ## More Information
 
 ### Overview Examples
 
-* **Chrome Native Client**. This overview explains and engine that allows C++ to run in the browser, including why it is a good solution for engineers who want to rework a desktop app and make it usable as a web app.
+* **Chrome Native Client**. This overview explains an engine that allows C++ to run in the browser, including why it is a good solution for engineers who want to rework a desktop app and make it usable as a web app.
     https://developer.chrome.com/native-client/overview
 
-* **The Jira Platform**. This overview does a good job of explaining multiple products and the associated use cases, uses, third-party integrations, hosting options, and licensing. https://www.atlassian.com/software/jira/guides/getting-started/overview#about-the-jira-platform
+* **The Jira Platform**. This overview does a good job of explaining multiple products and the associated use cases, uses, third-party integrations, hosting options and licensing. https://www.atlassian.com/software/jira/guides/getting-started/overview#about-the-jira-platform
