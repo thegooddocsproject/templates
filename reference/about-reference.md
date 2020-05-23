@@ -1,6 +1,6 @@
-# The Reference Article
+# The reference article
 
-### When Do I Need a Reference Article?
+## When do I need a reference article?
 
 Reference articles provide information-oriented descriptions of specific technology parts.
 
@@ -12,9 +12,9 @@ Reference articles work well when they are:
 * contain descriptive information that is relevant to the reference topic's overview only
 * focus on information accuracy and the facts only.
 
-## Content of Your Reference Article
+## Content of your reference article
 
-### About the "Overview" Section
+### About the "Overview" section
 
 Summarise what the reader will get from reading the reference article.
 
@@ -26,9 +26,9 @@ Creating a good overview comes down to thinking about who is going to be using i
 
 Your overview should be descriptive of the subject you want to cover, so your audience can quickly identify what the reference article is about.
 
-### About the "Body" Section
+### About the "Body" section
 
-There is no specific structure to use in Reference articles because the structure will vary based on the type of factual information you are documenting.
+There is no specific structure to use in reference articles because the structure will vary based on the type of factual information you are documenting.
 
 For example, the example included in the more specific `api-reference` template type in this repository describes how you would structure an API endpoint.
 This reference structure is prescriptive, but only relevant for this documentation type.
@@ -36,9 +36,9 @@ This reference structure is prescriptive, but only relevant for this documentati
 In most cases, your content will take on a tabular format of some type.
 It is often easier to present reference style information in a table.
 
-Here are some overall suggestions about how you can structure your Reference articles.
+Here are some overall suggestions about how you can structure your reference articles.
 
-#### Structure Suggestions
+#### Structure suggestions
 
 Follow these suggestions when structuring and writing your reference topics.
 
@@ -50,14 +50,14 @@ Follow these suggestions when structuring and writing your reference topics.
 ** Use a Reference table explaining the fields and their meanings.
 ** Use call-outs in screenshots to help your audience find the field in the reference table.
 
-### Code-generated Documentation
+### Code-generated documentation
 
 Reference articles can often be replaced by _thoroughly-written_ auto-doc output from your code.
 This is particularly the case with content such as API reference docs and package descriptions that are documented in code doc-blocks or are produced with tools such as the Open API toolchain.
 
 If you need to provide more narrative style content to complement your API reference endpoints, see the `api-` template types in this repository.
 
-## How-to Article Examples
+## How-to article examples
 
 * **Example 1**.
 

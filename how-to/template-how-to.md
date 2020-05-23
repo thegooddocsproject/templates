@@ -26,7 +26,7 @@ Make sure you meet the following prerequisites before starting the how-to steps:
 
 Brief instructions explaining how to interpret the image.
 
-### Step 2: Optional: Title for step - ordered list
+### Step 2: Optional: title for step - ordered list
 
 Lead-in sentence for an ordered list:
 
@@ -34,7 +34,7 @@ Lead-in sentence for an ordered list:
 1. Substep B
 1. Substep C
 
-### Step 3: Optional: Title for step - code snippet
+### Step 3: Optional: title for step - code snippet
 
 Lead in sentence explaining the code snippet. E.g.: 
 

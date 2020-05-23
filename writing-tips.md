@@ -2,7 +2,7 @@
 
 Follow these writing guidelines when developing content using the templates available in this repository.
 
-## Language and Tone
+## Language and tone
 
 * Use consistent language, spelling, and tone throughout your docs.
 * Describe things as clearly and accurately as possible.
@@ -25,7 +25,7 @@ Here are some recommendations you can use when creating procedural steps:
 * Too many sub-steps could suggest that you need to break out some of these steps into a new step section.
 * Screenshots and images are recommended, particularly if you can include call outs to the specific parts of the screen you are referring to.
 
-## Page Structure
+## Page structure
 
 * Create an outline of the headings you want to include in the document before you start writing.
   * Use the outline to gather your thoughts about the main topics you need to tell your readers.
@@ -33,7 +33,7 @@ Here are some recommendations you can use when creating procedural steps:
 * You may also find that you need to create two articles if the subject starts to branch.
 * Add any links you mention in the body of your discussion topic into the "See also" section. The inline links may get lost in long articles, and scanning for links adds to your audience's cognitive load.
 
-## Titles and Filenames
+## Titles and filenames
 
 * Make the title descriptive of the content contained within the article.
 * Make the title unique within your application space.
@@ -45,7 +45,7 @@ Here are some title examples and their suggested file name structures:
 * Using a toaster
   * `using-a-toaster.md`
   * `using-a-toaster.adoc`
-* Toast a slice of bread.
+* Toast a slice of bread
   * `toast-slice-of-bread.md`
   * `toast-slice-of-bread.adoc`
 

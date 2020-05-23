@@ -1,6 +1,6 @@
-# The Overview
+# The overview
 
-### When Do I Need an Overview?
+## When do I need an overview?
 
 Your API documentation should include an overview document. This document tells potential users or buyers what they might want to know before adoption.
 
@@ -8,15 +8,15 @@ Many users install or plug into your service immediately because they are alread
 
 There are other groups, however, who need to assess your product in order to decide whether they want to use it. For example, managers responsible for a business decision or engineers responsible for a technical assessment of your product. People in these groups might decide to not adopt your product unless you provide an overview that answers their questions.
 
-## Content of Your Overview
+## Content of your overview
 
-### Who is This Overview For?
+### Who is this overview for?
 
 * Are you writing only for developers? For managers?
 * Are you writing only for people who have a certain problem to solve?
 * Is it intended for a particular industry.
 
-### Body of the Overview
+### Body of the overview
 
 Contains information that helps the developer or decision-maker get oriented to the API. Answers these questions.
 
@@ -34,9 +34,9 @@ Contains information that helps the developer or decision-maker get oriented to 
 * What comes next? Do you want to direct users to the quickstart, to try it out?
 * How does one get started using the API?
 
-## More Information
+## More information
 
-### Overview Examples
+### Overview examples
 
 * **Chrome Native Client**. This overview explains and engine that allows C++ to run in the browser, including why it is a good solution for engineers who want to rework a desktop app and make it usable as a web app.
     https://developer.chrome.com/native-client/overview
