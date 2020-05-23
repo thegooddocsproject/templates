@@ -39,6 +39,6 @@ Contains information that helps the developer or decision-maker get oriented to 
 ### Overview Examples
 
 * **Chrome Native Client**. This overview explains an engine that allows C++ to run in the browser, including why it is a good solution for engineers who want to rework a desktop app and make it usable as a web app.
-    https://developer.chrome.com/native-client/overview
+    [Native Client Technical Overview](https://developer.chrome.com/native-client/overview)
 
-* **The Jira Platform**. This overview does a good job of explaining multiple products and the associated use cases, uses, third-party integrations, hosting options and licensing. https://www.atlassian.com/software/jira/guides/getting-started/overview#about-the-jira-platform
+* **The Jira Platform**. This overview does a good job of explaining multiple products and the associated use cases, uses, third-party integrations, hosting options, and licensing. [A brief overview of Jira](https://www.atlassian.com/software/jira/guides/getting-started/overview#about-the-jira-platform)
