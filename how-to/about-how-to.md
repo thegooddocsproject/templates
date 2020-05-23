@@ -30,7 +30,7 @@ Creating a good overview comes down to thinking about who is going to be using i
 Have you ever got halfway through a how-to, only to discover you need to go and read other documentation before you can continue?
 This section is designed to prevent this from happening in the first place.
 
-Pre-reqs aren't always about going to read something else. Sometimes they are just about dependencies like "you need an internet connection".
+Prerequisites aren't always about going to read something else. Sometimes they are just about dependencies like "you need an internet connection".
 Describe what the audience needs to know, or needs to have, before attempting this how-to.
 By stating the requirements up-front, you prevent your audience from having a bad experience with your tutorial.
 And give them useful pointers about how to get whatever they need. Link to procedures or info.
