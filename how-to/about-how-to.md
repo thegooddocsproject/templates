@@ -1,6 +1,6 @@
-# The How-to Article
+# The how-to article
 
-### When Do I Need a How-to Article?
+## When do I need a how-to article?
 
 How-to articles take the reader through a series of steps required to solve a specific, real-world problem.
 Think of them as recipes for getting stuff done!
@@ -13,9 +13,9 @@ How-to articles are often confused with tutorials, which is not the case as they
 How-to articles are used by those who have experience with the product and need a specific question answered.
 New users who want to solve a problem instantly can also benefit from how-to articles provided they are well-written and clearly state any prerequisite knowledge required to complete the how-to.
 
-## Content of Your How-to Article
+## Content of your how-to article
 
-### About the "Overview" Section
+### About the "Overview" section
 
 Summarize what the reader will get from reading the how-to articles.
 
@@ -25,7 +25,7 @@ Creating a good overview comes down to thinking about who is going to be using i
 * Are you writing only for people who have a certain problem to solve?
 * Is it intended for a particular industry?
 
-### About the "Before you Start" section
+### About the "Before you start" section
 
 Have you ever got halfway through a how-to, only to discover you need to go and read other documentation before you can continue?
 This section is designed to prevent this from happening in the first place.
@@ -49,7 +49,7 @@ Make sure you meet the following prerequisites before following the steps:
 
 ..
 
-## How-to Article Examples
+## How-to article examples
 
 * **Example 1**.
 
