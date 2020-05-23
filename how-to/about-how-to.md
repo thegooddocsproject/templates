@@ -33,8 +33,7 @@ This section is designed to prevent this from happening in the first place.
 Prerequisites aren't always about going to read something else. Sometimes they are just about dependencies like "you need an internet connection".
 Describe what the audience needs to know, or needs to have, before attempting this how-to.
 By stating the requirements up-front, you prevent your audience from having a bad experience with your tutorial.
-And give them useful pointers about how to get whatever they need. Link to procedures or info.
-
+You can include links to procedures or information, or give your audience useful pointers about how to get whatever they need.
 Here are some example Before you Start statements:
 
 ```
@@ -42,9 +41,9 @@ Make sure you meet the following prerequisites before following the steps:
 
 * API credentials for the {company} v3.5 API. Refer to creating your API credentials.
 * Access to the Postman application.
-* An understanding about what a RESTful API is conceptually.Read about the RESTful API. 
+* An understanding about what a RESTful API is conceptually read about the RESTful API. 
 * (Optional) A development tool (IDE) that displays API responses formatted for readability.
-* You need to have a list of Favourites before you can manage them. Refer to “Create Favourites” for more details.
+* You need to have a list of Favourites before you can manage them. Refer to “#Create Favourites” for more details.
 
 ```
 
