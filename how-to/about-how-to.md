@@ -45,7 +45,7 @@ Make sure you meet the following prerequisites before following the steps:
 
 ```
 
-### About the "Step by step guide" sections
+### About the "Step-by-step guide" sections
 
 ..
 
