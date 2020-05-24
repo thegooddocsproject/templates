@@ -2,7 +2,7 @@
 
 ## When do I need a reference article?
 
-Reference articles provides information-oriented descriptions of specific technology parts.
+Reference articles provide information-oriented descriptions of specific technology parts.
 
 The purpose of reference articles is to tell the facts about the technology as consistently and accurately as possible, without mixing procedural or instructional content.
 
@@ -33,7 +33,7 @@ There is no specific structure to use in reference articles because the structur
 For example, the example included in the more specific `api-reference` template type in this repository describes how you would structure an API endpoint.
 This reference structure is prescriptive, but only relevant for this documentation type.
 
-In most cases your content will take on a tabular format of some type.
+In most cases, your content will take on a tabular format of some type.
 It is often easier to present reference style information in a table.
 
 Here are some overall suggestions about how you can structure your reference articles.
@@ -47,8 +47,8 @@ Follow these suggestions when structuring and writing your reference topics.
 ** The content is written for the same audience.
 ** The content fits in with your reference document without modification.
 * If you are referring to a screen in a UI:
-** Use a reference table explaining the fields and their meanings.
-** Use call-outs in screen shots to help your audience find the field in the reference table.
+** Use a Reference table explaining the fields and their meanings.
+** Use call-outs in screenshots to help your audience find the field in the reference table.
 
 ### Code-generated documentation
 
