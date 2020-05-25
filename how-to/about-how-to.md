@@ -39,7 +39,7 @@ Here are some example Before you Start statements:
 ```
 Make sure you meet the following prerequisites before following the steps:
 
-* API credentials for the {company} v3.5 API. Refer to creating your API credentials.
+* API credentials for the {company} v3.5 API. See the documentation on "Creating your API credentials" to learn how to access your credentials.
 * Access to the Postman application.
 * An understanding about what a RESTful API is conceptually. See the "RESTful API" documentation for more information. 
 * (Optional) A development tool (IDE) that displays API responses formatted for readability.
