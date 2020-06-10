@@ -2,7 +2,7 @@
 
 ## When do I need a discussion article?
 
-Discussions provide understanding-oriented background information and context-specific knowledge on a particular topic.
+Discussions, or explanations, explain background information and provide context-specific knowledge on a particular topic.
 
 The goals of a discussion article are understanding-oriented, not procedural or learning.
 
