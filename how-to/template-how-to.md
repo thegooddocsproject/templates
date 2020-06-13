@@ -5,6 +5,12 @@
 ## Overview
 
 Summarise what this how-to article is about in a sentence or two.
+How-to articles primarily include tasks, and answer the question "how do I do it?".
+Readers who are reading tasks are engaging in a learning behaviour.
+
+Readers should already have read a concept about the topic in an About article.
+Ensure you link to the relevant About article here.
+
 
 **Keywords:** Optionally add comma-separated keywords.
 
@@ -36,7 +42,7 @@ Lead-in sentence for an ordered list:
 
 ### Step 3: Optional: title for step - code snippet
 
-Lead in sentence explaining the code snippet. E.g.: 
+Lead in sentence explaining the code snippet. E.g.:
 
 Run the `apt` command to install the Asciidoctor package and check the version.
 
