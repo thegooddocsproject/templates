@@ -37,14 +37,14 @@ Current templates:
 
 | Template name | Documentation type | Description |
 | ------------- | ------------------ | ----------- |
-| API Project overview | Concept | An overview of your API
+| API Project overview | Concept | An overview of your API |
 | API Quickstart | Concept, Task | Simplest possible method of implementing your API |
 | API Reference | Reference | List of references related to your API |
 | Discussion | Concept | Longer document giving background or context to a topic |
-| How-to | Task | Short series of steps for a particular task
-| Tutorial | Concept, Task | An training document for a product or topic |
+| How-to | Task | Short series of steps for a particular task |
+| Tutorial | Concept, Task | A training document for a product or topic |
 | General reference entry | Reference | Specific details about a particular topic |
-| Logging reference | Reference | Describes log pipelines |
+| Logging reference | Reference | Description of log pipelines |
 
 ## The cookbook
 
