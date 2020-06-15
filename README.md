@@ -7,7 +7,7 @@ Here we provide tips for using these templates.
 
 ## Core documentation types
 
-The templates are categorised into three documentation types:
+The templates are categorized into three documentation types:
 
 **Concept**:
 Describes how and why something works.
