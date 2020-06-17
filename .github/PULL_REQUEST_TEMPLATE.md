@@ -14,21 +14,12 @@
 
 ---
 
-## Type of Change
-
-> __Pull-Request Opener__ should select one of the following
-
-* [ ] __Template Updates__ - _style_, _grammar_, _content_
-* [ ] __Template Structuring__ - _moving template files and or folders_
-* [ ] __Tooling & Support__ - _updates to the repository tooling_
-
----
-
 ## Checklist
 
 > __Pull-Request Reviewer__ should ensure the following
 
-* [ ] Are Issues Linked Correctly?
-* [ ] If, template updates do they align with [Google StyleGuide]()?
-* [ ] Did the PR receive :+1: from core-maintainers?
+* [ ] Are issues linked correctly?
+* [ ] Is this PR labeled correctly?
+* [ ] If, template updates do they align with [developers.google.com/style/](https://developers.google.com/style/)?
+* [ ] Did the PR receive at least one :+1: and no :-1: from core-maintainers?
 * [ ] On Merging PR, did you complete the merge using [keywords](https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#manually-linking-a-pull-request-to-an-issue)?
