@@ -16,6 +16,8 @@ Make sure you meet the following prerequisites before starting the how-to steps:
 * Prerequisite two
 * etc
 
+Include other important information here too, such as known issues or bugs.
+
 ## Step-by-step guide
 
 ### Step 1: Optional: Title for step - image or screenshot
@@ -36,7 +38,7 @@ Lead-in sentence for an ordered list:
 
 ### Step 3: Optional: title for step - code snippet
 
-Lead in sentence explaining the code snippet. E.g.: 
+Lead in sentence explaining the code snippet. E.g.:
 
 Run the `apt` command to install the Asciidoctor package and check the version.
 
