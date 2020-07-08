@@ -41,7 +41,7 @@ Make sure you meet the following prerequisites before following the steps:
 
 * API credentials for the {company} v3.5 API. For more information about accessing your API credentials, see http://example.com/access_your_api_credentials.
 * Access to the Postman application.
-* An understanding about what a RESTful API is conceptually. See the "RESTful API" documentation for more information. 
+* An understanding about what a RESTful API is conceptually. For more information about RESTful APIs, see http://example.com/restful_apis. 
 * (Optional) A development tool (IDE) that displays API responses formatted for readability.
 * You need to have a list of Favourites before you can manage them. Refer to “#Create Favourites” for more details.
 
