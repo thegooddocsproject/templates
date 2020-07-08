@@ -34,7 +34,7 @@ Prerequisites can include other articles or information that needs to be read, o
 Describe what the audience needs to know, or needs to have, before attempting this how-to.
 By stating the requirements up-front, you prevent your audience from having a bad experience with your tutorial.
 You can include links to procedures or information, or give your audience useful pointers about how to get whatever they need.
-Here are some example Before you Start statements:
+Here are some example "Before you Start" statements:
 
 ```
 Make sure you meet the following prerequisites before following the steps:
