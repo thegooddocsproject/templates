@@ -1,6 +1,6 @@
-# The API Reference Entry
+# The API reference entry
 
-## About the Reference Section
+## About the reference section
 
 The reference section is generally a collection of short entries, arranged in alphabetical order. This template addresses the individual reference entry that you create for a single endpoint. 
 
@@ -8,10 +8,9 @@ The reference section is important for API documentation. New users will start w
 
 The reference section should contain a full listing of endpoints, methods, and parameters
 
-## The General Contents
+## The general contents
 
-
-### Reference Entries
+### Reference entries
 
 Each reference listing should ideally contain:
 
@@ -23,8 +22,7 @@ Each reference listing should ideally contain:
 * An example response
 * Response schema
 
-
-## Best Practices for Reference Docs
+## Best practices for reference docs
 
 Each detailed reference entry should contain all the information a user might need to know when using the feature.
 
@@ -43,4 +41,4 @@ Each reference entry should include both a syntax and a working example. The exa
 ## Examples
 
 examples:
-https://developers.google.com/gmail/api/v1/reference
+[API reference of various resource types](https://developers.google.com/gmail/api/v1/reference)

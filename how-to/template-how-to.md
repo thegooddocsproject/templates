@@ -5,6 +5,12 @@
 ## Overview
 
 Summarise what this how-to article is about in a sentence or two.
+How-to articles primarily include tasks, and answer the question "how do I do it?".
+Readers who are reading tasks are engaging in a learning behavior.
+
+Readers should already have read a concept about the topic in an About article.
+Ensure you link to the relevant About article here.
+
 
 **Keywords:** Optionally add comma-separated keywords.
 
@@ -16,6 +22,8 @@ Make sure you meet the following prerequisites before starting the how-to steps:
 * Prerequisite two
 * etc
 
+Include other important information here too, such as known issues or bugs.
+
 ## Step-by-step guide
 
 ### Step 1: Optional: Title for step - image or screenshot
@@ -26,7 +34,7 @@ Make sure you meet the following prerequisites before starting the how-to steps:
 
 Brief instructions explaining how to interpret the image.
 
-### Step 2: Optional: Title for step - ordered list
+### Step 2: Optional: title for step - ordered list
 
 Lead-in sentence for an ordered list:
 
@@ -34,9 +42,9 @@ Lead-in sentence for an ordered list:
 1. Substep B
 1. Substep C
 
-### Step 3: Optional: Title for step - code snippet
+### Step 3: Optional: title for step - code snippet
 
-Lead in sentence explaining the code snippet. E.g.: 
+Lead in sentence explaining the code snippet. E.g.:
 
 Run the `apt` command to install the Asciidoctor package and check the version.
 

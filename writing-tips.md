@@ -2,14 +2,15 @@
 
 Follow these writing guidelines when developing content using the templates available in this repository.
 
-## Language and Tone
+## Language and tone
 
-* Use consistent language and tone throughout your docs.
+* Use consistent language, spelling, and tone throughout your docs.
 * Describe things as clearly and accurately as possible.
 * Run your text through a grammar [linter](https://en.wikipedia.org/wiki/Lint_(software)) to check how readable it is.
   * Tools like Grammarly help you identify grammar issues
   * Tools like `Vale` help you identify style issues. ([This article](https://hackernoon.com/lint-lint-and-away-linters-for-the-english-language-70f4b22cc73c) includes a list of other linter tools.)
 * Avoid colloquialisms and jargon because it makes it harder for a non-native English speaker to understand your words.
+* Avoid including acronyms in your documentation without writing the spelled-out form on the first use. You can use the acronym for subsequent references.
 * Avoid adding your own opinions, or the opinions of others. Doing this clouds a reader's ability to draw conclusions about the discussion.
 
 ## Writing procedural steps
@@ -24,19 +25,15 @@ Here are some recommendations you can use when creating procedural steps:
 * Too many sub-steps could suggest that you need to break out some of these steps into a new step section.
 * Screenshots and images are recommended, particularly if you can include call outs to the specific parts of the screen you are referring to.
 
-## Page Structure
+## Page structure
 
 * Create an outline of the headings you want to include in the document before you start writing.
-  * You can use this outline to test the information progression in your articles.
+  * Use the outline to gather your thoughts about the main topics you need to tell your readers.
   * It's a lot easier to move things around with headings than to move blocks of content.
 * You may also find that you need to create two articles if the subject starts to branch.
 * Add any links you mention in the body of your discussion topic into the "See also" section. The inline links may get lost in long articles, and scanning for links adds to your audience's cognitive load.
 
-### Mirror the directory structure
-
-If you are documenting a UI-based tool or code-base, structure the docs using the same directory structure or page tree navigation as the tool or code base.
-
-## Titles and Filenames
+## Titles and filenames
 
 * Make the title descriptive of the content contained within the article.
 * Make the title unique within your application space.
@@ -48,7 +45,7 @@ Here are some title examples and their suggested file name structures:
 * Using a toaster
   * `using-a-toaster.md`
   * `using-a-toaster.adoc`
-* Toast a slice of bread.
+* Toast a slice of bread
   * `toast-slice-of-bread.md`
   * `toast-slice-of-bread.adoc`
 

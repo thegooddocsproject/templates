@@ -1,6 +1,6 @@
-# The Overview
+# The overview
 
-### When Do I Need a Tutorial?
+## When do I need a tutorial?
 
 Tutorials are learning-oriented lessons that guide you through a series of steps to complete a project.
 
@@ -8,26 +8,26 @@ They are essential to give new users a feeling that they can achieve something q
 
 Tutorial articles can often be confused with how-to articles, but you won't fall into this trap if you remember that tutorials are _learning_-oriented not _problem_-oriented.
 
-## Content of Your Tutorial
+## Content of your tutorial
 
-### Who is This Tutorial For?
+### Who is this tutorial for?
 
 * Are you writing only for end-users? For developers?
 * Are you writing only for people who have a certain problem to solve?
 * Is it intended for a particular industry?
 
-### Body of the Tutorial
+### Body of the tutorial
 
 Tutorial articles work well when they offer the following features:
 
 * Built around specific outcomes or actions.
-* Develop practical knowledge not theoretical knowledge.
+* Develop practical knowledge, not theoretical knowledge.
 * Inspire confidence by showing progress towards the tutorial goal at each main step.
 * Give a feeling of achievement by giving that "small win" at each main step.
 * Function on 100% on the platforms you indicate are supported.
 * Exclude distractions that make your audience have to choose a path in the tutorial.
 
-### About the "Goal" Section
+### About the "Goal" section
 
 Summarise the goals of your tutorial in this section.
 
@@ -48,12 +48,12 @@ Make sure you meet the following prerequisites before starting the tutorial step
 
 * API credentials for the {company} v3.5 API.
 * Access to the Postman application.
-* An understanding about what a RESTful API is conceptually.
+* An understanding of what a RESTful API is, conceptually.
 * (Optional) A development tool (IDE) that displays API responses formatted for readability.
 
 ```
 
-### About the Part sections
+### About the "Part" sections
 
 There are two ways of structuring each part in your tutorial:
 
@@ -91,11 +91,11 @@ Conversational procedural structure, with a few ordered steps described in the b
 No outcome statement.
 ```
 
-You get a more conversational flow with this tutorial style, however some of the prescriptive clarity is lost by not having the headings.
+You get a more conversational flow with this tutorial style; however, some of the prescriptive clarity is lost by not having the headings.
 
-If you find your tutorial really only has one main procedure, consider using a `how-to` template, which you can find in this template repository.
+If you find your tutorial only has one main procedure, consider using a `how-to` template, which you can find in this template repository.
 
-## Tutorial Examples
+## Tutorial examples
 
 * **Example 1**.
 
