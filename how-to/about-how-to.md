@@ -43,7 +43,7 @@ Make sure you meet the following prerequisites before following the steps:
 * Access to the Postman application.
 * An understanding about what a RESTful API is conceptually. For more information about RESTful APIs, see http://example.com/restful_apis. 
 * (Optional) A development tool (IDE) that displays API responses formatted for readability.
-* You need to have a list of Favourites before you can manage them. Refer to “#Create Favourites” for more details.
+* You need to have a list of favourites before you can manage them. For more information about favourites lists, see #Create_Favourites.
 
 ```
 
