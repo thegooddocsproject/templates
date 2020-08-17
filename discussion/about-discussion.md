@@ -17,7 +17,7 @@ Discussion articles work well when they deliver the following types of informati
 
 ### About the "Overview" section
 
-Summarise what the reader will get from reading the discusison article.
+Summarize what the reader will get from reading the discussion article.
 
 Creating a good overview comes down to thinking about who is going to be using it:
 
@@ -37,12 +37,12 @@ Think about structuring discussion topics like you would a presentation to a gro
 Your discussion should introduce ideas gradually so your audience can grow their understanding of the concepts in your discussion.
 
 It can be easy to blend discussions with other types of content, like how-to or reference articles.
-Here are a few tips to avoid mixing documentatation types:
+Here are a few tips to avoid mixing documentation types:
 
 * Avoid instructions, procedures, or any content that doesn't focus solely on building upon the conceptual understanding of the discussion topic.
 * If you find yourself writing steps or describing how to do something in detail in your discussion article, chances are you need to shift your focus away from the "doing" and remind yourself of the main goals.
 
-Here are some clues that your discussion article is not staying on-topic.
+Here are some clues that your discussion article is not staying on-topic:
 
 | Clue | Solution |
 |-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
