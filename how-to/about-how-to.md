@@ -30,18 +30,20 @@ Creating a good overview comes down to thinking about who is going to be using i
 Have you ever got halfway through a how-to, only to discover you need to go and read other documentation before you can continue?
 This section is designed to prevent this from happening in the first place.
 
+Prerequisites can include other articles or information that needs to be read, or it can be technical dependencies such as requiring an internet connection.
 Describe what the audience needs to know, or needs to have, before attempting this how-to.
 By stating the requirements up-front, you prevent your audience from having a bad experience with your tutorial.
-
-Here are some example Before you Start statements:
+You can include links to procedures or information, or give your audience useful pointers about how to get whatever they need.
+Here are some example "Before you Start" statements:
 
 ```
 Make sure you meet the following prerequisites before following the steps:
 
-* API credentials for the {company} v3.5 API.
+* API credentials for the {company} v3.5 API. For more information about accessing your API credentials, see http://example.com/access_your_api_credentials.
 * Access to the Postman application.
-* An understanding of what a RESTful API is, conceptually.
+* An understanding about what a RESTful API is conceptually. For more information about RESTful APIs, see http://example.com/restful_apis. 
 * (Optional) A development tool (IDE) that displays API responses formatted for readability.
+* You need to have a list of favourites before you can manage them. For more information about favourites lists, see #Create_Favourites.
 
 ```
 

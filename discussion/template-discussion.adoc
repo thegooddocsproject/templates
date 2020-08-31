@@ -1,4 +1,4 @@
-// Describe the title of your article by replacing "Discussion template" with the page name you want to publish to in Confluence.
+// Describe the title of your article by replacing "Discussion template" with the page name you want to publish to.
 
 = Discussion template
 // Article variables (delete the comments and add in the values)
@@ -22,6 +22,8 @@ term2::
   description 2
 
 '''
+
+== Discussion Topic
 
 ////
 Begin your discussion topic in this section. 
