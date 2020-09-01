@@ -8,11 +8,11 @@ They live in your world, but they don't always think like you.
 And learning to think like a reader can be tricky!
 
 Have you ever been really good at something, and tried to show someone else how to do it?
-It can be really frustrating, because it seems to easy and straight forward to you, but they just don't seem to get it.
-The technical name for this is the recency effect, and it's what makes writing documentation hard.
+It can be frustrating, because they just don't seem to get it, even though it seems easy and straight forward to you.
+The technical name for this is the Curse of Knowledge, and it's what makes writing documentation hard.
 Science tells us that the more you know about something, the less able you are to imagine what it's like not to know it.
 
-Writers combat the recency effect by putting themselves in the shoes of the writer.
+Writers combat the Curse of Knowledge by putting themselves in the shoes of the reader.
 And while this guide probably won't teach you to be a professional technical writer, it will definitely help you think about your reader, so that you can write better documentation.
 It's a bit like having a writer in your pocket, giving you some hints and tips before you set out to start writing.
 
@@ -23,22 +23,117 @@ Just follow the prompts, and let us guide you into ...
 
 the world of the reader ...
 
+[[Continue]]
 
 
 ## 1. Before you begin
 
-Conveniently reconceptualize economically sound products before premium outsourcing. Monotonectally unleash leading-edge methodologies for market positioning platforms. Authoritatively build high-quality leadership skills via empowered users. Synergistically generate turnkey schemas with visionary schemas. Uniquely coordinate viral process improvements via enabled technology.
+When you're excited about a new project, it's super-tempting to just start writing the docs without thinking too hard about it.
+DON'T DO THIS!
+
+This guide is designed to get you thinking about your readers in such a way that you'll end up knowing what docs you need to write.
+It won't take very long for you to get through this guide, and it will save you time in the long run.
+
+By the end, you should have a good idea of who your main readers are, the kinds of things they are using your docs for, and what kinds of docs they might be expecting.
+This will help you know which templates to use from the Good Docs Project, and give you the basics to start completing them.
+
+If you don't want to do this using the interactive tool, you can [[click here]] to go to the static text.
+Just have a piece of paper handy to write down the answers to the questions as you go.
+
+Or, tell me your name:
+
+{text input for: userName}
+
+and we can [[get started->What are you writing about]].
 
 
+## 2. What are you writing about
 
-### Before you start writing
+name: {userName}
+--
 
-Phosfluorescently evisculate team driven core competencies through revolutionary content. Progressively productivate proactive information without flexible paradigms. Globally generate impactful "outside the box" thinking via principle-centered applications. Holisticly deliver highly efficient convergence after flexible interfaces. Distinctively engineer strategic vortals through customized process improvements.
+Hi {username}! I'm so glad you decided to join me!
 
+The first thing we need to do is think about what you're writing about.
+Are you writing about something pretty simple, that people can use without having any experience? Like a toaster?
+Or are you writing about something a bit complicated, that people can start to use only after they've done a bit of reading, and might need to ask some questions as they go along? More like a car?
+Or are you writing about something really tricky? Something that needs people to have a training course, a whole lot of background knowledge, and possibly a friend to help them the whole way? Like a nuclear reactor?
+
+[[Toaster->Writing about a toaster]]
+[[Car->Writing about a car]]
+[[Nuclear Reactor->Writing about a nuclear reactor]]
+
+
+## 2A. Writing about a toaster
+
+Because the thing you are writing about is pretty simple and straightforward, you're probably thinking you don't need to spend much time writing docs.
+Just because you might not need a lot of docs, you will still need something, though.
+And working out what you need could be even more difficult, because you're going to need to think a little bit harder about who you're writing for.
+
+
+**Curse of Knowledge alert!!**
+Just because your toaster seems super simple to you, doesn't mean everyone will find it as easy as you do.
+What if your reader doesn't speak the same language, or is a new migrant from a place with a totally different culture?
+What if they are nine years old?
+Or 99 years old?
+What if they have a physical or mental disability?
+When you are thinking about your readers, make sure you are thinking about everyone, not just people like you.
+
+Now, let's [[move on->Who reads the docs]]
+
+
+## 2B. Writing about a car
+
+You lucky thing!
+There is a pretty good chance that you needed to learn how to do this thing yourself, and hopefully it wasn't all that long ago, and you can fairly easily cast your mind back to those days when you didn't know what this thing was, or how it worked.
+And if you didn't have to do this yourself, hopefully there is someone nearby who has, so go ask them questions!
+
+
+**Curse of Knowledge alert!!**
+Try to remember that not everyone knows the same stuff, or learns in the same way.
+What if your reader doesn't speak the same language, or is a new migrant from a place with a totally different culture?
+What if they are nine years old?
+Or 99 years old?
+What if they have a physical or mental disability?
+When you are thinking about your readers, make sure you are thinking about everyone, not just people like you.
+
+Now, let's [[move on->Who reads the docs]]
+
+
+## 2C. Writing about a nuclear reactor
+
+The first thing to work out if you are writing about a nuclear reactor is what reasonable assumptions can you make?
+There's a fair chance that you can assume at least some kind of prior knowledge: a degree, some relevant experience, or perhaps using some other related tools or software.
+When you have made these assumptions, write them down!
+Put them right up front in your docs, so your readers can go away and learn something else first if they need to.
+And be prepared to be challenged: you might discover in time that your assumptions are incorrect, and if that happens, you'll need to revisit your docs, too.
+
+
+**Curse of Knowledge alert!!**
+Try to remember that not everyone knows the same stuff, or learns in the same way.
+What if your reader doesn't speak the same language, or is a new migrant from a place with a totally different culture?
+What if they are nine years old?
+Or 99 years old?
+What if they have a physical or mental disability?
+When you are thinking about your readers, make sure you are thinking about everyone, not just people like you.
+
+Now, let's [[move on->Who reads the docs]]
 
 ### Who reads the docs?
 
-Dramatically build user-centric core competencies after process-centric resources. Globally target holistic systems and enabled web services. Uniquely productize ubiquitous manufactured products rather than distributed deliverables. Completely re-engineer multidisciplinary e-tailers via unique expertise. Quickly underwhelm orthogonal benefits without error-free testing procedures.
+
+readerName: 'Jane'
+--
+
+
+
+To get started with understanding your readers, you should probably give them a name.
+What would you like to call your {readerName} reader?
+
+{text input for: readerName}
+
+OK! Let's start by thinking
+
 
 
 
