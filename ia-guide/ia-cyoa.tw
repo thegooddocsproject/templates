@@ -1,11 +1,21 @@
-<!-- This page contains the draft text for the IA Guide proper, which will eventually be turned into a Choose Your Own Adventure (CYOA) style of interactive storytelling. --LKB 2020-08-31-->
+:: StoryData
+{
+    "format": "Chapbook",
+    "start": "Start",
+}
 
-# Information Architecture - CYOA Text
+:: StoryTitle
+Information Architecture CYOA
 
-Let's go on an adventure into another world. This world is not entirely different to your own, but it might have some unexpected treasures - and pitfalls - for you to find.
+:: Start [Start]
+Information Architecture
+
+Let's go on an adventure into another world.
+This world is not entirely different to your own, but it might have some unexpected treasures - and pitfalls - for you to find.
 It's an adventure into the mind of your reader.
 They live in your world, but they don't always think like you.
 And learning to think like a reader can be tricky!
+
 
 Have you ever been really good at something, and tried to show someone else how to do it?
 It can be frustrating, because they just don't seem to get it, even though it seems easy and straight forward to you.
