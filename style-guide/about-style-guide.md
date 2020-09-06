@@ -13,16 +13,16 @@ important if different authors are contributing to the documentation over time.
 
 A style guide can provide early guidance to new contributors as they make
 decisions related to your project’s documentation. Contributors often have to
-make subjective judgment calls about the documentation, such as:
+make subjective decisions about the documentation, such as:
 
 - Which style guide your project will defer to as its default style guide
 - How to refer to terms that are unique or specific to that project
 - How to format certain types of content
 - What tone, attitude, or level of formality you recommend using in the project
   (usually conveyed through word choice)
-- Any specific rules you want to highlight or call out to documentation
-  contributors, such as language usage disputes that seem to arise periodically
-  within the community
+- Any specific rules you want to highlight for documentation contributors, such
+  as language usage disputes that seem to arise periodically within the
+  community
 
 A style guide provides your project’s answers to these questions and ensures
 that all of the contributors are working from the same common understanding.
@@ -85,7 +85,7 @@ them or include them here.
 Every project has its own unique terms and buzzwords and this glossary can help
 you record your project’s preferred terms. This word list provides a list of
 specific terms that are either common word choice problems or which are unique
-to our project. As a word of caution, try to minimize jargon and buzzwords.
+to your project. As a word of caution, try to minimize jargon and buzzwords.
 Also, avoid creating too many project-specific terms. Where possible, use the
 terms that are standard for your industry to avoid confusion.
 
@@ -103,7 +103,7 @@ contributors should use these templates.
 
 ## About the "General Writing Tips" section
 
-This seciton is optional. You can link to your favorite general writing tips or
+This section is optional. You can link to your favorite general writing tips or
 add some of your own general guidelines.
 
 ## About the "Accessible Writing" section
