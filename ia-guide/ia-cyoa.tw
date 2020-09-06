@@ -119,24 +119,107 @@ When you are thinking about your readers, make sure you are thinking about every
 Now, let's [[move on->who]]
 
 
-:: Who reads the docs? [who]
-
-readerName: 'Jane'
+:: Who are you writing for? [who]
+readerName1: 'Alex'
+readerName2: 'Bobbi'
+readerName3: 'Charlie'
 --
+Now that we've thought what you're writing about, let's consider who you're writing for.
+It would be easy to think of just one person that you're writing for, but we need to remember that people come in all shapes and sizes.
+So let's think up three different people, to try and make sure we're covering all the options.
 
+The way you categorize your three readers is up to you, but sometimes the best way to start is by thinking of a beginner, an intermediate reader, and an expert.
+Or, depending on the kind of product you have, you might think of an ordinary user, a system administrator, and a support person.
 
+Whichever you decide, your three readers should probably be interested in different parts of your product, they will be trying to do different tasks, and they will need different levels of help from your docs.
+Don't be afraid to let them overlap a little bit, but try and make sure you've covered most of the options.
 
-To get started with understanding your readers, you should probably give them a name.
-What would you like to call your {readerName} reader?
+To get started with understanding your readers, you should probably give them names.
+What would you like to call your first reader?
 
-{text input for: readerName}
+{text input for: readerName1}
 
-OK! Let's start by thinking
+What would you like to call your second reader?
 
+{text input for: readerName2}
 
+What would you like to call your third reader?
 
+{text input for: readerName3}
 
-### Why do they read the docs?
+Let's take a closer look at our readers.
+Which one would you like to start with?
+
+> [[{readerName1}->Reader One]]
+> [[{readerName2}->Reader Two]]
+> [[{readerName3}->Reader Three]]
+
+:: Reader One
+reader1action1: 'Install the product'
+reader1action2: 'Perform initial setup'
+reader1action3: 'Start their first project'
+--
+To understand {readerName1}, let's start by thinking about how they might begin.
+What is the very first thing that {readerName1} might want to do?
+
+{text input for: reader1action1}
+
+Now let's assume that {readerName1} manages to complete {reader1action1} without any trouble.
+What would be the second thing that they would want to do?
+
+{text input for: reader1action2}
+
+And now that they've managed to complete {reader1action2} what is the next thing?
+
+{text input for: reader1action3}
+
+Great! Now you have the three main things that a reader like {readerName1} might want to do, [[go back->who]] and do the same for {readerName2} and {readerName3}.
+
+:: Reader Two
+reader2action1: 'Configure multiple users'
+reader2action2: 'Troubleshoot networking problems'
+reader2action3: 'Upgrade to a new version'
+--
+To understand {readerName2}, let's start by thinking about how they might begin.
+What is the very first thing that {readerName2} might want to do?
+
+{text input for: reader2action1}
+
+Now let's assume that {readerName2} manages to complete {reader2action1} without any trouble.
+What would be the second thing that they would want to do?
+
+{text input for: reader2action2}
+
+And now that they've managed to complete {reader2action2} what is the next thing?
+
+{text input for: reader2action3}
+
+Great! Now you have the three main things that a reader like {readerName2} might want to do, [[go back->who]] and do the same for {readerName3}.
+
+:: Reader Three
+reader3action1: 'Understand all the advanced features'
+reader3action2: 'Switch from hosted services to local'
+reader3action3: 'Shut down the reactor quickly during a meltdown'
+--
+To understand {readerName3}, let's start by thinking about how they might begin.
+What is the very first thing that {readerName3} might want to do?
+
+{text input for: reader3action1}
+
+Now let's assume that {readerName3} manages to complete {reader3action1} without any trouble.
+What would be the second thing that they would want to do?
+
+{text input for: reader3action2}
+
+And now that they've managed to complete {reader3action2} what is the next thing?
+
+{text input for: reader3action3}
+
+Great! Now you have the three main things that a reader like {readerName3} might want to do, it's time to put all these together.
+
+[[Why do readers read docs?->why]]
+
+:: Why do they read the docs? [why]
 
 Holisticly disseminate client-centered human capital whereas virtual benefits. Proactively seize holistic leadership without orthogonal human capital. Credibly revolutionize cross functional potentialities whereas leveraged action items. Phosfluorescently disseminate team building alignments through one-to-one deliverables. Compellingly predominate team driven convergence vis-a-vis value-added experiences.
 
