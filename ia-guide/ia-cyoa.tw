@@ -1,9 +1,11 @@
-:: StoryTitle
-Information Architecture CYOA
+:: Start
+userName: ''
+--
+# Information Architecture
 
-:: Start [Intro]
-Information Architecture
+**[[begin->Intro]]**
 
+:: Intro
 Let's go on an adventure into another world.
 This world is not entirely different to your own, but it might have some unexpected treasures - and pitfalls - for you to find.
 It's an adventure into the mind of your reader.
@@ -28,9 +30,7 @@ the world of the reader ...
 
 [[Continue]]
 
-
-:: Before you begin [Before you begin]
-
+:: Before you begin [begin]
 When you're excited about a new project, it's super-tempting to just start writing the docs without thinking too hard about it.
 DON'T DO THIS!
 
@@ -47,14 +47,13 @@ Or, tell me your name:
 
 {text input for: userName}
 
-and we can [[get started->What are you writing about]]
+and we can [[get started->what]]
 
 
-:: What are you writing about [What are you writing about]
+:: What are you writing about [what]
 
 name: {userName}
 --
-
 Hi {username}! I'm so glad you decided to join me!
 
 The first thing we need to do is think about what you're writing about.
@@ -62,13 +61,12 @@ Are you writing about something pretty simple, that people can use without havin
 Or are you writing about something a bit complicated, that people can start to use only after they've done a bit of reading, and might need to ask some questions as they go along? More like a car?
 Or are you writing about something really tricky? Something that needs people to have a training course, a whole lot of background knowledge, and possibly a friend to help them the whole way? Like a nuclear reactor?
 
-[[Toaster->What Toaster]]
-[[Car->What Car]]
-[[Nuclear Reactor->What Nuclear]]
+> [[Toaster->What Toaster]]
+> [[Car->What Car]]
+> [[Nuclear Reactor->What Nuclear]]
 
 
-:: Writing about a toaster [What Toaster]
-
+:: Writing about a toaster [toaster]
 Because the thing you are writing about is pretty simple and straightforward, you're probably thinking you don't need to spend much time writing docs.
 Just because you might not need a lot of docs, you will still need something, though.
 And working out what you need could be even more difficult, because you're going to need to think a little bit harder about who you're writing for.
@@ -82,15 +80,13 @@ Or 99 years old?
 What if they have a physical or mental disability?
 When you are thinking about your readers, make sure you are thinking about everyone, not just people like you.
 
-Now, let's [[move on->Who reads the docs]]
+Now, let's [[move on->who]]
 
 
-:: Writing about a car [What Car]
-
+:: Writing about a car [car]
 You lucky thing!
 There is a pretty good chance that you needed to learn how to do this thing yourself, and hopefully it wasn't all that long ago, and you can fairly easily cast your mind back to those days when you didn't know what this thing was, or how it worked.
 And if you didn't have to do this yourself, hopefully there is someone nearby who has, so go ask them questions!
-
 
 **Curse of Knowledge alert!!**
 Try to remember that not everyone knows the same stuff, or learns in the same way.
@@ -100,10 +96,10 @@ Or 99 years old?
 What if they have a physical or mental disability?
 When you are thinking about your readers, make sure you are thinking about everyone, not just people like you.
 
-Now, let's [[move on->Who reads the docs]]
+Now, let's [[move on->who]]
 
 
-:: Writing about a nuclear reactor [What Nuclear]
+:: Writing about a nuclear reactor [nuclear]
 
 The first thing to work out if you are writing about a nuclear reactor is what reasonable assumptions can you make?
 There's a fair chance that you can assume at least some kind of prior knowledge: a degree, some relevant experience, or perhaps using some other related tools or software.
@@ -120,11 +116,10 @@ Or 99 years old?
 What if they have a physical or mental disability?
 When you are thinking about your readers, make sure you are thinking about everyone, not just people like you.
 
-Now, let's [[move on->Who reads the docs]]
+Now, let's [[move on->who]]
 
 
-
-:: Who reads the docs? [Who]
+:: Who reads the docs? [who]
 
 readerName: 'Jane'
 --
