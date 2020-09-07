@@ -75,7 +75,7 @@ helps make documentation clearer and more useful for everyone.
 
 For resources on making your writing more accessible, see:
 
-- [Writing accessible documentation - Google Developer’s Style Guide](https://developers.google.com/style/accessibility)
+- [Writing accessible documentation - Google developer documentation style guide](https://developers.google.com/style/accessibility)
 - [Accessibility guidelines and requirements - Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/accessibility/accessibility-guidelines-requirements)
 - [Writing for Accessibility - MailChimp Content Style Guide](https://styleguide.mailchimp.com/writing-for-accessibility/)
 
