@@ -134,7 +134,7 @@ documentation with less cognitive overhead.
 
 For resources and examples of linters, see:
 
-- [The Atom editor’s Google Linter app](https://atom.io/packages/linter-google-styleguide)
+- [The `linter-google-styleguide` package for the Atom text editor](https://atom.io/packages/linter-google-styleguide)
 - A tool like [Vale](https://www.writethedocs.org/guide/tools/testing/#vale)
   for a more automated approach, including styles such as the
   [Microsoft Writing Style Guide](https://github.com/errata-ai/styles)
