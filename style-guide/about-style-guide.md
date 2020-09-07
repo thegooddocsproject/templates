@@ -68,7 +68,7 @@ you intend to use this style guide in your project. Feel free to adapt this
 content. If desired, you can briefly elaborate on the goals or mission of your
 project’s documentation.
 
-### About the "Our Preferred Style Guide" section
+### About the "Our preferred style guide" section
 
 Maintenance of a style guide is a lot of work. Try to do as little of it as
 possible by deferring to a more comprehensive default guide, such as the Google
@@ -80,7 +80,7 @@ from your default guide.
 Also, if your project already has existing brand guidelines, you can link to
 them or include them here.
 
-## About the "Glossary of Preferred Terms" section
+## About the "Glossary of preferred terms" section
 
 Every project has its own unique terms and buzzwords and this glossary can help
 you record your project’s preferred terms. This word list provides a list of
@@ -94,29 +94,29 @@ or which conflict with your default style guide. For example, the Google
 Developer's Guide uses "open source" but our project prefers "open-source" when
 used as a modifier, as in "open-source software."
 
-## About the "Topic Types and Templates" section
+## About the "Topic types and templates" section
 
 Depending on the type of project you’re creating, some of the Good Docs
 templates will be more relevant than others. In this section, you can link to
 the templates you have adopted for your project. You can also explain when
 contributors should use these templates.
 
-## About the "General Writing Tips" section
+## About the "General writing tips" section
 
 This section is optional. You can link to your favorite general writing tips or
 add some of your own general guidelines.
 
-## About the "Accessible Writing" section
+## About the "Accessible writing" section
 
 In this section, you can link to your preferred style guides about accessible
 writing or add some of your own general guidelines.
 
-## About the "Inclusive and Bias-Free Writing" section
+## About the "Inclusive and bias-free writing" section
 
 In this section, you can link to your favorite resources about inclusive and
 bias-free writing or add some of your own general guidelines.
 
-## About the "Using Linters" section
+## About the "Using linters" section
 
 This section is optional. [Linters](https://www.writethedocs.org/guide/tools/testing/#style-guide-checking-and-linting)
 are tools that analyze text content to flag common mistakes such as stylistic
@@ -135,12 +135,10 @@ documentation with less cognitive overhead.
 For resources and examples of linters, see:
 
 - [The `linter-google-styleguide` package for the Atom text editor](https://atom.io/packages/linter-google-styleguide)
-- A tool like [Vale](https://www.writethedocs.org/guide/tools/testing/#vale)
-  for a more automated approach, including styles such as the
-  [Microsoft Writing Style Guide](https://github.com/errata-ai/styles)
+- A tool like [Vale](https://www.writethedocs.org/guide/tools/testing/#vale),
+  which can automate [several popular styles](https://github.com/errata-ai/styles)
 
-
-## About the "How the Style Guide is Updated" section
+## About the "How the style guide is updated" section
 
 Indicate here how frequently your style guide is reviewed, who owns the style
 guide, and how contributors can provide feedback on your style guide. For
@@ -150,7 +148,7 @@ reviewed in project meetings.
 
 If this section is small enough, you can combine it with the following sections.
 
-## About the "Revision History" section
+## About the "Revision history" section
 
 This section is optional. You can use this section to provide a changelog or
 decision log of changes to your project’s style guide. You can also link out to
@@ -158,8 +156,7 @@ other project documents that contain your decision log. You could also use this
 section to provide guidelines about how to request changes to the style guide
 and outline how often decisions can be revisited (such as after a year).
 
-
-## About the "Decision Log" section
+## About the "Decision log" section
 
 This section is optional. Various project managers, sponsors, and teams make a
 lot of decisions while working on a project long-term. A decision log can track

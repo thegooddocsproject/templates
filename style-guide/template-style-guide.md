@@ -11,10 +11,10 @@ Welcome to our project! This style guide is intended for use by project
 contributors, not necessarily end-users. It provides general guidance to anyone
 who contributes to the project’s documentation.
 
-## Our Preferred Style Guide
+## Our preferred style guide
 
 We have adopted the
-[your preferred style guide, such as the Google Developer's Style Guide](https://developers.google.com/style)
+[your preferred style guide, such as the Google developer's style guide](https://developers.google.com/style)
 for {Your Project} documentation. For a quick summary, see the
 [Google style guide highlights](https://developers.google.com/style/highlights).
 The rest of this document describes our project-specific customizations to
@@ -28,7 +28,7 @@ dictionary}.
 When writing documentation for our project, align with the default guide’s
 voice and tone.
 
-## Glossary of Preferred Terms
+## Glossary of preferred terms
 
 <!-- This first paragraph is optional or you could include in the word list. -->
 
@@ -41,10 +41,10 @@ consistency, listed in alphabetical order:
 Preferred Term  | Avoid These Terms  |  Explanation
 --------------- | -----------------  |  -----------
 for example     | e.g.               |  Avoid non-English words
-people with disabilities  | <ul><li>the disabled</li><li>disabled people</li><li>people with handicaps</li><li>the handicapped</li></ul>  |  Use inclusive and bias-free language. See [Accessible Writing](#accessible-writing
+people with disabilities  | <ul><li>the disabled</li><li>disabled people</li><li>people with handicaps</li><li>the handicapped</li></ul>  |  Use inclusive and bias-free language. See [Accessible Writing](#accessible-writing)
 that is         |  i.e.              |  Avoid non-English words
 
-## Topic Types and Templates
+## Topic types and templates
 
 This project recommends using the following templates from the
 [Good Docs project](https://github.com/thegooddocsproject/templates):
@@ -58,7 +58,7 @@ This project recommends using the following templates from the
 - Reference Article
 - Tutorial
 
-## General Writing Tips
+## General writing tips
 
 <!-- This section is optional -->
 
@@ -67,7 +67,7 @@ For some general tips about improving writing see:
 - [Write the Docs - Style Guides](https://www.writethedocs.org/guide/writing/style-guides/#writing-style)
 - [18F Content Guide](https://content-guide.18f.gov/)
 
-## Accessible Writing
+## Accessible writing
 
 Documentation should be written in a way that supports people with disabilities
 and users with various input methods and devices. Improving accessibility also
@@ -79,7 +79,7 @@ For resources on making your writing more accessible, see:
 - [Accessibility guidelines and requirements - Microsoft Writing Style Guide](https://docs.microsoft.com/en-us/style-guide/accessibility/accessibility-guidelines-requirements)
 - [Writing for Accessibility - Mailchimp Content Style Guide](https://styleguide.mailchimp.com/writing-for-accessibility/)
 
-## Inclusive and Bias-Free Writing
+## Inclusive and bias-free writing
 
 When contributing to this project, you should strive to write documentation with
 inclusivity and diversity in mind. Inclusive language recognizes diversity and
@@ -88,12 +88,12 @@ sensitive to differences and seeks to promote equal opportunities.
 
 For resources on making your writing more inclusive, see:
 
-- [Inclusive documentation - Google Developer’s Style Guide](https://developers.google.com/style/inclusive-documentation)
+- [Inclusive documentation - Google developer’s style guide](https://developers.google.com/style/inclusive-documentation)
 - [The Conscious Style Guide - a collection of resources](https://consciousstyleguide.com/)
-- [Bias-free communication - Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/bias-free-communication)
+- [Bias-free communication - Microsoft Writing Style Guide](https://docs.microsoft.com/en-us/style-guide/bias-free-communication)
 - [Guidelines for Inclusive Language - Linguistic Society of America](https://www.linguisticsociety.org/resource/guidelines-inclusive-language)
 
-## Using Linters
+## Using linters
 
 <!-- This section is optional -->
 
@@ -106,7 +106,7 @@ This project uses the {your preferred linter.}
 <!-- Indicate here how frequently your style guide is reviewed, who owns the
 style guide, and how contributors can provide feedback on your style guide. -->
 
-## Revision History
+## Revision history
 
 <!-- This section is optional -->
 
@@ -121,11 +121,10 @@ Edition  |  Date      |  Lead Author(s)    |  Link to Repository Commit/Tag
 {0.1}    |  {1/1/11}  |  {Your name here}  |  First draft of Style Guide
 
 
-## Decision Log
+## Decision log
 
 The following table describes the history of all decisions made to this style
 guide over time.
-
 
 Ref  |  Date     |  Description                               |  Agreed to by
 ---  |  ----     |  -----------                               |  ------------
