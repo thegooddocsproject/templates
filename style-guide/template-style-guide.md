@@ -1,20 +1,29 @@
-<!-- Copy this Template. -->
-<!-- Change the name of your project, such as "Good Docs style guide". -->
-# Style guide template
 
-<!-- Before using this template, please read the accompanying About the
-Style Guide Template documentation. -->
+# {Your Project Name} style guide
+
+{Version number and last updated date}
 
 ## Introduction
+
+{Before using this template, please read the accompanying About the Style Guide
+Template documentation.}
 
 Welcome to our project! This style guide is intended for use by project
 contributors, not necessarily end-users. It provides general guidance to anyone
 who contributes to the project’s documentation.
 
+## Intended audience and scope
+
+This style guide is intended for use by any contributors that are writing
+documentation for {Your Project Name}, including software engineers. This guide
+can help project contributors to communicate clearly and consistently in {you
+define the scope: the project's end-user documentation, API documentation,
+forum posts, and so forth.}
+
 ## Our preferred style guide
 
 We have adopted the
-[your preferred style guide, such as the Google developer's style guide](https://developers.google.com/style)
+{[your preferred style guide, such as the Google developer's style guide](https://developers.google.com/style)}
 for {Your Project} documentation. For a quick summary, see the
 [Google style guide highlights](https://developers.google.com/style/highlights).
 The rest of this document describes our project-specific customizations to
@@ -30,7 +39,7 @@ voice and tone.
 
 ## Glossary of preferred terms
 
-<!-- This first paragraph is optional or you could include in the word list. -->
+{This first paragraph is optional or you could include in the word list.}
 
 This {Your Project Name} is represented as {example}. It is {always/never}
 capitalized.
@@ -60,7 +69,7 @@ This project recommends using the following templates from the
 
 ## General writing tips
 
-<!-- This section is optional -->
+{This section is optional.}
 
 For some general tips about improving writing see:
 
@@ -95,26 +104,24 @@ For resources on making your writing more inclusive, see:
 
 ## Using linters
 
-<!-- This section is optional -->
+{This section is optional.}
 
 This project uses the {your preferred linter.}
 
-<!-- Provide instructions or policies related to the linter here. -->
+{Provide instructions or policies related to the linter here.}
 
 ## How the style guide is updated
 
-<!-- Indicate here how frequently your style guide is reviewed, who owns the
-style guide, and how contributors can provide feedback on your style guide. -->
+{Indicate here how frequently your style guide is reviewed, who owns the style
+guide, and how contributors can provide feedback on your style guide.}
 
 ## Revision history
 
-<!-- This section is optional -->
+{This section is optional or can be combined with the next section if needed.}
 
 The following table describes the history of all decisions and revisions made to
-this style guide over time. For style guide drafts, use 0.1 through 0.9. After
-the first release of the document, switch to 1.0. For major revisions, increase
-the version by a full numeral such as 2.0. For minor revisions, add a decimal,
-such as 1.1.
+this style guide over time. This guide uses the Major.Minor.Patch
+[semantic versioning](https://semver.org/) convention.
 
 Edition  |  Date      |  Lead Author(s)    |  Link to Repository Commit/Tag
 -------  |  ----      |  --------------    |  -----------------------------
@@ -123,8 +130,11 @@ Edition  |  Date      |  Lead Author(s)    |  Link to Repository Commit/Tag
 
 ## Decision log
 
+{This section is optional or can be combined with the previous section if
+needed.}
+
 The following table describes the history of all decisions made to this style
-guide over time.
+guide over time:
 
 Ref  |  Date     |  Description                               |  Agreed to by
 ---  |  ----     |  -----------                               |  ------------

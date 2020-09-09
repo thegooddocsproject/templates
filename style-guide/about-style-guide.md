@@ -53,7 +53,7 @@ but regular updates, your style guide can evolve alongside your project. It will
 help your contributors get up to speed quickly and start writing high quality
 documentation.
 
-To help your project scale, consider setting a revolving meeting or agenda item
+To help your project scale, consider setting a recurring meeting or agenda item
 to review the style guide and address style guide issues on a periodic basis
 (such as once a month). Perhaps you could make someone on the team the project
 owner for the style guide to ensure someone has the responsibility to update the
@@ -67,6 +67,15 @@ In this section, you'll briefly introduce the purpose of the style guide and how
 you intend to use this style guide in your project. Feel free to adapt this
 content. If desired, you can briefly elaborate on the goals or mission of your
 project’s documentation.
+
+### About the "Intended audience and scope" section
+
+Use this section to indicate who should use this style guide. Describe your
+audience for the style guide, which includes all the people who write your
+documentation. You will know them best. They typically will include software
+engineers, product mangers, and tech writers, etc. You can also indicate the
+scope of the style guide if it should include more than just your project's
+documentation.
 
 ### About the "Our preferred style guide" section
 
@@ -87,7 +96,8 @@ you record your project’s preferred terms. This word list provides a list of
 specific terms that are either common word choice problems or which are unique
 to your project. As a word of caution, try to minimize jargon and buzzwords.
 Also, avoid creating too many project-specific terms. Where possible, use the
-terms that are standard for your industry to avoid confusion.
+terms that are standard for your industry to avoid confusion. Ideally, you can
+inherit or defer to term definitions from a more authoritative glossary source.
 
 This section includes a table to highlight or call out any terms that are unique
 or which conflict with your default style guide. For example, the Google
@@ -155,6 +165,14 @@ decision log of changes to your project’s style guide. You can also link out t
 other project documents that contain your decision log. You could also use this
 section to provide guidelines about how to request changes to the style guide
 and outline how often decisions can be revisited (such as after a year).
+
+To choose the edition number for the style guide, consider using the
+Major.Minor.Patch numbering system outlined in
+[Semantic Versioning 2.0.0](https://semver.org/). When these
+guidelines are applied to documents, you typically use 0.1 through 0.9 for
+drafts. After the first release of the document, switch to 1.0. For major
+revisions, increase the version by a full numeral such as 2.0. For minor
+revisions, add a decimal, such as 1.1.
 
 ## About the "Decision log" section
 
