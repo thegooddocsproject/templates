@@ -39,7 +39,7 @@ voice and tone.
 
 ## Glossary of preferred terms
 
-{This first paragraph is optional or you could include in the word list.}
+{Calling out how to write your project name first is optional. You can choose to include your project name in the word list instead.}
 
 This {Your Project Name} is represented as {example}. It is {always/never}
 capitalized.
