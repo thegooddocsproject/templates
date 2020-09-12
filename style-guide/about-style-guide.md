@@ -63,7 +63,7 @@ guide after style guide reviews.
 
 ### About the "Introduction" section
 
-In this section, you'll briefly introduce the purpose of the style guide and how
+In this section, briefly introduce the purpose of the style guide and how
 you intend to use this style guide in your project. Feel free to adapt this
 content. If desired, you can briefly elaborate on the goals or mission of your
 project’s documentation.
