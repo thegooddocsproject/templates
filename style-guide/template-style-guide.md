@@ -10,7 +10,7 @@ Template documentation.}
 
 Welcome to our project! This style guide is intended for use by project
 contributors, not necessarily end-users. It provides general guidance to anyone
-who contributes to the project’s documentation.
+who contributes to the project's documentation.
 
 ## Intended audience and scope
 
@@ -34,7 +34,7 @@ spelling, etc.} and our preferred dictionary is the
 {[American Heritage Dictionary](https://ahdictionary.com/) or your preferred
 dictionary}.
 
-When writing documentation for our project, align with the default guide’s
+When writing documentation for our project, align with the default guide's
 voice and tone.
 
 ## Glossary of preferred terms
@@ -97,7 +97,7 @@ sensitive to differences and seeks to promote equal opportunities.
 
 For resources on making your writing more inclusive, see:
 
-- [Inclusive documentation - Google developer’s style guide](https://developers.google.com/style/inclusive-documentation)
+- [Inclusive documentation - Google developer's style guide](https://developers.google.com/style/inclusive-documentation)
 - [The Conscious Style Guide - a collection of resources](https://consciousstyleguide.com/)
 - [Bias-free communication - Microsoft Writing Style Guide](https://docs.microsoft.com/en-us/style-guide/bias-free-communication)
 - [Guidelines for Inclusive Language - Linguistic Society of America](https://www.linguisticsociety.org/resource/guidelines-inclusive-language)
