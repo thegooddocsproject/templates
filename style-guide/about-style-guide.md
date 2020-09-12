@@ -134,7 +134,7 @@ errors and suspicious constructs. An example of a linter would be a tool like
 Grammarly that processes your text and provides suggestions as you write to
 improve the spelling and grammatical structure of the text.
 
-Linters can be used during the editorial process within an editor and as a
+Linters can be used during the editorial process within a text editor and as a
 post-processing test of the content when the document is pushed into a revision
 management system as part of an automated continuous integration (CI) cycle.
 
