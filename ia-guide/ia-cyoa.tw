@@ -35,8 +35,10 @@ the world of the reader ...
 **[[Continue->Before you begin]]**
 
 :: Before you begin
+
+## Don't start yet!
 When you're excited about a new project, it's super-tempting to just start writing the docs without thinking too hard about it.
-DON'T DO THIS!
+**DON'T DO THIS!**
 
 This guide is designed to get you thinking about your readers in such a way that you'll end up knowing what docs you need to write.
 It won't take very long for you to get through this guide, and it will save you time in the long run.
@@ -55,11 +57,12 @@ and we can [[get started->What are you writing about]]
 
 
 :: What are you writing about
-
 name: {userName}
 --
+
 Hi {username}! I'm so glad you decided to join me!
 
+## What are you writing about?
 The first thing we need to do is think about what you're writing about.
 Are you writing about something pretty simple, that people can use without having any experience? Like a toaster?
 Or are you writing about something a bit complicated, that people can start to use only after they've done a bit of reading, and might need to ask some questions as they go along? More like a car?
@@ -71,6 +74,7 @@ Or are you writing about something really tricky? Something that needs people to
 
 
 :: Writing about a toaster
+## Writing about a toaster
 Because the thing you are writing about is pretty simple and straightforward, you're probably thinking you don't need to spend much time writing docs.
 Just because you might not need a lot of docs, you will still need something, though.
 And working out what you need could be even more difficult, because you're going to need to think a little bit harder about who you're writing for.
@@ -88,6 +92,7 @@ Now, let's [[move on->Who are you writing for?]]
 
 
 :: Writing about a car
+## Writing about a car
 You lucky thing!
 There is a pretty good chance that you needed to learn how to do this thing yourself, and hopefully it wasn't all that long ago, and you can fairly easily cast your mind back to those days when you didn't know what this thing was, or how it worked.
 And if you didn't have to do this yourself, hopefully there is someone nearby who has, so go ask them questions!
@@ -104,6 +109,7 @@ Now, let's [[move on->Who are you writing for?]]
 
 
 :: Writing about a nuclear reactor
+## Writing about a nuclear reactor
 The first thing to work out if you are writing about a nuclear reactor is what reasonable assumptions can you make?
 There's a fair chance that you can assume at least some kind of prior knowledge: a degree, some relevant experience, or perhaps using some other related tools or software.
 When you have made these assumptions, write them down!
@@ -127,6 +133,8 @@ readerName1: 'Alex'
 readerName2: 'Bobbi'
 readerName3: 'Charlie'
 --
+
+## Who are you writing for?
 Now that we've thought what you're writing about, let's consider who you're writing for.
 It would be easy to think of just one person that you're writing for, but we need to remember that people come in all shapes and sizes.
 So let's think up three different people, to try and make sure we're covering all the options.
@@ -165,6 +173,7 @@ People don't read the docs because they're a great read.
 
 I know it's shocking, but literally no one is curling up at night with a warm drink and a great technical manual.
 
+## Why do they read the docs?
 If that's the case, why *do* people read docs?
 Generally speaking, it's because they want to achieve something.
 There's an anecdote that people don't go to the hardware store to buy a drill because they want a drill.
@@ -298,6 +307,7 @@ reader3action2critscore: critpath22 + critpath23 + critpath24
 reader3action3critscore: critpath25 + critpath26 + critpath27
 --
 
+## Writing for your readers
 Now that you've had a think about who your readers are, and the kinds of things they might be using your documentation for, you can display them in a table like this:
 
 <table>
@@ -386,15 +396,78 @@ When you have the numbers in, add up each row.
 The rows that score the highest are what writers like to call *critical paths*.
 Now you know what your critical paths are, you are ready to [[Identify the mess]]
 
-
 :: Identify the mess
+missingcontent1:''
+missingcontent2:''
+missingcontent3:''
+missingcontent4:''
+missingcontent5:''
+missingcontent6:''
+missingcontent7:''
+missingcontent8:''
+missingcontent9:''
+--
 
-Energistically recaptiualize distributed ideas and client-based vortals. Continually orchestrate superior methods of empowerment and 24/7 mindshare. Conveniently iterate transparent internal or "organic" sources vis-a-vis cost effective leadership. Assertively orchestrate principle-centered potentialities whereas interactive internal or "organic" sources. Authoritatively underwhelm next-generation synergy whereas highly efficient infomediaries.
+## Identify the mess
+It's time to turn our attention to what you already have.
+If you have already made a start on the docs, that's great!
+But even if you think you're starting writing from scratch, there's a reasonable chance you actually already have something.
 
+Have a think about it:
+
+* Have you written notes while you've been working?
+    Even if they're just scratches on a notebook on your desk, that's documentation!
+* Have you written any comments in your code?
+    You really should have! They're documentation, too.
+* Have you put a README in your code repository?
+    That's also documentation!
+* Have you given any talks or presentations about your project?
+    Even if there isn't a recording, any notes or slides you made for that is documentation too!
+
+Get all of these things together and look at them with your critical paths in mind.
+Do you have content here that fits all those critical paths?
+You will probably start to notice the gaps pretty quickly.
+It could be that you have a whole lot of content that describes how to do it, but not a lot that explains what it is.
+Or, you could have a lot of stuff aimed at beginners, and not a lot that works for experts.
+Sometimes, you might find that you have a lot of descriptions of things, but not a lot of step-by-step instructions.
+
+## What's missing?
+Take a note of those things that are missing, and make sure you pay attention to which critical path they address.
+
+* {reader1action1} {reader1action1critscore}: {text input for:missingcontent1}
+* {reader1action2} {reader1action2critscore}: {text input for:missingcontent2}
+* {reader1action3} {reader1action3critscore}: {text input for:missingcontent3}
+* {reader2action1} {reader2action1critscore}: {text input for:missingcontent4}
+* {reader2action2} {reader2action2critscore}: {text input for:missingcontent5}
+* {reader2action3} {reader2action3critscore}: {text input for:missingcontent6}
+* {reader3action1} {reader3action1critscore}: {text input for:missingcontent7}
+* {reader3action2} {reader3action2critscore}: {text input for:missingcontent8}
+* {reader3action3} {reader3action3critscore}: {text input for:missingcontent9}
+
+At this stage, it's normal to be feeling a little overwhelmed by how much there still is to do.
+So the very next step is to work out what we actually need, so we know we can cut some things from the list.
+To do this, you need to [[State your intent->State your intent]]
+
+
+:: State your intent
 ## State your intent
 
-Phosfluorescently transform global best practices with extensive action items. Uniquely incentivize 24/365 sources without cost effective ROI. Monotonectally envisioneer world-class ideas through end-to-end content. Compellingly supply dynamic web services vis-a-vis impactful web-readiness. Holisticly morph transparent systems without cooperative e-tailers.
+If you wanted to build a house, you wouldn't start laying bricks until you's had a think about what kind of house you want to build.
+How big is it going to be?
+What materials are you going to use?
+What layout and design is it going to have?
 
+By the same token, you need to think about what you intend for your documentation.
+Is it going to be comprehensive and detailed, or simple and sparse?
+Is it going to use simple language, designed for people who have never done this before, or more technical language, for people who know what they're doing and just need the basics?
+Is it going to start from the very beginning, or are you going to assume that your readers already have some knowledge?
+
+When you've answered some of those questions, you can expand this thinking to how you're going to update and maintain your doucmentation as well.
+How many writers are you likely to have on the project over time, and what skill level are they likely to have?
+Is there any content that already exists elsewhere that you can point to, rather than writing yourself?
+Is there any way you can automate any part of the documentation, such as using code comments to generate API documentation?
+
+When you've considered these things, and determined the kind of documentation you want to make sure your project has, and the kind of docs you can maintain over time, you're just about ready to [[Face reality->Face reality]]
 
 
 ## Face reality
