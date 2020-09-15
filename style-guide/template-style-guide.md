@@ -23,7 +23,7 @@ forum posts, and so forth.}
 ## Our preferred style guide
 
 We have adopted the
-{[your preferred style guide, such as the Google developer's style guide](https://developers.google.com/style)}
+{[your preferred style guide, such as the Google developer documentation style guide](https://developers.google.com/style)}
 for {Your Project} documentation. For a quick summary, see the
 [Google style guide highlights](https://developers.google.com/style/highlights).
 The rest of this document describes our project-specific customizations to
@@ -97,7 +97,7 @@ sensitive to differences and seeks to promote equal opportunities.
 
 For resources on making your writing more inclusive, see:
 
-- [Inclusive documentation - Google developer's style guide](https://developers.google.com/style/inclusive-documentation)
+- [Inclusive documentation - Google developer documentation style guide](https://developers.google.com/style/inclusive-documentation)
 - [The Conscious Style Guide - a collection of resources](https://consciousstyleguide.com/)
 - [Bias-free communication - Microsoft Writing Style Guide](https://docs.microsoft.com/en-us/style-guide/bias-free-communication)
 - [Guidelines for Inclusive Language - Linguistic Society of America](https://www.linguisticsociety.org/resource/guidelines-inclusive-language)

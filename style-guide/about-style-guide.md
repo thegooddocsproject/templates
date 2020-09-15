@@ -31,8 +31,8 @@ that all of the contributors are working from the same common understanding.
 
 A project's style guide usually starts out as a stub at the beginning of a
 project. For example, it might simply indicate which style guide is your
-project's default guide, such as the Google Developer's style guide or the
-Microsoft Manual of Style. It might link to specific elements from the default
+project's default guide, such as the Google developer documentation style guide
+or the Microsoft Style Guide. It might link to specific elements from the default
 guide that are most relevant to your project or point out any exceptions to the
 default guide.
 
@@ -81,10 +81,10 @@ documentation.
 
 Maintenance of a style guide is a lot of work. Try to do as little of it as
 possible by deferring to a more comprehensive default guide, such as the Google
-Developer's Style Guide or the Microsoft Manual of Style. In this section,
-you should indicate which guide is your default guide and reference the source
-document and its version. Document any exceptions where your style guide differs
-from your default guide.
+developer documentation style guide or the Microsoft Style Guide. In this
+section, you should indicate which guide is your default guide and reference the
+source document and its version. Document any exceptions where your style guide
+differs from your default guide.
 
 Also, if your project already has existing brand guidelines, you can link to
 them or include them here.
@@ -101,8 +101,8 @@ inherit or defer to term definitions from a more authoritative glossary source.
 
 This section includes a table to highlight terms that are unique to your project,
 or which conflict with your default style guide. For example, the Google
-Developer's Guide uses "open source" but our project prefers "open-source" when
-used as an adjective, as in "open-source software."
+developer documentation guide uses "open source" but our project prefers
+"open-source" when used as an adjective, as in "open-source software."
 
 ## About the "Topic types and templates" section
 
