@@ -1,5 +1,13 @@
-::StoryIFID[twee2]
-Twee2::build_config.story_ifid = '5a7d6282-c043-49f6-872b-6518cf0391b6'
+::StoryData
+{
+    "IFID": "5a7d6282-c043-49f6-872b-6518cf0391b6",
+    "format": "chapbook-1",
+    "start": "Start"
+}
+
+:: StoryTitle
+Information Architecture
+
 
 :: Start
 userName: ' '
@@ -396,6 +404,7 @@ When you have the numbers in, add up each row.
 The rows that score the highest are what writers like to call *critical paths*.
 Now you know what your critical paths are, you are ready to [[Identify the mess]]
 
+
 :: Identify the mess
 missingcontent1:''
 missingcontent2:''
@@ -464,6 +473,7 @@ Is it going to start from the very beginning, or are you going to assume that yo
 
 When you've considered these things, and determined the kind of documentation you want to make sure your project has, you're just about ready to [[Face reality->Face reality]]
 
+
 :: Face reality
 
 ## Face reality
@@ -482,6 +492,7 @@ Is there any content that already exists elsewhere that you can point to, rather
 Is there any way you can automate any part of the documentation, such as using code comments to generate API documentation?
 
 Make sure you're not biting off more than you can chew, and [[Choose a direction->Choose a direction]]
+
 
 :: Choose a direction
 
