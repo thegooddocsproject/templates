@@ -17,7 +17,7 @@ jobs:
         run: |
           go get github.com/tmedwards/tweego
           export PATH=$PATH:$(go env GOPATH)/bin
-          tweego -f chapbook-1 /ia-guide/ia-cyoa.tw -o dist/index.html
+          tweego -f chapbook-1 incubator/ia-guide/ia-cyoa.tw -o dist/index.html
 
 
       - name: Deploy
