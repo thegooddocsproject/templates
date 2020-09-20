@@ -1,4 +1,5 @@
-::StoryData
+:: StoryData
+
 {
     "IFID": "5a7d6282-c043-49f6-872b-6518cf0391b6",
     "format": "chapbook-1",
@@ -18,6 +19,7 @@ userName: ' '
 **[[Let's Start->Intro]]**
 
 :: Intro
+
 Let's go on an adventure into another world.
 This world is not entirely different to your own, but it might have some unexpected treasures - and pitfalls - for you to find.
 It's an adventure into the mind of your reader.
@@ -65,6 +67,7 @@ and we can [[get started->What are you writing about]]
 
 
 :: What are you writing about
+
 name: {userName}
 --
 
@@ -82,6 +85,7 @@ Or are you writing about something really tricky? Something that needs people to
 
 
 :: Writing about a toaster
+
 ## Writing about a toaster
 Because the thing you are writing about is pretty simple and straightforward, you're probably thinking you don't need to spend much time writing docs.
 Just because you might not need a lot of docs, you will still need something, though.
@@ -100,6 +104,7 @@ Now, let's [[move on->Who are you writing for?]]
 
 
 :: Writing about a car
+
 ## Writing about a car
 You lucky thing!
 There is a pretty good chance that you needed to learn how to do this thing yourself, and hopefully it wasn't all that long ago, and you can fairly easily cast your mind back to those days when you didn't know what this thing was, or how it worked.
@@ -117,6 +122,7 @@ Now, let's [[move on->Who are you writing for?]]
 
 
 :: Writing about a nuclear reactor
+
 ## Writing about a nuclear reactor
 The first thing to work out if you are writing about a nuclear reactor is what reasonable assumptions can you make?
 There's a fair chance that you can assume at least some kind of prior knowledge: a degree, some relevant experience, or perhaps using some other related tools or software.
@@ -137,6 +143,7 @@ Now, let's [[move on->Who are you writing for?]]
 
 
 :: Who are you writing for?
+
 readerName1: 'Alex'
 readerName2: 'Bobbi'
 readerName3: 'Charlie'
@@ -205,6 +212,7 @@ When you've got tasks for all of your readers, let's put it all together, and th
 
 
 :: Reader One
+
 reader1action1: 'Install the product'
 reader1action2: 'Perform initial setup'
 reader1action3: 'Start their first project'
@@ -229,6 +237,7 @@ Or, if you're done, move on to [[Writing for your readers->Writing for your read
 
 
 :: Reader Two
+
 reader2action1: 'Configure multiple users'
 reader2action2: 'Troubleshoot networking problems'
 reader2action3: 'Upgrade to a new version'
@@ -253,6 +262,7 @@ Or, if you're done, move on to [[Writing for your readers->Writing for your read
 
 
 :: Reader Three
+
 reader3action1: 'Understand all the advanced features'
 reader3action2: 'Switch from hosted services to local'
 reader3action3: 'Shut down the reactor quickly during a meltdown'
@@ -277,6 +287,7 @@ Or, if you're done, move on to [[Writing for your readers->Writing for your read
 
 
 :: Writing for your readers
+
 critpath1:''
 critpath2:''
 critpath3:''
@@ -406,6 +417,7 @@ Now you know what your critical paths are, you are ready to [[Identify the mess]
 
 
 :: Identify the mess
+
 missingcontent1:''
 missingcontent2:''
 missingcontent3:''
@@ -459,6 +471,7 @@ To do this, you need to [[State your intent->State your intent]]
 
 
 :: State your intent
+
 ## State your intent
 
 If you wanted to build a house, you wouldn't start laying bricks until you'd had a think about what kind of house you want to build.
@@ -538,6 +551,7 @@ There's just one more thing you need to do: [[Prepare to adjust->Prepare to adju
 
 
 :: Prepare to adjust
+
 ## Prepare to adjust
 
 Finally, the most important thing you need to do is to be flexible.
@@ -562,7 +576,8 @@ So, are you ready to get started?
 [[Find out more about information architecture->Further reading]]
 
 
-::Further reading
+:: Further reading
+
 ## Further Reading
 
 This document was largely based on the brilliant book by Abby Covert called [[How to Make Sense of Any Mess->http://www.howtomakesenseofanymess.com/]].
