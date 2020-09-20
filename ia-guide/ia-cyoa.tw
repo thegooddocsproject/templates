@@ -5,11 +5,11 @@
     "start": "Start"
 }
 
-:: StoryTitle
+::StoryTitle
 Information Architecture
 
 
-:: Start
+::Start
 userName: ' '
 --
 
