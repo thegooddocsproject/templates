@@ -504,17 +504,6 @@ We've also faced reality and recognised that you might not be able to create per
 
 So, which docs do you think you're going to need?
 
-TODO: Work out how to make this clickable --LKB 2020-09-14
-
-* API Project overview: An overview of your API
-* API Quickstart: Simplest possible method of implementing your API
-* API Reference: List of references related to your API
-* Discussion: Longer document giving background or context to a topic
-* How-to: Short series of steps for a particular task
-* Tutorial: A training document for a product or topic
-* General reference entry: Specific details about a particular topic
-* Logging reference: Description of log pipelines
-
 Now you get to decide how to move forward.
 That starts with [[Measuring the distance->Measure the distance]]
 
@@ -545,22 +534,40 @@ You can adjust this however you like, if you're only working on weekends, for ex
 * Review & edit - 20 days (4 weeks)
 * Production - 10 days (2 weeks)
 
+There's just one more thing you need to do: [[Prepare to adjust->Prepare to adjust]]
 
 
-
-
-
-## Play with structure
-
-Interactively enhance customized channels without top-line niches. Enthusiastically morph prospective models before one-to-one opportunities. Credibly utilize empowered products through tactical leadership skills. Dynamically fabricate quality data for an expanded array of technologies. Progressively target robust experiences whereas synergistic ROI.
-
-
-
+:: Prepare to adjust
 ## Prepare to adjust
 
-Collaboratively enable parallel opportunities with visionary web-readiness. Proactively restore cross-media processes rather than cross-platform experiences. Dramatically synergize best-of-breed leadership skills vis-a-vis front-end products. Monotonectally productize highly efficient channels with 24/7 infomediaries. Intrinsicly fashion economically sound methods of empowerment after strategic infrastructures.
+Finally, the most important thing you need to do is to be flexible.
+Things don't always work out, and that's OK!
+
+Expect the unexpected.
+
+Perhaps you get a new job and end up with no time to work on things.
+If you've written down your plan, and spoken to others in your project about what you were going to do, others can pick up the work, and when you're able to, you can come back to it.
+
+Perhaps you get an injection of cash and can hire some writers.
+Go back to the critical paths, expand your scope, and hand that planning to them, so that they have somewhere to start, and underfstand your vision for the docs.
+
+Or maybe things just don't work out, and the project ends up being abandoned entirely.
+That's sad, but it's OK.
+At least you've finished up with some valuable knowledge about creating docs, so you'll be even better for your next idea.
+
+So, are you ready to get started?
+
+[[Check out the templates->https://github.com/thegooddocsproject/templates/blob/master/README.md]]
+
+[[Find out more about information architecture->Further reading]]
 
 
+::Further reading
 ## Further Reading
 
-Competently engineer next-generation services through plug-and-play experiences. Interactively formulate functional synergy before plug-and-play leadership. Monotonectally whiteboard bricks-and-clicks mindshare before seamless meta-services. Synergistically harness client-centered potentialities for performance based schemas. Holisticly parallel task business e-markets with ubiquitous niche markets.
+This document was largely based on the brilliant book by Abby Covert called [[How to Make Sense of Any Mess->http://www.howtomakesenseofanymess.com/]].
+It's a quick read, and it doesn't just apply to technical documentation, you can use the principles in that book to help you organise anything at all.
+
+If you really want to delve into information architecture for technical documentation, the most important text you need is the O'Reilly book [[Information Architecture->https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/]].
+It has everything you need to know, including answers to questions you didn't know you needed to ask.
+It has a polar bear on the cover.
