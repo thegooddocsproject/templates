@@ -49,7 +49,7 @@ Make sure you meet the following prerequisites before following the steps:
 
 When you are explaining steps in a process, it can often be useful to include a screenshot for each part of the process. One of the many reasons for having a screenshot for every key step is that it helps someone who is evaluating the software to see how the software will work, even without having to install the software.
 
-In the template-howto.adoc file, you'll notice a table in the "Step-by-step" section of the template. The table allows you easily add a screenshot or callout next to each step.
+In the template-howto.adoc file, you'll notice a table in the "Step-by-step" section of the template. The table allows you to easily add a screenshot or callout next to each step.
 
 You can also default to an ordered list structure (without screenshots) and use this in markdown with the help of HTML tables.
 
