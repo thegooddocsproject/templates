@@ -80,8 +80,11 @@ Hi {userName}! I'm so glad you decided to join me!
 
 ## What are you writing about?
 The first thing we need to do is think about what you're writing about.
+
 Are you writing about something pretty simple, that people can use without having any experience? Like a toaster?
+
 Or are you writing about something a bit complicated, that people can start to use only after they've done a bit of reading, and might need to ask some questions as they go along? More like a car?
+
 Or are you writing about something really tricky? Something that needs people to have a training course, a whole lot of background knowledge, and possibly a friend to help them the whole way? Like a nuclear reactor?
 
 > [[Toaster->Writing about a toaster]]
@@ -208,7 +211,7 @@ Your job as a writer is to work out why they need a hole, and give them the info
 
 To put that in less abstract terms, you need to work out what problem your reader is trying to solve.
 If Dusty needs to hang a picture, they might want to consult some documentation about the various ways they can go about that.
-The documentation Dusty needs to do this would probably not be called "How to Choose to Drill".
+The documentation Dusty needs to do this would probably not be called "How to Choose a Drill".
 The documentation Dusty needs is "How to Hang a Picture".
 This is an important distinction, because if you get it wrong, your readers won't know if the content is right for them or, worse, they won't find your content at all.
 
@@ -563,7 +566,7 @@ That starts with [[Measuring the distance->Measure the distance]]
 Don't let your docs project be like your New Year resolutions, forgotten and lonely by the end of the year.
 The best way to make sure you stick to your docs goals, is to work out how much you can do, and set a deadline for each step in the process.
 
-The templates will help you understand how much work is involved in each of teh docs you want to write.
+The templates will help you understand how much work is involved in each of the docs you want to write.
 Have a read through the information for each template you want to use, and work out how much time you are going to need to work on it.
 
 Then you can split up docs work like this:
@@ -621,7 +624,7 @@ Remember what content you're missing (you might want to take a note of these now
 * {missingcontent8}
 * {missingcontent9}
 
-And now go [[Check out the templates->https://github.com/thegooddocsproject/templates/blob/master/README.md]]!
+And now go [[check out the templates->https://github.com/thegooddocsproject/templates/blob/master/README.md]]!
 
 Or, if you want to keep reading, you can [[Find out more about information architecture->Further reading]]
 
@@ -638,3 +641,10 @@ It's a quick read, and it doesn't just apply to technical documentation, you can
 If you really want to delve into information architecture for technical documentation, the most important text you need is the O'Reilly book [[Information Architecture->https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/]].
 It has everything you need to know, including answers to questions you didn't know you needed to ask.
 It has a polar bear on the cover.
+
+## That's it!
+
+You've reached the end of the interactive Information Architecture Guide.
+If you're ready to get started, go [[check out the templates->https://github.com/thegooddocsproject/templates/blob/master/README.md]]
+
+Or, if you want to go back and check something, you can {back link, label: 'go back a step'}, or {restart link, label: 'restart from the beginning'}.
