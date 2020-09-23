@@ -49,7 +49,7 @@ the world of the reader ...
 
 :: Before you begin
 
-userName: 'user'
+userName: 'Type your name here'
 --
 
 ## Don't start yet!
@@ -62,7 +62,7 @@ It won't take very long for you to get through this guide, and it will save you 
 By the end, you should have a good idea of who your main readers are, the kinds of things they are using your docs for, and what kinds of docs they might be expecting.
 This will help you know which templates to use from the Good Docs Project, and give you the basics to start completing them.
 
-If you don't want to do this using the interactive tool, you can [[click here]] to go to the static text.
+If you don't want to do this using the interactive tool, you can [[don't click here the link does not exist yet]] to go to the static text.
 Just have a piece of paper handy to write down the answers to the questions as you go.
 
 Or, tell me your name:
@@ -623,6 +623,7 @@ Remember what content you're missing (you might want to take a note of these now
 * {missingcontent7}
 * {missingcontent8}
 * {missingcontent9}
+* {missingcontent10}
 
 And now go [[check out the templates->https://github.com/thegooddocsproject/templates/blob/master/README.md]]!
 
