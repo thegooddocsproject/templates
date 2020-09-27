@@ -19,6 +19,8 @@ userName: ' '
 **[[Let's Start->Intro]]**
 
 :: Intro
+config.footer.left: "▰▱▱▱▱▱▱▱▱▱ 6%"
+--
 
 Let's go on an adventure into another world.
 This world is not entirely different to your own, but it might have some unexpected treasures - and pitfalls - for you to find.
@@ -54,6 +56,7 @@ the world of the reader ...
 :: Before you begin
 
 userName: 'Type your name here'
+config.footer.left: "▰▱▱▱▱▱▱▱ 12%"
 --
 
 ## Don't start yet!
@@ -79,6 +82,8 @@ and we can [[get started->What are you writing about]]
 
 
 :: What are you writing about
+config.footer.left: "▰▱▱▱▱▱ 18%"
+--
 
 Hi {userName}! I'm so glad you decided to join me!
 
@@ -99,6 +104,8 @@ Or are you writing about something really tricky? Something that needs people to
 
 
 :: Writing about a toaster
+config.footer.left: "▰▰▱▱▱▱▱▱ 25%"
+--
 
 ## Writing about a toaster
 Because the thing you are writing about is pretty simple and straightforward, you're probably thinking you don't need to spend much time writing docs.
@@ -120,6 +127,8 @@ Now, let's [[move on->Who are you writing for?]]
 
 
 :: Writing about a car
+config.footer.left: "▰▰▱▱▱▱▱▱ 25%"
+--
 
 ## Writing about a car
 You lucky thing!
@@ -140,6 +149,8 @@ Now, let's [[move on->Who are you writing for?]]
 
 
 :: Writing about a nuclear reactor
+config.footer.left: "▰▰▱▱▱▱▱▱ 25%"
+--
 
 ## Writing about a nuclear reactor
 The first thing to work out if you are writing about a nuclear reactor is what reasonable assumptions can you make?
@@ -167,6 +178,7 @@ Now, let's [[move on->Who are you writing for?]]
 readerName1: 'Alex'
 readerName2: 'Bobbi'
 readerName3: 'Charlie'
+config.footer.left: "▰▰▰▱▱▱▱▱▱▱ 30%"
 --
 
 ## Who are you writing for?
@@ -199,6 +211,8 @@ Let's take a closer look at our readers, and work out [[Why do they read the doc
 
 
 :: Why do they read the docs?
+config.footer.left: "▰▰▰▱▱▱▱▱▱ 36%"
+--
 
 I'm going to tell you a secret.
 
@@ -232,10 +246,10 @@ When you've got tasks for all of your readers, let's put it all together, and th
 
 
 :: Reader One
-
 reader1action1: 'Install the product'
 reader1action2: 'Perform initial setup'
 reader1action3: 'Start their first project'
+config.footer.left: "▰▰▰▰▱▱▱▱▱▱ 42%"
 --
 
 To understand {readerName1}, let's start by thinking about how they might begin.
@@ -257,10 +271,10 @@ Or, if you're done, move on to [[Writing for your readers->Writing for your read
 
 
 :: Reader Two
-
 reader2action1: 'Configure multiple users'
 reader2action2: 'Troubleshoot networking problems'
 reader2action3: 'Upgrade to a new version'
+config.footer.left: "▰▰▰▰▰▱▱▱▱▱ 48%"
 --
 
 To understand {readerName2}, let's start by thinking about how they might begin.
@@ -282,10 +296,10 @@ Or, if you're done, move on to [[Writing for your readers->Writing for your read
 
 
 :: Reader Three
-
 reader3action1: 'Understand all the advanced features'
 reader3action2: 'Switch from hosted services to local'
 reader3action3: 'Shut down the reactor quickly during a meltdown'
+config.footer.left: "▰▰▰▰▰▱▱▱▱▱ 54%"
 --
 
 To understand {readerName3}, let's start by thinking about how they might begin.
@@ -344,6 +358,7 @@ reader2action3critscore: critpath16 + critpath17 + critpath18
 reader3action1critscore: critpath19 + critpath20 + critpath21
 reader3action2critscore: critpath22 + critpath23 + critpath24
 reader3action3critscore: critpath25 + critpath26 + critpath27
+config.footer.left: "▰▰▰▰▰▰▱▱▱▱ 60%	"
 --
 
 ## Writing for your readers
@@ -439,7 +454,6 @@ Now you know what your critical paths are, you are ready to [[Identify the mess]
 
 
 :: Identify the mess
-
 missingcontent1:'Installation Guide'
 missingcontent2:'Initial setup procedure'
 missingcontent3:'Quick Start Guide'
@@ -449,6 +463,7 @@ missingcontent6:'Upgrade Guide'
 missingcontent7:'Tuning Guide'
 missingcontent8:'Administration Guide'
 missingcontent9:'Reference Guide'
+config.footer.left: "▰▰▰▰▰▱▱▱ 66%"
 --
 
 ## Identify the mess
@@ -495,6 +510,8 @@ To do this, you need to [[State your intent->State your intent]]
 
 
 :: State your intent
+config.footer.left: "▰▰▰▰▰▰▰▱▱▱ 71%"
+--
 
 ## State your intent
 
@@ -514,6 +531,8 @@ When you've considered these things, and determined the kind of documentation yo
 
 
 :: Face reality
+config.footer.left: "▰▰▰▰▰▰▰▱▱ 78%"
+--
 
 ## Face reality
 By now, you should have a good idea of what your ideal documentation would look like.
@@ -537,6 +556,7 @@ Make sure you're not biting off more than you can chew, and [[Choose a direction
 
 :: Choose a direction
 missingcontent10: 'Anything else?'
+config.footer.left: "▰▰▰▰▰▰▰▰▱▱ 83%"
 --
 
 ## Choose a direction
@@ -565,6 +585,8 @@ That starts with [[Measuring the distance->Measure the distance]]
 
 
 :: Measure the distance
+config.footer.left: "▰▰▰▰▰▰▰▰▰▱ 90%"
+--
 
 ## Measure the distance
 Don't let your docs project be like your New Year resolutions, forgotten and lonely by the end of the year.
@@ -596,6 +618,8 @@ There's just one more thing you need to do: [[Prepare to adjust->Prepare to adju
 
 
 :: Prepare to adjust
+config.footer.left: "▰▰▰▰▰▰▰▰▰▱ 99%"
+--
 
 ## Prepare to adjust
 
@@ -637,6 +661,8 @@ Or, if you want to keep reading, you can [[Find out more about information archi
 
 
 :: Further reading
+config.footer.left: "▰▰▰▰▰▰▰▰▰▰ 100%"
+--
 
 ## Further Reading
 
