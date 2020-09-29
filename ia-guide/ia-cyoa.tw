@@ -28,7 +28,7 @@ It's an adventure into the mind of your reader.
 They live in your world, but they don't always think like you.
 And learning to think like a reader can be tricky!
 
-{embed image: 'images/reader_world.png', alt: 'A blue and green globe sitting on top of a book with a red cover'}
+{embed image: 'images/reader_world.svg', alt: 'A blue and green globe sitting on top of a book with a red cover'}
 
 Have you ever been really good at something, and tried to show someone else how to do it?
 It can be frustrating, because they just don't seem to get it, even though it seems easy and straight forward to you.
@@ -66,7 +66,7 @@ When you're excited about a new project, it's super-tempting to just start writi
 This guide is designed to get you thinking about your readers in such a way that you'll end up knowing what docs you need to write.
 It won't take very long for you to get through this guide, and it will save you time in the long run.
 
-{embed image: 'images/stuck.png', alt: 'A smiling person wearing a blue outfit is in a very big hole, with the words "i am stuck" in red'}
+{embed image: 'images/stuck.svg', alt: 'A smiling person wearing a blue outfit is in a very big hole, with the words "i am stuck" in red'}
 
 By the end, you should have a good idea of who your main readers are, the kinds of things they are using your docs for, and what kinds of docs they might be expecting.
 This will help you know which templates to use from the Good Docs Project, and give you the basics to start completing them.
@@ -114,6 +114,7 @@ Because the thing you are writing about is pretty simple and straightforward, yo
 Just because you might not need a lot of docs, you will still need something, though.
 And working out what you need could be even more difficult, because you're going to need to think a little bit harder about who you're writing for.
 
+{embed image: 'images/tooster.svg', alt: 'A silver toaster marked "Super Tooster" with a red discount star, and a sign saying "wowzars!!!"'}
 
 **Curse of Knowledge alert!!**
 Just because your toaster seems super simple to you, doesn't mean everyone will find it as easy as you do.
@@ -136,6 +137,8 @@ config.footer.left: "▰▰▱▱▱▱▱▱ 25%"
 You lucky thing!
 There is a pretty good chance that you needed to learn how to do this thing yourself, and hopefully it wasn't all that long ago, and you can fairly easily cast your mind back to those days when you didn't know what this thing was, or how it worked.
 And if you didn't have to do this yourself, hopefully there is someone nearby who has, so go ask them questions!
+
+{embed image: 'images/car.svg', alt: 'A cheering person in a green outfit driving a red and white striped sports car, with the caption "big red car"'}
 
 **Curse of Knowledge alert!!**
 Try to remember that not everyone knows the same stuff, or learns in the same way.
@@ -187,6 +190,8 @@ config.footer.left: "▰▰▰▱▱▱▱▱▱▱ 30%"
 Now that we've thought what you're writing about, let's consider who you're writing for.
 It would be easy to think of just one person that you're writing for, but we need to remember that people come in all shapes and sizes.
 So let's think up three different people, to try and make sure we're covering all the options.
+
+{embed image: 'images/wave.svg', alt: 'A winking smiling person wearing a purple shirt and pants, with pastel coloured hair, waving'}
 
 The way you categorize your three readers is up to you, but sometimes the best way to start is by thinking of a beginner, an intermediate reader, and an expert.
 Or, depending on the kind of product you have, you might think of an ordinary user, a system administrator, and a support person.
@@ -674,6 +679,8 @@ It's a quick read, and it doesn't just apply to technical documentation, you can
 If you really want to delve into information architecture for technical documentation, the most important text you need is the O'Reilly book [[Information Architecture->https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/]].
 It has everything you need to know, including answers to questions you didn't know you needed to ask.
 It has a polar bear on the cover.
+
+{embed image: 'images/banana.svg', alt: 'A reclining smiling banana with red writing saying "lets go banana"'}
 
 ## That's it!
 
