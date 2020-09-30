@@ -49,4 +49,4 @@ Asciidoctor 1.5.6.2 [https://asciidoctor.org]
 
 ### Step 4: Optional: title for step - Conclusion
 
-Lead-in conclusion to the steps, explaining what happens after the user is done following the steps and what to expect next, maybe link to some related articles or the lead-in steps. 
+Provide a summary of the steps completed and explain what the user has achieved by following them. You can also include links to related articles that may help the reader reinforce concepts discussed in this how-to article.
