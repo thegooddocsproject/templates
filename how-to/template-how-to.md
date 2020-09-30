@@ -44,7 +44,7 @@ Lead-in sentence for an ordered list:
 
 ### Step 3: Optional: title for step - code snippet
 
-Lead in sentence explaining the code snippet. E.g.:
+Lead-in sentence explaining the code snippet. For example: 
 
 Run the `apt` command to install the Asciidoctor package and check the version.
 

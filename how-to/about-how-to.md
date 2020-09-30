@@ -47,7 +47,7 @@ Make sure you meet the following prerequisites before following the steps:
 
 ```
 
-### About the "Step by step guide" sections
+### About the "Step-by-step guide" sections
 
 When you are explaining steps in a process, it can often be useful to include a screenshot for each part of the process. One of the many reasons for having a screenshot for every key step is that it helps someone who is evaluating the software to see how the software will work, even without having to install the software.
 
