@@ -58,6 +58,143 @@ Version control with git can be confusing at first.
 Generally, you will only need a few commands to get started, and once you've done it once or twice, it will start to become second nature.
 The important thing to remember is that if you get confused and you're not sure what to do, you can always delete what you have on your local machine and start again, without losing too much work.
 
+You will need to create a fork of the repository you want to contribute to.
+A fork copies the current state of the repository to your own project, so you can make your changes safely.
+When you have made your changes, you can then propose the changes back to the original project in a pull request.
+The community will review your pull request, and you can make more updates or changes as needed.
+When everyone is happy with the changes, the pull request is merged, and your changes become part of the code.
+
+We will be using the `incubator` repository for this example, but the method is the same for any of the other repositories.
+
+#### Creating a Fork
+
+1. Make sure you have a [github](github.com) account, and that you're signed in.
+1. Navigate to the [Good Docs Project](https://github.com/thegooddocsproject), and click the repository you want to fork.
+1. Click the `Fork` button in the top-right corner, and select the account you want to use.
+1. Wait for github to create your fork and redirect you.
+Take note of the repository you are now in.
+It will be called `github.com/<your_username>/incubator`.
+
+When you have created the fork, you can clone the code to your local machine.
+
+#### Cloning the Code
+
+1. Create a directory on your local filesystem to keep your work in.
+You can call it anything you like, but most people use `workspace` or something similar.
+1. In your browser, go to the github page for your fork.
+The URL will be `github.com/<your_username>/incubator`, or you can get to it by clicking on your user image from the main github page, and selecting `Your repositories`.
+1. Click the green `Code` download button, and copy the URL in the drop-down box.
+1. Open a terminal on your local machine, make sure you are in your `workspace` directory, and clone the URL you just copied.
+Depending on how big the repository is, it could  take a little while to download.
+   ```
+   > cd ~/workspace
+   > git clone https://github.com/<your_username>/incubator.git
+   ```
+
+When you have the code downloaded, you need to set the upstream repository.
+This is important so that you can keep your local fork updated.
+
+#### Setting the upstream repository
+
+1. In your terminal, navigate to the directory where you checked out the code:
+   ```
+   > cd ~/workspace/incubator
+   ```
+1. Check out the `master` branch:
+   ```
+   > git checkout master
+   ```
+1. List the current remote branches:
+   ```
+   > git remote -v
+   ```
+   This command should list two remotes, both marked `origin`, like this:
+   ```
+   origin  https://github.com/<your_username>/incubator.git (fetch)
+   origin  https://github.com/<your_username>/incubator.git (push)
+1. Add the incubator repo as an upstream:
+   ```
+   > git remote add upstream https://github.com/thegooddocsproject/incubator
+   ```
+1. Check that the upstream was added properly:
+   ```
+   > git remote -v
+   ```
+   This command should now have the same two `origin` remotes as before, plus two more labelled `upstream`, like this:
+   ```
+   origin  https://github.com/<your_username>/incubator.git (fetch)
+   origin  https://github.com/<your_username>/incubator.git (push)
+   upstream  https://github.com/thegooddocsproject/incubator (fetch)
+   upstream  https://github.com/thegooddocsproject/incubator (push)
+   ```
+
+Now that you have your repository set up, you can create a branch to work on.
+
+#### Creating a branch
+
+1. In your terminal, navigate to the directory where you checked out the code:
+   ```
+   > cd ~/workspace/incubator
+   ```
+1. Fetch the branches in the upstream repository:
+   ```
+   > git fetch upstream
+   ```
+1. Check out your fork's `master` branch:
+   ```
+   > git checkout master
+   ```
+   This will show a message like this:
+   ```
+   Switched to branch `master`
+   ```
+1. Merge the changes from the upstream `master` branch, into your fork's `master` branch:
+   ```
+   > git merge upstream/master
+   ```
+   This shows some output that indicates what changes have been merged in to your fork.
+1. Create a new branch for the work you want to do.
+   Make sure you give it an appropriate name.
+   It is usually good practice to include your username as well:
+   ```
+   > git checkout -b update-readme-username
+   ```
+
+You can now go ahead and make your changes.
+When you have finished, save your changes, and create a pull request.
+
+Always try to make sure that you just work on a single piece of work for each branch and pull request.
+For example, if you want to update a particular page and fix some typos across a lot of different pages, create a branch for the page update, make the changes, and do a pull request.
+Then create a new branch for the typos, and do a second pull request.
+This makes it much easier for you to keep track of what is going on in your fork, and also for reviewers looking at your pull requests.
+
+#### Creating a pull request (PR)
+
+1. Make sure all your changes are saved in your text editor.
+1. In your terminal, add the changes to your commit:
+   ```
+   > git add .
+   ```
+1. Commit the changes, and provide a short description of what's in the commit:
+   ```
+   > git commit -m "Updated README file"
+   ```
+1. Push the changes to your fork:
+   ```
+   git push
+   ```
+1. In your browser, go to your fork on github.
+   The URL will be `github.com/<your_username>/incubator`, or you can get to it by clicking on your user image from the main github page, and selecting `Your repositories`.
+   There will be  banner at the top of the page, click the `Compare and Create Pull Request` button on the banner.
+1. Give your PR a title, and write a description of the changes.
+   Make sure you link any relevant issues, and tag any people you want to review your changes.
+   If you intend to add more commits to your PR, mark your PR as a draft so that reviewers know you haven't finished work yet.
+
+
+
+
+
+
 ## Choosing something to work on
 
 Compellingly iterate premium testing procedures through effective web services. Collaboratively recaptiualize client-based leadership skills rather than adaptive initiatives. Distinctively synthesize customer directed markets after worldwide portals. Appropriately exploit revolutionary e-services without excellent content. Assertively unleash clicks-and-mortar leadership skills with 2.0 action items.
@@ -79,3 +216,24 @@ Credibly supply holistic materials without resource maximizing convergence. Inte
 Interactively provide access to economically sound core competencies whereas team driven convergence. Collaboratively plagiarize value-added outsourcing with high-payoff infomediaries. Phosfluorescently cultivate efficient e-tailers without proactive mindshare. Interactively provide access to excellent e-markets with seamless collaboration and idea-sharing. Phosfluorescently seize go forward architectures rather than standards compliant alignments.
 
 Link to further governance stuff ...
+
+
+## Glossary
+
+<!--Get this into alphabetic order-->
+
+<dl>
+    <dt>Fork</dt>
+    <dd>A local copy of an upstream repository.
+    Use a fork to safely make changes, then submit a pull request to merge your changes into the upstream repository.</dd>
+    <dt>Upstream repository</dt>
+    <dd>The repository that you want to make changes to.</dd>
+    <dt>Pull Request</dt>
+    <dd>A request to merge the changes you have made locally, into the upstream repository.</dd>
+    <dt>Branch</dt>
+    <dd>A copy of the code you are working on, where all your changes are stored.
+    Always work on a branch, do not commit anything directly to `master` or `main`.</dd>
+    <dt>Master</dt>
+    <dd>The `master` or `main` branch is a special branch that is at the top of the repository.
+    Always work on a branch, do not commit anything directly to `master` or `main`.</dd>
+</dl>
