@@ -1,6 +1,7 @@
 # Contributors' Guide
 
-## Welcome to The Good Docs Project
+## Welcome to Base Template Project
+
 
 The Good Docs Project provides a set of templates and other resources to help you create great documentation.
 Anyone can come and make use of those resources, download the templates, and create their own documentation at any time.
