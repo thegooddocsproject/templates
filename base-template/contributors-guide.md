@@ -2,31 +2,68 @@
 
 ## Welcome to The Good Docs Project
 
-Compellingly facilitate professional testing procedures without cutting-edge users. Progressively pursue just in time convergence with user friendly potentialities. Credibly recaptiualize parallel experiences whereas global e-commerce. Holisticly formulate exceptional e-commerce whereas pandemic intellectual capital. Rapidiously customize just in time e-business before strategic "outside the box" thinking.
+The Good Docs Project provides a set of templates and other resources to help you create great documentation.
+Anyone can come and make use of those resources, download the templates, and create their own documentation at any time.
+If you have a great idea for improving any of the resources, we would love for you to share them!
+This guide is to help you get started contributing to the Good Docs Project, whether you intend to contribute a whole new template to the collection, or just fix a typo.
+
 
 ## Getting Familiar with the Project Repositories
 
-Proactively underwhelm emerging solutions via customized leadership. Enthusiastically scale resource maximizing processes rather than low-risk high-yield technology. Appropriately leverage existing excellent systems with premier value. Compellingly conceptualize market positioning e-tailers via customer directed architectures. Interactively foster holistic experiences vis-a-vis robust e-tailers.
+All of the source code for the Good Docs Project live in github, including the code for the website, examplar project, community governance, and the templates themselves.
+Browse the code by navigating to https://github.com/thegooddocsproject/ in your browser.
+
+There are several repositories within the Good Docs Project, and they all serve an individual purpose.
+To contribute to the templates, there are two main repositories that you will need to work with, the `templates` repo, and the `incubator` repo.
+
 
 ### The `templates` repository
 
-Energistically visualize excellent technology through mission-critical expertise. Energistically communicate dynamic human capital via backend infrastructures. Continually visualize professional solutions rather than highly efficient relationships. Interactively create real-time models after cross-unit convergence. Professionally parallel task vertical quality vectors through prospective potentialities.
+This is the main repository in the project, because it contains the templates, and their companion guidance documents.
+If you want to make a small change to an existing template, such as updating some wording, or fixing a typo, you can propose a change directly within this repository.
+Instructions on how to do that are later on in this guide.
+
 
 ### The `incubator` repository
 
-Completely maintain technically sound action items after error-free functionalities. Credibly repurpose holistic testing procedures rather than equity invested ideas. Dramatically evolve enterprise methods of empowerment whereas 2.0 intellectual capital. Collaboratively parallel task premium content before customized relationships. Enthusiastically scale multidisciplinary deliverables without corporate e-tailers.
+The `incubator` repository is where we work on bigger projects, including new templates, before they are ready to be submitted to the `templates` repository.
+If you want to contribute a new template, or a larger piece of work for any other repository, this is the place to start.
+When you propose a change to the `incubator` repo, you can work on it in collaboration with the rest of the community, and it will be moved into the appropriate location when it is complete.
+
 
 ## Setting up your work environment
 
-Globally promote B2C users without client-centered ideas. Uniquely administrate world-class bandwidth before future-proof vortals. Holisticly administrate enterprise e-business for visionary mindshare. Efficiently aggregate robust imperatives for flexible markets. Efficiently disintermediate emerging resources without adaptive technology.
+To work on content within the Good Docs Project, regardless of which repo you are proposing changes to, or whether the change is big or small, you will need to set up your work environment.
+The main thing you will need is a text editor.
+
 
 ### Selecting a text editor
 
-Continually unleash resource maximizing web services rather than high-payoff convergence. Dynamically revolutionize high standards in innovation whereas process-centric initiatives. Globally seize empowered leadership via quality growth strategies. Dynamically target quality partnerships rather than revolutionary methodologies. Dynamically reinvent superior action items via optimal technology.
+There are many text editors available, and people who work in text editors a lot will always have their favorites.
+Because of this, it can be a little daunting trying to choose which one you like.
+
+Some popular free text editors are [Atom](https://atom.io/) and [Visual Studio Code](https://code.visualstudio.com/).
+They are both graphical editors, and include some convenient features like a file browser and a command prompt, so you can manage your entire workflow within the editor.
+
+However, you don't need anything that fancy if you just want to do a couple of small things.
+Your operating system will provide a simple text editor by default, and these are a great place to start:
+
+| Operating System | Editor   |
+| ---------------- | -------- |
+| Windows          | Notepad  |
+| MacOS            | TextEdit |
+| Linux - Gnome    | gedit    |
+| Linux - KDE      | KWrite   |
+
+Once you've gotten started with a basic editor, you'll have a better idea of what features you want in a more advanced editor.
+
 
 ### Working with git
 
-Conveniently generate extensible opportunities via stand-alone relationships. Conveniently monetize highly efficient strategic theme areas vis-a-vis real-time information. Seamlessly exploit premier applications via team building technologies. Interactively drive strategic networks after cross-unit mindshare. Compellingly synergize cross-unit meta-services for collaborative technologies.
+Version control with git can be confusing at first.
+Generally speaking, though, you only need a few commands to get started, and once you've done it a few times, it will start to become second nature.
+The important thing to remember is that if you get really confused and you're not sure what to do, you can always delete what you have on your local machine and start again, without losing too much work.
+
 
 ## Choosing something to work on
 
