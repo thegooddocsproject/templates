@@ -112,6 +112,7 @@ This is important so that you can keep your local fork updated.
    ```
    origin  https://github.com/<your_username>/incubator.git (fetch)
    origin  https://github.com/<your_username>/incubator.git (push)
+   ```
 1. Add the incubator repo as an upstream:
    ```
    > git remote add upstream https://github.com/thegooddocsproject/incubator
