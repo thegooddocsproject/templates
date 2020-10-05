@@ -3,13 +3,13 @@
 ## Welcome to Base Template Project
 
 
+## Welcome to The Good Docs Project
 The Good Docs Project provides a set of templates and other resources to help you create great documentation.
 Anyone can come and make use of those resources, download the templates, and create their own documentation at any time.
 If you have a great idea for improving any of the resources, we would love for you to share them!
 This guide is to help you get started contributing to the Good Docs Project, whether you intend to contribute a whole new template to the collection, or fix a typo.
 
 ## Getting Familiar with the Project Repositories
-
 All the source code for the Good Docs Project live in github, including the code for the website, examplar project, community governance, and the templates themselves.
 Browse the code by navigating to [https://github.com/thegooddocsproject/] in your browser.
 
@@ -17,24 +17,20 @@ The Good Docs Project has a lot of repositories within it, and they all serve a
 To contribute to the templates, there are two main repositories that you will need to work with, the `templates` repo, and the `incubator` repo.
 
 ### The `templates` repository
-
 This is the main repository in the project, because it contains the templates, and their companion guidance documents.
 If you want to make a small change to an existing template, such as updating some wording, or fixing a typo, you can propose a change directly within this repository.
 Instructions on how to do that are later on in this guide.
 
 ### The `incubator` repository
-
 The `incubator` repository is where we work on bigger projects, including new templates, before they are ready to go into the `templates` repository.
 If you want to contribute a new template, or a larger piece of work for any other repository, this is the place to start.
 When you propose a change to the `incubator` repo, you can work on it in collaboration with the rest of the community, and move it into the appropriate location when complete.
 
 ## Setting up your work environment
-
 To work on content within the Good Docs Project, regardless of which repo you are proposing changes to, or whether the change is big or small, you will need to set up your work environment.
 The main thing you will need is a text editor.
 
 ### Selecting a text editor
-
 There are a large range of text editors available, and people who work in text editors a lot will always have their favorites.
 Because of this, it can be a little daunting trying to choose which one you like.
 
@@ -54,7 +50,6 @@ Your operating system will provide a simple text editor by default, and these ar
 Once you've gotten started with a basic editor, you'll have a better idea of what features you want in a more advanced editor.
 
 ### Working with git
-
 Version control with git can be confusing at first.
 Generally, you will only need a few commands to get started, and once you've done it once or twice, it will start to become second nature.
 The important thing to remember is that if you get confused and you're not sure what to do, you can always delete what you have on your local machine and start again, without losing too much work.
@@ -66,9 +61,9 @@ The community will review your pull request, and you can make more updates or ch
 When everyone is happy with the changes, the pull request is merged, and your changes become part of the code.
 
 We will be using the `incubator` repository for this example, but the method is the same for any of the other repositories.
+If you need more help with git, check out the github documentation at [https://docs.github.com/].
 
 #### Creating a Fork
-
 1. Make sure you have a [github](github.com) account, and that you're signed in.
 1. Navigate to the [Good Docs Project](https://github.com/thegooddocsproject), and click the repository you want to fork.
 1. Click the `Fork` button in the top-right corner, and select the account you want to use.
@@ -79,7 +74,6 @@ It will be called `github.com/<your_username>/incubator`.
 When you have created the fork, you can clone the code to your local machine.
 
 #### Cloning the Code
-
 1. Create a directory on your local filesystem to keep your work in.
 You can call it anything you like, but most people use `workspace` or something similar.
 1. In your browser, go to the github page for your fork.
@@ -96,7 +90,6 @@ When you have the code downloaded, you need to set the upstream repository.
 This is important so that you can keep your local fork updated.
 
 #### Setting the upstream repository
-
 1. In your terminal, navigate to the directory where you checked out the code:
    ```
    > cd ~/workspace/incubator
@@ -133,7 +126,6 @@ This is important so that you can keep your local fork updated.
 Now that you have your repository set up, you can create a branch to work on.
 
 #### Creating a branch
-
 1. In your terminal, navigate to the directory where you checked out the code:
    ```
    > cd ~/workspace/incubator
@@ -171,12 +163,12 @@ Then create a new branch for the typos, and do a second pull request.
 This makes it much easier for you to keep track of what is going on in your fork, and also for reviewers looking at your pull requests.
 
 #### Creating a pull request (PR)
-
 1. Make sure all your changes are saved in your text editor.
 1. In your terminal, add the changes to your commit:
    ```
    > git add .
    ```
+   Don't forget the period at the end of this command!
 1. Commit the changes, and provide a short description of what's in the commit:
    ```
    > git commit -m "Updated README file"
@@ -191,11 +183,6 @@ This makes it much easier for you to keep track of what is going on in your fork
 1. Give your PR a title, and write a description of the changes.
    Make sure you link any relevant issues, and tag any people you want to review your changes.
    If you intend to add more commits to your PR, mark your PR as a draft so that reviewers know you haven't finished work yet.
-
-
-
-
-
 
 ## Choosing something to work on
 
