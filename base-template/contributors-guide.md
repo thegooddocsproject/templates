@@ -240,15 +240,15 @@ For the list of issues, see [https://github.com/thegooddocsproject/templates/iss
 Look for issues with a `good first issue` tag if you want something small to start on.
 
 When you have found an issue you want to work on, either assign the issue to yourself, or leave a comment stating that you are going to work on it before you get started.
-Feel free to use the issue to ask questions or to clarify what is required if you are uncertain.
+Feel free to use the issue to ask questions or to clarify requirements if you are uncertain.
 When you have a pull request ready, make sure you link the issue in the pull request details, so we can make sure the issue is also closed.
 
 ### Reviewing pull requests
 
-You might have created a pull request yourself already, but it is also important that the entire community reviews pull requests from others.
+You might have created a pull request or two, but it is also important that the entire community reviews pull requests from others.
 The more reviews each pull request gets, the better the quality of our code.
 
-It is important to note that pull requests in different repositories in the Good Docs Project require different levels of review rigor.
+Note that pull requests in different repositories within the Good Docs Project require different levels of review rigor.
 For example, the `incubator` repo has a much lower standard of code quality than the `templates` repo.
 For a full explanation of our review standards, see [insert.link.here].
 
@@ -258,7 +258,7 @@ When you are working on something in the `incubator` repository, at some stage y
 By this stage, you should have been interacting with the rest of the Good Docs Project community fairly regularly.
 Discuss moving your work across at a meeting, or send a note to the mailing list, and one of the project administrators will prepare a pull request for the move.
 
-## Expectations and Responsibilities
+## Expectations and responsibilities
 
 This guide has covered only the more technical aspects of contributing the Good Docs Project.
 It is also important that you have a good understanding of how to be a good community citizen.
