@@ -12,7 +12,7 @@ This guide is to help you get started contributing to the Good Docs Project, whe
 
 ## Getting Familiar with the project repositories
 
-All the source code for the Good Docs Project live in github, including the code for the website, examplar project, community governance, and the templates themselves.
+All the source code for the Good Docs Project live in github, including the code for the website, example project, community governance, and the templates themselves.
 Browse the code by navigating to [https://github.com/thegooddocsproject/] in your browser.
 
 The Good Docs Project has a lot of repositories within it, and they all serve an individual purpose.
@@ -76,8 +76,7 @@ If you need more help with git, check out the github documentation at [https://d
 1. Navigate to the [Good Docs Project](https://github.com/thegooddocsproject), and click the repository you want to fork.
 1. Click the `Fork` button in the top-right corner, and select the account you want to use.
 1. Wait for github to create your fork and redirect you.
-Take note of the repository you are now in.
-It will be called `github.com/<your_username>/incubator`.
+Take note of the repository you are now in, called `github.com/<your_username>/incubator`.
 
 When you have created the fork, you can clone the code to your local machine.
 
@@ -88,7 +87,7 @@ You can call it anything you like, but most people use `workspace` or something 
 1. In your browser, go to the github page for your fork.
 The URL will be `github.com/<your_username>/incubator`, or you can get to it by clicking on your user image from the main github page, and selecting `Your repositories`.
 1. Click the green `Code` download button, and copy the URL in the drop-down box.
-1. Open a terminal on your local machine, make sure you are in your `workspace` directory, and clone the URL you just copied.
+1. Open a terminal on your local machine, make sure you are in your `workspace` directory, and clone the URL you copied.
 Depending on how big the repository is, it could  take a little while to download.
 
    ```bash
@@ -132,7 +131,7 @@ This is important so that you can keep your local fork updated.
    > git remote add upstream https://github.com/thegooddocsproject/incubator
    ```
 
-1. Check that the upstream was added properly:
+1. Check that the upstream is added:
 
    ```bash
    > git remote -v
@@ -150,6 +149,7 @@ This is important so that you can keep your local fork updated.
 Now that you have your repository set up, you can create a branch to work on.
 
 #### Creating a branch
+
 1. In your terminal, navigate to the directory where you checked out the code:
 
    ```bash
@@ -183,7 +183,7 @@ Now that you have your repository set up, you can create a branch to work on.
    This shows some output that indicates what changes have been merged in to your fork.
 1. Create a new branch for the work you want to do.
    Make sure you give it an appropriate name.
-   It is usually good practice to include your username as well:
+   It is good practice to include your username as well:
 
    ```bash
    > git checkout -b update-readme-username
@@ -192,12 +192,13 @@ Now that you have your repository set up, you can create a branch to work on.
 You can now go ahead and make your changes.
 When you have finished, save your changes, and create a pull request.
 
-Always try to make sure that you just work on a single piece of work for each branch and pull request.
+Always try to make sure that you work on a single piece of work for each branch and pull request.
 For example, if you want to update a particular page and fix some typos across a lot of different pages, create a branch for the page update, make the changes, and do a pull request.
 Then create a new branch for the typos, and do a second pull request.
 This makes it much easier for you to keep track of what is going on in your fork, and also for reviewers looking at your pull requests.
 
 #### Creating a pull request (PR)
+
 1. Make sure all your changes are saved in your text editor.
 1. In your terminal, add the changes to your commit:
 
@@ -227,43 +228,58 @@ This makes it much easier for you to keep track of what is going on in your fork
 
 ## Choosing something to work on
 
-Compellingly iterate premium testing procedures through effective web services. Collaboratively recaptiualize client-based leadership skills rather than adaptive initiatives. Distinctively synthesize customer directed markets after worldwide portals. Appropriately exploit revolutionary e-services without excellent content. Assertively unleash clicks-and-mortar leadership skills with 2.0 action items.
+If you are driven to contribute because you want to share your own work, or even that you noticed a typo you can't let go, that's great, and we are happy to have you here to share your ideas.
+But what if you just want to help?
+This section discusses how to find something to work on within the Good Docs Project.
 
 ### Issues
 
-Assertively enhance functional solutions for synergistic opportunities. Proactively expedite cross-media synergy whereas cutting-edge services. Appropriately embrace principle-centered leadership via leveraged infomediaries. Competently negotiate top-line products through 24/365 experiences. Professionally matrix goal-oriented processes and bleeding-edge experiences.
+Like most open source projects, there are always things that need to be done.
+Most of these things can be found in github issues.
+For the list of issues, see [https://github.com/thegooddocsproject/templates/issues](The Good Docs Project template issues).
+Look for issues with a `good first issue` tag if you want something small to start on.
 
-### Pull Requests
+When you have found an issue you want to work on, either assign the issue to yourself, or leave a comment stating that you are going to work on it before you get started.
+Feel free to use the issue to ask questions or to clarify what is required if you are uncertain.
+When you have a pull request ready, make sure you link the issue in the pull request details, so we can make sure the issue is also closed.
 
-Phosfluorescently actualize economically sound alignments rather than quality synergy. Seamlessly negotiate value-added intellectual capital before equity invested applications. Intrinsicly re-engineer real-time total linkage and bleeding-edge total linkage. Monotonectally procrastinate multimedia based internal or "organic" sources vis-a-vis impactful outsourcing. Appropriately visualize cross-media quality vectors and backward-compatible vortals.
+### Reviewing pull requests
+
+You might have created a pull request yourself already, but it is also important that the entire community reviews pull requests from others.
+The more reviews each pull request gets, the better the quality of our code.
+
+It is important to note that pull requests in different repositories in the Good Docs Project require different levels of review rigor.
+For example, the `incubator` repo has a much lower standard of code quality than the `templates` repo.
+For a full explanation of our review standards, see [insert.link.here].
 
 ### Moving out of the incubator
 
-Credibly supply holistic materials without resource maximizing convergence. Interactively revolutionize e-business content after interdependent expertise. Uniquely synergize prospective niche markets before cost effective meta-services. Phosfluorescently initiate distributed core competencies rather than virtual architectures. Compellingly harness client-centered users whereas client-centered process improvements.
+When you are working on something in the `incubator` repository, at some stage you will want to move it into the `templates` repository.
+By this stage, you should have been interacting with the rest of the Good Docs Project community fairly regularly.
+Discuss moving your work across at a meeting, or send a note to the mailing list, and one of the project administrators will prepare a pull request for the move.
 
 ## Expectations and Responsibilities
 
-Interactively provide access to economically sound core competencies whereas team driven convergence. Collaboratively plagiarize value-added outsourcing with high-payoff infomediaries. Phosfluorescently cultivate efficient e-tailers without proactive mindshare. Interactively provide access to excellent e-markets with seamless collaboration and idea-sharing. Phosfluorescently seize go forward architectures rather than standards compliant alignments.
-
-Link to further governance stuff ...
-
+This guide has covered only the more technical aspects of contributing the Good Docs Project.
+It is also important that you have a good understanding of how to be a good community citizen.
+Make sure you head over to [https://thegooddocsproject.dev/community.html](The Good Docs Project Community) to understand the expectations and responsibilities of our community.
 
 ## Glossary
 
-<!--Get this into alphabetic order-->
+<!--Keep this in alphabetic order-->
 
 <dl>
+    <dt>Branch</dt>
+    <dd>A copy of the code you are working on, where all your changes are stored.
+    Always work on a branch, do not commit anything directly to `master` or `main`.</dd>
     <dt>Fork</dt>
     <dd>A local copy of an upstream repository.
     Use a fork to safely make changes, then submit a pull request to merge your changes into the upstream repository.</dd>
+    <dt>Master</dt>
+    <dd>The `master` or `main` branch is a special branch that is at the top of the repository.
+    Always work on a branch, do not commit anything directly to `master` or `main`.</dd>
     <dt>Upstream repository</dt>
     <dd>The repository that you want to make changes to.</dd>
     <dt>Pull Request</dt>
     <dd>A request to merge the changes you have made locally, into the upstream repository.</dd>
-    <dt>Branch</dt>
-    <dd>A copy of the code you are working on, where all your changes are stored.
-    Always work on a branch, do not commit anything directly to `master` or `main`.</dd>
-    <dt>Master</dt>
-    <dd>The `master` or `main` branch is a special branch that is at the top of the repository.
-    Always work on a branch, do not commit anything directly to `master` or `main`.</dd>
 </dl>
