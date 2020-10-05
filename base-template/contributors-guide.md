@@ -271,13 +271,13 @@ Make sure you head over to [https://thegooddocsproject.dev/community.html](The G
 <dl>
     <dt>Branch</dt>
     <dd>A copy of the code you are working on, where all your changes are stored.
-    Always work on a branch, do not commit anything directly to `master` or `main`.</dd>
+    Always work on a branch, do not commit anything directly to <em>master</em> or <em>main</em>.</dd>
     <dt>Fork</dt>
     <dd>A local copy of an upstream repository.
     Use a fork to safely make changes, then submit a pull request to merge your changes into the upstream repository.</dd>
     <dt>Master</dt>
-    <dd>The `master` or `main` branch is a special branch that is at the top of the repository.
-    Always work on a branch, do not commit anything directly to `master` or `main`.</dd>
+    <dd>The <em>master</em> or <em>main</em> branch is a special branch that is at the top of the repository.
+    Always work on a branch, do not commit anything directly to <em>master</em> or <em>main</em>.</dd>
     <dt>Upstream repository</dt>
     <dd>The repository that you want to make changes to.</dd>
     <dt>Pull Request</dt>
