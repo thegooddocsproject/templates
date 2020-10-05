@@ -10,7 +10,7 @@ Anyone can come and make use of those resources, download the templates, and cre
 If you have a great idea for improving any of the resources, we would love for you to share them!
 This guide is to help you get started contributing to the Good Docs Project, whether you intend to contribute a whole new template to the collection, or fix a typo.
 
-## Getting Familiar with the project repositories
+## Getting Familiar with the project repositories
 
 All the source code for the Good Docs Project live in github, including the code for the website, example project, community governance, and the templates themselves.
 Browse the code by navigating to [https://github.com/thegooddocsproject/] in your browser.
@@ -18,13 +18,13 @@ Browse the code by navigating to [https://github.com/thegooddocsproject/] in you
 The Good Docs Project has a lot of repositories within it, and they all serve an individual purpose.
 To contribute to the templates, there are two main repositories that you will need to work with, the `templates` repo, and the `incubator` repo.
 
-### The `templates` repository
+### The `templates` repository
 
 This is the main repository in the project, because it contains the templates, and their companion guidance documents.
 If you want to make a small change to an existing template, such as updating some wording, or fixing a typo, you can propose a change directly within this repository.
 Instructions on how to do that are later on in this guide.
 
-### The `incubator` repository
+### The `incubator` repository
 
 The `incubator` repository is where we work on bigger projects, including new templates, before they are ready to go into the `templates` repository.
 If you want to contribute a new template, or a larger piece of work for any other repository, this is the place to start.
@@ -264,7 +264,7 @@ This guide has covered only the more technical aspects of contributing the Good 
 It is also important that you have a good understanding of how to be a good community citizen.
 Make sure you head over to [https://thegooddocsproject.dev/community.html](The Good Docs Project Community) to understand the expectations and responsibilities of our community.
 
-## Glossary
+## Glossary
 
 <!--Keep this in alphabetic order-->
 
