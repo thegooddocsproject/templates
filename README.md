@@ -4,20 +4,32 @@ This repository contains best-practice templates to help build documentation for
 
 Here we provide tips for using these templates.
 
+
 ## Core documentation types
 
-The templates are categorised in line with standard [DITA](http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/archSpec/technicalContent/dita-technicalContent-InformationTypes.html#dita_technicalContent_InformationTypes) documentation types:
+The templates are categorized into three documentation types:
 
-**Concept**: Describes how and why things work.
-Concepts are normally written to help the reader understand a technology, prior to using it.
+**Concept**:
+Describes how and why something works.
+Concepts answer the question "what is it?".
+When readers read concepts, they are learning about a topic.
+Use concepts to help the reader understand a technology, before they start using it.
 
-**Task**: Gives specific instructions about how to get something done.
-In practice, Tasks tend to have a specific goal and usually consist of a set of numbered steps that the reader can follow to achieve the goal.
+**Task**:
+Gives specific instructions about how to get something done.
+Tasks answer the question "how do I do it?".
+When readers read tasks, they are doing something.
+Tasks tend to have a specific goal and consist of a set of numbered steps that the reader can follow to achieve that goal.
 
-**Reference**: Contains structured information or specifications that users need to make a product work.
+**Reference**:
+Contains structured information or specifications that users need to make a product work.
+Reference material answers the question "what else do I need to know?"
+When readers read references, they are fact-checking.
 Reference sections should comprehensively catalog data such as functions and their parameters, return codes and error messages.
+They are often presented as tables, bulleted lists, or sample scripts.
 
 Our templates follow these documentation types, and you should find that your information naturally fits into them as you write.
+
 
 ## How to use these templates
 
@@ -25,11 +37,12 @@ We like to compare documentation types to aisles in a grocery store.
 Each aisle includes related templates, which you can think of as ingredients.
 Use these ingredients in documentation cookbooks to whip up docs for your readers.
 
-When writing your documentation, it helps to think about the following:
+When writing your documentation, it helps to think about:
 
 * Who are you writing for?
-* What will they be trying to accomplish when they read the documentation?
-* The information type. Is it a concept, a task or reference?
+* What will they be trying to do when they read the documentation?
+* What information are you providing? Is it a concept, a task, or reference?
+
 
 ## The templates
 
