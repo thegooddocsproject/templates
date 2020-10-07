@@ -1,7 +1,9 @@
-# Contributors' Guide
+# Base Template Contributors' Guide
 
-## Welcome to Base Template Project
+## Welcome to Base Template project
 
+## How to contribute
+{This section will cover how Base Template users can contribute to continuous improvements to the template.}
 
 ## Welcome to The Good Docs Project
 
