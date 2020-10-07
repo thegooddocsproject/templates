@@ -11,7 +11,7 @@ Follow these writing guidelines when developing content using the templates avai
   * Tools like `Vale` help you identify style issues. ([This article](https://hackernoon.com/lint-lint-and-away-linters-for-the-english-language-70f4b22cc73c) includes a list of other linter tools.)
 * Avoid colloquialisms and jargon because it makes it harder for a non-native English speaker to understand your words.
 * Avoid including acronyms in your documentation without writing the spelled-out form on the first use. You can use the acronym for subsequent references.
-* Avoid adding your own opinions, or the opinions of others. Doing this clouds a reader's ability to draw conclusions about the discussion.
+* Avoid adding your own opinions, or the opinions of others. Doing this clouds a reader's ability to draw conclusions from the documentation.
 
 ## Writing procedural steps
 
@@ -31,7 +31,7 @@ Here are some recommendations you can use when creating procedural steps:
   * Use the outline to gather your thoughts about the main topics you need to tell your readers.
   * It's a lot easier to move things around with headings than to move blocks of content.
 * You may also find that you need to create two articles if the subject starts to branch.
-* Add any links you mention in the body of your discussion topic into the "See also" section. The inline links may get lost in long articles, and scanning for links adds to your audience's cognitive load.
+* Add any links you mention in the body of your content into the "See also" section. The inline links may get lost in long articles, and scanning for links adds to your audience's cognitive load.
 
 ## Titles and filenames
 
