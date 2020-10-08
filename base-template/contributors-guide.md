@@ -1,9 +1,10 @@
-# Base Template Contributors' Guide
+# Contributors' Guide
 
-## Welcome to Base Template project
+This guide covers how to get started with contributing to the Good Docs Project, including working with the project's code repository, and making your first pull request.
+It does not cover how the project handles governance issues such as decision making and community roles and responsibilities.
+For information about project governance, see [https://thegooddocsproject.dev/community.html](The Good Docs Project Community).
 
-## How to contribute
-{This section will cover how Base Template users can contribute to continuous improvements to the template.}
+## Welcome to The Good Docs Project
 
 ## Welcome to The Good Docs Project
 
