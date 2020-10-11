@@ -89,6 +89,8 @@ config.footer.left: "▰▱▱▱▱▱ 18%"
 
 Hi {userName}! I'm so glad you decided to join me!
 
+{embed image: 'images/hello_peeps.svg', alt: 'A smiling person with their arms in the air, and text reading "Hello my dear peeps".'}
+
 ## What are you writing about?
 The first thing we need to do is think about what you're writing about.
 
@@ -273,6 +275,8 @@ And now that they've managed to complete {reader1action2} what is the next thing
 
 {text input for: 'reader1action3'}
 
+{embed image: 'images/dog.svg', alt: 'A happy red and orange dog sitting up.'}
+
 Great! Now you have the three main things that a reader like {readerName1} might want to do, [[go back->Why do they read the docs?]] and do the same for {readerName2} and {readerName3}.
 Or, if you're done, move on to [[Writing for your readers->Writing for your readers]]
 
@@ -297,6 +301,8 @@ What would be the second thing that they would want to do?
 And now that they've managed to complete {reader2action2} what is the next thing?
 
 {text input for: 'reader2action3'}
+
+{embed image: 'images/platypus.svg', alt: 'A happy platypus with brown fur and yellow bill and feet.'}
 
 Great! Now you have the three main things that a reader like {readerName2} might want to do, [[go back->Why do they read the docs?]] and do the same for {readerName3} and {readerName1}.
 Or, if you're done, move on to [[Writing for your readers->Writing for your readers]]
@@ -323,48 +329,50 @@ And now that they've managed to complete {reader3action2} what is the next thing
 
 {text input for: 'reader3action3'}
 
+{embed image: 'images/unirat.svg', alt: 'A brown rat with white wings and a colourful unicorn horn.'}
+
 Great! Now you have the three main things that a reader like {readerName3} might want to do, [[go back->Why do they read the docs?]] and do the same for {readerName2} and {readerName1}.
 Or, if you're done, move on to [[Writing for your readers->Writing for your readers]]
 
 
 :: Writing for your readers
 
-critpath1: 0
-critpath2: 0
-critpath3: 0
-critpath4: 0
-critpath5: 0
-critpath6: 0
-critpath7: 0
-critpath8: 0
-critpath9: 0
-critpath10: 0
-critpath11: 0
-critpath12: 0
-critpath13: 0
-critpath14: 0
-critpath15: 0
-critpath16: 0
-critpath17: 0
-critpath18: 0
-critpath19: 0
-critpath20: 0
-critpath21: 0
-critpath22: 0
-critpath23: 0
-critpath24: 0
-critpath25: 0
-critpath26: 0
-critpath27: 0
-reader1action1critscore: critpath1 + critpath2 + critpath3
-reader1action2critscore: critpath4 + critpath5 + critpath6
-reader1action3critscore: critpath7 + critpath8 + critpath9
-reader2action1critscore: critpath10 + critpath11 + critpath12
-reader2action2critscore: critpath13 + critpath14 + critpath15
-reader2action3critscore: critpath16 + critpath17 + critpath18
-reader3action1critscore: critpath19 + critpath20 + critpath21
-reader3action2critscore: critpath22 + critpath23 + critpath24
-reader3action3critscore: critpath25 + critpath26 + critpath27
+critpath1: ''
+critpath2: ''
+critpath3: ''
+critpath4: ''
+critpath5: ''
+critpath6: ''
+critpath7: ''
+critpath8: ''
+critpath9: ''
+critpath10: ''
+critpath11: ''
+critpath12: ''
+critpath13: ''
+critpath14: ''
+critpath15: ''
+critpath16: ''
+critpath17: ''
+critpath18: ''
+critpath19: ''
+critpath20: ''
+critpath21: ''
+critpath22: ''
+critpath23: ''
+critpath24: ''
+critpath25: ''
+critpath26: ''
+critpath27: ''
+critscore1: ''
+critscore2: ''
+critscore3: ''
+critscore4: ''
+critscore5: ''
+critscore6: ''
+critscore7: ''
+critscore8: ''
+critscore9: ''
 config.footer.left: "▰▰▰▰▰▰▱▱▱▱ 60%	"
 --
 
@@ -381,66 +389,66 @@ Now that you've had a think about who your readers are, and the kinds of things 
     </tr>
     <tr>
         <td>{reader1action1}</td>
-        <td>{text input for: 'critpath1'}</td>
-        <td>{text input for: 'critpath2'}</td>
-        <td>{text input for: 'critpath3'}</td>
-        <td>{reader1action1critscore}</td>
+        <td>{dropdown menu for: 'critpath1', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath2', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath3', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critscore1', choices: ['', '3 (Very low)', '4 (Low)', '5 (Medium)', '6 (Moderate)', '7 (High)', '8 (Very High)', '9 (Super High)']}</td>
     </tr>
     <tr>
         <td>{reader1action2}</td>
-        <td>{text input for: 'critpath4'}</td>
-        <td>{text input for: 'critpath5'}</td>
-        <td>{text input for: 'critpath6'}</td>
-        <td>{reader1action2critscore}</td>
+        <td>{dropdown menu for: 'critpath4', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath5', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath6', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critscore2', choices: ['', '3 (Very low)', '4 (Low)', '5 (Medium)', '6 (Moderate)', '7 (High)', '8 (Very High)', '9 (Super High)']}</td>
     </tr>
     <tr>
         <td>{reader1action3}</td>
-        <td>{text input for: 'critpath7'}</td>
-        <td>{text input for: 'critpath8'}</td>
-        <td>{text input for: 'critpath9'}</td>
-        <td>{reader1action3critscore}</td>
+        <td>{dropdown menu for: 'critpath7', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath8', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath9', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critscore3', choices: ['', '3 (Very low)', '4 (Low)', '5 (Medium)', '6 (Moderate)', '7 (High)', '8 (Very High)', '9 (Super High)']}</td>
     </tr>
     <tr>
         <td>{reader2action1}</td>
-        <td>{text input for: 'critpath10'}</td>
-        <td>{text input for: 'critpath11'}</td>
-        <td>{text input for: 'critpath12'}</td>
-        <td>{reader2action1critscore}</td>
+        <td>{dropdown menu for: 'critpath10', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath11', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath12', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critscore4', choices: ['', '3 (Very low)', '4 (Low)', '5 (Medium)', '6 (Moderate)', '7 (High)', '8 (Very High)', '9 (Super High)']}</td>
     </tr>
     <tr>
         <td>{reader2action2}</td>
-        <td>{text input for: 'critpath13'}</td>
-        <td>{text input for: 'critpath14'}</td>
-        <td>{text input for: 'critpath15'}</td>
-        <td>{reader2action2critscore}</td>
+        <td>{dropdown menu for: 'critpath13', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath14', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath15', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critscore5', choices: ['', '3 (Very low)', '4 (Low)', '5 (Medium)', '6 (Moderate)', '7 (High)', '8 (Very High)', '9 (Super High)']}</td>
     </tr>
     <tr>
         <td>{reader2action3}</td>
-        <td>{text input for: 'critpath16'}</td>
-        <td>{text input for: 'critpath17'}</td>
-        <td>{text input for: 'critpath18'}</td>
-        <td>{reader2action3critscore}</td>
+        <td>{dropdown menu for: 'critpath16', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath17', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath18', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critscore6', choices: ['', '3 (Very low)', '4 (Low)', '5 (Medium)', '6 (Moderate)', '7 (High)', '8 (Very High)', '9 (Super High)']}</td>
     </tr>
     <tr>
         <td>{reader3action1}</td>
-        <td>{text input for: 'critpath19'}</td>
-        <td>{text input for: 'critpath20'}</td>
-        <td>{text input for: 'critpath21'}</td>
-        <td>{reader3action1critscore}</td>
+        <td>{dropdown menu for: 'critpath19', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath20', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath21', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critscore7', choices: ['', '3 (Very low)', '4 (Low)', '5 (Medium)', '6 (Moderate)', '7 (High)', '8 (Very High)', '9 (Super High)']}</td>
     </tr>
     <tr>
         <td>{reader3action2}</td>
-        <td>{text input for: 'critpath22'}</td>
-        <td>{text input for: 'critpath23'}</td>
-        <td>{text input for: 'critpath24'}</td>
-        <td>{reader3action2critscore}</td>
+        <td>{dropdown menu for: 'critpath22', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath23', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath24', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critscore8', choices: ['', '3 (Very low)', '4 (Low)', '5 (Medium)', '6 (Moderate)', '7 (High)', '8 (Very High)', '9 (Super High)']}</td>
     </tr>
     <tr>
         <td>{reader3action3}</td>
-        <td>{text input for: 'critpath25'}</td>
-        <td>{text input for: 'critpath26'}</td>
-        <td>{text input for: 'critpath27'}</td>
-        <td>{reader3action3critscore}</td>
+        <td>{dropdown menu for: 'critpath25', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath26', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critpath27', choices: ['', '1 (Low)', '2 (Medium)', '3 (High)']}</td>
+        <td>{dropdown menu for: 'critscore9', choices: ['', '3 (Very low)', '4 (Low)', '5 (Medium)', '6 (Moderate)', '7 (High)', '8 (Very High)', '9 (Super High)']}</td>
     </tr>
 </table>
 
