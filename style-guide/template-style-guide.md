@@ -123,9 +123,9 @@ The following table describes the history of all decisions and revisions made to
 this style guide over time. This guide uses the Major.Minor.Patch
 [semantic versioning](https://semver.org/) convention.
 
-Edition  |  Date      |  Lead Author(s)    |  Link to Repository Commit/Tag
--------  |  ----      |  --------------    |  -----------------------------
-{0.1}    |  {1/1/11}  |  {Your name here}  |  First draft of Style Guide
+Edition  |  Date          |  Lead Author(s)    |  Link to Repository Commit/Tag
+-------  |  ----          |  --------------    |  -----------------------------
+{0.1}    |  {YYYY-MM-DD}  |  {Your name here}  |  First draft of Style Guide
 
 
 ## Decision log
@@ -136,6 +136,6 @@ needed.}
 The following table describes the history of all decisions made to this style
 guide over time:
 
-Ref  |  Date     |  Description                               |  Agreed to by
----  |  ----     |  -----------                               |  ------------
-1    | {1/1/11}  |  {Explain the decision that was made here} |  {Name or role}
+Ref  |  Date         |  Description                               |  Agreed to by
+---  |  ----         |  -----------                               |  ------------
+1    | {YYYY-MM-DD}  |  {Explain the decision that was made here} |  {Name or role}
