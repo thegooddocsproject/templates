@@ -1,59 +1,40 @@
 # The reference article
 
-## When do I need a reference article?
-
 Reference articles provide information-oriented descriptions of specific technology parts.
-
-The purpose of reference articles is to tell the facts about the technology as consistently and accurately as possible, without mixing procedural or instructional content.
+The purpose of reference articles is to describe the topic as consistently and accurately as possible, without mixing procedural or instructional content.
 
 Reference articles work well when they are:
 
-* consistent in structure, language and tone
-* contain descriptive information that is relevant to the reference topic's overview only
-* focus on information accuracy and the facts only.
+* Consistent in structure, language, and tone
+* Contain descriptive information that is relevant to the reference topic's overview
+* Focus on information accuracy and the facts
 
 ## Content of your reference article
 
-### About the "Overview" section
+### The Overview section
 
-Summarise what the reader will get from reading the reference article.
+Summarize what the reader will achieve by reading the explanation article.
 
-Creating a good overview comes down to thinking about who is going to be using it:
+* Are you writing for developers or for managers?
+* Are you writing for people who have a certain problem to solve?
+* Are you writing for a particular industry or market segment?
 
-* Are you writing only for end-users? For developers?
-* Are you writing only for people who have a certain problem to solve?
-* Is it intended for a particular industry.
+Your overview should be descriptive of the subject you want to cover, so your audience can identify what the reference article is about.
 
-Your overview should be descriptive of the subject you want to cover, so your audience can quickly identify what the reference article is about.
+### The Body section
 
-### About the "Body" section
+The structure of reference articles vary based on the factual information you are documenting.
+In most cases, reference information is easiest to express as a table.
 
-There is no specific structure to use in reference articles because the structure will vary based on the type of factual information you are documenting.
+Use the "don't repeat yourself" (DRY) method and re-use content if it's written for the same audience, and tt fits within your reference document without modification.
 
-For example, the example included in the more specific `api-reference` template type in this repository describes how you would structure an API endpoint.
-This reference structure is prescriptive, but only relevant for this documentation type.
-
-In most cases, your content will take on a tabular format of some type.
-It is often easier to present reference style information in a table.
-
-Here are some overall suggestions about how you can structure your reference articles.
-
-#### Structure suggestions
-
-Follow these suggestions when structuring and writing your reference topics.
-
-* Employ Don't Repeat Yourself (DRY) methods when writing reference documentation.
-** Re-use content using the [Asciidoctor User Manual](https://asciidoctor.org/docs/user-manual/#include-directive[Asciidoctor%20Include%20Directive]) if:
-** The content is written for the same audience.
-** The content fits in with your reference document without modification.
-* If you are referring to a screen in a UI:
-** Use a Reference table explaining the fields and their meanings.
-** Use call-outs in screenshots to help your audience find the field in the reference table.
+If you need to refer to a screen in a UI, use a table to explain the fields and their meanings. Include screenshots, and use call-outs to help your audience find the field in the table.
 
 ### Code-generated documentation
 
-Reference articles can often be replaced by _thoroughly-written_ auto-doc output from your code.
-This is particularly the case with content such as API reference docs and package descriptions that are documented in code doc-blocks or are produced with tools such as the Open API toolchain.
+Reference articles can be automatically generated from your source code.
+Ensure code-generated documentation is thoroughly written.
+This is important for API reference docs and package descriptions documented in code doc-blocks or produced with tools such as the Open API tool chain.
 
 If you need to provide more narrative style content to complement your API reference endpoints, see the `api-` template types in this repository.
 
