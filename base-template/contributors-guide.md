@@ -49,6 +49,7 @@ Your operating system will provide a simple text editor by default:
 | Linux - KDE      | KWrite   |
 
 Once you've gotten started with a basic editor, you'll have a better idea of what features you want in a more advanced editor.
+Some popular free text editors are [Atom](https://atom.io/) and [Visual Studio Code](https://code.visualstudio.com/).
 
 ### Working with git
 
@@ -116,6 +117,8 @@ This is important so that you can keep your local fork updated.
    origin  https://github.com/<your_username>/incubator.git (fetch)
    origin  https://github.com/<your_username>/incubator.git (push)
    ```
+
+   The `origin` remotes are your own fork, and you can do whatever you want here without changing the upstream repository.
 
 1. Add the incubator repo as an upstream:
 
@@ -191,7 +194,13 @@ This makes it easier for you to track your own work, and also for reviewers look
 #### Creating a pull request (PR)
 
 1. Save your changes in your text editor.
-1. In your terminal, add the changes to your commit:
+1. In your terminal, add the file that contains your changes to your commit:
+
+   ```bash
+   > git add README.md
+   ```
+
+   If you have changes in a number of files, and you want to add all of them, you can use this command instead:
 
    ```bash
    > git add .
@@ -207,7 +216,7 @@ This makes it easier for you to track your own work, and also for reviewers look
 1. Push the changes to your fork:
 
    ```bash
-   git push
+   git push origin
    ```
 
 1. In your browser, go to your fork on github.
