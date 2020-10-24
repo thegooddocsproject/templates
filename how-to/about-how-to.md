@@ -5,6 +5,7 @@ They explain in detail how to do a specific task.
 Don't use How To articles to teach concepts, but to prescribe a set of sequential steps readers must do to be able to use a feature.
 
 How To articles are often confused with tutorials. How To articles are problem-oriented, while tutorials are learning-oriented.
+How To articles answer the question "how do I do it?".
 
 Readers that have experience with the product and need a specific question answered use How To articles.
 New users who want to solve a problem instantly can also benefit, provided they are well-written and state any prerequisite knowledge required to complete the task.
@@ -18,6 +19,9 @@ Summarize what the reader will achieve by reading the explanation article.
 * Are you writing for developers or for managers?
 * Are you writing for people who have a certain problem to solve?
 * Are you writing for a particular industry or market segment?
+
+Readers should already have read a concept about the topic in an About article.
+Ensure you link to the relevant About article in the overview.
 
 ### The Before you start section
 
