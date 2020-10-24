@@ -2,7 +2,7 @@
 
 = Explanation template
 // Article variables (delete the comments and add in the values)
-:description: Summarise what this explanation is about. What you put here is reused in the Overview section and included in HTML description tags.
+:description: Summarize what this explanation is about. What you put here is reused in the Overview section and included in HTML description tags.
 :keywords: // These are like labels Examples: {app}, explanation
 
 == Overview
@@ -11,7 +11,7 @@
 
 [glossary]
 == Glossary
-The following terms are used throughout this article.
+These terms are used throughout this article:
 ////
 Specify any definitions you need your audience to be aware of up-front.
 Remember: You may know what a term means, but your audience may not.
@@ -27,6 +27,6 @@ term2::
 
 ////
 Begin your explanation topic in this section. 
-For help with writing and structuring an explanation article, see the README.adoc in the template directory for basic guidelines and links.
+For help with writing and structuring an explanation article, see the README.md in the template directory for basic guidelines and links.
 Check out https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/ if you get stuck with AsciiDoc syntax.
 ////
