@@ -5,7 +5,6 @@ They explain in detail how to do a specific task.
 Don't use How To articles to teach concepts, but to prescribe a set of sequential steps readers must do to be able to use a feature.
 
 How To articles are often confused with tutorials. How To articles are problem-oriented, while tutorials are learning-oriented.
-How To articles answer the question "how do I do it?".
 
 Readers that have experience with the product and need a specific question answered use How To articles.
 New users who want to solve a problem instantly can also benefit, provided they are well-written and state any prerequisite knowledge required to complete the task.
