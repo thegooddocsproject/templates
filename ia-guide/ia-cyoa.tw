@@ -23,29 +23,25 @@ config.footer.left: "▰▱▱▱▱▱▱▱▱▱ 6%"
 --
 
 Let's go on an adventure into another world.
-This world is not entirely different to your own, but it might have some unexpected treasures - and pitfalls - for you to find.
+This world is not entirely different to our own, but it might have some unexpected treasures - and pitfalls - to find.
 It's an adventure into the mind of your reader.
-They live in your world, but they don't always think like you.
+They live in our world, but they don't always think like we do.
 And learning to think like a reader can be tricky!
 
 {embed image: 'images/reader_world.svg', alt: 'A blue and green globe sitting on top of a book with a red cover'}
 
 Have you ever been really good at something, and tried to show someone else how to do it?
-It can be frustrating, because they just don't seem to get it, even though it seems easy and straight forward to you.
-The technical name for this is the Curse of Knowledge, and it's what makes writing documentation hard.
-Science tells us that the more you know about something, the less able you are to imagine what it's like not to know it.
+It's frustrating when they just don't seem to get it, even though it seems easy to you.
+Science tells us that the more you know about a topic, the less you are able to imagine what it's like to not know it.
+The technical name for this is the Curse of Knowledge, and it can make writing documentation hard.
 
 Writers combat the Curse of Knowledge by putting themselves in the shoes of the reader.
-And while this guide probably won't teach you to be a professional technical writer, it will definitely help you think about your reader, so that you can write better documentation.
-It's a bit like having a writer in your pocket, giving you some hints and tips before you set out to start writing.
+And while this guide won't teach you to be a professional technical writer, it will definitely help you think about your reader, so that you can write better documentation.
 
 This guide is interactive, just click the option you like the most to move on.
-It isn't a test!
-You can't fail!
 Just follow the prompts, and let us guide you into ...
 
 the world of the reader ...
-
 
 
 **[[Continue->Before you begin]]**
@@ -64,17 +60,16 @@ When you're excited about a new project, it's super-tempting to just start writi
 **DON'T DO THIS!**
 
 This guide is designed to get you thinking about your readers in such a way that you'll end up knowing what docs you need to write.
-It won't take very long for you to get through this guide, and it will save you time in the long run.
+It won't take very long for you to get through it, and it will save you time in the long run.
 
 {embed image: 'images/stuck.svg', alt: 'A smiling person wearing a blue outfit is in a very big hole, with the words "i am stuck" in red'}
 
-By the end, you should have a good idea of who your main readers are, the kinds of things they are using your docs for, and what kinds of docs they might be expecting.
+When you're done, you should have a good idea of who your main readers are, the kinds of things they are using your docs for, and what kinds of docs they might be expecting.
 This will help you know which templates to use from the Good Docs Project, and give you the basics to start completing them.
 
-If you don't want to do this using the interactive tool, you can [[don't click here the link does not exist yet]] to go to the static text.
-Just have a piece of paper handy to write down the answers to the questions as you go.
+If you don't want to do this using the interactive tool, you can [[don't click here the link does not exist yet]] to go to the static text instead.
 
-Or, tell me your name:
+When you're ready, tell me your name:
 
 {text input for: 'userName'}
 
@@ -92,13 +87,13 @@ Hi {userName}! I'm so glad you decided to join me!
 {embed image: 'images/hello_peeps.svg', alt: 'A smiling person with their arms in the air, and text reading "Hello my dear peeps".'}
 
 ## What are you writing about?
-The first thing we need to do is think about what you're writing about.
+The first thing to do is think about what you're writing about.
 
 Are you writing about something pretty simple, that people can use without having any experience? Like a toaster?
 
 Or are you writing about something a bit complicated, that people can start to use only after they've done a bit of reading, and might need to ask some questions as they go along? More like a car?
 
-Or are you writing about something really tricky? Something that needs people to have a training course, a whole lot of background knowledge, and possibly a friend to help them the whole way? Like a nuclear reactor?
+Or are you writing about something really tricky? Something that requires training, a whole lot of background knowledge, and possibly a friend to help them the whole way? Like a nuclear reactor?
 
 > [[Toaster->Writing about a toaster]]
 > [[Car->Writing about a car]]
@@ -112,9 +107,10 @@ config.footer.left: "▰▰▱▱▱▱▱▱ 25%"
 --
 
 ## Writing about a toaster
-Because the thing you are writing about is pretty simple and straightforward, you're probably thinking you don't need to spend much time writing docs.
-Just because you might not need a lot of docs, you will still need something, though.
-And working out what you need could be even more difficult, because you're going to need to think a little bit harder about who you're writing for.
+Because the thing you are writing about is pretty simple and straightforward, you might think that you don't need much documentation.
+
+Just because you might not need a lot of docs, you will still need something, and working that out could be tricky.
+You're going to need to think a little bit harder about who you're writing for.
 
 {embed image: 'images/tooster.svg', alt: 'A silver toaster marked "Super Tooster" with a red discount star, and a sign saying "wowzars!!!"'}
 
@@ -136,9 +132,8 @@ config.footer.left: "▰▰▱▱▱▱▱▱ 25%"
 --
 
 ## Writing about a car
-You lucky thing!
 There is a pretty good chance that you needed to learn how to do this thing yourself, and hopefully it wasn't all that long ago, and you can fairly easily cast your mind back to those days when you didn't know what this thing was, or how it worked.
-And if you didn't have to do this yourself, hopefully there is someone nearby who has, so go ask them questions!
+And hopefully there is also someone nearby who has had to learn as well, so go ask them questions!
 
 {embed image: 'images/car.svg', alt: 'A cheering person in a green outfit driving a red and white striped sports car, with the caption "big red car"'}
 
@@ -162,10 +157,9 @@ config.footer.left: "▰▰▱▱▱▱▱▱ 25%"
 ## Writing about a nuclear reactor
 The first thing to work out if you are writing about a nuclear reactor is what reasonable assumptions can you make?
 There's a fair chance that you can assume at least some kind of prior knowledge: a degree, some relevant experience, or perhaps using some other related tools or software.
-When you have made these assumptions, write them down!
-Put them right up front in your docs, so your readers can go away and learn something else first if they need to.
-And be prepared to be challenged: you might discover in time that your assumptions are incorrect, and if that happens, you'll need to revisit your docs, too.
 
+Put these things right up front in your docs, so your readers can go away and learn something else first if they need to.
+And be prepared to be challenged: you might discover in time that your assumptions are incorrect, and if that happens, you'll need to revisit your docs, too.
 
 **Curse of Knowledge alert!!**
 Try to remember that not everyone knows the same stuff, or learns in the same way.
@@ -189,16 +183,16 @@ config.footer.left: "▰▰▰▱▱▱▱▱▱▱ 30%"
 --
 
 ## Who are you writing for?
-Now that we've thought what you're writing about, let's consider who you're writing for.
-It would be easy to think of just one person that you're writing for, but we need to remember that people come in all shapes and sizes.
-So let's think up three different people, to try and make sure we're covering all the options.
+Now that you know what you're writing about, consider who you're writing for.
+Remember that people come in all shapes and sizes, so let's think up three different people, to try and make sure we're covering all the options.
 
 {embed image: 'images/wave.svg', alt: 'A winking smiling person wearing a purple shirt and pants, with pastel coloured hair, waving'}
 
 The way you categorize your three readers is up to you, but sometimes the best way to start is by thinking of a beginner, an intermediate reader, and an expert.
 Or, depending on the kind of product you have, you might think of an ordinary user, a system administrator, and a support person.
 
-Whichever you decide, your three readers should probably be interested in different parts of your product, they will be trying to do different tasks, and they will need different levels of help from your docs.
+Your three readers should probably be interested in different parts of your product.
+They will be trying to do different tasks, and they will need different levels of help from your docs.
 Don't be afraid to let them overlap a little bit, but try and make sure you've covered most of the options.
 
 To get started with understanding your readers, you should probably give them names.
@@ -223,23 +217,18 @@ Let's take a closer look at our readers, and work out [[Why do they read the doc
 config.footer.left: "▰▰▰▱▱▱▱▱▱ 36%"
 --
 
-I'm going to tell you a secret.
+I'm going to tell you a secret:
 
-People don't read the docs because they're a great read.
+No one curls up at night with a warm drink and a great technical manual.
 
-I know it's shocking, but literally no one is curling up at night with a warm drink and a great technical manual.
-
-## Why do they read the docs?
 If that's the case, why *do* people read docs?
 Generally speaking, it's because they want to achieve something.
-There's an anecdote that people don't go to the hardware store to buy a drill because they want a drill.
-You buy a drill because you need a hole.
-Your job as a writer is to work out why they need a hole, and give them the information they need to work out what tools to use to achieve it.
 
 To put that in less abstract terms, you need to work out what problem your reader is trying to solve.
-If Dusty needs to hang a picture, they might want to consult some documentation about the various ways they can go about that.
+If Dusty wants to put their degree up on the wall, they might want to consult some documentation about how to do it.
 The documentation Dusty needs to do this would probably not be called "How to Choose a Drill".
 The documentation Dusty needs is "How to Hang a Picture".
+
 This is an important distinction, because if you get it wrong, your readers won't know if the content is right for them or, worse, they won't find your content at all.
 
 So let's think about what our readers are trying to achieve.
@@ -377,7 +366,7 @@ config.footer.left: "▰▰▰▰▰▰▱▱▱▱ 60%	"
 --
 
 ## Writing for your readers
-Now that you've had a think about who your readers are, and the kinds of things they might be using your documentation for, you can display them in a table like this:
+Now that you know who your readers are, and the kinds of things they might be using your documentation for, you can display them in a table like this:
 
 <table>
     <tr>
@@ -452,14 +441,14 @@ Now that you've had a think about who your readers are, and the kinds of things 
     </tr>
 </table>
 
-Now you just need to fill in the blank spaces!
+Now you just need to fill in the blank spaces.
 Consider how likely the reader is to use the documentation to complete each task.
 Score a **1** for a low likelihood, **2** for a medium likelihood, and **3** for a high likelihood.
 
 **Curse of Knowledge alert!!**
 Remember that this isn't how likely the reader is to do the task.
 It's how likely the reader is to *use the documentation* to do the task.
-A really experienced reader is not likely to need to the documentation for basic tasks like installation or setup, but they might need it for more advanced tasks.
+A really experienced reader is not likely to need to the documentation for tasks like installation or setup, but they might need it for more advanced tasks.
 
 When you have the numbers in, add up each row.
 The rows that score the highest are what writers like to call *critical paths*.
@@ -484,7 +473,7 @@ config.footer.left: "▰▰▰▰▰▱▱▱ 66%"
 ## Identify the mess
 It's time to turn our attention to what you already have.
 If you have already made a start on the docs, that's great!
-But even if you think you're starting writing from scratch, there's a reasonable chance you actually already have something.
+But even if you think you're starting from scratch, there's a reasonable chance you actually already have something.
 
 Have a think about it:
 
@@ -495,17 +484,18 @@ Have a think about it:
 * Have you put a README in your code repository?
     That's also documentation!
 * Have you given any talks or presentations about your project?
-    Even if there isn't a recording, any notes or slides you made for that is documentation too!
+    Even if there isn't a recording, any notes or slides you made is documentation too!
 
 Get all of these things together and look at them with your critical paths in mind.
 Do you have content here that fits all those critical paths?
+
 You will probably start to notice the gaps pretty quickly.
 It could be that you have a whole lot of content that describes how to do it, but not a lot that explains what it is.
 Or, you could have a lot of stuff aimed at beginners, and not a lot that works for experts.
 Sometimes, you might find that you have a lot of descriptions of things, but not a lot of step-by-step instructions.
 
 ## What's missing?
-Take a note of those things that are missing, and make sure you pay attention to which critical path they address.
+Have a think about each of your critical paths, and identify what content you need to fulfil each one:
 
 * {reader1action1} - {critscore1}: {text input for: 'missingcontent1', required: false}
 * {reader1action2} - {critscore2}: {text input for: 'missingcontent2', required: false}
@@ -517,8 +507,8 @@ Take a note of those things that are missing, and make sure you pay attention to
 * {reader3action2} - {critscore8}: {text input for: 'missingcontent8', required: false}
 * {reader3action3} - {critscore9}: {text input for: 'missingcontent9', required: false}
 
-At this stage, it's normal to be feeling a little overwhelmed by how much there still is to do.
-So the very next step is to work out what we actually need, so we know we can cut some things from the list.
+At this stage, it's normal to be feeling a little overwhelmed.
+Now you can work out what you actually need, so you can cut some things from the list.
 To do this, you need to [[State your intent->State your intent]]
 
 {back link, label: 'Or go back a step'}
@@ -529,15 +519,14 @@ config.footer.left: "▰▰▰▰▰▰▰▱▱▱ 71%"
 --
 
 ## State your intent
-
 If you wanted to build a house, you wouldn't start laying bricks until you'd had a think about what kind of house you want to build.
 How big is it going to be?
 What materials are you going to use?
 What layout and design is it going to have?
 
-By the same token, you need to think about what you intend for your documentation.
+You also need to think about what you intend for your documentation.
 Is it going to be comprehensive and detailed, or simple and sparse?
-Is it going to use simple language, designed for people who have never done this before, or more technical  language, for people who know what they're doing and just need the basics?
+Is it going to use simple language, designed for people who have never done this before, or more technical language, for people who know what they're doing and just need the basics?
 Is it going to start from the very beginning, or are you going to assume that your readers already have some knowledge?
 
 When you've considered these things, and determined the kind of documentation you want to make sure your project has, you're just about ready to [[Face reality->Face reality]]
@@ -550,18 +539,14 @@ config.footer.left: "▰▰▰▰▰▰▰▱▱ 78%"
 --
 
 ## Face reality
-By now, you should have a good idea of what your ideal documentation would look like.
-It would be wonderful!
-A shining beacon of docs goodness, hitting all the critical paths for all your readers, and people will talk about it for years to come!
-
-And it's probably about now that reality is going to come and burst your bubble.
-How are you going to update and maintain your documentation?
+By now, you should have a good idea of what your ideal documentation looks like.
+It will be a shining beacon of docs goodness, hitting all the critical paths for all your readers, and people will talk about it for years to come!
 
 It's a grim reality that project documentation needs to be maintained.
 Have a think about how many writers your project might be able to access.
 Are you likely to have writers on the project over time?
-What skill  level are they likely to have?
-Is there any content that already exists elsewhere that you can point to, rather than writing yourself?
+What skill level are they likely to have?
+Is there any content that already exists elsewhere that you can point to, rather than writing it yourself?
 Is there any way you can automate any part of the documentation, such as using code comments to generate API documentation?
 
 Make sure you're not biting off more than you can chew, and [[Choose a direction->Choose a direction]]
@@ -576,11 +561,12 @@ config.footer.left: "▰▰▰▰▰▰▰▰▱▱ 83%"
 
 ## Choose a direction
 Now is when you really get to start making decisions.
-We've done a lot of thinking about readers, and the kinds of things they might want to do.
-We've also thought about the kind of content that you already have, and what might be missing.
-We've also faced reality and recognized that you might not be able to create perfect docs, but you can certainly improve what you already have.
+You've thought about your readers, and the kinds of things they might want to do.
+You've thought about the kind of content you already have, and what's missing.
+Then you faced reality and realized that you might not be able to create perfect docs, but you can certainly improve what you already have.
 
-So, which docs do you think you're going to need?
+So, which docs are you going to write?
+Delete anything from this list that doesn't make the cut.
 
 * {missingcontent1}
 * {missingcontent2}
@@ -617,7 +603,7 @@ Then you can split up docs work like this:
 * Reviewing and editing - 20%
 * Production - 10%
 
-So, if you want to write a How-To, and you have five months to do it, you can work out how much time to spend on each task like this:
+So, if you want to write a How To, and you have five months to do it, you can work out how much time to spend on each task like this:
 
 Three months = Around 100 working days, not counting weekends, and allowing for a few holidays.
 You can adjust this however you like, if you're only working on weekends, for example, or if you have other projects to work on as well.
@@ -627,7 +613,7 @@ You can adjust this however you like, if you're only working on weekends, for ex
 * Review & edit - 20 days (4 weeks)
 * Production - 10 days (2 weeks)
 
-There's just one more thing you need to do: [[Prepare to adjust->Prepare to adjust]]
+There's just one more thing to do: [[Prepare to adjust->Prepare to adjust]]
 
 {back link, label: 'Or go back a step'}
 
@@ -638,10 +624,8 @@ config.footer.left: "▰▰▰▰▰▰▰▰▰▱ 99%"
 
 ## Prepare to adjust
 
-Finally, the most important thing you need to do is to be flexible.
+The most important thing you need to do is to be flexible.
 Things don't always work out, and that's OK!
-
-Expect the unexpected.
 
 Perhaps you get a new job and end up with no time to work on things.
 If you've written down your plan, and spoken to others in your project about what you were going to do, others can pick up the work, and when you're able to, you can come back to it.
@@ -651,11 +635,11 @@ Go back to the critical paths, expand your scope, and hand that planning to them
 
 Or maybe things just don't work out, and the project ends up being abandoned entirely.
 That's sad, but it's OK.
-At least you've finished up with some valuable knowledge about creating docs, so you'll be even better for your next idea.
+At least you've finished up with some valuable knowledge, so you'll be even better for your next idea.
 
 So, are you ready to get started?
 
-Remember what content you're missing (you might want to take a note of these now!)
+Here's what you want to work on (take a note of these now!):
 
 * {missingcontent1}
 * {missingcontent2}
@@ -684,7 +668,7 @@ config.footer.left: "▰▰▰▰▰▰▰▰▰▰ 100%"
 This document was largely based on the brilliant book by Abby Covert called [[How to Make Sense of Any Mess->http://www.howtomakesenseofanymess.com/]].
 It's a quick read, and it doesn't just apply to technical documentation, you can use the principles in that book to help you organize anything at all.
 
-If you really want to delve into information architecture for technical documentation, the most important text you need is the O'Reilly book [[Information Architecture->https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/]].
+If you want to delve further into information architecture for technical documentation, the most important text you need is the O'Reilly book [[Information Architecture->https://www.oreilly.com/library/view/information-architecture-4th/9781491913529/]].
 It has everything you need to know, including answers to questions you didn't know you needed to ask.
 It has a polar bear on the cover.
 
@@ -694,5 +678,7 @@ It has a polar bear on the cover.
 
 You've reached the end of the interactive Information Architecture Guide.
 If you're ready to get started, go [[check out the templates->https://github.com/thegooddocsproject/templates/blob/master/README.md]]
+
+If you want to refer back to this guide later on, visit the [[static version->don't click here the link does not exist yet]]
 
 Or, if you want to go back and check something, you can {back link, label: 'go back a step'}, or {restart link, label: 'restart from the beginning'}.
