@@ -318,7 +318,7 @@ And now that they've managed to complete {reader3action2} what is the next thing
 
 {text input for: 'reader3action3'}
 
-{embed image: 'images/unirat.svg', alt: 'A brown rat with white wings and a colourful unicorn horn.'}
+{embed image: 'images/unirat.svg', alt: 'A brown rat with white wings and a colorful unicorn horn.'}
 
 Great! Now you have the three main things that a reader like {readerName3} might want to do, [[go back->Why do they read the docs?]] and do the same for {readerName2} and {readerName1}.
 Or, if you're done, move on to [[Writing for your readers->Writing for your readers]]
