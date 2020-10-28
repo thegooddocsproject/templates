@@ -1,4 +1,4 @@
-# Tutorial Articles
+# Tutorial articles
 
 Tutorials are learning-oriented lessons that guide you through a series of steps to complete a project.
 They are essential to give new users the feeling that they can quickly achieve something with the product or application.
