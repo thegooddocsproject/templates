@@ -32,7 +32,7 @@ If you need to refer to a screen in a UI, use a table to explain the fields and 
 
 ### Code-generated documentation
 
-Reference articles can be automatically generated from your source code.
+Reference documentation can often be auto-generated from source code and/or comments within the code. It is typically easier to keep auto-generated docs current, accurate and complete, as the documentation is maintained next to the code it describes.
 Ensure code-generated documentation is thoroughly written.
 This is important for API reference docs and package descriptions documented in code doc-blocks or produced with tools such as the Open API tool chain.
 
