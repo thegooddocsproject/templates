@@ -26,7 +26,7 @@ Your overview should be descriptive of the subject you want to cover, so your au
 The structure of reference articles vary based on the factual information you are documenting.
 In most cases, reference information is easiest to express as a table.
 
-Use the "don't repeat yourself" (DRY) method and re-use content if it's written for the same audience, and tt fits within your reference document without modification.
+Use the "don't repeat yourself" (DRY) method and re-use content if it's written for the same audience, and it fits within your reference document without modification.
 
 If you need to refer to a screen in a UI, use a table to explain the fields and their meanings. Include screenshots, and use call-outs to help your audience find the field in the table.
 
