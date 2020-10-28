@@ -40,7 +40,7 @@ Before you begin, make sure you meet these prerequisites:
 * Access to the Postman application.
 * A conceptual understanding about RESTful APIs. For more information, see http://example.com/restful_apis.
 * (Optional) A development environment (IDE) that displays API responses formatted for readability.
-* A list of favorites prepared, so that can manage them. For more information about favorites lists, see http://example.com/favorite_lists.
+* A list of favorites prepared, so you can manage them. For more information about favorites lists, see http://example.com/favorite_lists.
 
 ```
 
