@@ -2,7 +2,8 @@
 
 How To articles take the reader through a series of steps required to solve a specific problem.
 They explain in detail how to do a specific task.
-Don't use How To articles to teach concepts, but to prescribe a set of sequential steps readers must do to be able to use a feature.
+Use How To articles to prescribe a set of sequential steps readers must do to be able to use a feature.
+Don't use How To articles to teach concepts.
 
 How To articles are often confused with tutorials. How To articles are problem-oriented, while tutorials are learning-oriented.
 
