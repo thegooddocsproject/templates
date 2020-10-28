@@ -14,7 +14,7 @@ New users who want to solve a problem instantly can also benefit, provided the H
 
 ### The Overview section
 
-Summarize what the reader will achieve by reading the explanation article.
+Summarize what the reader will achieve by reading the explanation article:
 
 * Are you writing for developers or for managers?
 * Are you writing for people who have a certain problem to solve?
