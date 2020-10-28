@@ -27,7 +27,7 @@ Declaring them here lets you use any abbreviated forms of the terminology you're
 
 ### Structuring explanation articles
 
-Think about structuring explanation topics like you would a presentation to a group who don't know anything about your chosen subject.
+Think about structuring explanation topics like you would for a presentation to a group who don't know anything about your chosen subject.
 Your explanation should introduce ideas gradually, so your audience can grow their understanding of the concepts it covers.
 
 It can be easy to blend explanations with other types of content, like How To or Reference articles.
