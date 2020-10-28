@@ -1,70 +1,71 @@
-# The overview
-
-## When do I need a tutorial?
+# Tutorial articles
 
 Tutorials are learning-oriented lessons that guide you through a series of steps to complete a project.
+They are essential to give new users the feeling that they can quickly achieve something with the product or application.
 
-They are essential to give new users a feeling that they can achieve something quickly with the product or application.
-
-Tutorial articles can often be confused with how-to articles, but you won't fall into this trap if you remember that tutorials are _learning_-oriented not _problem_-oriented.
+Tutorial articles are often confused with How Tos. Tutorials are learning-oriented, while How Tos are problem-oriented.
+If you find your tutorial has a single main procedure, consider using a How To template instead of a Tutorial.
 
 ## Content of your tutorial
 
-### Who is this tutorial for?
+### The Overview section
 
-* Are you writing only for end-users? For developers?
-* Are you writing only for people who have a certain problem to solve?
-* Is it intended for a particular industry?
+Summarize what the reader will achieve by reading the explanation article.
 
-### Body of the tutorial
+* Are you writing for developers or for managers?
+* Are you writing for people who have a certain problem to solve?
+* Are you writing for a particular industry or market segment?
 
-Tutorial articles work well when they offer the following features:
+Readers should already have read a concept about the topic in an About article.
+Ensure you link to the relevant About article in the overview.
 
-* Built around specific outcomes or actions.
-* Develop practical knowledge, not theoretical knowledge.
-* Inspire confidence by showing progress towards the tutorial goal at each main step.
-* Give a feeling of achievement by giving that "small win" at each main step.
-* Function on 100% on the platforms you indicate are supported.
-* Exclude distractions that make your audience have to choose a path in the tutorial.
+### The Body section
 
-### About the "Goal" section
+Tutorial articles work well when they are:
 
-Summarise the goals of your tutorial in this section.
+* Built around specific outcomes or actions
+* Develop practical knowledge, not theoretical knowledge
+* Inspire confidence by showing progress towards the tutorial goal at each main step
+* Give a feeling of achievement by being clear about the results of each main step
+* Work as described on all the supported platforms
+* Exclude distractions that make your audience have to choose a path in the tutorial
 
-You should write this panel *after* you have finished the article so you can summarise it properly.
+### The Goal section
 
-### About the "Before you Start" section
+Summarize the goals of your tutorial in this section.
+Write this section after you have finished the article, so you can summarize it accurately.
 
-Have you ever got half-way through a tutorial, only to discover you need to go and read other documentation before you can continue?
-This section is designed to prevent this from happening in the first place.
+### The Before you Start section
 
-Describe what the audience needs to know, or needs to have, before attempting this Tutorial.
-By stating the requirements up-front, you prevent your audience from having a bad experience with your tutorial.
+This section prevents readers from getting halfway through and discovering that they need to go and read other documentation before they can continue.
+Prerequisites can include other articles or information to read, or it can be technical dependencies such as requiring an internet connection, or particular software.
 
-Here are some example Before you Start statements:
+Describe what the audience needs to know, or needs to have, before they attempt the How To.
+By stating the requirements up-front, you prevent your readers from having a bad experience with your How To.
+You can include links to procedures or information, or give useful pointers about how to get what they need.
 
-```
-Make sure you meet the following prerequisites before starting the tutorial steps:
+For example:
 
-* API credentials for the {company} v3.5 API.
+```markdown
+Before you begin, make sure you meet these prerequisites:
+
+* API credentials for the v3.5 API. For more information about accessing your API credentials, see http://example.com/access_your_api_credentials.
 * Access to the Postman application.
-* An understanding of what a RESTful API is, conceptually.
-* (Optional) A development tool (IDE) that displays API responses formatted for readability.
+* A conceptual understanding about RESTful APIs. For more information, see http://example.com/restful_apis.
+* (Optional) A development environment (IDE) that displays API responses formatted for readability.
+* A list of favorites prepared, so you can manage them. For more information about favorites lists, see http://example.com/favorite_lists.
 
 ```
 
-### About the "Part" sections
+### The Part sections
 
-There are two ways of structuring each part in your tutorial:
+Use either a structured style, or an informal style in this section.
 
-* Structured
-* Informal
-
-#### Structured
+#### Structured style
 
 The structured approach features distinct headings for each step part:
 
-```
+```markdown
 Part One
   Goal
   Procedure
@@ -75,25 +76,23 @@ Part Two
   Outcome
 ```
 
-This structure is great for beginners because it tells them exactly what each part will teach them, and what they should expect at the end of each part.
+This structure works well for beginners because it describes what each part teaches them, and what they should expect at the end of each part.
 
-If your tutorial is going to be broken up into separate files, you should _absolutely_ consider this type of structure.
-You should also consider this approach if your tutorial is complex and contains many procedural steps.
+This structure also works well for tutorials separated into parts, or for complex tutorials that contain a lot of steps.
 
-#### Informal
+#### Informal style
 
-The informal approach is great for less complex (read, one-page) tutorial topics.
-You can use this style when you only need to create a simple lesson with a few steps and a basic concept to teach.
+The informal style is conversational, and does not include goal or outcome statements:
 
-```
+```markdown
 Narrative flow
-Conversational procedural structure, with a few ordered steps described in the body.
+Conversational procedural structure, with ordered steps described in the body.
 No outcome statement.
 ```
 
-You get a more conversational flow with this tutorial style; however, some of the prescriptive clarity is lost by not having the headings.
-
-If you find your tutorial only has one main procedure, consider using a `how-to` template, which you can find in this template repository.
+This structure works well for less complex tutorial topics.
+Use this style for simple lessons that contain fewer steps and a basic concept.
+You get a more conversational flow with this tutorial style, although it loses some of the prescriptive clarity by not including headings.
 
 ## Tutorial examples
 

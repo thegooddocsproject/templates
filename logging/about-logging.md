@@ -1,35 +1,27 @@
 # The logging article
 
-## When do I need a logging article?
+Use logging articles to describe log pipelines specific to your application.
+This article type aligns with the reference content type, so the same content guidelines apply.
 
-A logging article is a special type of template that is used only to describe log pipelines specific to your application.
+## Content of logging articles
 
-This article type aligns itself closely with the reference content type, so the same content guidelines apply.
+### The Description section
 
-## Content of your logging article
+The description section provides key information to understand what the logging entry is and how it's structured.
 
-### About the "Description" section
+Describe the parameters unique to your application, or common parameters reused from other applications.
+You don't need to describe the mandatory logging parameters sent by default to the log pipeline. Define these parameters in the reference documentation for your project.
 
-The description section gives the reader all the key information they need to understand what the logging entry is and how it is structured.
+### The Logging example section
 
-You complete the sections as they relate to your logs and logging pipelines.
+Having good log file examples make it easier to debug problems when on-call.
+Always include descriptions of the content in a log file to make it easier to solve problems.
 
-You don't need to describe the mandatory logging parameters sent by default to the log pipeline. Define these paramaters in the higher-level reference documentation of your project.
+### The Log properties section
 
-Only describe the parameters unique to your application or common parameters that are being reused from other applications.
-
-### About the "Logging example" section
-
-Not having good log file examples can make it hard to debug a problem when you are on-call.
-
-Proper description of the content in a log file can make it easier for the person on-call to solve the problem.
-
-### About the "Log properties" section
-
-You can specify app-specific log properties in this section.
-
-The biggest tip for writing logging articles is to be as descriptive as possible with each logging parameter.
-Think about why you would want to query this parameter in the logs and what insights or benefits the parameter adds to the log.
+Specify log properties in this section.
+Be as descriptive as possible with each logging parameter.
+Think about why you would want to query this parameter in the logs and what insights or benefits the parameter adds.
 
 ## Logging examples
 
