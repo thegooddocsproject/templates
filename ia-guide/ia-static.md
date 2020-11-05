@@ -20,7 +20,7 @@ Let's dive into ...
 
 the world of the reader ...
 
-## Don't start yet!
+## Don't start yet!
 
 When you're excited about a new project, it's super-tempting to just start writing the docs without thinking too hard about it.
 
