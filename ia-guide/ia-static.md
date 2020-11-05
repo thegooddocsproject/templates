@@ -16,9 +16,7 @@ The technical name for this is the Curse of Knowledge, and it can make writing d
 Writers combat the Curse of Knowledge by putting themselves in the shoes of the reader.
 And while this guide won't teach you to be a professional technical writer, it will definitely help you think about your reader, so that you can write better documentation.
 
-Let's dive into ...
-
-the world of the reader ...
+Let's dive into the world of the reader ...
 
 ## Don't start yet!
 
