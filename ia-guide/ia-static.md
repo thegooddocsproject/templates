@@ -16,8 +16,7 @@ The technical name for this is the Curse of Knowledge, and it can make writing d
 Writers combat the Curse of Knowledge by putting themselves in the shoes of the reader.
 And while this guide won't teach you to be a professional technical writer, it will definitely help you think about your reader, so that you can write better documentation.
 
-This guide is interactive, just click the option you like the most to move on.
-Just follow the prompts, and let us guide you into ...
+Let's dive into ...
 
 the world of the reader ...
 
@@ -30,7 +29,7 @@ When you're excited about a new project, it's super-tempting to just start writi
 This guide is designed to get you thinking about your readers in such a way that you'll end up knowing what docs you need to write.
 It won't take very long for you to get through it, and it will save you time in the long run.
 
-![A smiling person wearing a blue outfit is in a very big hole, with the words "i am stuck" in red](images/stuck.svg "Plz help")
+![A smiling person wearing a blue outfit is in a very big hole, with the words "I am stuck" in red](images/stuck.svg "Plz help")
 
 When you're done, you should have a good idea of who your main readers are, the kinds of things they are using your docs for, and what kinds of docs they might be expecting.
 This will help you know which templates to use from the Good Docs Project, and give you the basics to start completing them.
