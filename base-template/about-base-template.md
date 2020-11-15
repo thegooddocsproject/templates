@@ -12,7 +12,7 @@ Use the base template to create a uniform, regulated template for producing simi
 
 The base template guides you through the steps to create a functional template that can be reused, adhered to, and followed consistently throughout.
 
-Do not use the base template to arrive at the document type you need, use the other content in this repository for that purpose. It is also not a substitute for any other template in this collection.
+However, note that the base template cannot be used to arrive at the document type you need, and is not a substitute for any other template in the collection at the main repository. 
 
 ## Prerequisites
 
@@ -52,7 +52,6 @@ The base template includes:
 
 - An overview of the template you are creating
 - Prerequisites, the minimum requirements for accessing or  making use of the template
-- Reference section, containing other relevant information
 - Procedures, step-by-step instructions to create your template
 - Examples, good examples of existing templates
 
@@ -61,5 +60,4 @@ The base template includes:
 - [List of existing GDP templates](https://github.com/thegooddocsproject/templates)
 - [Information Architecture guide](https://github.com/thegooddocsproject/incubator/tree/master/ia-guide)
 - [Glossary style guide](https://github.com/thegooddocsproject/glossaries)
-- [List of existing GDP templates](https://github.com/thegooddocsproject/templates)
 - [GDP governance](https://github.com/thegooddocsproject/governance)
