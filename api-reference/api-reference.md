@@ -2,40 +2,92 @@
 
 Method | syntax
 ----- | ----------
-GET | base_url/endpoint/etc.
+<!--GET | curl -X GET "http://URL/tableNo?id=99"-->
 
-<!-- Delete this comment after you have replaced the method and syntax above. -->
+
 
 ## Description
 
-<!-- Enter a short description. What is it for, and what can it do? -->
+<!-- GET - used to get commands from the server. In this case the GET for the POC will be to GET the bill. this specifies that table number 99 ordered 5 items, the main meal, sides and drink.  This is the call which is sent when the server wants to get the bill the GET request includes the table number.  The order number is included in the response. Take out orders are table 99. When this is printed, the customer can pay the bill. -->
+
 
 Parameters
 
 Name | type | Req. | Description
 ---- | ----- | ----- | --------------------
-Parameter_one | string | Y |  Stores the customer name
-Parameter_two | int  | N | Stores a postal code, like the U.S. ZIP code.
+<!--orderNum | string | Y |  this specifies the order number that customers regenerates everday -->
+<!--timestamp | string  | N | this is a unique identification. that specifies the time and date the order is recieved -->
+<!--item1 | int |this specifies the number of order in the whole meal -->
+<!--itemOrdered |string | this specifies the item ordered , the type"buger meal" and cost 18.00 nis.-->
+<!--item2 |this specifies the number of order in the whole meal-->
+<!--itemOrdered |this specifies the item ordered, the type "soup" and cost 12.00 nis-->
+<!--item3 |this specifies the number of  the oorder-->
+<!--itemOrdered | this specifies the item ordered, the type" french fries" and cost 8.00 nis -->
+<!--item4 |this specifies the number of the order -->
+<!--itemOrdeded |this specifies the item ordered, the type" crispy onion rings" and the cost 10.00 -->
+<!--item5 | this specifies the number of the order -->
+<!--itemOrdered | this specifoes the item orderedm the type " coke" and the cost 8.00 nis -->
 
-<!-- Replace the two example rows and include rows for all your parameters. -->
-<!-- If one of the parameters has a set of sub-parameters, create a table or bulleted list for that, but proceed with caution. If the API is complex, there might be an easier way to do your reference section than writing markup by hand. -->
 
 ## Examples
 
 ### Request
 
 ```HTTP
-<!--  A copy-and-paste working request, if possible. Not one with values replaced by their names, such as "ID." -->
+<!-- curl -X GET "http://URL/tableNo?id=99  -->
+
+# Response
+{
+ "orderNum":12345,
+   "timestamp":"2020-11-01T15:00:00",
+   "Item1":{
+   	"ItemOrdered":{
+     	"type":"burgerMeal",
+     	"Cost":18.00
+  	}
+   },
+   "Item2":{
+   	"ItemOrdered":{
+     	"type":"soup",
+     	"Cost":12.00
+  	}
+   },
+   "Item3":{
+      "ItemOrdered':{
+      "type":" frenchFries",
+      "cost":8.00
+     }
+    },
+    "Item4":{
+       "ItemOrdered":{
+       "type":"crispyOnionRings",
+        "cost":10.00
+     }
+    },
+    "Item5":{
+       "ItemOrdered":{
+       "type":"coke",
+       "cost":8.00
+      }
+   }
+}
 
 ```
 
-<!-- Follow with comments to explain what each part of the request is doing -->
+
+```
+
+<!-- This is the call which is sent when the server wants to get the bill the GET request includes the table number.  The order number is included in the response. Take out orders are table 99. When this is printed, the customer can pay the bill.  -->
 
 ### Response
 
+```
+
 ```HTTP
-<!--  An actual response returned by this endpoint for the request above.  -->
+<!--  
+“meal_type”: “lunch”, 
+“timestamp”: “2020-11-01T15:00:00”  -->
+ 
 
 ```
 
-<!-- Write a comment explaining the response, if it would be helpful. For a response with a complicated schema, create a table like the one used above for the request.  -->
