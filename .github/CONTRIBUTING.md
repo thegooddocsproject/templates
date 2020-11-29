@@ -20,7 +20,7 @@ The Good Docs Project provides a set of templates and other resources to help yo
 Anyone can make use of the resources, download the templates, and create their own documentation.
 This guide is to help you get started contributing to the Good Docs Project, whether you intend to contribute a whole new template to the collection, or fix a typo.
 
-## Getting Familiar with the project repositories
+## Getting familiar with the project repositories
 
 The source code for the Good Docs Project is in github, including the code for the website, example project, community governance, and the templates themselves.
 Browse the code by navigating to [https://github.com/thegooddocsproject/] in your browser.
