@@ -1,57 +1,58 @@
-# The how-to article
+# The How To article
 
-## When do I need a how-to article?
+How To articles take the reader through a series of steps required to solve a specific problem.
+They explain in detail how to do a specific task.
+Use How To articles to prescribe a set of sequential steps readers must do to be able to use a feature.
+Don't use How To articles to teach concepts.
 
-How-to articles take the reader through a series of steps required to solve a specific, real-world problem.
-Think of them as recipes for getting stuff done!
+How To articles are often confused with tutorials. How To articles are problem-oriented, while tutorials are learning-oriented.
 
-Sometimes you need to explain in detail how to do a specific task. Instead of teaching a concept, you are providing a set of sequential
-steps that users must follow in order.
+Readers that have experience with the product and need a specific question answered use How To articles.
+New users who want to solve a problem instantly can also benefit, provided the How To is well-written and states any prerequisite knowledge required to complete the task.
 
-How-to articles are often confused with tutorials, but there is a difference. How-to articles are _problem_-oriented, not _learning_-oriented.
+## Content of your How To article
 
-How-to articles are used by those who have experience with the product and need a specific question answered.
-New users who want to solve a problem immediately can also benefit from how-to articles, provided they are well-written and clearly state any prerequisite knowledge required.
+### The Overview section
 
-## Content of your how-to article
+Summarize what the reader will achieve by reading the explanation article:
 
-### About the "Overview" section
+* Are you writing for developers or for managers?
+* Are you writing for people who have a certain problem to solve?
+* Are you writing for a particular industry or market segment?
 
-Summarize what the reader will get from reading the how-to articles.
+Readers should already have read a concept about the topic in an About article.
+Ensure you link to the relevant About article in the overview.
 
-Creating a good overview comes down to thinking about will use the doc:
+### The Before you start section
 
-* Are you writing only for end-users? For developers?
-* Are you writing only for people who have a certain problem to solve?
-* Is it intended for a particular industry?
+This section prevents readers from getting halfway through and discovering that they need to go and read other documentation before they can continue.
+Prerequisites can include other articles or information to read, or it can be technical dependencies such as requiring an internet connection, or particular software.
 
-### About the "Before you start" section
+Describe what the audience needs to know, or needs to have, before they attempt the How To.
+By stating the requirements up-front, you prevent your readers from having a bad experience with your How To.
+You can include links to procedures or information, or give useful pointers about how to get what they need.
 
-Have you ever gotten halfway through a how-to, only to discover that you need to read other documentation before you can continue?
-This section's purpose is to prevent that from happening.
+For example:
 
-Describe what the audience needs to know or have before following this how-to. Prerequisites can include other articles or information
-the reader needs to understand first. This list can also include technical dependencies, such as requiring an internet connection.
-By stating the requirements up-front, you prevent your audience from having a bad experience with your how-to.
-Whenever possible, include links to procedures or information, or give your audience tips about how to get whatever they need.
-Here are some example "Before you Start" statements:
+```markdown
+Before you begin, make sure you meet these prerequisites:
 
-```
-Make sure you meet the following prerequisites before following the steps:
-
-* API credentials for the {company} v3.5 API. For more information about accessing your API credentials, see http://example.com/access_your_api_credentials.
+* API credentials for the v3.5 API. For more information about accessing your API credentials, see http://example.com/access_your_api_credentials.
 * Access to the Postman application.
-* An understanding about what a RESTful API is conceptually. For more information about RESTful APIs, see http://example.com/restful_apis. 
-* (Optional) A development tool (IDE) that displays API responses formatted for readability.
-* You need to have a list of favorites before you can manage them. For more information about favourites lists, see #Create_Favorites.
+* A conceptual understanding about RESTful APIs. For more information, see http://example.com/restful_apis.
+* (Optional) A development environment (IDE) that displays API responses formatted for readability.
+* A list of favorites prepared, so you can manage them. For more information about favorites lists, see http://example.com/favorite_lists.
 
 ```
 
-### About the "Step by step guide" sections
+### The Step-by-step guide sections
 
-..
+When you are explaining steps in a process, it can be useful to include screenshots for each key part of the process. This can help readers orientate themselves as they move through the steps. It can also help someone who is evaluating the software see how it works without having to install it.
 
-## How-to article examples
+This section contains a table, which allows you to add a screenshot or call out next to each step.
+You can also use an ordered list structure without screenshots in markdown, with HTML tables.
+
+## How To article examples
 
 * **Example 1**.
 
