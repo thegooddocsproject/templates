@@ -1,8 +1,8 @@
-# Endpoint name
+# Get/TableNO 
 
 property | description
 -------- | -----------
-tableNo  | this specifies that it is table number x that ordered the meal
+tableNo  | this specifies that it is table number x that ordered the meal. in this case the GET for the POC will be to Get the bill
 
 curl -X GET "http://URL/tableNo?id=99"
 
@@ -15,20 +15,20 @@ curl -X GET "http://URL/tableNo?id=99"
 
 Parameters
 
-Name | type | Req. | Description
+property | Data type | Req. | Description
 ---- | ----- | ----- | --------------------
 orderNum | string | Y |  this specifies the order number that customers regenerates everday 
 timestamp | string  | N | this is a unique identification. that specifies the time and date the order is recieved 
-item1 | int |this specifies the number of order in the whole meal 
-itemOrdered |string | this specifies the item ordered , the type"buger meal" and cost 18.00 nis
-item2 |   |this specifies the number of order in the whole meal
-itemOrdered |   |this specifies the item ordered, the type "soup" and cost 12.00 nis
-item3 |   |this specifies the number of  the oorder
-itemOrdered |   | this specifies the item ordered, the type" french fries" and cost 8.00 nis 
-item4 |   |this specifies the number of the order 
-itemOrdeded |   |this specifies the item ordered, the type" crispy onion rings" and the cost 10.00 
-item5 |   | this specifies the number of the order 
-itemOrdered |   | this specifoes the item orderedm the type " coke" and the cost 8.00 nis 
+item1 | int |   | this specifies the number of order in the whole meal 
+itemOrdered |string |   | this specifies the item ordered , the type"buger meal" and cost 18.00 nis
+item2 |   |   |  this specifies the number of order in the whole meal
+itemOrdered |   |   | this specifies the item ordered, the type "soup" and cost 12.00 nis
+item3 |   |   | this specifies the number of  the oorder
+itemOrdered |   |   |  this specifies the item ordered, the type" french fries" and cost 8.00 nis 
+item4 |   |   |  this specifies the number of the order 
+itemOrdeded |   |    |this specifies the item ordered, the type" crispy onion rings" and the cost 10.00 
+item5 |   |    | this specifies the number of the order 
+itemOrdered |   |    | this specifoes the item orderedm the type " coke" and the cost 8.00 nis 
 
 
 ## Examples
@@ -36,8 +36,6 @@ itemOrdered |   | this specifoes the item orderedm the type " coke" and the cost
 ### Request
 
 ```HTTP
- curl -X GET "http://URL/tableNo?id=99  
-
 
 
 curl -X GET "http://URL/tableNo?id=99"
