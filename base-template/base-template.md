@@ -25,17 +25,15 @@ This would be content that is:
    - Structure
    - Formatting, styles
    - Procedures 
-   - Text such as descriptions, disclaimers, snippets etc.
-  
-that can be grouped together, written/presented in the same manner, and reused.<br>
-<br>
+   - Text such as descriptions, disclaimers, snippets etc.  
+that can be grouped together, written/presented in the same manner, and reused.
+
 - Does not have existing templates to accommodate above.
 - Existing templates require modification to accommodate the above.
 
-2. Identify a prototype, i.e., a  suitable sample document that you are going to base your template on. This document will have the most variety of the content that you will be covering, in your template.</li><br>
+2. Identify a prototype, i.e., a  suitable sample document that you are going to base your template on. This document will have the most variety of the content that you will be covering, in your template.
 
 3. Identify the type of documentation you need to write the template for. This would broadly be one, or a combination of the following types of documentation:
-
 - How-to guide
 - Tutorial
 - Reference
