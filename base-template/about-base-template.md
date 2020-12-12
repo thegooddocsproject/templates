@@ -22,7 +22,7 @@ To make the best use of this base template, you need a working knowledge of:
 
 The base template is for:
 
-- Internal users - The base template is for doc type template authors who wish to align and/or contribute to The Good Docs Project (GDP).
+- Internal users - doc type template authors who wish to align and/or contribute to The Good Docs Project (GDP).
 - External users - the community outside of the GDP.
 
 Who want to:
