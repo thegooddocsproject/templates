@@ -1,4 +1,4 @@
-> __ALL Pull-Requests require an associated [Issue](https://github.com/thegooddocsproject/templates/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) as documented in [How to contribute](https://github.com/thegooddocsproject/templates/blob/master/CONTRIBUTING.md#contributing).__
+> __ALL Pull-Requests require an associated [Issue](https://github.com/thegooddocsproject/templates/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) as documented in [How to contribute](https://github.com/thegooddocsproject/templates/blob/master/.github/CONTRIBUTING.md).__
 
 ## Purpose / why
 
