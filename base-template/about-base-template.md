@@ -152,7 +152,7 @@ Documents are written to align with the Doctype templates.
 
 _TBD: We need to decide on the correct term to use between: structured data, microcontent, micro-content, microdata, snippets, metadata._
 
-* _Microcontent _
+* _Microcontent_
     * _This is quite an evocative term._
     * _I [notice](https://www.youtube.com/watch?v=CoShm-AXYP4&list=PLZAeFn6dfHpl2E5JhVd34llZD4a4oAeCo&index=19) Scott DeLoach is using the term "microcontent", but haven’t seen that term used elsewhere._
     * _Searching “microcontent” in Google doesn’t find an authoritative definition._
