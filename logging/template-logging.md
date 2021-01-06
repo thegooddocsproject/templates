@@ -5,7 +5,7 @@ uri-repo: https://github.com/projectname
 company: REPLACEME
 product: <!-- Set the product parameter to add the product name here. -->
 app: <!-- Insert the name of the app here. -->
-tags: <!-- Set other global keywords here like app name and product name -->
+tags: <!-- Set other global keywords here like app name and product name or any other likely labels. These are comma-separated tags.-->
 ---
 
 <!--
