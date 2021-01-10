@@ -14,7 +14,7 @@ You don't need to describe the mandatory logging parameters sent by default to t
 
 ### The Logging example section
 
-Having good log file examples make it easier to debug problems when on-call.
+Having good log file examples makes it easier to debug problems when on-call.
 Always include descriptions of the content in a log file to make it easier to solve problems.
 
 ### The Log properties section
