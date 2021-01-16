@@ -322,7 +322,7 @@ _{TBD: We should define a template for a Documentation Management Plan, then ref
 
 {Template author tip:
 
-* Add a summarised list of reasons for including the doctype, based on the business case above. 
+* Add a summarized list of reasons for including the doctype, based on the business case above. 
 
 }
 
