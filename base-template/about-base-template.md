@@ -280,7 +280,7 @@ _{TBD: Add further guidance and sample text here.}_
 
 ## Maintenance strategy
 
-The long term health of a project’s documentation depends upon the project's ability to establish sustainable maintenance processes for each doctype.
+The long term health of documentation depends upon the project's ability to establish sustainable maintenance processes for each doctype.
 
 * If content on a site is inaccurate or dated, it will reduce the trustworthiness of all the content on the site, as the user typically won’t be able to determine which of the content is trustworthy.
 * As such, a project should only create content where there is commitment for continued maintenance of the content.
