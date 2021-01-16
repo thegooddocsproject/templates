@@ -212,7 +212,7 @@ This {doctype} template aims to address the following user stories:
 
 {Template author tip: 
 
-* Each doctype addresses different use cases. It target’s different user personas, with different needs.
+* Each doctype addresses different use cases. It targets different user personas, with different needs.
 * As such, there are different weightings applied to quality characteristics for each doctype. Reference documentation needs to comprehensively address all the features in the latest version, but can tolerate lower quality writing. Tutorials need only cover a sample of use cases of an older version of the software, but there is a greater need for writing quality.}
 
 {Docset owner tip: Select the quality criteria which will be important for your project.}
