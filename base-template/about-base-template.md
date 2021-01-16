@@ -365,7 +365,7 @@ Before finalizing your {doctype} document, ensure you have addressed the followi
 {Template author tip:
 
 * It isn’t sufficient to simply define best practices for a doctype. You need to provide compelling evidence as to why this is the best approach. This section should summarize competing approaches and explain why you took the chosen approach.
-* It might suggest situations when a docset owner would select a competing approach.
+* It might also suggest situations where a docset owner would select a different approach.
 * Authoritative sources should be provided to justify recommendations.
 * If this section becomes more than a page long, consider extracting out into a separate research paper and then reference the paper.
 
