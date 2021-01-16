@@ -355,7 +355,7 @@ Don't include {doctype} docs if:
 Before finalizing your {doctype} document, ensure you have addressed the following:
 
 * The document has been reviewed:
-    * For clear writing and alignment with the writing style guide, ideally by a technical writer.
+    * For clear writing and alignment with the writing style guide, ideally by a technical writer or editor.
     * For alignment with the {doctype} template, ideally be a technical writer.
     * For technical accuracy, ideally by a subject matter expert.
 * {Further checklist items ... .}
