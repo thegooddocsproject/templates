@@ -203,7 +203,7 @@ This {doctype} template aims to address the following user stories:
 
 * Discuss the nature of the content for this doctype.
 * Decide what format will best express the nature of the content. For example, text only, or multi-media options such as diagrams, screenshots or video.
-* Consider how the format you choose will impact maintenance.
+* Consider how the format you choose will impact maintenance. This can include human work-hours, as well as ongoing processes and infrastructure requirements.
 * Reference your style guide which should have recommend guidelines for using multi-media such as image size and video length.
 
 }
