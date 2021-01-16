@@ -357,7 +357,7 @@ Before finalizing your {doctype} document, ensure you have addressed the followi
 * The document has been reviewed:
     * For clear writing and alignment with the writing style guide, ideally by a technical writer or editor.
     * For alignment with the {doctype} template, ideally by a technical writer, information architect, or content strategist.
-    * For technical accuracy, ideally by a subject matter expert.
+    * For technical accuracy, ideally by a technical subject matter expert.
 * {Further checklist items ... .}
 
 ## Backing research and further reading
