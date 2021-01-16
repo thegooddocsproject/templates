@@ -112,8 +112,8 @@ Core templates inherit from the base template.
 
 **Documents:**
 
-* xxx-template.md: Common structure, elements and writing tips for downstream xxx-template.md files.
-* about-xxx-template.md: Common structure, elements and writing tips for downstream about-xxx-template.md files.
+* xxx-template.md: Common structure, elements, and writing tips for downstream xxx-template.md files.
+* about-xxx-template.md: Common structure, elements, and writing tips for downstream about-xxx-template.md files.
 
 ### Doctype templates set
 
