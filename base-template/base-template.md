@@ -15,7 +15,7 @@
 
 {Document author tip:
 
-* All templates must include snippets of [structured data](https://developers.google.com/search/docs/guides/sd-policies). to help search engines and facilitate content reuse. 
+* All templates must include snippets of [structured data](https://developers.google.com/search/docs/guides/sd-policies) to help search engines and facilitate content reuse. 
 
 }
 
