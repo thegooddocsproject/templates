@@ -117,7 +117,7 @@ Core templates inherit from the base template.
 
 ### Doctype templates set
 
-Doctype templates provide instructions for document authors to write documentation for a specific doctype.
+Doctype templates provide instructions for writing content for a specific doctype.
 
 Doctype templates inherit from a core or base template.
 
