@@ -202,9 +202,9 @@ This {doctype} template aims to address the following user stories:
 {Template author tip: 
 
 * Discuss the nature of the content for this doctype.
-* Consider how it will impact maintenance.
-* Is this content expressed best with multi-media, such as diagrams, screenshots or video?
-* If so, reference your style guide which should set recommendations on image and screenshot size, video length, style etc.
+* Decide what format will best express the nature of the content. For example, text only, or multi-media options such as diagrams, screenshots or video.
+* Consider how the format you choose will impact maintenance.
+* Reference your style guide which should have recommend guidelines for using multi-media such as image size and video length.
 
 }
 
