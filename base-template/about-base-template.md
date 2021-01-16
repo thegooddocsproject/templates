@@ -28,7 +28,7 @@ To make the best use of this guide, you should have a working knowledge of:
 
 * [Git](https://git-scm.com/): The version control system used.
 * [GitHub](https://github.com/thegooddocsproject): The project hosting platform used, along with associated project management tools.
-* [GitHub Flavored Markdown](https://github.github.com/gfm/): The wiki format used to store template documentation.
+* [GitHub Flavored Markdown](https://github.github.com/gfm/): The markup language used to write template documentation.
 * [Currently implemented doctypes templates](https://github.com/thegooddocsproject/templates): To help identify if you need to create a new template or edit an existing one.
 * Technical writing: To produce a well-written document that includes the relevant references.
 
