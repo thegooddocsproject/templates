@@ -314,7 +314,7 @@ _{TBD: We should define a template for a Documentation Management Plan, then ref
     * Increased developer efficiency.
     * Faster onboarding for users and/or developers.
     * Reduced support costs.
-* Consider the case where the docs are only partially maintained. Would it be better to have no documentation that partially maintained documentation?
+* Consider the case where the docs are only partially maintained. Would it be better to have no documentation than partially maintained documentation?
 
 }
 
