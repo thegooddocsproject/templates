@@ -136,7 +136,7 @@ Doctype templates inherit from a core or base template.
         * How the template might be customized.
         * When you would or would not use this doctype-template.
 * Example-{doctype}.md:
-    * A fleshed out example of the template, describing the fake chronolog example project. _{TBD we haven’t finished defining this fake project yet.}_
+    * A more comprehensive example of the template, describing the fake chronologue example project. _{TBD we haven’t finished defining this fake project yet.}_
 
 ### Documents
 
