@@ -63,7 +63,7 @@ A docset owner establishes an Information Architecture and Documentation Managem
 * Select a set of doctype templates for the project.
 * Customize templates if needed.
 * Select a style guide for the project.
-* Establish a docset maintenance processes.
+* Establish the docset maintenance process.
 
 A docset owner should capture documentation decisions within a Documentation Management Plan.
 
