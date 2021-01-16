@@ -256,7 +256,7 @@ _TBD: The quality criteria list requires review and refinement._
 
 * There are often multiple approaches to consider when implementing a doctype.
 * In this section you should discuss different approaches that can be applied to this doctype, including logic and recommendations to help a docset owner select the best strategy for them.
-* Often there would be a light version of this template to use for immature projects, and a more comprehensive version for mature projects. You should discuss how a project might mature their docs from light to comprehensive versions.
+* Often there would be a light and more comprehensive version of this template. Immature projects may only have the capacity to maintain the light version. You should discuss how a project might mature their docs from light to comprehensive versions.
 
 _{TBD: Add further guidance and sample text here.}_
 
