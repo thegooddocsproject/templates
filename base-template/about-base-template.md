@@ -335,7 +335,7 @@ Include {doctype} docs if:
 
 {Template author tip:
 
-* Add a summarised list of reasons for not including the doctype, based on the business case above. 
+* Add a summarized list of reasons for not including the doctype, based on the business case above. 
 
 }
 
