@@ -226,7 +226,7 @@ This table lists the relative importance of the following quality criteria for {
 |Currency: Alignment with a specified version of software.||
 |Comprehensive: Covers every feature and use case.||
 |Well written: Unambiguous.||
-|Well written: Concise, high signal to noise ratio, high information density.||
+|Well written: Concise, high information density.||
 |Well written: Aligns with writing style guide.||
 |Well written: Engaging, entertaining, draws the reader in.||
 |Audience: Target a specific persona and user story. Simplifies documentation by assuming prerequisite knowledge of the reader.||
