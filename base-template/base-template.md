@@ -1,7 +1,7 @@
 {Template author tip:
 
 * This base template captures the structure and common elements that all doctype templates should follow. It provides guidance for template authors to follow when creating a new template.
-* “Template author and template reviewer tips” should be removed from the final {doctype}-template.md. Other tips should remain.
+* "Template author and template reviewer tips” should be removed from the final {doctype}-template.md. Other tips should remain.
 * Tweak other tips to align with the doctype you are writing for.
 
 }
@@ -92,7 +92,7 @@ Optionally include this section if {some condition}.
 
 * Include standard headings applicable for this template’s doctype.
 * Where applicable, provide standard text for relevant sections.
-* Include tips for “docset owner” and “doc author”.
+* Include tips for "docset owner” and "doc author”.
 
 }
 

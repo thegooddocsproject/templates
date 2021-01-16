@@ -4,12 +4,12 @@
 
 * This about-base-template captures the structure and common elements that all downstream about-xxx-templates should follow.
 * It provides guidance for both template authors as well as document authors.
-* “Template author and template reviewer tips” should be removed from the final about-{doctype}-template.md. Other tips should remain.
+* "Template author and template reviewer tips” should be removed from the final about-{doctype}-template.md. Other tips should remain.
 * Tweak other tips to align with the doctype you are writing for.
 
 }
 
-This document provides guidance related to the authoring of documents based on the {doctype}-template. It focuses on the “how”, “why” and where applicable, references background theory to justify the approaches recommended.
+This document provides guidance related to the authoring of documents based on the {doctype}-template. It focuses on the "how”, "why” and where applicable, references background theory to justify the approaches recommended.
 
 ## Introduction
 
@@ -39,14 +39,14 @@ The templates target multiple audiences. They include writing tips for the follo
 
 ### Template author
 
-{Template author tip: Remove this “template author” section from about-{doctype}-template.md files.}
+{Template author tip: Remove this "template author” section from about-{doctype}-template.md files.}
 
 A template author creates a new template in line with base and core templates.
 
 
 ### Template reviewer
 
-{Template author tip: Remove this “template reviewer” section from about-{doctype}-template.md files.}
+{Template author tip: Remove this "template reviewer” section from about-{doctype}-template.md files.}
 
 A template reviewer reviews the new template against template guidelines.
 
@@ -127,9 +127,9 @@ Doctype templates inherit from a core or base template.
 
 * {doctype}-template.md:
     * Provides document headings, structure, common text, and specific writing tips for a specific &lt;doctype>.
-    * Writing tips focus on the “what” to include and not the “how”, “why”.
+    * Writing tips focus on the "what” to include and not the "how”, "why”.
 * about-{doctype}-template.md:
-    * Provides further guidance related to the use of the template. It focuses on the “how”, “why” and where applicable, references background theory. It covers topics like:
+    * Provides further guidance related to the use of the template. It focuses on the "how”, "why” and where applicable, references background theory. It covers topics like:
         * The target audience for this doctype.
         * Checklists of goals to achieve.
         * Priorities of different quality metrics for this doctype.
@@ -155,13 +155,13 @@ _TBD: We need to decide on the correct term to use between: structured data, mic
 * _Microcontent_
     * _This is quite an evocative term._
     * _I [notice](https://www.youtube.com/watch?v=CoShm-AXYP4&list=PLZAeFn6dfHpl2E5JhVd34llZD4a4oAeCo&index=19) Scott DeLoach is using the term "microcontent", but haven’t seen that term used elsewhere._
-    * _Searching “microcontent” in Google doesn’t find an authoritative definition._
+    * _Searching "microcontent” in Google doesn’t find an authoritative definition._
 * _Microdata:_
     * _Also evocative of the meaning._
     * _Probably don’t use [microdata](https://www.w3.org/TR/microdata/), which is the term used for a specific W3C implementation for structured data._
 * _[Structured data](https://developers.google.com/search/docs/guides/intro-structured-data):_
     * _Term is used by Google._
-    * _But isn’t as evocative as “microcontent”_
+    * _But isn’t as evocative as "microcontent”_
     * _Doesn’t have a wikipedia entry_
 
 {Template author tip: All templates for The Good Docs Project must describe recommended [structured data](https://developers.google.com/search/docs/guides/sd-policies) fields. Fields selected should align with equivalent doctypes used in [schema.org](https://schema.org/).}
@@ -192,7 +192,7 @@ This {doctype} template aims to address the following user stories:
 
 * As a {user persona}, I want to {achieve a specific goal}, so that I can {achieve a larger business objective}.
 
-{Template author tip: You may optionally add a “docset owner tip” explaining when the following user story should or should not be included.}
+{Template author tip: You may optionally add a "docset owner tip” explaining when the following user story should or should not be included.}
 
 * As a {user persona}, I want to {achieve a specific goal}, so that I can {achieve a larger business objective}.
     * {Docset owner tip: Include this user story when … .}
@@ -237,7 +237,7 @@ The following table lists the relative importance of the following quality crite
 |Maintainability: Written to be easily translated.||
 |Maintainability: Uses timeless language with reduced need to update over time.||
 
-Note: The terms “Must”, “Should”, and “May” should be interpreted as per [RFC 2119.](https://www.ietf.org/rfc/rfc2119.txt) 
+Note: The terms "Must”, "Should”, and "May” should be interpreted as per [RFC 2119.](https://www.ietf.org/rfc/rfc2119.txt) 
 
 _TBD: The quality criteria list requires review and refinement._
 
