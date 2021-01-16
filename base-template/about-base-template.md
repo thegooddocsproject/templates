@@ -217,7 +217,7 @@ This {doctype} template aims to address the following user stories:
 
 {Docset owner tip: Select the quality criteria which will be important for your project.}
 
-The following table lists the relative importance of the following quality criteria for {doctype} documents.
+This table lists the relative importance of the following quality criteria for {doctype} documents.
 
 
 |Quality criteria|Priority to address|
