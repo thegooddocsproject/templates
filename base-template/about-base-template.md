@@ -15,7 +15,7 @@ This document provides guidance related to the authoring of documents based on t
 
 _{TBD: Introduction text below needs adjusting to align with revised base template structure.}_
 
-This document helps create a uniform, regulated template for producing multiple similarly structured documents, that is, as a base template to create any other template. The base template guides you through the steps to create a functional template that can be reused, adhered to, and followed consistently throughout.
+This document is a base template that you can use to create any other template. The base template guides you through the steps to create a functional template that can be reused, adhered to, and followed consistently throughout.
 
 Using a well-defined, good template helps to maintain consistency and integrity across all documentation while simplifying the process of creating any required document. It can save you time and effort, while ensuring consistency, clarity, and uniformity across your documentation suite.
 
