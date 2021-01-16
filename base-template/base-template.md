@@ -2,7 +2,7 @@
 
 * This base template captures the structure and common elements that all doctype templates should follow. It provides guidance for template authors to follow when creating a new template.
 * "Template author and template reviewer tips” should be removed from the final {doctype}-template.md. Other tips should remain.
-* Tweak other tips to align with the doctype you are writing for.
+* Adjust other tips to align with the doctype you are writing for.
 
 }
 

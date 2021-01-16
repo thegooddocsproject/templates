@@ -5,7 +5,7 @@
 * This about-base-template captures the structure and common elements that all downstream about-xxx-templates should follow.
 * It provides guidance for both template authors as well as document authors.
 * "Template author and template reviewer tips” should be removed from the final about-{doctype}-template.md. Other tips should remain.
-* Tweak other tips to align with the doctype you are writing for.
+* adjust other tips to align with the doctype you are writing for.
 
 }
 
@@ -13,7 +13,7 @@ This document provides guidance related to the authoring of documents based on t
 
 ## Introduction
 
-_{TBD: Introduction text below needs tweaking to align with revised base template structure.}_
+_{TBD: Introduction text below needs adjusting to align with revised base template structure.}_
 
 This document helps create a uniform, regulated template for producing multiple similarly structured documents, that is, as a base template to create any other template. The base template guides you through the steps to create a functional template that can be reused, adhered to, and followed consistently throughout.
 
