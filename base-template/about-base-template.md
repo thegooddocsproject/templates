@@ -242,7 +242,7 @@ This table lists the relative importance of the following quality criteria for {
 Note: The terms "Must”, "Should”, and "May” should be interpreted as per [RFC 2119.](https://www.ietf.org/rfc/rfc2119.txt) 
 
 _TBD: The quality criteria list requires review and refinement._
-_TBD: Further reading: [Tom Johnson's article on Measuring Doc Quality](https://idratherbewriting.com/learnapidoc/docapis_measuring_impact.html)._
+* _Further reading: [Tom Johnson's article on Measuring Doc Quality](https://idratherbewriting.com/learnapidoc/docapis_measuring_impact.html)._
 
 ## Implementation strategy
 
