@@ -4,7 +4,7 @@
 
 * This about-base-template captures the structure and common elements that all downstream about-xxx-templates should follow.
 * It provides guidance for both template authors as well as document authors.
-* "Template author and template reviewer tips” should be removed from the final about-{doctype}-template.md. Other tips should remain.
+* "Template author tips” should be removed from the final about-{doctype}-template.md. Other tips should remain.
 * adjust other tips to align with the doctype you are writing for.
 
 }
@@ -36,25 +36,15 @@ To make the best use of this guide, you should have a working knowledge of:
 
 The templates target multiple audiences. They include writing tips for the following roles:
 
-
 ### Template author
 
 {Template author tip: Remove this "template author” section from about-{doctype}-template.md files.}
 
 A template author creates a new template in line with base and core templates.
 
-
-### Template reviewer
-
-{Template author tip: Remove this "template reviewer” section from about-{doctype}-template.md files.}
-
-A template reviewer reviews the new template against template guidelines.
-
-
 ### Template customizer
 
 A template customizer customizes a doctype template to align with a specific project or organizational guidelines. For example, specify the style guide to use with the template.
-
 
 ### Docset owner
 
@@ -75,15 +65,11 @@ The [Information Architecture Guide](https://thegooddocsproject.dev/ia-guide.htm
 
 A document author writes content in line with templates. Typically the document author is a subject matter expert and not a dedicated technical writer.
 
-Ideally, their document will receive feedback and guidance from a document reviewer and/or their docset owner.
+Ideally, their document will be reviewed by a technical writer, another subject matter expert, and the docset owner.
 
-### Document reviewer
+### Document's target audience
 
-Documentation is almost always improved when it is reviewed against the doctype’s template, the selected style guide, writing best practices and is reviewed for technical accuracy. While not essential, it helps if one of the reviewers is a dedicated technical writer.
-
-### Document reader
-
-And of course, we need to understand the needs of the final document reader. There are likely multiple reader personas to consider, which depends upon the reader’s role, their technical expertise, their specific goal, and so on.
+And of course, we need to understand the needs of the document's target audience. There are likely multiple personas to consider, which depends upon the audience's role, their technical expertise, their specific goal, and so on.
 
 ## Inheritance of template sets
 
@@ -121,7 +107,7 @@ Doctype templates provide instructions for writing content for a specific doctyp
 
 Doctype templates inherit from a core or base template.
 
-**Target audience:** Document authors, document reviewers, docset owners.
+**Target audience:** Document authors, docset owners.
 
 **Documents:**
 
@@ -142,7 +128,7 @@ Doctype templates inherit from a core or base template.
 
 Documents are written to align with the Doctype templates.
 
-**Target audience:** Readers (broken down by personas).
+**Target audience:** {Audiences, broken down by personas.)
 
 **Document:**
 
@@ -219,7 +205,6 @@ This {doctype} template aims to address the following user stories:
 
 This table lists the relative importance of the following quality criteria for {doctype} documents.
 
-
 |Quality criteria|Priority to address|
 |--- |--- |
 |Currency: Alignment with the latest version of software.|{Select one of: Must, Should, Nice to have (May), Not Applicable (N/A), Should not}|
@@ -229,7 +214,7 @@ This table lists the relative importance of the following quality criteria for {
 |Well written: Concise, high information density.||
 |Well written: Aligns with writing style guide.||
 |Well written: Engaging, entertaining, draws the reader in.||
-|Audience: Target a specific persona and user story. Simplifies documentation by assuming prerequisite knowledge of the reader.||
+|Audience: Target a specific persona and user story. Simplifies documentation by assuming prerequisite knowledge of the audience.||
 |Audience: Targets a broad international, multicultural audience. Avoids slang, colloquialisms, pop cultural references or local references.||
 |Audience: Considers a non-English speaking audience. Uses simple English.||
 |Audience: Consider accessibility and disability in audiences.||

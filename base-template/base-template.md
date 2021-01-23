@@ -1,7 +1,7 @@
 {Template author tip:
 
 * This base template captures the structure and common elements that all doctype templates should follow. It provides guidance for template authors to follow when creating a new template.
-* "Template author and template reviewer tips” should be removed from the final {doctype}-template.md. Other tips should remain.
+* "Template author tips” should be removed from the final {doctype}-template.md. Other tips should remain.
 * Adjust other tips to align with the doctype you are writing for.
 
 }
@@ -15,7 +15,7 @@
 
 {Document author tip:
 
-* All templates must include snippets of [structured data](https://developers.google.com/search/docs/guides/sd-policies) to help search engines and facilitate content reuse. 
+* All templates should include snippets of [structured data](https://developers.google.com/search/docs/guides/sd-policies) to help search engines and facilitate content reuse. 
 
 }
 
@@ -24,7 +24,6 @@
 * Refer to about-base-template.md for discussion about selecting appropriate [schema.org](https://schema.org/) fields.
 
 }
-
 
     <!-- Machine readable structured data which stores metadata about this -->
     <!-- document. It follows the http://json-ld.org/ standard. -->
@@ -88,14 +87,11 @@ Optionally include this section if {some condition}.
 
 {Template author tip:
 
-
-
 * Include standard headings applicable for this template’s doctype.
 * Where applicable, provide standard text for relevant sections.
 * Include tips for "docset owner” and "doc author”.
 
 }
-
 
 ## What’s next
 
@@ -109,6 +105,7 @@ Optionally include this section if {some condition}.
 * It will typically include a combination of more of this doctype, as well as relevant other doctypes. For instance, a tutorial may point to the next tutorial in a series, and well as reference docs for material which has just been discussed.
 
 }
+
 ## Acknowledgements
 
 {Docset owner / Document author tip:
