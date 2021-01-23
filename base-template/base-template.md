@@ -95,7 +95,7 @@ Optionally include this section if {some condition}.
 
 ## What’s next
 
-{Template author tip: Most doctypes should provide links to help the reader find related topics and next steps.}
+{Template author tip: Most doctypes should provide links to help a document author find related topics and next steps.}
 
 {Document author tip:
 
