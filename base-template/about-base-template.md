@@ -191,6 +191,7 @@ This {doctype} template aims to address the following user stories:
 * Decide what format will best express the nature of the content. For example, text only, or multi-media options such as diagrams, screenshots or video.
 * Consider how the format you choose will impact maintenance. This can include human work-hours, as well as ongoing processes and infrastructure requirements.
 * Reference your style guide which should have recommend guidelines for using multi-media such as image size and video length.
+* For content involving numbered items or steps, consider advising the author to "chunk" steps into sub-sections of approximately 5-10 steps. This makes the information easier to read and remember, and for procedures gives the end user a sense of accomplishment after each chunk is completed that encourages them to continue. This approach is used by major companies such as [Microsoft](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/writing-step-by-step-instructions#complex-procedures). Related research on chunking and usability is available from the [Nielsen Norman Group](https://www.nngroup.com/articles/short-term-memory-and-web-usability/).
 
 }
 
