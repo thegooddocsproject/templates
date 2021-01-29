@@ -3,45 +3,29 @@ title: template for logging
 author: The Good Docs Project 
 uri-repo: https://github.com/projectname
 company: REPLACEME
-product: <!-- Set the product parameter to add the product name here. -->
-app: <!-- Insert the name of the app here. -->
-tags: <!-- Set other global keywords here like app name and product name or any other likely labels. These are comma-separated tags.-->
+product: # Set the product parameter to add the product name here.
+app: # Insert the name of the app here.
+tags: # Set other global keywords here like app name and product name or any other likely labels. These are comma-separated tags.
 ---
 
 <!--
-For help with writing and structuring a log article, see the README.adoc in the template directory for basic guidelines and links.
-Check out https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/ if you get stuck with AsciiDoc syntax.
+Begin your Reference topic in this section. 
+For help with writing and structuring a reference article, see the README.md in the template directory for basic guidelines and links.
+Check out https://www.markdownguide.org/basic-syntax/ if you get stuck with AsciiDoc syntax.
 -->
+
 # {pipeline} for {app}
 
-## Description
+## Logging description
 
-<table>
-  <tr>
-    <th>Log pipeline name</th>
-    <td>Specify the name of the logstash pipeline in this field.</td>
-  </tr>
-  <tr>    
-    <th>Description</th>
-    <td>Summarise why this log format exists, or why you would look for this log. What you put here is reused in the Log description section and included in HTML description tags.</td>
-  </tr>
-  <tr>
-    <th>Log format</th>
-    <td>Specify the format of the log file: XML or JSON.</td>
-  </tr>
-  <tr>
-     <th>Log transfer method</th>
-     <td>Single-line curl using MSSQL Service Broker. <br>     
-     App writes to a log file which is shipped to logstash using filebeat.<br>     
-     </td>
-  </tr>
-  <tr>
-     <th>Output location</th>
-     <td>If the output location uses curl, then specify a URL similar to https://logs.{company}.com.au/csdb_appflow.<br>         
-         If the output location is to a file, specify the `/path/to/the/logfile`.<br>
-      </td>
-  </tr>  
-</table>
+|Parameter name|Description|
+| :---        | :----       |
+|Log pipeline name |Specify the name of the logstash pipeline in this field.|
+|Description|Summarise why this log format exists, or why you would look for this log. What you put here is reused in the Log description section and included in HTML description tags.|
+|Log format |Specify the format of the log file: XML or JSON.|
+|Log transfer method |Single-line curl using MSSQL Service Broker. <br>App writes to a log file which is shipped to logstash using filebeat.|
+|Output location |If the output location uses curl, then specify a URL similar to https://logs.{company}.com.au/csdb_appflow. <br>If the output location is to a file, specify the `/path/to/the/logfile`.|
+
 
 ## Logging example
 
