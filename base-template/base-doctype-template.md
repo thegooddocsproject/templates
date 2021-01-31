@@ -88,4 +88,4 @@ It is designed to help {persona or personas} to achieve/learn {some goal}.
 
 This document draws inspiration from:
 
-* [{doctype}-template.md](https://github.com/thegooddocsproject/templates{doctype}), version {1.0.1}.
+* [The Good Docs Project](https://thegooddocsproject.dev) templates, version {MAJOR.MINOR.PATH}.

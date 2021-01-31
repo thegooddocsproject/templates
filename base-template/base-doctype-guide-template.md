@@ -60,7 +60,7 @@ Before writing your {doctype} document, you should plan to address all items on 
 
 }
 
-When writing, it is important to understand who you are writing for, and ensure that you provide just the right amount of information address their need. The following user stories should help you achieve that.
+When writing, it is important to understand who you are writing for, and ensure that you provide just the right amount of information to address their needs. The following user stories should help you achieve that.
 
 A {doctype} document aims to address the following user stories:
 
@@ -76,7 +76,7 @@ _{TBD: We should link to a page we are yet to write helping people pick personas
 * Discuss the nature of the content for this doctype.
 * Discuss what format will best express the nature of the content. For example, text only, or multi-media options such as diagrams, screenshots or video.
 * Discuss how the format you choose will impact maintenance. This can include human work-hours, as well as ongoing processes and infrastructure requirements.
-* Reference your style guide which should have recommend guidelines for using multi-media such as image size and video length.
+* Reference your style guide, which should have recommended guidelines for using multimedia, such as image size and video length.
 * For content involving numbered items or steps, consider advising the author to "chunk" steps into sub-sections of approximately 5-10 steps. This makes the information easier to read and remember, and for procedures gives the end user a sense of accomplishment after each chunk is completed that encourages them to continue. This approach is used by major companies such as [Microsoft](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/writing-step-by-step-instructions#complex-procedures). Related research on chunking and usability is available from the [Nielsen Norman Group](https://www.nngroup.com/articles/short-term-memory-and-web-usability/).
 
 }
@@ -114,7 +114,7 @@ Note: The terms "Must”, "Should”, and "May” should be interpreted as per [
 
 _TBD: The quality criteria list requires review and refinement._
 * _Further reading: [Tom Johnson's article on Measuring Doc Quality](https://idratherbewriting.com/learnapidoc/docapis_measuring_impact.html)._
-* _Further reading: Daniel Beck's Doc Audit work. TBD get the public link for this._
+* _Further reading: Daniel Beck's Doc Audit work. TBD: Get the public link for this._
 
 ## Implementation strategy
 
@@ -142,7 +142,7 @@ _TBD: The quality criteria list requires review and refinement._
 
 {Template author tip:
 
-* Add a summarized list of reasons for writing `doctype`, based on the business case above. 
+* Add a summarized list of reasons for writing the `doctype`, based on the business case above. 
 
 }
 
@@ -174,7 +174,7 @@ Don't write {doctype} docs if:
 
 _{TBD: Add further guidance and sample text here.}_
 
-_{TBD: We are encouraging docset owners to branch a template and then customize. This branched version now won't track latest updates to The Good Docs Project templates. A more sustainable approach would be to have an accompanying configuration file which supports section inclusion logic and variables. A future toolchain would need to be setup before we could introduce accompanying config files.}_
+_{TBD: We are encouraging docset owners to branch a template and then customize. This branched version now won't track latest updates to The Good Docs Project templates. A more sustainable approach would be to have an accompanying configuration file which supports section inclusion logic and variables. A future toolchain would need to be set up before we could introduce accompanying config files.}_
 
 * There are multiple approaches which can be taken to customize this template. These may depend upon:
     * The maturity of your project.
@@ -200,7 +200,7 @@ See also the maintenance strategy section of the `doctype_guide`.
     * When documentation is out of date with software.
     * When documentation hasn’t been reviewed for a while.
 * Integrating documentation checklists into software deployment, build, and test processes.
-* This section can remain empty if there is no extra recommendations to add beyond general guidance in the `doctype_guide`.
+* This section can remain empty if there are no extra recommendations to add beyond general guidance in the `doctype_guide`.
 
 }
 
@@ -208,7 +208,7 @@ See also the maintenance strategy section of the `doctype_guide`.
 
 {Template author tip:
 
-It isn’t sufficient to simply define best practices for a `doctype`. You need to provide compelling evidence as to why this is the best approach. It there isn't any research, then say so, provide your own recommendations, and explain why you think they are the best approach.
+It isn’t sufficient to simply define best practices for a `doctype`. You need to provide compelling evidence as to why this is the best approach. If there isn't any research, then say so, provide your own recommendations, and explain why you think they are the best approach.
 
 "Do the hard work to make it simple." [UK Open Government Design Principle](https://www.gov.uk/guidance/government-design-principles#do-the-hard-work-to-make-it-simple)
 

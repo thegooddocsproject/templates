@@ -1,6 +1,6 @@
 # Doctype example guide
 
-This guidde explains how to build a good example document for a specific `doctype`, which aligns with the principles of [The Good Docs Project](https://thegooddocsproject.dev).
+This guide explains how to build a good example document for a specific `doctype`, which aligns with the principles of [The Good Docs Project](https://thegooddocsproject.dev).
 
 The guide is designed to be read by a template author, someone who intends to create or improve a set of templates and guides for a `doctype`.
 
