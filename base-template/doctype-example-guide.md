@@ -20,6 +20,15 @@ The guide is designed to be read by a template author, someone who intends to cr
 
 **Last updated:** February, 2021
 
+## Prerequisites
+
+To make the best use of this guide, you should have a working knowledge of:
+
+* [Git](https://git-scm.com/): The version control system used.
+* [GitHub](https://github.com/thegooddocsproject): The project hosting platform used, along with associated project management tools.
+* [GitHub Flavored Markdown](https://github.github.com/gfm/): The markup language used to write template documentation.
+* Technical writing, including experience writing for the doctype you are writing an example for.
+
 ## Fictional example project
 
 The xxx-example.md document should describe the fictional [chronologue](https://github.com/thegooddocsproject/chronologue/) project.
