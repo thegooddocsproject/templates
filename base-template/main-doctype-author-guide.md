@@ -1,13 +1,13 @@
-# Docset owner guide overview
+# Main docset author guide
 
-This guide explains discusses how `doctype` templates and guides can be customized for a specific project's needs.
+This guide explains how to create and customize templates and guides for a specific `doctype`. It includes background reasoning.
 
 The guide is designed to be read by a docset owner, someone responsible for establishing a documentation strategy for a project.
 
 <!--Machine readable schema.org structured metadata about this guide.-->
 <script type="application/ld+json">
 {
-    "name": "Template author guide",
+    "name": "Main docset author guide",
     "description": "This guide explains discusses how `doctype` templates and guides for The Good Docs Project can be customized for a specific project's needs.",
     "version": "0.1"
     "datePublished": "2021-02",
@@ -33,23 +33,23 @@ To make the best use of this guide, you should have a working knowledge of:
 
 The template documents target multiple audiences:
 
-|**Role**                |**Reads**                                                   |**Creates**  |
-|:-----------------------|:-----------------------------------------------------------|:------------|
-|Template author         |template-author-guide<br> base-doctype-template<br> base-doctype-guide-template<br> doctype-example-guide|xxx-template<br> xxx-template-guide<br> example-xxx|
-|Docset owner            |docset-owner-guide<br> xxx-templates<br> xxx-template-guides|xxx-templates|
-|Document author         |xxx-template <br> xxx-template-guide<br> example-xxx        |document     |
-|Document target audience|document                                                    |             |
+|**Role**       |**Reads**                                                   |**Creates**  |
+|:--------------|:-----------------------------------------------------------|:------------|
+|Template author|main-docset-author-guide<br> base-doctype-template<br> base-doctype-guide-template<br> doctype-example-guide|xxx-template<br> xxx-guide-template<br> xxx-example|
+|Docset owner   |main-docset-author-guide<br> xxx-templates<br> xxx-guide-templates|xxx-templates<br> xxx-guide-templates|
+|Doc author     |xxx-template <br> xxx-guide-template<br> xxx-example        |document     |
+|Doc reader     |document                                                    |             |
 
 ### Template author
 
-* A template author creates document set for a specific `doctype`: (xxx-template, example-xxx, and xxx-template-guide).
+* A template author creates a document set for a specific `doctype`: (xxx-template, xxx-guide-template, and xxx-example).
 
 ### Docset owner
 
-A docset owner is responsibile for a Documentation Management Plan and [Information Architecture](https://thegooddocsproject.dev/ia-guide.html) for a project. Typical tasks include:
+A docset owner is responsible for a Documentation Management Plan and [Information Architecture](https://thegooddocsproject.dev/ia-guide.html) for a project. Typical tasks include:
 
 * Select a set of doctype templates for the project.
-* Customize templates if needed.
+* Customize xxx-templates and xxx-guide-templates for the project, if required.
 * Select a style guide for the project.
 * Establish the docset maintenance process.
 
@@ -57,14 +57,13 @@ _{TBD: We should define a template for a Documentation Management Plan, then ref
 
 ### Document author
 
-A document author writes content in line with `doctype` templates. Typically the document author is a subject matter expert and not a dedicated technical writer.
+A document author writes documents, in line with the xxx-template, xxx-guide-template, and xxx-example. Typically the document author is a subject matter expert and not a dedicated technical writer.
 
-Ideally, their document will be reviewed by a technical writer, another subject matter expert, and the docset owner.
-
-### Document's target audience
+### Document's reader
 
 And of course, we need to understand the needs of the document's target audience.
-## Establishing a documentation strategy
+
+## Establish a documentation strategy
 
 While templates from The Good Docs Project can be used as is, it is wise to establish a documentation strategy, which is typically coordinated by someone acting in the role of a docset owner.
 
@@ -79,7 +78,7 @@ Responsibilities of a docset owner typically include:
 
 _{TBD: Add link to a Documentation Management Plan Guide.}_
 
-## Inheritence of doctypes
+## Inheritance of doctypes
 
 There are common features shared between similar `doctypes`. The following hierarchy shows how doctypes inherit from each other.
 
@@ -105,11 +104,11 @@ When selecting the `doctypes` to include in a project's documentation, consider:
 * The nature of the project and communication needs.
 * The project's capacity and willingness to maintain the documentation.
 * The toolchain you have access to, and any automation that may be available.
-* The maturity and quality critiera set for the project.
+* The maturity and quality criteria set for the project.
 
 The following table prioritizes the importance of `doctypes` based on project maturity:
 
-|:Template name         |Core type   |Description                                             |Startup|Mature|
+|Template name          |Core type   |Description                                             |Startup|Mature|
 |:----------------------|:-----------|:-------------------------------------------------------|:------|:-----|
 |API Project overview   |Concept     | An overview of your API                                |Must   |Must  |
 |API Quickstart         |Concept,Task| Simplest possible method of implementing your API      |Should |Must  |
@@ -133,7 +132,7 @@ All templates should include metadata, presented in visible form, and also embed
 The metadata fields which should be presented by a document depends upon:
 * The value the metadata field provides to the target audience for the {doctype} doctype.
 * The project's capacity to collect and maintain the metadata field. Can it be collected automatically?
-* The maturity and quality critiera set for the project.
+* The maturity and quality criteria set for the project.
 
 **Note:** Be careful not to overcommit to the number of metadata fields you introduce into your project's documentation:
 * Many metadata fields need to be maintained manually which adds a maintenance burden to the project.
@@ -165,21 +164,17 @@ _(TBD: Discuss/improve recommendations for [schema.org](https://schema.org/) met
 
 ## Maintenance strategy
 
-The long term health of documentation depends upon the project's ability to establish sustainable maintenance processes for each doctype.
+The long term health of documentation depends upon the project's ability to establish sustainable maintenance processes for each doctype. If content on a site is inaccurate or dated, it will reduce the trustworthiness of all the content on the site, as the user typically won’t be able to determine which of the content is trustworthy. As such, a project should only create content where there is commitment for continued maintenance of the content.
 
-* If content on a site is inaccurate or dated, it will reduce the trustworthiness of all the content on the site, as the user typically won’t be able to determine which of the content is trustworthy.
-* As such, a project should only create content where there is commitment for continued maintenance of the content.
-
-This section suggests maintenance strategies which can be applied. The strategies selected should be described in your Documentation Management Plan.
+The strategies selected should be described in your Documentation Management Plan.
 
 _{TBD: We should define a template for a Documentation Management Plan, then reference from here.}_
 
-_{TBD: Describe maintenace strategies, which likely will be grouped by doctypes. The details of these strategies will be worth spinning out into a separate document. Topics to cover:}_
+_{TBD: Describe maintenance strategies, which likely will be grouped by doctypes. The details of these strategies will be worth spinning out into a separate document. Topics to cover:}_
 * _Automated documentation generation from code._
 * _Automated reports which highlight:_
     * _When documentation is out of date with software._
     * _When documentation hasn’t been reviewed for a while._
 * _Integrating documentation checklists into software deployment, build, and test processes._
-
 _}_
 
