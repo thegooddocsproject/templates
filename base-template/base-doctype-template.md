@@ -25,13 +25,12 @@ It is designed to help {persona or personas} to achieve/learn {some goal}.
 
 * All technical documentation should include [machine readable structured metadata](https://developers.google.com/search/docs/guides/sd-policies) which reflects the content in the page. Structured metadata helps search engines index pages appropriately, and facilitates content reuse. For instance, a page's description and associated image may be included in a search result for the page.
 * Within this project we have adopted the [JSON-LD](http://json-ld.org/) format for structured metadata, [as recommended by Google](https://developers.google.com/search/docs/guides/intro-structured-data).
-* Metadata fields listed as "must" and "should" for "starter" projects the `doctype-guide-template` table must be included in the metadata below. Other metadata fields should not be included in the `doctype-template`. A docset-owner may add or remove metadata fields when customizing the `doctype-template` for their specific project.
-* Refer to the `docset-owner-guide` for deeper discussion about Metadata.
-* Note, you will need to view this document as raw markdown in order to see the embedded JSON-LD metadata.
+* Metadata fields listed as "must" and "should" for "starter" projects the `doctype-guide-template` table must be included in the schema.org metadata below. Other metadata fields should not be included in the `doctype-template`. A docset-owner may add or remove metadata fields when customizing the `doctype-template` for their specific project.
+* Refer to the `main-doctype-author-guide` for a deeper discussion about metadata.
 
 }
 
-<!--Machine readable schema.org structured metadata.-->
+<!--Machine readable schema.org structured metadata about this document.-->
 <script type="application/ld+json">
 {
   "name": "{Title of the document}",
@@ -42,7 +41,6 @@ It is designed to help {persona or personas} to achieve/learn {some goal}.
   "audience": "{persona you are writing for, such as: developer, business manager, …}"
 }
 </script>
-
 
 **This document version:** {This document's version, ideally in [semantic versioning](https://semver.org/) MAJOR.MINOR.PATCH format} 
 

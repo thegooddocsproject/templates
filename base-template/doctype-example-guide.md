@@ -4,7 +4,7 @@ This guide explains how to build a good example document for a specific `doctype
 
 The guide is designed to be read by a template author, someone who intends to create or improve a set of templates and guides for a `doctype`.
 
-<!--Machine readable schema.org structured metadata.-->
+<!--Machine readable schema.org structured metadata about this guide.-->
 <script type="application/ld+json">
 {
     "name": "Doctype example guide",
