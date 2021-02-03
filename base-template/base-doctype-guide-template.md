@@ -2,7 +2,7 @@
 
 {Template author tip:
 
-* This `doctype-guide-template` captures the structure and common elements that all xxx-guide-temlates should follow.
+* This `doctype-guide-template` captures the structure and common elements that all xxx-guide-templates should follow.
 * "Template author tips" should be removed from the final xxx-template-guide.
 * You will need to view the raw markdown to see the machine readable metadata.
 }
