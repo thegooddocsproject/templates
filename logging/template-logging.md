@@ -8,11 +8,10 @@ app: # Insert the name of the app here.
 tags: # Set other global keywords here like app name and product name or any other likely labels. These are comma-separated tags.
 ---
 
-<!--
-Begin your Reference topic in this section. 
+{Begin your Reference topic in this section. 
 For help with writing and structuring a reference article, see the README.md in the template directory for basic guidelines and links.
-Check out https://www.markdownguide.org/basic-syntax/ if you get stuck with AsciiDoc syntax.
--->
+Check out https://www.markdownguide.org/basic-syntax/ if you get stuck with AsciiDoc syntax.}
+
 
 # {pipeline} for {app}
 
@@ -30,8 +29,8 @@ Check out https://www.markdownguide.org/basic-syntax/ if you get stuck with Asci
 ## Logging example
 
 Logging example
-<!-- source,XML -->
-```
+
+```xml
 <message>
    <detail>
       <dt>2017-05-22T13:35:27.013</dt>

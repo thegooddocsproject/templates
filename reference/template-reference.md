@@ -11,11 +11,9 @@ tags: # Set other global keywords here like app name and product name or any oth
 # Overview
 Summarise what this reference article is about. What you put here is reused in the Overview section and include in HTML description tags.
 
-<!--
-Begin your Reference topic in this section. 
+{Begin your Reference topic in this section. 
 For help with writing and structuring a reference article, see the README.md in the template directory for basic guidelines and links.
-Check out https://www.markdownguide.org/basic-syntax/ if you get stuck with AsciiDoc syntax.
--->
+Check out https://www.markdownguide.org/basic-syntax/ if you get stuck with AsciiDoc syntax.}
 
 # Parameters
 Table 1. Example parameter reference template
