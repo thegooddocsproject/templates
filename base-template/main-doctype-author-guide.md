@@ -25,7 +25,7 @@ The guide is designed to be read by a docset owner, someone responsible for esta
 To make the best use of this guide, you should have a working knowledge of:
 
 * The project's documentation style guide.
-* Technical writing skills.
+* Technical writing best practices.
 * [GitHub Flavored Markdown](https://github.github.com/gfm/): The markup language used to write template documentation.
 * [Available doctypes templates](https://github.com/thegooddocsproject/templates): To help identify if you need to create a new template or edit an existing one.
 
