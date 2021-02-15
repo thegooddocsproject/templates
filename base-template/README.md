@@ -1,6 +1,6 @@
 # What's in the base-template directory
 
-This base-template directory contains templates and guides to be followed by a `doctype` template author. They can also be used by a project's docset owner select and customize the project's templates.
+This base-template directory contains templates and guides to be followed by a `doctype` template author. They can also be used by a project's docset owner to select and customize the project's templates.
 
 **Version:** 0.1
 

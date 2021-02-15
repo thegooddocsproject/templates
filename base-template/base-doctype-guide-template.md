@@ -77,7 +77,7 @@ _{TBD: We should link to a page we are yet to write helping people pick personas
 * Discuss what format will best express the nature of the content. For example, text only, or multi-media options such as diagrams, screenshots or video.
 * Discuss how the format you choose will impact maintenance. This can include human work-hours, as well as ongoing processes and infrastructure requirements.
 * Reference your style guide, which should have recommended guidelines for using multimedia, such as image size and video length.
-* For content with numerous items or steps, consider "chunking" content into sub-sections of 5-10 steps. It makes the information easier to read and remember, and gives the reader a sense of accomplishment after each chunk is completed. Chunking is recommended by major companies, such as within [Microsoft's writing style guide](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/writing-step-by-step-instructions#complex-procedures), and from the Nielsen Norman Group's [research on chunking and usability](https://www.nngroup.com/articles/short-term-memory-and-web-usability/).
+* For content with numerous items or steps, consider "chunking" content into sub-sections of 5-10 steps. It makes the information easier to read and remember, and gives the reader a sense of accomplishment after each chunk is completed. Chunking is recommended by major companies, such as Microsoft in its [writing style guide](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/writing-step-by-step-instructions#complex-procedures), and from the Nielsen Norman Group's [research on chunking and usability](https://www.nngroup.com/articles/short-term-memory-and-web-usability/).
 
 }
 
