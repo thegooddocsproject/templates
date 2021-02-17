@@ -4,7 +4,10 @@ This guide explains how to build a good example document for a specific `doctype
 
 The guide is designed to be read by a template author, someone who intends to create or improve a set of templates and guides for a `doctype`.
 
+{
+Add structured metadata info to your doc template that the end user can use to describe the doc page's contents, to improve search results that feature the doc pages. If your docs are to be displayed in HTML, add a script tag to the head of the page with JSON-LD metadata, as in this example: 
 <!--Machine readable schema.org structured metadata about this guide.-->
+``` json
 <script type="application/ld+json">
 {
     "name": "Doctype example guide",
@@ -15,6 +18,8 @@ The guide is designed to be read by a template author, someone who intends to cr
     "audience": "doctype template author"
 }
 </script>
+```
+}
 
 **Version:** 0.1
 
