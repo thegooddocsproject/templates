@@ -12,7 +12,7 @@ The guide is designed to be read by a template author, someone who intends to cr
 ``` json
 <script type="application/ld+json">
 {
-    "name": "Doctype example guide",
+    "name": "{Doctype} example",
     "description": "This guide explains how to build a good example document for a specific doctype, which aligns with the principles of The Good Docs Project.",
     "version": "0.1"
     "datePublished": "2021-02",
