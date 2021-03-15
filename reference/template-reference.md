@@ -1,33 +1,32 @@
----
-title: template for reference # Describe the title of your article by replacing "template for reference" with the page name you want to publish.
-author: The Good Docs Project
-uri-repo: https://github.com/projectname
-company: REPLACEME
-product: # Set the product parameter to add the product name here. 
-app: # Insert the name of the app here.
-tags: # Set other global keywords here like app name and product name or any other likely labels. These are comma-separated tags.
----
+# {reference article title}
 
-# Overview
-Summarise what this reference article is about. What you put here is reused in the Overview section and include in HTML description tags.
+## Overview
+{Document author tip:
+Summarise what this reference article is about. Explain what all the entries defined on the page have in common. What you put here is reused in the Overview section of your doc site and included in HTML description tags. For help with writing and structuring a reference article, see the file about-reference.md in this directory. Check out https://www.markdownguide.org/basic-syntax/ if you need help with markdown syntax.
+}
 
-{Begin your Reference topic in this section. 
-For help with writing and structuring a reference article, see the README.md in the template directory for basic guidelines and links.
-Check out https://www.markdownguide.org/basic-syntax/ if you get stuck with AsciiDoc syntax.}
+{Document author tip: It can be helpful to split up your reference page into subsets of related enries. For example, the reference page for an API endpoint might include subsets of entries for "General Requirements", "Request Parameters", and "Responses"}. The formats of entries might be different for each subset; for example, "General Requirements" might be a bulleted list, while "Request Parameters" and "Responses" are tables.
+}
+## {subset of reference entries}
 
-# Parameters
-Table 1. Example parameter reference template
+{table or other structured presentation of entries}
+
+{Document author tip: Here is a starter table for a subset of entries for parameters.  
+
+## Parameters
 
 |Name |Type |Required |Description |
 |:--- |:--- |:--- |:--- |
 |productCode|`string`|Yes|Code of the document product to return the schema for. <br> <ul><li>Here is a bulleted list with a \| (pipe) inside a table.</li><li>Another bulleted list.<ul><li>An indented list</li></ul></li><li>Back to the list.</li></ul> |
 |||||
 
-# Field reference
+}
+
+{Document author tip: Here is a starter table for a subset of entries for UI form-field references. Each entry refers to an element in the screenshot.
+
+## Form-field References
 
 ![Field reference](https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/Resources/Images/Forms/kbf2.x1.jpg)
-
-Table 2. Example field name reference template
 
 |Name |Type |Required |Description |
 |:--- |:--- |:--- |:--- |
@@ -35,7 +34,7 @@ Table 2. Example field name reference template
 |First Name|`string`|Yes|The first name of the person requiring training.|
 |Last Name|`string`|Yes|The surname of the person requiring training.|
 
-Table 3. Example nested table
+{Document author tip: Here is example HTML for a nested table.
 
 <table>
   <tr>
@@ -66,3 +65,5 @@ Table 3. Example nested table
      <td>Cell 3.2</td>     
   </tr>
 </table>
+
+}
