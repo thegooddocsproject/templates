@@ -6,6 +6,13 @@ They are essential to give new users the feeling that they can quickly achieve s
 Tutorial articles are often confused with How Tos. Tutorials are learning-oriented, while How Tos are problem-oriented.
 If you find your tutorial has a single main procedure, consider using a How To template instead of a Tutorial.
 
+Suggested writers who should consider adopting a tutorial template
+- technical writers
+- subject matter experts
+- product owners
+
+**Last updated** 2021-03-24 by Ian
+
 ## Content of your tutorial
 
 ### The Overview section
