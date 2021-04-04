@@ -4,7 +4,7 @@ This base-template directory contains templates and guides to be followed by a `
 
 **Version:** 0.1
 
-**Last updated:** February, 2021
+**Last updated:** February 2021
 
 ## How to use the base-template files 
 As a doctype author, you will be responsible for creating three documents:

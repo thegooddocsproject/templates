@@ -26,7 +26,7 @@ The guide is designed to be read by a template author, someone who intends to cr
 
 **Version:** 0.1
 
-**Last updated:** February, 2021
+**Last updated:** February 2021
 
 ## Prerequisites
 

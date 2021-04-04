@@ -23,7 +23,7 @@ This {doctype}-guide provides writing tips and background theory to help docset 
 
 **Version:** {This document's version, ideally in MAJOR.MINOR.PATCH format}
 
-**Last updated:** {Date in the format of YYYY-MM-DD or YYYY-MM}
+**Last updated:** {Date in the format: "Month DD, _YYYY" or "Month YYYY"}
 
 ## Prerequisites
 

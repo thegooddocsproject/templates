@@ -44,7 +44,7 @@ It is designed to help {persona or personas} to achieve/learn {some goal}.
 
 **This document version:** {This document's version, ideally in [semantic versioning](https://semver.org/) MAJOR.MINOR.PATCH format} 
 
-**Last updated:** {Date in the format of "Month DD, YYYY"}
+**Last updated:** {Date in the format: "Month DD, _YYYY" or "Month YYYY"}
 
 ## {Sections and subsections}
 

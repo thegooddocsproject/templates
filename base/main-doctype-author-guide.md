@@ -18,7 +18,7 @@ The guide is designed to be read by a docset owner, someone responsible for esta
 
 **Version:** 0.1
 
-**Last updated:** February, 2021
+**Last updated:** February 2021
 
 ## Prerequisites
 
