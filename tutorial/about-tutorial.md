@@ -11,7 +11,9 @@ Suggested writers who should consider adopting a tutorial template
 - subject matter experts
 - product owners
 
-**Last updated** 2021-03-24 by Ian
+**Version:** 0.1
+
+**Last updated** 2021-04-05 (YYY-MM-DD) by Ian
 
 ## Content of your tutorial
 
@@ -19,6 +21,7 @@ Suggested writers who should consider adopting a tutorial template
 
 Summarize what the reader will achieve by reading the explanation article.
 
+Think about your audience:
 * Are you writing for developers or for managers?
 * Are you writing for people who have a certain problem to solve?
 * Are you writing for a particular industry or market segment?
