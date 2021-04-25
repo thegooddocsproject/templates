@@ -50,7 +50,7 @@ Before writing your {doctype} document, you should plan to address all items on 
     * [ ] For clear writing and alignment with the writing style guide, ideally by a technical writer or editor.
     * [ ] For alignment with the {doctype} template, ideally by a technical writer, information architect, or content strategist.
     * [ ] For technical accuracy, ideally by a technical subject matter expert.
-* [ ] {Further checklist items ... .}
+* [ ] {Further doctype specific checklist items ... .}
 
 ## User stories
 

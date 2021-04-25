@@ -1,17 +1,12 @@
-# {Doctype} guide
+# General doctype guide
+This document captures general documentation guide, applicable to most documentation types. Sections are referenced by equivalent sections within doctype template and guide docs. This guide is designed to provide background information for doc authors, docset owners, and template authors.
 
-{Tip:
+## Prerequisites
 
-* This guide includes tips (such as this) and variables inside curly brackets. These tips and variables should be replaced or removed from the final document.
+To make the best use of this guide, it helps if you have a working knowledge of:
 
-}
-
-This {doctype}-guide describes the **process** an author should follow when creating a {doctype} document and filling in the {doctype}-template.
-
-**Version:** {MAJOR.MINOR.PATCH}
-
-**Last updated:** {Month DD, YYYY}
-
+* The project's documentation style guide.
+* Technical writing basics.
 
 ## Common fields
 
@@ -101,3 +96,4 @@ Use the following table to help select the metadata fields to include in your {d
 **Note:** The terms "Must”, "Should”, and "May” should be interpreted as per [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
 _(TBD: Discuss/improve recommendations for [schema.org](https://schema.org/) metadata fields. The table above should cover all metadata fields we consider should be recommended in the The Good Docs Project.}_
+

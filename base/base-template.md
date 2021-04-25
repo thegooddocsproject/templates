@@ -46,7 +46,7 @@ It is designed to help {persona or personas} to achieve/learn {some goal}.
 {Tip:
 
 * This section is optional.
-* You should include three to five links to more information.
+* You should include one to four links to more information.
 * Links should be a logical next step to what has already been read.
 * It will typically include a combination of related documents of this `doctype`, as well as relevant other `doctypes`. For instance, a tutorial may point to the next tutorial in a series, relevant reference material, and background conceptual theory.
 
@@ -57,7 +57,7 @@ It is designed to help {persona or personas} to achieve/learn {some goal}.
 {Tip:
 
 * This section is optional.
-* Here you can acknowledge organizations or people who have contributed to this document.
+* Here you can acknowledge source material, and organizations or people who have contributed to this document.
 
 }
 
