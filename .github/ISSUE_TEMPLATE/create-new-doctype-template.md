@@ -1,7 +1,7 @@
 ---
-name: Create new doctype template
-about: For issues where a templateer needs to create a new doctype template.
-title: Create {doctype} template
+name: Create new doc type template
+about: For issues where a templateer needs to create a new doc type template.
+title: Create {doc_type} template
 labels: templates
 assignees: ''
 
@@ -10,15 +10,15 @@ assignees: ''
 # Create {doctype} template
 
 ## Description
-### Doctype Name: {doctype}
+### Doc Type Name: {doc_type}
 ### Directory: https://github.com/thegooddocsproject/templates/{directory_name}
 ### Sub-tasks
-1. Create {doctype}-template.md and write content for it
-2. Create {doctype}-guide.md and write content for it
+1. Create {doc_type}-template.md and write content for it
+2. Create {doc_type}-guide.md and write content for it
 
 {Optional: add any further explanation if the issue is not self-explanatory}
 
-## Helpful References
+## Helpful Resources
 {Optional: Add links to anything that might help the templateer write this particular type of template. For example, a Medium article about how to write good tutorials.}
 
 ## Before You Submit
