@@ -1,26 +1,11 @@
 # {Doctype} theory
 
-{Tip:
-
-* "Tips" should be removed from the final xxx-template-theory.
-}
-
 This {doctype}-theory document provides reasoning, justifications, and links to research relevant to {doctype} documentation. It aims to empower authors to "think like a tech writer and expert in {doctype} documents" and make decisions backed by best practices.
 
 **Version:** {MAJOR.MINOR.PATCH}
 
 **Last updated:** {Month DD, YYYY}
 
-
-## Checklist
-
-Before writing your {doctype} document, you should plan to address all items on the following checklist. Before finalizing, you should check they are complete.
-
-* [ ] The document has been reviewed:
-    * [ ] For clear writing and alignment with the writing style guide, ideally by a technical writer or editor.
-    * [ ] For alignment with the {doctype} template, ideally by a technical writer, information architect, or content strategist.
-    * [ ] For technical accuracy, ideally by a technical subject matter expert.
-* [ ] {Further doctype specific checklist items ... .}
 
 ## User stories
 

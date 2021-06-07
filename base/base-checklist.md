@@ -1,15 +1,12 @@
 # {Doctype} checklist
-{
-Tip:
+This checklist list all items which should be addressed before completing a {doctype} document. It should be considered by an author while writing, and should used to guide reviewers.
 
-* Before writing your {doctype} document, you should plan to address all items on the following checklist. Before finalizing, you should check they are complete.
-
-}
-
+## Checklist
 * [ ] The document has been reviewed:
     * [ ] For clear writing and alignment with the writing style guide, ideally by a technical writer or editor.
-    * [ ] For alignment with the {doctype} template, ideally by a technical writer, information architect, or content strategist.
+    * [ ] For alignment with the [{doctype}-template](../{doctype}/{doctype}-template.md), ideally by a technical writer, information architect, or content strategist.
     * [ ] For technical accuracy, ideally by a technical subject matter expert.
-* [ ] {Further doctype specific checklist items ... .}
+* [ ] {Further doctype specific checklist items.}
 
-_TBD: See also: [the documentation maturity checklist](https://github.com/google/opendocs/blob/main/audit/checklist.md)_.
+## See also
+See also: [the documentation maturity checklist](https://github.com/google/opendocs/blob/main/audit/checklist.md).
