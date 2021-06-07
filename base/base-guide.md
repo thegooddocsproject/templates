@@ -1,220 +1,151 @@
-# {Doctype} guide template
+# {Doctype} guide
 
-{Template author tip:
+This {doctype}-guide provides extra writing tips for each of the sections within the {doctype}-template.
 
-* This `doctype-guide-template` captures the structure and common elements that all xxx-guide-templates should follow.
-* "Template author tips" should be removed from the final xxx-template-guide.
-* You will need to view the raw markdown to see the machine readable metadata.
-}
+**Version:** {MAJOR.MINOR.PATCH}
 
-This {doctype}-guide provides writing tips and background theory to help docset owners and documentation authors create good {doctype} documents.
-
-<!--Machine readable schema.org structured metadata about this guide.-->
-<script type="application/ld+json">
-{
-    "name": "{Doctype} guide template",
-    "description": "This {doctype}-guide provides writing tips and background theory to help docset owners and documentation authors create good {doctype} documents.",
-    "version": "{This document's version, ideally in MAJOR.MINOR.PATCH format}"
-    "datePublished": "{Date in the format of YYYY-MM-DD or YYYY-MM}",
-    "license": "http://creativecommons.org/licenses/by/4.0/",
-    "audience": "{doctype} document author, docset owner"
-}
-</script>
-
-**Version:** {This document's version, ideally in MAJOR.MINOR.PATCH format}
-
-**Last updated:** {Date in the format: "Month DD, _YYYY" or "Month YYYY"}
+**Last updated:** {Month DD, YYYY}
 
 ## Prerequisites
 
 To make the best use of this guide, it helps if you have a working knowledge of:
 
 * The project's documentation style guide.
-* Technical writing basics.
+* Technical writing basics, such as taught in Google's [technical writer training courses](https://developers.google.com/tech-writing).
 
-## Primary goal
+## {Doctype} content
+### Hero description
+The hero description stands alone, just under the title. It is sometimes referred to as the "TL;DR statement", short for: Too Long; Dont Read" and is written as:
+```
+   TL;DR: {Hero description.}
+```
 
-{Template author tip: Concisely state the primary purpose of this doctype, ideally in one or two short sentences.}
+It should be very short so that a reader will naturally want to read it. It's purpose is to quickly help the reader decide whether they should read any further.
 
-## Checklist
+It should concisely explain what this document covers, and the type of person who will be interested in reading it. 
 
-{Template author tip:
+### Document version
+To enable consistency and traceability between cross-referenced documentation and software, all documentation should be versioned.
 
-* Add checklist items which are specific to this `doctype`.
+A versioning convention should be adopted. It is usually best to follow the widely adopted [semantic versioning](https://semver.org/) MAJOR.MINOR.PATCH convention.
+
+### Last updated
+
+The ```last updated``` field refers to the documentation's publication date. Follow the date naming convention from your project's style guide, such as [Google style guide's date guidance](https://developers.google.com/style/dates-times).
+
+Make sure you use an unambiguous date format. Note that 4/5/1900 could be:
+* April 5, 1900 in the United States.
+* 4 May, 1900 in England.
+
+If adopting the short hand formatting, select the universal date format: ```YYYY-MM-DD``` or ```YYYY-MM```.
+
+### Application version(s)
+Where applicable, the documentation should list the version, or range of versions, of the application(s) this documentation describes.
+
+### {Other metadata field}
+
+{Tips for using this field}
+
+### Indicative reading time
+
+Reading speed usually should not be included in fields. There are two lines of thought around including a ```reading time``` field.
+
+Pros:
+* It helps someone decide whether they have time to read the page.
+
+Cons:
+* It is hard to account for:
+    * The range of technial expertise and reading speeds of readers.
+    * The varying technical complexity of source material.
+    * Multiple authors applying differing rules to assess reading time.
+* It potentially makes slow readers feel inadequate and demotivated.
+* Reading time is less appicable for some doctypes.
+
+Guidelines for calculating reading time:
+* Base estimates on the least experienced and slowest target reader.
+* Typically assume a reading speed of 50 words per minute for technical material, and 200 words per typical business material. [ExecuRead reading speed source assessment](https://secure.execuread.com/facts/#:~:text=The%20average%20reading%20speed%20is,roughly%202%20minutes%20per%20page.).
+
+_TBD: Provide better researched references and theory to this._
+
+
+### Optional: Machine readable metadata
+
+Ideally include machine readable metadata to help search engine optimazation. This should be written in [JSON-LD](http://json-ld.org/) format, such as:
+
+```javascript
+<!--Machine readable schema.org structured metadata about this document.-->
+<script type="application/ld+json">
+{
+  "name": "{Title of the document}",
+  "description": "{Copy of the summary text}",
+  "version": "{MAJOR.MINOR.PATCH}"
+  "datePublished": "{Month DD, YYYY}",
+  "license": "{URL to license}",
+  "audience": "{Persona you are writing for, such as: developer, business manager, …}"
+}
+</script>
+```
+
+The metadata fields which should be presented by a document depends upon:
+* The value the metadata field provides to the target audience for the doctype.
+* The project's capacity to collect and maintain the metadata field. Can it be collected automatically?
+* The maturity and quality criteria set for the project.
+
+**Note:** Be careful not to overcommit to the number of metadata fields you introduce into your project's documentation:
+* Many metadata fields need to be maintained manually which adds a maintenance burden to the project.
+* If any of the metadata on a site is inaccurate or dated, it will reduce the trustworthiness of all content on the site, as the user typically won’t be able to determine which of the content is trustworthy.
+* As such, a project should only adopt metadata fields which are automatically maintained by your documentation publishing system, or where there is an established, low-effort process to ensure the metadata is maintained.
+
+Use the following table to help select the metadata fields to include in your {doctype} template:
+
+|Metadata field    |schema.org name|Typical location in doc         |Priority - startup|Priority - mature|
+|:-----------------|:--------------|:-------------------------------|:-----------------|:----------------|
+|Title             |name           |\<title> and \<h1> heading      |Must              |Must             |
+|Description       |description    |First paragraph summary         |Must              |Must             |
+|Doc version       |version        |Front metadata list             |May               |Should           |
+|Doc publish date  |datePublished  |Front metadata list             |Must              |Must             |
+|Reading time      |-              |Front metadata list             |May               |May              |
+|Target app version|-              |Front metadata list or Footer   |May               |Should           |
+|License           |license        |Footer                          |Should            |Must             |
+|Target audience   |audience       |Within first paragraph summary  |May               |Should           |
+
+**Note:** The terms "Must”, "Should”, and "May” should be interpreted as per [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
+
+_(TBD: Discuss/improve recommendations for [schema.org](https://schema.org/) metadata fields. The table above should cover all metadata fields we consider should be recommended in the The Good Docs Project.}_
+
+## {Sections and subsections}
+
+
+* Include standard headings applicable for this template’s `doctype`.
+* Where applicable, provide standard text for relevant sections.
+* Include tips for doc authors.
+* Some sections will be optional and include an "optional" tip to the doc author.
+}
+
+{Doc author tip:
+
+* Optionally include this section if {some condition}.
 
 }
 
-Before writing your {doctype} document, you should plan to address all items on the following checklist. Before finalizing, you should check they are complete.
+## What’s next
 
-* [ ] The document has been reviewed:
-    * [ ] For clear writing and alignment with the writing style guide, ideally by a technical writer or editor.
-    * [ ] For alignment with the {doctype} template, ideally by a technical writer, information architect, or content strategist.
-    * [ ] For technical accuracy, ideally by a technical subject matter expert.
-* [ ] {Further doctype specific checklist items ... .}
+This section is optional.
 
-## User stories
 
-{Template author tip:
+{Template author tip: Most `doctypes` should provide links to help a document author find related topics and next steps.}
 
-* You should document the key user stories that this template is likely to be used for.
-
-}
-
-When writing, it is important to understand who you are writing for, and ensure that you provide just the right amount of information to address their needs. The following user stories should help you achieve that.
-
-A {doctype} document aims to address the following user stories:
-
-* As a {user persona}, I want to {achieve a specific goal}, so that I can {achieve a larger business objective}.
-* ...
-
-_{TBD: We should link to a page we are yet to write helping people pick personas.}_
-
-## Nature of content
-
-{Template author tip: 
-
-* Discuss the nature of the content for this doctype.
-* Discuss what format will best express the nature of the content. For example, text only, or multi-media options such as diagrams, screenshots or video.
-* Discuss how the format you choose will impact maintenance. This can include human work-hours, as well as ongoing processes and infrastructure requirements.
-* Reference your style guide, which should have recommended guidelines for using multimedia, such as image size and video length.
-* For content with numerous items or steps, consider "chunking" content into sub-sections of 5-10 steps. It makes the information easier to read and remember, and gives the reader a sense of accomplishment after each chunk is completed. Chunking is recommended by major companies, such as Microsoft in its [writing style guide](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/writing-step-by-step-instructions#complex-procedures), and from the Nielsen Norman Group's [research on chunking and usability](https://www.nngroup.com/articles/short-term-memory-and-web-usability/).
-
-}
-
-### Priorities for each quality criteria
-
-* Each `doctype` addresses different use cases. It targets different user personas, with different needs.
-* As such, there are different weightings applied to quality characteristics for each `doctype`. Reference documentation needs to comprehensively address all the features in the latest version, but can tolerate lower quality writing. Tutorials likely need only cover a sample of use cases, for an older version of the software, but there is a greater need for writing quality.
-* The following table is used to help prioritize your time when writing for this {doctype} doctype.
-
-{Template author tip: Apply priorities to the table below.}
-
-This table lists the relative importance of the following quality criteria for {doctype} documents.
-
-|Quality criteria                                        |Priority to address                                                                |
-|:-------------------------------------------------------|:----------------------------------------------------------------------------------|
-|Currency: Alignment with the latest version of software.|{Select one of: Must, Should, Nice to have (May), Not Applicable (N/A), Should not}|
-|Currency: Alignment with a specified version of software.|                                                                                  |
-|Comprehensive: Covers every feature and use case.       |                                                                                   |
-|Well written: Unambiguous.                              |                                                                                   |
-|Well written: Concise, high information density.        |                                                                                   |
-|Well written: Aligns with writing style guide.          |                                                                                   |
-|Well written: Engaging, entertaining, draws the reader in.|                                                                                 |
-|Audience: Target a specific persona and user story. Simplifies documentation by assuming prerequisite knowledge of the audience.|           |
-|Audience: Targets a broad international, multicultural audience. Avoids slang, colloquialisms, pop cultural references or local references.||
-|Audience: Considers a non-English speaking audience. Uses simple English.|                                                                  |
-|Audience: Consider accessibility and disability in audiences.|                                                                              |
-|Audience: Consider diversity and inclusiveness in language chosen.|                                                                         |
-|Maintainability: Written to be easily translated.        |                                                                                  |
-|Maintainability: Uses timeless language with reduced need to update over time.|                                                             |
-|Maintainability: Has established processes for auditing and updating content.|                                                              |
-|Maintainability: Has a healthy, engaged community of contributors.|                                                                         |
-
-Note: The terms "Must”, "Should”, and "May” should be interpreted as per [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
-
-_TBD: The quality criteria list requires review and refinement._
-* _Further reading: [Tom Johnson's article on Measuring Doc Quality](https://idratherbewriting.com/learnapidoc/docapis_measuring_impact.html)._
-* _Further reading: Daniel Beck's Doc Audit work. TBD: Get the public link for this._
-
-## Implementation strategy
-
-{Template author tip:
+{Tip:
 
 * This section is optional.
-* In some cases there may be tips you can provide on how to create a specific `doctype`.
+* Think about the persona(s) of your reader, and consider what they might want to know next. 
+* Provide one to four links to more information. Links should be a logical next step to what has already been read.
+    * Don't overwhelm your reader with too many choices. Just select the one link for the most likely next steps.
+    * Consider {next steps, similar concepts, background theory}.
 
 }
 
-## Business case
+## Acknowledgements
 
-{Template author tip:
-
-* In this section, discuss strategies to calculate the cost of implementing this `doctype`. This may just be to reference the development strategy and maintenance strategy above.
-* Then suggest business goals and reasons why this doctype would help address these goals. Business goals might be:
-    * Increased developer efficiency.
-    * Faster onboarding for users and/or developers.
-    * Reduced support costs.
-* Consider the case where the docs are only partially maintained. Would it be better to have no documentation than incorrect or partially maintained documentation?
-
-}
-
-### When to include {doctype} docs?
-
-{Template author tip:
-
-* Add a summarized list of reasons for writing the `doctype`, based on the business case above. 
-
-}
-
-You should write {doctype} docs when:
-
-* {Reason 1.}
-* {Reason 2.}
-
-### When wouldn’t you include {doctype} docs?
-
-{Template author tip:
-
-* Add a summarized list of reasons for not including the `doctype`, based on the business case above. 
-
-}
-
-Don't write {doctype} docs if:
-
-* {Reason 1.}
-* {Reason 2.}
-
-## Customization
-
-{Template author tip:
-
-* There are often multiple approaches to consider when implementing a `doctype`.
-* In this section you should discuss different approaches that can be applied to this `doctype`, including logic and recommendations to help a docset owner select the best strategy for them.
-* Often there would be a light and more comprehensive version of this template. Immature projects may only have the capacity to maintain the light version. You should discuss how a project might mature their docs from light to comprehensive versions.
-
-_{TBD: Add further guidance and sample text here.}_
-
-_{TBD: We are encouraging docset owners to branch a template and then customize. This branched version now won't track latest updates to The Good Docs Project templates. A more sustainable approach would be to have an accompanying configuration file which supports section inclusion logic and variables. A future toolchain would need to be set up before we could introduce accompanying config files.}_
-
-* There are multiple approaches which can be taken to customize this template. These may depend upon:
-    * The maturity of your project.
-    * The size, interest, and skillsets of your contributor community.
-    * The documentation goals you have for the project.
-* This section discusses approaches you may take to customize this template to your project.
-
-{Template author tip:
-
-* {Add customization advice here. …}
-
-}
-
-## Maintenance strategy
-
-See also the maintenance strategy section of the `doctype_guide`.
-
-{Template author tip:
-
-* In this section, you should recommend strategies for maintaining `doctype` documentation. This could include:
-* Automated documentation generation from code.
-* Automated reports which highlight:
-    * When documentation is out of date with software.
-    * When documentation hasn’t been reviewed for a while.
-* Integrating documentation checklists into software deployment, build, and test processes.
-* This section can remain empty if there are no extra recommendations to add beyond general guidance in the `doctype_guide`.
-
-}
-
-## Backing research and further reading
-
-{Template author tip:
-
-It isn’t sufficient to simply define best practices for a `doctype`. You need to provide compelling evidence as to why this is the best approach. If there isn't any research, then say so, provide your own recommendations, and explain why you think they are the best approach.
-
-"Do the hard work to make it simple." [UK Open Government Design Principle](https://www.gov.uk/guidance/government-design-principles#do-the-hard-work-to-make-it-simple)
-
-This section should summarize competing approaches and explain why you took the chosen approach.
-* It might also suggest situations where a docset owner would select a different approach.
-* Authoritative sources should be provided to justify recommendations.
-* If this section becomes more than a page long, consider extracting out into a separate research paper and then reference the paper.
-
-}
+* This section is optional.
+* Here you can acknowledge source material, and organizations or people who have contributed to this document.

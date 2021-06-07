@@ -1,19 +1,37 @@
 # {Doctype} template
 
-{Template author tip:
+{Tip:
 
-* This base template captures the structure and common elements that all xxx-templates should follow.
-* "Template author tips” should be removed from the final xxx-template.md.
-* "Document author tips" and variables in {curly brackets} should remain.
-* Adjust other tips to align with the `doctype` you are writing for.
+* This {doctype}-template captures the structure and common text that should be included in all {doctype} documents.
+* It includes tips (such as this) and variables inside curly brackets. These tips and variables should be replaced or removed from the final document.
 
 }
 
-{Document author tip:
+{Tip:
 
-* This {doctype} template captures the structure and common elements that all {doctype} documents should follow.
-* It includes tips (such as this) and variables inside curly brackets. These tips and variables must be replaced or removed from the final document.
-* The introduction should concisely explain what this document covers, and the type of person who will be interested in reading the document. It should ideally be limited to two to three short sentences.
+  Optional: Include machine readable [JSON-LD](http://json-ld.org/) metadata to help search engine optimization.
+
+}
+
+```javascript
+<!--Machine readable schema.org structured metadata about this document.-->
+<script type="application/ld+json">
+{
+  "name": "{Title of the document}",
+  "description": "{Copy of the summary text}",
+  "version": "{MAJOR.MINOR.PATCH}"
+  "datePublished": "{Month DD, YYYY}",
+  "license": "{URL to license}",
+  "audience": "{Persona you are writing for, such as: developer, business manager, …}"
+}
+</script>
+```
+
+{Tip:
+
+* The opening paragraph stands alone, just under the title. It's purpose is to quickly help the reader decide whether they should read any further.
+* It should concisely explain what this document covers, and the type of person who will be interested in reading it.
+* It should be limited to one to three short sentences.
 
 }
 
@@ -21,69 +39,45 @@ This document {explains/covers/shows what/how to do something}.
 
 It is designed to help {persona or personas} to achieve/learn {some goal}.
 
-{Document author tip:
+**This document version:** {MAJOR.MINOR.PATCH} 
 
-* All technical documentation should include [machine readable structured metadata](https://developers.google.com/search/docs/guides/sd-policies) which reflects the content in the page. Structured metadata helps search engines index pages appropriately, and facilitates content reuse. For instance, a page's description and associated image may be included in a search result for the page.
-* Within this project we have adopted the [JSON-LD](http://json-ld.org/) format for structured metadata, [as recommended by Google](https://developers.google.com/search/docs/guides/intro-structured-data).
-* Metadata fields listed as "must" and "should" for "starter" projects the `doctype-guide-template` table must be included in the schema.org metadata below. Other metadata fields should not be included in the `doctype-template`. A docset-owner may add or remove metadata fields when customizing the `doctype-template` for their specific project.
-* Refer to the `main-doctype-author-guide` for a deeper discussion about metadata.
+**Last updated:** {"Month DD, _YYYY" or "Month YYYY"}
+
+**Application version:**
+
+* {Application 1} : {MAJOR.MINOR.PATCH}
+* {Application 2} : {MAJOR.MINOR.PATCH} (or later)
+* ...
+
+
+## {Sections}
+
+{Tip:
+
+* {Section specific tip 1.}
+* {Section specific tip 2.}
 
 }
 
-<!--Machine readable schema.org structured metadata about this document.-->
-<script type="application/ld+json">
-{
-  "name": "{Title of the document}",
-  "description": "{Copy of the summary text}",
-  "version": "{This document's version, ideally in MAJOR.MINOR.PATCH format}"
-  "datePublished": "{Date in the format of YYYY-MM-DD or YYYY-MM}",
-  "license": "{URL to license}",
-  "audience": "{persona you are writing for, such as: developer, business manager, …}"
-}
-</script>
+### {Subsections}
 
-**This document version:** {This document's version, ideally in [semantic versioning](https://semver.org/) MAJOR.MINOR.PATCH format} 
+{Tip:
 
-**Last updated:** {Date in the format: "Month DD, _YYYY" or "Month YYYY"}
-
-## {Sections and subsections}
-
-{Template author tip:
-
-* Include standard headings applicable for this template’s `doctype`.
-* Where applicable, provide standard text for relevant sections.
-* Include tips for doc authors.
-* Some sections will be optional and include an "optional" tip to the doc author.
-}
-
-{Doc author tip:
-
-* Optionally include this section if {some condition}.
+* {Subsection specific tip 1.}
+* {Subsection specific tip 2.}
 
 }
 
 ## What’s next
 
-{Template author tip: Most `doctypes` should provide links to help a document author find related topics and next steps.}
-
-{Document author tip:
-
-* This section is optional.
-* You should include three to five links to more information.
-* Links should be a logical next step to what has already been read.
-* It will typically include a combination of related documents of this `doctype`, as well as relevant other `doctypes`. For instance, a tutorial may point to the next tutorial in a series, relevant reference material, and background conceptual theory.
-
-}
+Refer to:
+* {[Some doc title](https://example.com/somedoc.html) for {next steps}.}
+* {[Some doc title](https://example.com/somedoc.html) for {similar concepts}.}
+* {[Some doc title](https://example.com/somedoc.html) for {background theory}.}
 
 ## Acknowledgements
-
-{Document author tip:
-
-* This section is optional.
-* Here you can acknowledge organizations or people who have contributed to this document.
-
-}
 
 This document draws inspiration from:
 
 * [The Good Docs Project](https://thegooddocsproject.dev) templates, version {MAJOR.MINOR.PATH}.
+* ...
