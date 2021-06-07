@@ -1,12 +1,24 @@
 # General doctype guide
-This document captures general documentation guide, applicable to most documentation types. Sections are referenced by equivalent sections within doctype template and guide docs. This guide is designed to provide background information for doc authors, docset owners, and template authors.
+
+This guide provides common information applicable to most doctype guides. Section headings align with doctype template documents.
+
+It is applicable for for document authors.
+
+It will also help:
+* A docset owner select and customize a template set.
+* Templateers (template authors) in building a template.
 
 ## Prerequisites
 
-To make the best use of this guide, it helps if you have a working knowledge of:
+To write impactful documentation, it helps if you are familiar with:
 
+* The base-template-set:
+    * base-template, base-example, base-guide, base-checklist, base-theory.
 * The project's documentation style guide.
+    * Refer to the short [highlights from Google’s developer documentation style guide](https://developers.google.com/style/highlights) to quickly learn style essentials.
 * Technical writing basics.
+    * [Google’s tech writer training](https://developers.google.com/tech-writing) is a good source of material and is freely available.
+}
 
 ## Common fields
 
@@ -20,13 +32,15 @@ It should concisely explain what this document covers, and the type of person wh
 ### Document version
 To enable consistency and traceability between cross-referenced documentation and software, all documentation should be versioned.
 
-A versioning convention should be adopted, such as the widely adopted [semantic versioning](https://semver.org/) MAJOR.MINOR.PATCH format}.
+A versioning convention should be adopted, preferably the widely adopted [semantic versioning](https://semver.org/) MAJOR.MINOR.PATCH format.
 
 ### Last updated
 
-The ```last updated``` field refers to the documentation's publication date. Follow the date naming convention from your project's style guide, such as [Google style guide's date guidance](https://developers.google.com/style/dates-times) which recommends long form description of date: ```Month DD, YYYY``` or ```Month, YYYY```.
+The ```last updated``` field refers to the documentation's publication date. An unambiguous date naming convention should be followed, which should be defined in your project's style guide. For instance, [Google style guide's date guidance](https://developers.google.com/style/dates-times) which recommends long form description of date: ```Month DD, YYYY``` or ```Month, YYYY```.
 
 If adopting the short hand formatting, select the universal date format: ```YYYY-MM-DD``` or ```YYYY-MM```.
+
+Avoid using ```MM/DD/YYYY``` or ```DD/MM/YYYY``` formats as these conventions differ around the world and will confuse readers. 
 
 ### Indicative reading time
 
@@ -43,18 +57,28 @@ Cons:
 * It potentially makes slow readers feel inadequate and demotivated.
 * Reading time is less appicable for some doctypes.
 
-Guidelines for calculating reading time:
+If you do include reading time, apply these guidelines:
 * Base estimates on the least experienced and slowest target reader.
-* Typically assume a reading speed of 50 words per minute for technical material, and 200 words per typical business material. [ExecuRead reading speed source assessment](https://secure.execuread.com/facts/#:~:text=The%20average%20reading%20speed%20is,roughly%202%20minutes%20per%20page.).
+* Typically assume a reading speed of 50 words per minute for technical material, and 200 words per typical business material.
+
+  Source: [ExecuRead reading speed source assessment](https://secure.execuread.com/facts/#:~:text=The%20average%20reading%20speed%20is,roughly%202%20minutes%20per%20page.).
 
 _TBD: Provide better researched references and theory to this._
 
 ### Application version(s)
 The documentation should list the version, or range of versions, of the application(s) this documentation describes.
 
+For example:
+
+```
+This guide applies to:
+* chronologue-server v1.3
+* chronologue-client v5.2 or later
+```
+
 ### Metadata
 
-All templates should include metadata, presented in visible form. Ideally, your documentation will include metadata embedded in machine readable [JSON-LD](http://json-ld.org/) format, such as:
+All templates should include metadata, presented in visible form. Ideally, your metadata will be embedded in machine readable [JSON-LD](http://json-ld.org/) format too, such as:
 
 ```javascript
 <!--Machine readable schema.org structured metadata about this document.-->
