@@ -2,10 +2,30 @@
 
 {Tip:
 
-* This {doctype}-structure template captures the structure and common text that should be included in all {doctype} documents.
+* This {doctype}-template captures the structure and common text that should be included in all {doctype} documents.
 * It includes tips (such as this) and variables inside curly brackets. These tips and variables should be replaced or removed from the final document.
 
 }
+
+{Tip:
+
+  Optional: Include machine readable [JSON-LD](http://json-ld.org/) metadata to help search engine optimization.
+
+}
+
+```javascript
+<!--Machine readable schema.org structured metadata about this document.-->
+<script type="application/ld+json">
+{
+  "name": "{Title of the document}",
+  "description": "{Copy of the summary text}",
+  "version": "{MAJOR.MINOR.PATCH}"
+  "datePublished": "{Month DD, YYYY}",
+  "license": "{URL to license}",
+  "audience": "{Persona you are writing for, such as: developer, business manager, …}"
+}
+</script>
+```
 
 {Tip:
 
@@ -19,48 +39,45 @@ This document {explains/covers/shows what/how to do something}.
 
 It is designed to help {persona or personas} to achieve/learn {some goal}.
 
-**This document version:** {This document's version, ideally in [semantic versioning](https://semver.org/) MAJOR.MINOR.PATCH format} 
+**This document version:** {MAJOR.MINOR.PATCH} 
 
-**Last updated:** {Date in the format: "Month DD, _YYYY" or "Month YYYY"}
+**Last updated:** {"Month DD, _YYYY" or "Month YYYY"}
 
-## {Sections and subsections}
+**Application version:**
 
-{Template author tip:
+* {Application 1} : {MAJOR.MINOR.PATCH}
+* {Application 2} : {MAJOR.MINOR.PATCH} (or later)
+* ...
 
-* Include standard headings applicable for this template’s `doctype`.
-* Where applicable, provide standard text for relevant sections.
-* Include tips for doc authors.
-* Some sections will be optional and include an "optional" tip to the doc author.
+
+## {Sections}
+
+{Tip:
+
+* {Section specific tip 1.}
+* {Section specific tip 2.}
+
 }
 
-{Doc author tip:
+### {Subsections}
 
-* Optionally include this section if {some condition}.
+{Tip:
+
+* {Subsection specific tip 1.}
+* {Subsection specific tip 2.}
 
 }
 
 ## What’s next
 
-{Template author tip: Most `doctypes` should provide links to help a document author find related topics and next steps.}
-
-{Tip:
-
-* This section is optional.
-* You should include one to four links to more information.
-* Links should be a logical next step to what has already been read.
-* It will typically include a combination of related documents of this `doctype`, as well as relevant other `doctypes`. For instance, a tutorial may point to the next tutorial in a series, relevant reference material, and background conceptual theory.
-
-}
+Refer to:
+* {[Some doc title](https://example.com/somedoc.html) for {next steps}.}
+* {[Some doc title](https://example.com/somedoc.html) for {similar concepts}.}
+* {[Some doc title](https://example.com/somedoc.html) for {background theory}.}
 
 ## Acknowledgements
-
-{Tip:
-
-* This section is optional.
-* Here you can acknowledge source material, and organizations or people who have contributed to this document.
-
-}
 
 This document draws inspiration from:
 
 * [The Good Docs Project](https://thegooddocsproject.dev) templates, version {MAJOR.MINOR.PATH}.
+* ...

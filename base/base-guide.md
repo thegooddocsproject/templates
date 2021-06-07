@@ -1,37 +1,50 @@
 # {Doctype} guide
 
-{Tip:
-
-* This guide includes tips (such as this) and variables inside curly brackets. These tips and variables should be replaced or removed from the final document.
-
-}
-
-This {doctype}-guide describes the **process** an author should follow when creating a {doctype} document and filling in the {doctype}-template.
+This {doctype}-guide provides extra writing tips for each of the sections within the {doctype}-template.
 
 **Version:** {MAJOR.MINOR.PATCH}
 
 **Last updated:** {Month DD, YYYY}
 
+## Prerequisites
 
-## Common fields
+To make the best use of this guide, it helps if you have a working knowledge of:
 
-This section discusses the common fields typically included in doctypes.
+* The project's documentation style guide.
+* Technical writing basics, such as taught in Google's [technical writer training courses](https://developers.google.com/tech-writing).
 
+## {Doctype} content
 ### Hero description
-The hero description is an opening paragraph which stands alone, just under the title. It's purpose is to quickly help the reader decide whether they should read any further.
+The hero description stands alone, just under the title. It is sometimes referred to as the "TL;DR statement", short for: Too Long; Dont Read" and is written as:
+```
+   TL;DR: {Hero description.}
+```
 
-It should concisely explain what this document covers, and the type of person who will be interested in reading it. It should be limited to one to three short sentences.
+It should be very short so that a reader will naturally want to read it. It's purpose is to quickly help the reader decide whether they should read any further.
+
+It should concisely explain what this document covers, and the type of person who will be interested in reading it. 
 
 ### Document version
 To enable consistency and traceability between cross-referenced documentation and software, all documentation should be versioned.
 
-A versioning convention should be adopted, such as the widely adopted [semantic versioning](https://semver.org/) MAJOR.MINOR.PATCH format}.
+A versioning convention should be adopted. It is usually best to follow the widely adopted [semantic versioning](https://semver.org/) MAJOR.MINOR.PATCH convention.
 
 ### Last updated
 
-The ```last updated``` field refers to the documentation's publication date. Follow the date naming convention from your project's style guide, such as [Google style guide's date guidance](https://developers.google.com/style/dates-times) which recommends long form description of date: ```Month DD, YYYY``` or ```Month, YYYY```.
+The ```last updated``` field refers to the documentation's publication date. Follow the date naming convention from your project's style guide, such as [Google style guide's date guidance](https://developers.google.com/style/dates-times).
+
+Make sure you use an unambiguous date format. Note that 4/5/1900 could be:
+* April 5, 1900 in the United States.
+* 4 May, 1900 in England.
 
 If adopting the short hand formatting, select the universal date format: ```YYYY-MM-DD``` or ```YYYY-MM```.
+
+### Application version(s)
+Where applicable, the documentation should list the version, or range of versions, of the application(s) this documentation describes.
+
+### {Other metadata field}
+
+{Tips for using this field}
 
 ### Indicative reading time
 
@@ -54,12 +67,10 @@ Guidelines for calculating reading time:
 
 _TBD: Provide better researched references and theory to this._
 
-### Application version(s)
-The documentation should list the version, or range of versions, of the application(s) this documentation describes.
 
-### Metadata
+### Optional: Machine readable metadata
 
-All templates should include metadata, presented in visible form. Ideally, your documentation will include metadata embedded in machine readable [JSON-LD](http://json-ld.org/) format, such as:
+Ideally include machine readable metadata to help search engine optimazation. This should be written in [JSON-LD](http://json-ld.org/) format, such as:
 
 ```javascript
 <!--Machine readable schema.org structured metadata about this document.-->
@@ -101,3 +112,40 @@ Use the following table to help select the metadata fields to include in your {d
 **Note:** The terms "Must”, "Should”, and "May” should be interpreted as per [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
 _(TBD: Discuss/improve recommendations for [schema.org](https://schema.org/) metadata fields. The table above should cover all metadata fields we consider should be recommended in the The Good Docs Project.}_
+
+## {Sections and subsections}
+
+
+* Include standard headings applicable for this template’s `doctype`.
+* Where applicable, provide standard text for relevant sections.
+* Include tips for doc authors.
+* Some sections will be optional and include an "optional" tip to the doc author.
+}
+
+{Doc author tip:
+
+* Optionally include this section if {some condition}.
+
+}
+
+## What’s next
+
+This section is optional.
+
+
+{Template author tip: Most `doctypes` should provide links to help a document author find related topics and next steps.}
+
+{Tip:
+
+* This section is optional.
+* Think about the persona(s) of your reader, and consider what they might want to know next. 
+* Provide one to four links to more information. Links should be a logical next step to what has already been read.
+    * Don't overwhelm your reader with too many choices. Just select the one link for the most likely next steps.
+    * Consider {next steps, similar concepts, background theory}.
+
+}
+
+## Acknowledgements
+
+* This section is optional.
+* Here you can acknowledge source material, and organizations or people who have contributed to this document.

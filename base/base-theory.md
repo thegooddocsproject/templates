@@ -2,26 +2,25 @@
 
 {Tip:
 
-* "Tips" should be removed from the final xxx-template-guide.
+* "Tips" should be removed from the final xxx-template-theory.
 }
 
-This "{doctype} theory document" provides reasoning, justifications, and links to research relevant to {doctype} documentation. It aims to empower authors to "think like a tech writer" and make documentation decisions backed by best practices.
+This {doctype}-theory document provides reasoning, justifications, and links to research relevant to {doctype} documentation. It aims to empower authors to "think like a tech writer and expert in {doctype} documents" and make decisions backed by best practices.
 
 **Version:** {MAJOR.MINOR.PATCH}
 
 **Last updated:** {Month DD, YYYY}
 
-## Prerequisites
 
-To write impactful documentation, it helps if you are familiar with:
+## Checklist
 
-* The base-template-set:
-    * base-template, base-example, base-guide, base-checklist, base-theory.
-* The project's documentation style guide.
-    * Refer to the short [highlights from Google’s developer documentation style guide](https://developers.google.com/style/highlights) to quickly learn style essentials.
-* Technical writing basics.
-    * If you want more, [Google’s tech writer training](https://developers.google.com/tech-writing) material is freely available.
-}
+Before writing your {doctype} document, you should plan to address all items on the following checklist. Before finalizing, you should check they are complete.
+
+* [ ] The document has been reviewed:
+    * [ ] For clear writing and alignment with the writing style guide, ideally by a technical writer or editor.
+    * [ ] For alignment with the {doctype} template, ideally by a technical writer, information architect, or content strategist.
+    * [ ] For technical accuracy, ideally by a technical subject matter expert.
+* [ ] {Further doctype specific checklist items ... .}
 
 ## User stories
 
@@ -32,6 +31,7 @@ A {doctype} document aims to address the following user stories:
 * As a {user persona}, I want to {achieve a specific goal}, so that I can {achieve a larger business objective}.
 * ...
 
+For a description of common personas, refer to 
 _{TBD: We should link to a page we are yet to write helping people pick personas.}_
 
 ## Nature of content
