@@ -13,7 +13,7 @@ A reference article works well when it:
 
 ### The Overview section
 
-Summarise what this reference article is about. 
+Summarize what this reference article is about. 
 
 * Explain what all the entries defined on the page have in common.
 
