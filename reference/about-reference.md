@@ -24,8 +24,6 @@ In most cases, reference information is easiest to express as a table.
 
 Use the "don't repeat yourself" (DRY) method and re-use content if it's written for the same audience, and it fits within your reference document without modification.
 
-If you need to refer to a screen in a UI, use a table to explain elements in the UI and their meanings. Include screenshots, and use call-outs to help your audience find each element in the table.
-
 ### Code-generated documentation
 
 Reference documentation can often be auto-generated from source code and/or comments within the code. It is typically easier to keep auto-generated docs current, accurate and complete, as the documentation is maintained next to the code it describes.
