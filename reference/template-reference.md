@@ -2,7 +2,7 @@
 
 ## Overview
 {Document author tip:
-Summarise what this reference article is about. Explain what all the entries defined on the page have in common. What you put here is reused in the Overview section of your doc site and included in HTML description tags. For help with writing and structuring a reference article, see the file about-reference.md in this directory. Check out https://www.markdownguide.org/basic-syntax/ if you need help with markdown syntax.
+Summarize what this reference article is about. Explain what all the entries defined on the page have in common. What you put here is reused in the Overview section of your doc site and included in HTML description tags. For help with writing and structuring a reference article, see the file about-reference.md in this directory. Check out https://www.markdownguide.org/basic-syntax/ if you need help with markdown syntax.
 }
 
 {Document author tip: It can be helpful to split up your reference page into subsets of related enries. For example, the reference page for an API endpoint might include subsets of entries for "General Requirements", "Request Parameters", and "Responses"}. The formats of entries might be different for each subset; for example, "General Requirements" might be a bulleted list, while "Request Parameters" and "Responses" are tables.
