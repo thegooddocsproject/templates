@@ -1,34 +1,25 @@
-# What's in the base-template directory
+# {doctype} template set
 
-This base-template directory contains a template-set which is to be copied and customized for each doctype template-set.
+This directory contains a set of files to help authors create good {doctype} files.
 
 **Version:** 0.2
 
 **Last updated:** June 2021
 
-## Contributing new templates
+## Directory contents
 
-We welcome contributions to The Good Docs Project. Refer to our [contribution page](https://thegooddocsproject.dev/contribute.html) for details.
+* {doctype}-template (what - structural)
+    * Layout of headings and sample text with embedded writing tips.
 
-TBD: As of June 2021, a more hands on templateer contributing guide is coming.
+* {doctype}-example (what)
+    * Filled-in template which describes the fake chronologue project.
 
-## The template-set files 
-As a doctype author, you will be responsible for creating:
+* {doctype}-guide (how)
+    * Extra tips for each section, explaining how to fill in the section.
 
-**xxx-template (what - structural):**
-* Layout of headings and sample text with embedded writing tips.
+* {doctype}-checklist (how)
+    * Checklist to confirm an author has covered everything.
 
-**xxx-example (what):**
-* Filled-in template which describes a fake project.
-
-**xxx-guide (how):**
-* Extra tips for each section, explaining how to fill in the section.
-
-**xxx-checklist (how):**
-* Checklist to confirm an author has covered everything.
-
-**xxx-theory (why - conceptual):**
-* Provides background theory which supports authors making documentation decisions.
-* Empowers an author to “think like a tech writer”.
-
-
+* {doctype}-theory (why - conceptual)
+    * Provides background theory which supports authors making documentation decisions.
+    * Empowers an author to “think like a tech writer”.
