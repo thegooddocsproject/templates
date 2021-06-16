@@ -17,7 +17,7 @@ Follow these writing guidelines when developing content using the templates avai
 
 Here are some recommendations you can use when creating procedural steps:
 
-* Usability studies show that procedures should not be more than seven primary steps long.
+* For procedures with numerous steps, consider "chunking" content into sub-sections of 5-10 steps. It makes the information easier to read and remember, and gives the reader a sense of accomplishment after each chunk is completed. Chunking is recommended by major companies, such as in [Microsoft's writing style guide](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/writing-step-by-step-instructions#complex-procedures), and from the Nielsen Norman Group's [research on chunking and usability](https://www.nngroup.com/articles/short-term-memory-and-web-usability/).
 * Each step is a single sentence (you should be able to read it aloud, and it should make grammatical sense).
 * When describing a step, include a lead-in sentence to remind the reader what they will be doing when following the sub-steps.
 * Aim for no more than four sub-steps in any primary step.
