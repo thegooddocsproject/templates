@@ -15,6 +15,34 @@ curl -X GET "http://URL/tableNo?id=99"
 
 Parameters
 
+propert name | data type    | choices               | default      | mandatory    |definition
+------------ | ------------ | --------------------- | ------------ |------------ | ------------ 
+pattytype    | string       | beef                  |  beef        |  yes        | the type of patty the customer can get on their burger
+                              checken 
+                              veggie
+                            
+pattyQty     | 1             |  1 or 2               |  1          | yes         | this specifies the quantity of patty the customer can get on thier  burger meal 
+pattyWeightG | 300           |   300,350             |  300        |  yes        | this specifies the weight of the patty the customer want to get 
+pattyCook    |    mr         |           |           |             | 
+bunType      | string        | white bread           | white bread | yes         | this specifies  the type of the bun the customer  can get on their burger
+                           
+condiment1   | string        | ketchup               | ketchup     | yes         | this epecifies the   type of condiment the customer can get on their  burger
+                               secretSauce 
+                               mayonnise
+topping1   | string       | lettuce,tomato,cucumber, | tomato      |  no         |  this specifies  the type of topping the customer can get on their burger
+                            cucumber, pickled onion
+                             cheddar cheese
+
+
+sides     | string           | soup  |               |    no       |  no         | this specifies the type of sides the customer can get on their burger
+
+type      |    string         |          |           |             |                     
+size      |   string         | small    |            |  no         |              |  this spesifies  the size of burger the customer can get on their burger
+drink     |  string          |         |             |             |    |                
+type      |    string          | coke   |            |   no        |  no          |  this spesifies the type of drink the customer  can get 
+size      |    string        | large  |              |    no       |   yes        |  this spesifies the  size of drink the customer can get 
+ice       |    string        |  yes   |              |    no       |   no         |                
+
 property | Data type | Req. | Description
 ---- | ----- | ----- | --------------------
 orderNum | string | Y |  this specifies the order number that customers regenerates everday 
