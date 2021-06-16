@@ -52,6 +52,14 @@ When you are explaining steps in a process, it can be useful to include screensh
 This section contains a table, which allows you to add a screenshot or call out next to each step.
 You can also use an ordered list structure without screenshots in markdown, with HTML tables.
 
+### The See also section
+
+It's likely that during the course of explaining a multi-step process you will touch on other topics related to the current one, but not strictly required.
+A "See also" section at the end is useful to provide the reader with suggestions on further reading without interrupting the topic covered by the current document.
+The distinction between this section and "Before you start" (as outlined above) is that the content in that section is necessary to the current topic, while the reader should be able to complete the How-to without reading the topics in this section.
+An example might be setting up an email client, which requires working credentials to an active email address. The reader need not know how to install and run his/her own email server in order to acquire that access, although this is potentially useful.
+The link to documentation on running a local mail server could therefore be included in the "See also" section.
+
 ## How To article examples
 
 * **Example 1**.

@@ -52,3 +52,11 @@ Asciidoctor 1.5.6.2 [https://asciidoctor.org]
 ### Step 4: Optional: title for step - Conclusion
 
 Provide a summary of the steps completed and explain what the user has achieved by following them. You can also include links to related articles that may help the reader reinforce concepts discussed in this How To article.
+
+## See also
+
+Include references and/or links to other related documentation, either internal to the project or external.
+After a leading sentence on why/how they are valuable to readers of the current topic, multiple related can be displayed in a list:
+
+* One list for a small number of items, which can contain internal and external references, or;
+* Two lists, divided into internal and external and separated by another leading sentence, if there are a larger number of items.
