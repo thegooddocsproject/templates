@@ -1,6 +1,6 @@
 # List of Templates to Create
 
-The list below includes all the templates we as templateers plan to create. Feel free to provide feedback on whether any templates need to be removed or added to the list. The "P{number}" before each item indicates the priority of completing this template. We want to focus mostly or now on completing P1 templates, but if you have a special interest in one of the other templates feel free to work on that too. Feedback on the priorities is also welcome. Items without "P{number}" are just categories, not templates to be created.
+The list below includes all the templates we as templateers plan to create. Feel free to provide feedback on whether any templates need to be removed or added to the list. The "P{number}" before each item indicates the priority of completing this template. We want to focus mostly on completing P1 templates, but if you have a special interest in one of the other templates feel free to work on that too. Feedback on the priorities is also welcome. Items without "P{number}" are just categories, not templates to be created.
 
 * P0 Base
 	* P1 Reference
