@@ -10,7 +10,7 @@ This {doctype}-guide provides extra writing tips for each of the sections within
 
 To make the best use of this guide, it helps if you have a working knowledge of:
 
-* The project's documentation style guide.
+* {The project's / The Good Doc Project's / Google's / Microsoft's/...} documentation style guide.
 * Technical writing basics, such as taught in Google's [technical writer training courses](https://developers.google.com/tech-writing).
 
 ## {Doctype} content
@@ -20,7 +20,7 @@ The hero description stands alone, just under the title. It is sometimes referre
    TL;DR: {Hero description.}
 ```
 
-It should be very short so that a reader will naturally want to read it. It's purpose is to quickly help the reader decide whether they should read any further.
+It should be very short so that a reader will naturally want to read it. Its purpose is to quickly help the reader decide whether they should read any further.
 
 It should concisely explain what this document covers, and the type of person who will be interested in reading it. 
 
