@@ -49,7 +49,7 @@ A fictional project was chosen over a real example because:
 * We avoid having the select a "favorite" exemplar project, and upsetting non-selected projects. 
 * Examples and features can be a little whimsical, adding a little entertainment to the reading. Note, any whimsical additions should not come at the expense of legibility for the wide target audience.
 
-The `chronologue time machine` concept was chosen because:
+The `chronologue time machine app` concept was chosen because:
 * It is obviously fake.
 * It is technical, and hence needs technical documentation.
 * It lends itself to adding some whimsical fun.
