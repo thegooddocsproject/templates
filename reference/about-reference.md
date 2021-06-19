@@ -13,7 +13,7 @@ A reference article works well when it:
 
 ### The Overview section
 
-Summarise what this reference article is about. 
+Summarize what this reference article is about. 
 
 * Explain what all the entries defined on the page have in common.
 
@@ -23,8 +23,6 @@ The structure of reference articles varies based on what kind of information you
 In most cases, reference information is easiest to express as a table.
 
 Use the "don't repeat yourself" (DRY) method and re-use content if it's written for the same audience, and it fits within your reference document without modification.
-
-If you need to refer to a screen in a UI, use a table to explain elements in the UI and their meanings. Include screenshots, and use call-outs to help your audience find each element in the table.
 
 ### Code-generated documentation
 
