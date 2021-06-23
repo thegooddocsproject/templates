@@ -16,7 +16,7 @@ The list below includes all the templates we as templateers plan to create. Feel
 	* *Task*
 		* P1 Tutorial
 		* P1 How-to
-			* P1 Quickstart
+			* P2 Quickstart
 				* P3 Api-quickstart
 	* *Concept*
 		* P2 Business overview (About page, Landing page)
