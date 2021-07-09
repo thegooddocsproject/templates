@@ -1,6 +1,6 @@
 # {Doctype} guide
 
-This {doctype}-guide provides extra writing tips for each of the sections within the {doctype}-template.
+This {doctype}-guide provides extra writing tips describing **HOW** to fill in each of the sections within the {doctype}-template.
 
 **Version:** {MAJOR.MINOR.PATCH}
 
@@ -15,10 +15,12 @@ To make the best use of this guide, it helps if you have a working knowledge of:
 
 ## {Doctype} content
 ### Hero description
-The hero description stands alone, just under the title. It is sometimes referred to as the "TL;DR statement", short for: Too Long; Dont Read" and is written as:
+The hero description stands alone, just under the title. It is sometimes referred to as the "TL;DR statement", short for: Too Long; Dont Read" and is sometimes written as:
 ```
    TL;DR: {Hero description.}
 ```
+
+We recommend against including the "TL;DR" acronym as some readers might not be familiar with it.
 
 It should be very short so that a reader will naturally want to read it. Its purpose is to quickly help the reader decide whether they should read any further.
 
@@ -115,18 +117,10 @@ _(TBD: Discuss/improve recommendations for [schema.org](https://schema.org/) met
 
 ## {Sections and subsections}
 
-
 * Include standard headings applicable for this template’s `doctype`.
 * Where applicable, provide standard text for relevant sections.
 * Include tips for doc authors.
-* Some sections will be optional and include an "optional" tip to the doc author.
-}
-
-{Doc author tip:
-
-* Optionally include this section if {some condition}.
-
-}
+* Some sections will be optional and so should include the "optional" tip to the doc author.
 
 ## What’s next
 
@@ -144,6 +138,20 @@ This section is optional.
     * Consider {next steps, similar concepts, background theory}.
 
 }
+
+## Revision history
+
+This section is optional, and typically should not be included.
+
+It is typically only include for formal or impportant documents where readers are likely to be interested in the document's change history. 
+
+It typically should only list major, public facing updates.
+
+## Decision log
+
+This section is optional, and typically should not be included, or should be included in an accompanying document.
+
+It is typically only included for business process documents where readers may challenge the reasoning behind a decision.
 
 ## Acknowledgements
 
