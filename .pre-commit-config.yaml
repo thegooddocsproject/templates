@@ -1,0 +1,21 @@
+---
+default_language_version:
+  python: python3
+
+minimum_pre_commit_version: 2.9.2
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.3.0
+    hooks:
+      - id: check-merge-conflict  # Check for files that contain merge conflict strings.
+      - id: mixed-line-ending     # Replaces or checks mixed line endings.
+        args: [--fix=lf]          # Defaults to *nix-style line endings.
+      - id: end-of-file-fixer     # Makes sure files end in a newline and only a newline.
+      - id: check-json            # Check json file formatting.
+      - id: check-yaml            # Check yaml file formatting.
+      - id: detect-private-key    # Ensure no accidental private keys added to repo.
+      - id: trailing-whitespace   # Remove unneeded whitespace.
+  -   repo: https://github.com/codespell-project/codespell
+      rev: v2.0.0
+      hooks:
+      - id: codespell             # Base spellcheck across repository.
