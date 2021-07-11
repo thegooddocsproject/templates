@@ -2,8 +2,14 @@
 
 {Tip:
 
+* Refer to the:
+  * [{doctype}-guide]({doctype}-guide) for help filling out each section of ths template.
+  * [{doctype}-example]({doctype}-example) for a filled in template.
+  * [{doctype}-checklist]({doctype}-checklist) to confirm you are done.
+  * [{doctype}-theory]({doctype}-theory) to understand the broader picture.
 * This `{doctype}-template` captures the structure and common text that should be included in a `{doctype}` document.
 * It includes tips (such as this) and variables inside curly brackets. These tips and variables should be replaced or removed from the final document.
+* Refer to [{doctype}-theory] 
 
 }
 
@@ -49,6 +55,19 @@ It is designed to help {persona or personas} to achieve/learn {some goal}.
 * {Application 2} : {MAJOR.MINOR.PATCH} (or later)
 * ...
 
+## Before you start
+
+{Tip:
+
+* Optionally include this section if there are prerequisites.
+
+}
+
+Before you begin:
+
+* { You should have a working knowledge of / be familiar with ... .}
+* { You should read ... }
+* { You will need to have installed ... }
 
 ## {Sections}
 
@@ -80,7 +99,7 @@ Refer to:
 ## Revision history
 
 {Tip:
-* This section is optional or can be combined with the ```decision log``` section if needed.
+* This section is optional and typically should not be included.
 
 }
 
@@ -97,7 +116,7 @@ Edition  |  Date          |  Lead Author(s)    |  Link to Repository Commit/Tag
 ## Decision log
 
 {Tip:
-* This section is optional or can be combined with the ```revision history``` section if needed.
+* This section is optional and typically should not be included.
 
 }
 

@@ -1,13 +1,19 @@
 # {Doctype} theory
 
-This {doctype}-theory document provides reasoning, justifications, and links to research relevant to {doctype} documentation. It aims to empower authors to "think like a tech writer and expert in {doctype} documents" and make decisions backed by best practices.
+This {doctype}-theory document provides reasoning, justifications, and links to research relevant to {doctype} documentation. It aims to:
+* Advise a docset-owner in how to right size a {doctype}-template and {doctype}-guide for a project.
+* Empower authors to "think like a tech writer and expert in {doctype} documents" and make decisions backed by best practices.
 
 **Version:** {MAJOR.MINOR.PATCH}
 
 **Last updated:** {Month DD, YYYY}
 
-
 ## User stories
+
+{Tip:
+* In selecting personas for user stories, you should make use of default Good Docs personas. (TBD: We need to define create this list.)
+
+}
 
 When writing, it is important to understand who you are writing for, and ensure that you provide just the right amount of information to address their needs. The following user stories should help you achieve that.
 
@@ -122,11 +128,12 @@ _{TBD: Add further guidance and sample text here.}_
 
 _{TBD: We are encouraging docset owners to branch a template and then customize. This branched version now won't track latest updates to The Good Docs Project templates. A more sustainable approach would be to have an accompanying configuration file which supports section inclusion logic and variables. A future toolchain would need to be set up before we could introduce accompanying config files.}_
 
-* There are multiple approaches which can be taken to customize this template. These may depend upon:
-    * The maturity of your project.
-    * The size, interest, and skillsets of your contributor community.
-    * The documentation goals you have for the project.
-* This section discusses approaches you may take to customize this template to your project.
+There are multiple approaches which can be taken to customize this template. These may depend upon:
+  * The maturity of your project.
+  * The size, interest, and skillsets of your contributor community.
+  * The documentation goals you have for the project.
+
+This section discusses approaches you may take to customize this template to your project.
 
 {Tip:
 

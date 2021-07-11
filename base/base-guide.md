@@ -1,25 +1,33 @@
 # {Doctype} guide
 
-This {doctype}-guide provides extra writing tips describing **HOW** to fill in each of the sections within the {doctype}-template.
+This guide is the primary document a author should follow when writing a {doctype} document. Sections explain **how** to write the corresponding section in the {doctype}-template.
 
 **Version:** {MAJOR.MINOR.PATCH}
 
 **Last updated:** {Month DD, YYYY}
 
-## Prerequisites
+## Before you start this guide
 
 To make the best use of this guide, it helps if you have a working knowledge of:
 
 * {The project's / The Good Doc Project's / Google's / Microsoft's/...} documentation style guide.
-* Technical writing basics, such as taught in Google's [technical writer training courses](https://developers.google.com/tech-writing).
+* Technical writing basics, such as taught in Google's [technical writer training courses](https://developers.google.com/tech-writing).`
+
+* Refer to the:
+  * [{doctype}-template]({doctype}-template). You will fill flesh out this skeleton.
+  * [{doctype}-example]({doctype}-example) for a filled in template.
+  * [{doctype}-checklist]({doctype}-checklist) to confirm you are done.
+  * [{doctype}-theory]({doctype}-theory) to understand the broader picture.
 
 ## {Doctype} content
+
+The following sections describe how fill in specific template sections.
+
 ### Hero description
 The hero description stands alone, just under the title. It is sometimes referred to as the "TL;DR statement", short for: Too Long; Dont Read" and is sometimes written as:
 ```
    TL;DR: {Hero description.}
 ```
-
 We recommend against including the "TL;DR" acronym as some readers might not be familiar with it.
 
 It should be very short so that a reader will naturally want to read it. Its purpose is to quickly help the reader decide whether they should read any further.
@@ -115,6 +123,12 @@ Use the following table to help select the metadata fields to include in your {d
 
 _(TBD: Discuss/improve recommendations for [schema.org](https://schema.org/) metadata fields. The table above should cover all metadata fields we consider should be recommended in the The Good Docs Project.}_
 
+## Before you start
+
+This section is optional and should only be included if required. Consider if there is any assumed knowledge, prior docs which should have been read, minimum hardware requirements, software that needs to be installed or configured.
+
+The title of this section is sometimes called "Prerequisites".
+
 ## {Sections and subsections}
 
 * Include standard headings applicable for this template’s `doctype`.
@@ -124,20 +138,16 @@ _(TBD: Discuss/improve recommendations for [schema.org](https://schema.org/) met
 
 ## What’s next
 
-This section is optional.
-
-
 {Template author tip: Most `doctypes` should provide links to help a document author find related topics and next steps.}
 
-{Tip:
+This section is optional.
 
-* This section is optional.
-* Think about the persona(s) of your reader, and consider what they might want to know next. 
-* Provide one to four links to more information. Links should be a logical next step to what has already been read.
-    * Don't overwhelm your reader with too many choices. Just select the one link for the most likely next steps.
-    * Consider {next steps, similar concepts, background theory}.
+Think about the persona(s) of your reader, and consider what they might want to know next. 
 
-}
+Provide one to four links to more information. Links should be a logical next step to what has already been read.
+  * Don't overwhelm your reader with too many choices. Just select the one link per option for the most likely next steps.
+  * Consider {next steps, similar concepts, background theory}.
+
 
 ## Revision history
 
