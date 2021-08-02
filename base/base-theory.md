@@ -171,3 +171,98 @@ This section should summarize competing approaches and explain why you took the 
 * If this section becomes more than a page long, consider extracting out into a separate research paper and then reference the paper.
 
 }
+
+## Specific sections
+
+This section discusses background theory associated with specific sections within {doctype} sections.
+
+### Metadata
+
+TBD: This content should move into a Docset Owner's guide.
+
+The metadata fields which should be included in a document depends upon:
+* The value the metadata field provides to the target audience for the doctype.
+* The project's capacity to collect and maintain the metadata field. Can it be collected automatically?
+* The maturity and quality criteria set for the project.
+
+**Note:** Be careful not to overcommit to the number of metadata fields you introduce into your project's documentation:
+* Many metadata fields need to be maintained manually which adds a maintenance burden to the project.
+* If any of the metadata on a site is inaccurate or dated, it will reduce the trustworthiness of all content on the site, as the user typically won’t be able to determine which of the content is trustworthy.
+* As such, a project should only adopt metadata fields which are automatically maintained by your documentation publishing system, or where there is an established, low-effort process to ensure the metadata is maintained.
+
+Use the following table to help select the metadata fields to include in your {doctype} template:
+
+|Metadata field    |schema.org name|Typical location in doc         |Priority - startup|Priority - mature|
+|:-----------------|:--------------|:-------------------------------|:-----------------|:----------------|
+|Title             |name           |\<title> and \<h1> heading      |Must              |Must             |
+|Description       |description    |First paragraph summary         |Must              |Must             |
+|Doc version       |version        |Front metadata list             |May               |Should           |
+|Doc publish date  |datePublished  |Front metadata list             |Must              |Must             |
+|Reading time      |-              |Front metadata list             |May               |May              |
+|Target app version|-              |Front metadata list or Footer   |May               |Should           |
+|License           |license        |Footer                          |Should            |Must             |
+|Target audience   |audience       |Within first paragraph summary  |May               |Should           |
+
+**Note:** The terms "Must”, "Should”, and "May” should be interpreted as per [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
+
+_(TBD: Discuss/improve recommendations for [schema.org](https://schema.org/) metadata fields. The table above should cover all metadata fields we consider should be recommended in the The Good Docs Project.}_
+
+### Machine readable structured metadata
+
+* TBD: This content should move into a Docset Owner's guide.
+* TBD: Make sure the terms selected align with https://www.w3.org/TR/json-ld11/
+
+To improve the searchability of your website, mature documentation projects should introduce machine readable, structured metadata. Refer to Google's [Understand how structured data works](https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data).
+
+Structured metadata is typically applied by embedding [JSON-LD](http://json-ld.org/) snippets into your documents, such as:
+
+```javascript
+<!--Machine readable schema.org structured metadata about this document.-->
+<script type="application/ld+json">
+{
+  "name": "{Title of the document}",
+  "description": "{Copy of the summary text}",
+  "version": "{MAJOR.MINOR.PATCH}"
+  "datePublished": "{Month DD, YYYY}",
+  "license": "{URL to license}",
+  "audience": "{Persona you are writing for, such as: developer, business manager, …}"
+}
+</script>
+```
+
+## The Revision history section
+
+__This section typically should not be included. It is typically only included for formal documents where readers are likely to be interested in the document's change history.__
+
+__It typically should only list major, public facing updates.__
+
+__If included, it should follow the following format:__
+
+The following table describes the history of {all/major} decisions and revisions made to this {document} over time. 
+
+This guide uses the Major.Minor.Patch [semantic versioning](https://semver.org/) convention.
+
+Edition|  Date        |Lead Author(s)  |Link to Repository Commit/Tag
+-------|  ----        |--------------  |-----------------------------
+0.2    |  {YYYY-MM-DD}|{Your name here}|Customised for this project's needs
+0.1    |  {YYYY-MM-DD}|{Your name here}|Initial [{doctype}-template {version}](https://github.com/thegooddocsproject/templates/tree/main/{doctype}) from The Good Docs Project.
+
+
+## The Decision log section
+
+__This section typically should not be included, or should be included in an accompanying document.__
+
+__It is typically only included for business process documents where readers may challenge the reasoning behind a decision.__
+
+__If included, it should follow the following format:__
+
+The following table describes the history of all decisions made to this {document} over time:
+
+Ref  |  Date         |  Description                               |  Agreed to by
+---  |  ----         |  -----------                               |  ------------
+1    | {YYYY-MM-DD}  |  {Explain the decision that was made here} |  {Name or role}
+
+## Acknowledgements
+
+* This section is optional.
+* Here you can acknowledge source material, and organizations or people who have contributed to this document.

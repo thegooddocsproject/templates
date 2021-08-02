@@ -6,6 +6,10 @@ This guide is the primary document a author should follow when writing a {doctyp
 
 **Last updated:** {Month DD, YYYY}
 
+## About {Doctype}
+
+{Doctype} documentation is {discuss the nature of the content for this doctype}.
+
 ## Before you start this guide
 
 To make the best use of this guide, it helps if you have a working knowledge of:
@@ -19,11 +23,11 @@ To make the best use of this guide, it helps if you have a working knowledge of:
   * [{doctype}-checklist]({doctype}-checklist) to confirm you are done.
   * [{doctype}-theory]({doctype}-theory) to understand the broader picture.
 
-## {Doctype} content
+## Content of your {doctype} document
 
 The following sections describe how fill in specific template sections.
 
-### Hero description
+### The hero description
 The hero description stands alone, just under the title. It is sometimes referred to as the "TL;DR statement", short for: Too Long; Dont Read" and is sometimes written as:
 ```
    TL;DR: {Hero description.}
@@ -34,12 +38,12 @@ It should be very short so that a reader will naturally want to read it. Its pur
 
 It should concisely explain what this document covers, and the type of person who will be interested in reading it. 
 
-### Document version
+### The document version metadata
 To enable consistency and traceability between cross-referenced documentation and software, all documentation should be versioned.
 
 A versioning convention should be adopted. It is usually best to follow the widely adopted [semantic versioning](https://semver.org/) MAJOR.MINOR.PATCH convention.
 
-### Last updated
+### The last updated metadata
 
 The ```last updated``` field refers to the documentation's publication date. Follow the date naming convention from your project's style guide, such as [Google style guide's date guidance](https://developers.google.com/style/dates-times).
 
@@ -49,14 +53,14 @@ Make sure you use an unambiguous date format. Note that 4/5/1900 could be:
 
 If adopting the short hand formatting, select the universal date format: ```YYYY-MM-DD``` or ```YYYY-MM```.
 
-### Application version(s)
+### The application versions metadata
 Where applicable, the documentation should list the version, or range of versions, of the application(s) this documentation describes.
 
-### {Other metadata field}
+### Other metadata fields
 
 {Tips for using this field}
 
-### Indicative reading time
+### The indicative reading time metadata
 
 Reading speed usually should not be included in fields. There are two lines of thought around including a ```reading time``` field.
 
@@ -69,65 +73,13 @@ Cons:
     * The varying technical complexity of source material.
     * Multiple authors applying differing rules to assess reading time.
 * It potentially makes slow readers feel inadequate and demotivated.
-* Reading time is less appicable for some doctypes.
+* Reading time is less applicable for some doctypes.
 
 Guidelines for calculating reading time:
 * Base estimates on the least experienced and slowest target reader.
 * Typically assume a reading speed of 50 words per minute for technical material, and 200 words per typical business material. [ExecuRead reading speed source assessment](https://secure.execuread.com/facts/#:~:text=The%20average%20reading%20speed%20is,roughly%202%20minutes%20per%20page.).
 
 _TBD: Provide better researched references and theory to this._
-
-
-### Optional: Machine readable metadata
-
-Ideally include machine readable metadata to help search engine optimazation. This should be written in [JSON-LD](http://json-ld.org/) format, such as:
-
-```javascript
-<!--Machine readable schema.org structured metadata about this document.-->
-<script type="application/ld+json">
-{
-  "name": "{Title of the document}",
-  "description": "{Copy of the summary text}",
-  "version": "{MAJOR.MINOR.PATCH}"
-  "datePublished": "{Month DD, YYYY}",
-  "license": "{URL to license}",
-  "audience": "{Persona you are writing for, such as: developer, business manager, …}"
-}
-</script>
-```
-
-The metadata fields which should be presented by a document depends upon:
-* The value the metadata field provides to the target audience for the doctype.
-* The project's capacity to collect and maintain the metadata field. Can it be collected automatically?
-* The maturity and quality criteria set for the project.
-
-**Note:** Be careful not to overcommit to the number of metadata fields you introduce into your project's documentation:
-* Many metadata fields need to be maintained manually which adds a maintenance burden to the project.
-* If any of the metadata on a site is inaccurate or dated, it will reduce the trustworthiness of all content on the site, as the user typically won’t be able to determine which of the content is trustworthy.
-* As such, a project should only adopt metadata fields which are automatically maintained by your documentation publishing system, or where there is an established, low-effort process to ensure the metadata is maintained.
-
-Use the following table to help select the metadata fields to include in your {doctype} template:
-
-|Metadata field    |schema.org name|Typical location in doc         |Priority - startup|Priority - mature|
-|:-----------------|:--------------|:-------------------------------|:-----------------|:----------------|
-|Title             |name           |\<title> and \<h1> heading      |Must              |Must             |
-|Description       |description    |First paragraph summary         |Must              |Must             |
-|Doc version       |version        |Front metadata list             |May               |Should           |
-|Doc publish date  |datePublished  |Front metadata list             |Must              |Must             |
-|Reading time      |-              |Front metadata list             |May               |May              |
-|Target app version|-              |Front metadata list or Footer   |May               |Should           |
-|License           |license        |Footer                          |Should            |Must             |
-|Target audience   |audience       |Within first paragraph summary  |May               |Should           |
-
-**Note:** The terms "Must”, "Should”, and "May” should be interpreted as per [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
-
-_(TBD: Discuss/improve recommendations for [schema.org](https://schema.org/) metadata fields. The table above should cover all metadata fields we consider should be recommended in the The Good Docs Project.}_
-
-## Before you start
-
-This section is optional and should only be included if required. Consider if there is any assumed knowledge, prior docs which should have been read, minimum hardware requirements, software that needs to be installed or configured.
-
-The title of this section is sometimes called "Prerequisites".
 
 ## {Sections and subsections}
 
@@ -136,7 +88,32 @@ The title of this section is sometimes called "Prerequisites".
 * Include tips for doc authors.
 * Some sections will be optional and so should include the "optional" tip to the doc author.
 
-## What’s next
+### The Overview section
+
+TBD: We should revisit the scope of this description and align with the hero description.
+
+If you have a long document, you may additionally include an __Overview__ section. It should only be included if you have extra information which is too verbose to include in the concise __Hero Paragraph__.
+
+Within this section, summarize what the reader will achieve by reading the explanation article:
+
+* Are you writing for developers or for managers?
+* Are you writing for people who have a certain problem to solve?
+* Are you writing for a particular industry or market segment?
+
+Readers should already have read a concept about the topic in an About article. Ensure you link to the relevant About article in the overview.
+
+## The Before you start section
+
+This section prevents readers from getting halfway through a document and discovering that they need to go and read other documentation before they can continue. Prerequisites can include:
+* Skills to become familiar with or training to complete,
+* Articles or information to read,
+* Technical dependencies such as an internet connection, specific software or a development environment.
+
+Describe what the audience needs to know, or needs to have, before they attempt reading this document. By stating the requirements up-front, you prevent your readers from having a bad experience with your document. You can include links to procedures or information, or give useful pointers about how to get what they need.
+
+This section is optional and should only be included if required.
+
+## The Further information section
 
 {Template author tip: Most `doctypes` should provide links to help a document author find related topics and next steps.}
 
@@ -148,20 +125,37 @@ Provide one to four links to more information. Links should be a logical next st
   * Don't overwhelm your reader with too many choices. Just select the one link per option for the most likely next steps.
   * Consider {next steps, similar concepts, background theory}.
 
+## The Revision history section
 
-## Revision history
+__This section typically should not be included. It is typically only included for formal documents where readers are likely to be interested in the document's change history.__
 
-This section is optional, and typically should not be included.
+__It typically should only list major, public facing updates.__
 
-It is typically only include for formal or impportant documents where readers are likely to be interested in the document's change history. 
+__If included, it should follow the following format:__
 
-It typically should only list major, public facing updates.
+The following table describes the history of {all/major} decisions and revisions made to this {document} over time. 
 
-## Decision log
+This guide uses the Major.Minor.Patch [semantic versioning](https://semver.org/) convention.
 
-This section is optional, and typically should not be included, or should be included in an accompanying document.
+Edition|  Date        |Lead Author(s)  |Link to Repository Commit/Tag
+-------|  ----        |--------------  |-----------------------------
+0.2    |  {YYYY-MM-DD}|{Your name here}|Customised for this project's needs
+0.1    |  {YYYY-MM-DD}|{Your name here}|Initial [{doctype}-template {version}](https://github.com/thegooddocsproject/templates/tree/main/{doctype}) from The Good Docs Project.
 
-It is typically only included for business process documents where readers may challenge the reasoning behind a decision.
+
+## The Decision log section
+
+__This section typically should not be included, or should be included in an accompanying document.__
+
+__It is typically only included for business process documents where readers may challenge the reasoning behind a decision.__
+
+__If included, it should follow the following format:__
+
+The following table describes the history of all decisions made to this {document} over time:
+
+Ref  |  Date         |  Description                               |  Agreed to by
+---  |  ----         |  -----------                               |  ------------
+1    | {YYYY-MM-DD}  |  {Explain the decision that was made here} |  {Name or role}
 
 ## Acknowledgements
 

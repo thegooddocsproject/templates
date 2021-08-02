@@ -13,6 +13,8 @@
 
 }
 
+TBD: We should move JSON-LD description to the theory section.
+
 {Tip:
 
   Optional: Include machine readable [JSON-LD](http://json-ld.org/) metadata to help search engine optimization.
@@ -63,7 +65,7 @@ It is designed to help {persona or personas} to achieve/learn {some goal}.
 
 }
 
-Before you begin:
+Before you start:
 
 * { You should have a working knowledge of / be familiar with ... .}
 * { You should read ... }
