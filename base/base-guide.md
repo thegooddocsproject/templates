@@ -53,6 +53,24 @@ Make sure you use an unambiguous date format. Note that 4/5/1900 could be:
 
 If adopting the short hand formatting, select the universal date format: ```YYYY-MM-DD``` or ```YYYY-MM```.
 
+### The status metadata
+
+You should indicate the maturity of your documentation using the ```status``` metadata field.
+
+This project makes use of the following maturity phases:
+
+**Incomplete**: All documents start is this phase. Documents in this phase should be considered incomplete.
+
+**Draft**: The author considers the document complete, or mostly complete, and the document is ready for review.
+
+**Published**: The document is complete, is fit for purpose, and is ready to be published to the target audience.
+
+**Obsolete**: The document is considered outdated. It may contain inacurate information.
+
+* **superceded by**: Ideally, obsolete documents should reference the document which supercedes it.
+
+This field aligns with the [schema.org creativeWorkStatus](https://schema.org/creativeWorkStatus) attribute.
+
 ### The application versions metadata
 Where applicable, the documentation should list the version, or range of versions, of the application(s) this documentation describes.
 
@@ -124,40 +142,3 @@ Think about the persona(s) of your reader, and consider what they might want to 
 Provide one to four links to more information. Links should be a logical next step to what has already been read.
   * Don't overwhelm your reader with too many choices. Just select the one link per option for the most likely next steps.
   * Consider {next steps, similar concepts, background theory}.
-
-## The Revision history section
-
-__This section typically should not be included. It is typically only included for formal documents where readers are likely to be interested in the document's change history.__
-
-__It typically should only list major, public facing updates.__
-
-__If included, it should follow the following format:__
-
-The following table describes the history of {all/major} decisions and revisions made to this {document} over time. 
-
-This guide uses the Major.Minor.Patch [semantic versioning](https://semver.org/) convention.
-
-Edition|  Date        |Lead Author(s)  |Link to Repository Commit/Tag
--------|  ----        |--------------  |-----------------------------
-0.2    |  {YYYY-MM-DD}|{Your name here}|Customised for this project's needs
-0.1    |  {YYYY-MM-DD}|{Your name here}|Initial [{doctype}-template {version}](https://github.com/thegooddocsproject/templates/tree/main/{doctype}) from The Good Docs Project.
-
-
-## The Decision log section
-
-__This section typically should not be included, or should be included in an accompanying document.__
-
-__It is typically only included for business process documents where readers may challenge the reasoning behind a decision.__
-
-__If included, it should follow the following format:__
-
-The following table describes the history of all decisions made to this {document} over time:
-
-Ref  |  Date         |  Description                               |  Agreed to by
----  |  ----         |  -----------                               |  ------------
-1    | {YYYY-MM-DD}  |  {Explain the decision that was made here} |  {Name or role}
-
-## Acknowledgements
-
-* This section is optional.
-* Here you can acknowledge source material, and organizations or people who have contributed to this document.

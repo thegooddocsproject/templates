@@ -77,45 +77,6 @@ _TBD: The quality criteria list requires review and refinement._
 
 }
 
-## Business case
-
-{Tip:
-
-* In this section, discuss strategies to calculate the cost of implementing this `doctype`. This may just be to reference the development strategy and maintenance strategy above.
-* Then suggest business goals and reasons why this doctype would help address these goals. Business goals might be:
-    * Increased developer efficiency.
-    * Faster onboarding for users and/or developers.
-    * Reduced support costs.
-* Consider the case where the docs are only partially maintained. Would it be better to have no documentation than incorrect or partially maintained documentation?
-
-}
-
-### When to include {doctype} docs?
-
-{Tip:
-
-* Add a summarized list of reasons for writing the `doctype`, based on the business case above. 
-
-}
-
-You should write {doctype} docs when:
-
-* {Reason 1.}
-* {Reason 2.}
-
-### When wouldn’t you include {doctype} docs?
-
-{Tip:
-
-* Add a summarized list of reasons for not including the `doctype`, based on the business case above. 
-
-}
-
-Don't write {doctype} docs if:
-
-* {Reason 1.}
-* {Reason 2.}
-
 ## Customization
 
 {Tip:
@@ -161,9 +122,11 @@ See also the maintenance strategy section of the `doctype_guide`.
 
 {Tip:
 
-It isn’t sufficient to simply define best practices for a `doctype`. You need to provide compelling evidence as to why this is the best approach. If there isn't any research, then say so, provide your own recommendations, and explain why you think they are the best approach.
+It isn’t sufficient to simply define best practices for a `doctype`. You should provide compelling evidence as to why this is the best approach. If there isn't any research, then say so, provide your own recommendations, and explain why you think they are the best approach.
 
 "Do the hard work to make it simple." [UK Open Government Design Principle](https://www.gov.uk/guidance/government-design-principles#do-the-hard-work-to-make-it-simple)
+
+}
 
 This section should summarize competing approaches and explain why you took the chosen approach.
 * It might also suggest situations where a docset owner would select a different approach.

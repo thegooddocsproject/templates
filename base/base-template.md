@@ -51,6 +51,8 @@ It is designed to help {persona or personas} to achieve/learn {some goal}.
 
 **Last updated:** {"Month DD, _YYYY" or "Month YYYY"}
 
+**Status:** {Incomplete, Draft, Published, Obsolete (superceded by [Doc](https://newdoc.org/newdoc.md))}
+
 **Application version:**
 
 * {Application 1} : {MAJOR.MINOR.PATCH}
