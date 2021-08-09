@@ -13,28 +13,6 @@
 
 }
 
-TBD: We should move JSON-LD description to the theory section.
-
-{Tip:
-
-  Optional: Include machine readable [JSON-LD](http://json-ld.org/) metadata to help search engine optimization.
-
-}
-
-```javascript
-<!--Machine readable schema.org structured metadata about this document.-->
-<script type="application/ld+json">
-{
-  "name": "{Title of the document}",
-  "description": "{Copy of the summary text}",
-  "version": "{MAJOR.MINOR.PATCH}"
-  "datePublished": "{Month DD, YYYY}",
-  "license": "{URL to license}",
-  "audience": "{Persona you are writing for, such as: developer, business manager, …}"
-}
-</script>
-```
-
 {Tip:
 
 * The opening paragraph stands alone, just under the title. It's purpose is to quickly help the reader decide whether they should read any further.
