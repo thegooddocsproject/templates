@@ -4,11 +4,6 @@
 
 In this tutorial, you will {list what learning objectives or goals users will complete in this tutorial}.
 
-<!--TGD feedback: consider offering an example tutorial if the template itself will be very bare bones-->
-
-<!--TGD feedback: considering adding a bit of example text that can be deleted or modified as needed-->
-
-
 ## Prerequisites
 
 Before you start, make sure you have the following installed on your machine:
@@ -62,4 +57,4 @@ In this tutorial, you learned how to:
 
 ### Next steps
 
-Now that you've installed {product}, consider trying these tutorials...
+Now that you've installed {product}, try these tutorials to learn more about {features}.
