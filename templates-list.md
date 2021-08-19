@@ -5,7 +5,7 @@ The list below includes all the templates we as templateers plan to create. Feel
 * P0 Base - Cameron Shorter and Alyssa Rock
 	* P1 Reference
 		* P3 api-reference - Aidan Doherty
-		* P2 Glossary
+		* P2 Glossary - Cameron Shorter / Ankita Tripathi / Viraji Ogodapola
 		* P4 FAQ
 	* *Manual*
 		* P2 User guide
@@ -16,10 +16,10 @@ The list below includes all the templates we as templateers plan to create. Feel
 	* *Task*
 		* P1 Tutorial - Deanna Thompson
 		* P1 How-to
-			* P2 Quickstart - Chris Ganta claimed this, but I'm not sure he's still working on it
+			* P2 Quickstart - Chris Ganta claimed this, but I'm not sure he's still working on it. Nelson Guya / 
 				* P3 Api-quickstart
 	* *Concept*
-		* P2 Business overview (About page, Landing page)
+		* P2 Business overview (About page, Landing page) - Qian Lu
 		* P4 Technical overview
 		* P4 Case Study
 		* P4 White paper
@@ -48,3 +48,7 @@ The list below includes all the templates we as templateers plan to create. Feel
 		* P3 User Stories
 		* P3 Engineering Requirements
 	* P3 Tests
+
+# Guides
+
+* P3 Onboarding Guide - Ankita Tripathi
