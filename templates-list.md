@@ -44,10 +44,14 @@ The list below includes all the templates we as templateers plan to create. Feel
 	* *Plan*
 		* P4 Information Architecture
 		* P4 Documentation Plan
+		* P4 Documentation Metrics Plan - Karissa Van Baulen
 	* *Requirements*
 		* P3 User Stories
-		* P3 Engineering Requirements
-	* P3 Tests
+		* P3 Critical User Journeys
+		* P3 System Requirements
+	        * P3 Test Plan
+	        * P3 Test Description
+	        * P3 Test Results
 
 # Guides
 
