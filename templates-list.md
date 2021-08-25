@@ -3,7 +3,7 @@
 The list below includes all the templates we as templateers plan to create. Feel free to provide feedback on whether any templates need to be removed or added to the list. The "P{number}" before each item indicates the priority of completing this template. We want to focus mostly on completing P1 templates, but if you have a special interest in one of the other templates feel free to work on that too. Feedback on the priorities is also welcome. Items without "P{number}" are just categories, not templates to be created.
 
 * P0 Base - Cameron Shorter and Alyssa Rock
-	* P1 Reference
+	* P1 Reference - Aidan Doherty
 		* P3 api-reference - Aidan Doherty
 		* P2 Glossary - Cameron Shorter / Ankita Tripathi / Viraji Ogodapola
 		* P4 FAQ
