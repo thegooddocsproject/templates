@@ -15,7 +15,7 @@ The list below includes all the templates we as templateers plan to create. Feel
 		* P2 Defining personas guide - Meg Albert
 	* *Task*
 		* P1 Tutorial - Deanna Thompson
-		* P1 How-to
+		* P1 How-to - Ryan Macklin
 			* P2 Quickstart - Chris Ganta claimed this, but I'm not sure he's still working on it. Nelson Guya / 
 				* P3 Api-quickstart
 	* *Concept*
