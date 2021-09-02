@@ -4,7 +4,7 @@
 
 In this tutorial, you'll learn how to {learning objective} using {product}. This tutorial is intended for {audience}. It assumes that you have basic knowledge of {concept 1}, {concept 2}, and {concept 3}. <!--Link to resources here?-->
 
-## Installation
+## Installation <!--May not be needed?-->
 
 To install {product name}, you'll need to {explain what command users must run, or provide link to download your product}.
 
