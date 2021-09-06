@@ -28,7 +28,7 @@ Include any code samples, snippets, or screenshots that will help your user comp
 {Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
 Include any code samples, snippets, or screenshots that will help your user complete the task}.
 
-{If users should see a result after complete this step, make sure to include it.}
+{If users should see a result after completing this step, make sure to include it.}
 
 #### (Optional) Sub step 1 - {Subtask name}
 
@@ -42,7 +42,7 @@ Use this section to summarize what users will complete in the following steps.
 {Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
 Include any code samples, snippets, or screenshots that will help your user complete the task}.
 
-{If users should see a result after complete this step, make sure to include it.}
+{If users should see a result after completing this step, make sure to include it.}
 
 #### (Optional) Sub step 1 - {Subtask name}
 
@@ -53,7 +53,7 @@ Include any code samples, snippets, or screenshots that will help your user comp
 {Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
 Include any code samples, snippets, or screenshots that will help your user complete the task}.
 
-{If users should see a result after complete this step, make sure to include it.}
+{If users should see a result after completing this step, make sure to include it.}
 
 ### Summary
 
@@ -67,4 +67,6 @@ In this tutorial, you learned how to:
 
 ### Next steps
 
-Now that you've completed this tutorial, try these tutorials to learn more about {features}.
+{Use this section to provide links to other tutorials or resources for users who want to learn more about the concepts covered in the tutorial.}
+
+Now that you've completed this tutorial, try these tutorials to learn more about {feature}. If you're interested in learning more about {concept}, visit {resource link}.
