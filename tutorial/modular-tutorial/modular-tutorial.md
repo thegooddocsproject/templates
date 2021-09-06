@@ -2,19 +2,21 @@
 
 {Use this section to provide an overview of what learning objectives or goals users will complete in this tutorial. You can also explicitly state who this tutorial is for.}
 
-In this tutorial, you'll learn how to {learning objective} using {product}. This tutorial is for {audience}.    
+In this tutorial, you'll learn how to {learning objective} using {product}. This tutorial is intended for {audience}. It assumes that you have basic knowledge of {concept 1}, {concept 2}, and {concept 3}. <!--Link to resources here?-->
+
+<!--general knowledge vs specified knowledge-->
 
 ## Feature description
 
 {Use this section to provide more information about the feature, like when it's used or why it's used. You can also provide a screenshot or link to a video here.} 
 
-## Prerequisites
+## Before you begin 
 
 {Use this section to tell users about any steps they need to complete before they start the tutorial. Some examples might include:
 
 * Starting a server
 * Going to a "downloads" page
-* Reading a section of your documentation}
+* Reading a section of your documentation
 
 Before you start the tutorial, complete the following steps:
 
@@ -82,3 +84,4 @@ In this tutorial, you learned how to:
 ### Next steps
 
 Now that you've completed this tutorial, try these tutorials to learn more about {features}.
+<!--provide knowledge level of resources-->
