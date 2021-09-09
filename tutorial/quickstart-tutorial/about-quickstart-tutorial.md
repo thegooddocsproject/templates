@@ -10,6 +10,8 @@ You can also state the intended audience for your tutorial and mention any conce
 
 ## About the installation section
 
+<!--link out to installation guide unless it's mostly links-->
+
 Use this section to provide links to download your software and any other installation instructions, like how to enter a license key.
 
 If you're writing a tutorial that's code focused, you might use this section to explain what commands users need to run from the terminal to install your product.
@@ -17,6 +19,8 @@ If you're writing a tutorial that's code focused, you might use this section to 
 ## Steps
 
 The steps section is where you describe what the user needs to do. For a quickstart tutorial, you can walk the user through installing your product and then completing a small project to verify their installation.
+
+<!--Narrative vs. procedure: pros and cons of each; pick one and stick with it-->
 
 ### Writing your steps
 
