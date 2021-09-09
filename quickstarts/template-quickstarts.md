@@ -1,37 +1,72 @@
-# The quickstart tutorial template
+# Overview
 
-The quickstart or `Hello World!` tutorial is for introducing your users to your product or framework for the first time. Users can typically complete these tutorials in less than 15 minutes. It's task-based and installation-focused.
+{Use this section to provide an overview of what learning objectives or goals users will complete in this tutorial. You can also explicitly state who this tutorial is for.}
 
-## About the overview section
+In this tutorial, you'll learn how to {learning objective} using {product}. This tutorial is intended for {audience}. It assumes that you have basic knowledge of {concept 1}, {concept 2}, and {concept 3}. <!--Link to resources here?-->
 
-Use this section to provide a short description of your product and its purpose, and to describe what the user will accomplish in this tutorial.
+## Installation <!--May not be needed?-->
 
-You can also state the intended audience for your tutorial and mention any concepts users should be familiar with before starting the tutorial. 
+To install {product name}, you'll need to {explain what command users must run, or provide link to download your product}.
 
-## About the installation section
+## Part 1 - {Description}
 
-<!--link out to installation guide unless it's mostly links-->
+Use this section to summarize what users will complete in the following steps.
 
-Use this section to provide links to download your software and any other installation instructions, like how to enter a license key.
+### Step 1 - {Task name}
 
-If you're writing a tutorial that's code focused, you might use this section to explain what commands users need to run from the terminal to install your product.
+{Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
+Include any code samples, snippets, or screenshots that will help your user complete the task}.
 
-## Steps
+{If users should see a result after complete this step, make sure to include it.}
 
-The steps section is where you describe what the user needs to do. For a quickstart tutorial, you can walk the user through installing your product and then completing a small project to verify their installation.
+#### (Optional) Sub step 1 - {Subtask name}
 
-<!--Narrative vs. procedure: pros and cons of each; pick one and stick with it-->
+{Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
 
-### Writing your steps
+### Step 2 - {Task name}
 
-For each step, provide some background information about the task so users know what they're about to do and why. 
+{Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
+Include any code samples, snippets, or screenshots that will help your user complete the task}.
 
-If users should see a result after completing a particular step, make sure to include it. This might mean including a screenshot of a dialog or terminal output.
+{If users should see a result after completing this step, make sure to include it.}
 
-## About the summary section
+#### (Optional) Sub step 1 - {Subtask name}
 
-Use this section to summarize what tasks your user completed during the tutorial, and to summarize what your users now know how to do.
+{Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
+## Part 2 - {Description}
 
-## About the next steps section
+Use this section to summarize what users will complete in the following steps.
 
-Use this section to include links to other tutorials. You can also include links to relevant resources, like articles, blogs, or videos.
+### Step 1 - {Task name}
+
+{Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
+Include any code samples, snippets, or screenshots that will help your user complete the task}.
+
+{If users should see a result after completing this step, make sure to include it.}
+
+#### (Optional) Sub step 1 - {Subtask name}
+
+{Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
+
+### Step 2 - {Task name}
+
+{Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
+Include any code samples, snippets, or screenshots that will help your user complete the task}.
+
+{If users should see a result after completing this step, make sure to include it.}
+
+### Summary
+
+{Use the summary to summarize the tasks users completed in the tutorial and what they learned from it.}
+
+In this tutorial, you learned how to:
+
+* Learning objective 1
+* Learning objective 2
+* Learning objective 3
+
+### Next steps
+
+{Use this section to provide links to other tutorials or resources for users who want to learn more about the concepts covered in the tutorial.}
+
+Now that you've completed this tutorial, try these tutorials to learn more about {feature}. If you're interested in learning more about {concept}, visit {resource link}.
