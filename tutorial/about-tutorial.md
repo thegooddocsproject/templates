@@ -41,9 +41,9 @@ This template breaks down the tutorial into _parts_. One _part_ of the tutorial 
 * When writing your steps, make sure to provide any background information your users may need to complete the task. 
 * Remember to orient your users when walking them through each step. If they need to open a particular file or dialog to complete the task, provide that information first.
 
-### About the "Conclusion" section
+### About the "Summary" section
 
-Use the conclusion section of the tutorial to sum up what tasks your user completed during the tutorial and what your users now know how to do.
+Use the summary section of the tutorial to sum up what tasks your user completed during the tutorial and what your users now know how to do.
 
 ### About the "Next Steps" section
 

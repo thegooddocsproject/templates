@@ -72,7 +72,7 @@ Include any code samples, snippets, or screenshots that will help your user comp
 
 {Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
 
-## Conclusion 
+## Summary
 
 {Use this section to summarize tasks the users completed in the tutorial and to provide further reading and resources.}
 
@@ -82,6 +82,6 @@ In this tutorial, you learned how to:
 * Learning objective 2
 * Learning objective 3
 
-### Next steps
+## Next steps
 
 {Use this section to share related tutorials users can try, links to relevant documentation, or helpful links if users want to learn more about the concepts covered in this tutorial.}
