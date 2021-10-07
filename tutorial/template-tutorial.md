@@ -1,45 +1,87 @@
----
-title: template for tutorial # Describe the title of your article by replacing "template for tutorial" with the page name you want to publish in Confluence.
-author: The Good Docs Project
-uri-repo: https://github.com/projectname
-company: REPLACEME
-product: # Set the product parameter to add the product name here.
-app: # Insert the name of the app here.
-tags: # Set other global keywords here like app name and product name or any other likely labels. These are comma-separated tags.
----
-{Article variables (delete the comments and add in the values) }
-{Begin your Reference topic in this section. 
-For help with writing and structuring a reference article, see the README.md in the template directory for basic guidelines and links.
-Check out https://www.markdownguide.org/basic-syntax/ if you get stuck with AsciiDoc syntax.}
+# Title
 
-# Goal
-Summarise what this tutorial is about in a sentence or two. What you put here is reused in the Goal section and included in HTML description tags.
+{Before using this template, read the accompanying [tutorial template guide](about-tutorial.md).}
 
-# Before you start
-{Delete this section if your readers can dive straight into the lesson without requiring any prerequisite knowledge.}
-Make sure you meet the following prerequisites before starting the tutorial steps:
+## Overview
 
-* Prerequisite one
-* Prerequisite two
-* etc.
+In this tutorial, you'll learn how to {learning objective} using {product}. This tutorial is intended for {audience}. It assumes that you have basic knowledge of {concept 1}, {concept 2}, and {concept 3}. 
 
-# Part 1 - <_Part Title_>
+## Background 
 
-{Introduce what your audience will learn in this step, then continue to write the steps in the tutorial.
-You can choose one of these approaches to write your tutorial part:
+{Use this section to provide background information about the task users will complete. For example, if your tutorial is about a particular feature, you can describe it here. If your tutorial is project-based, you can describe the project users will complete. See the ["About the Background section"](about-tutorial.md#about-the-background-section) in the template guide for more information.}
 
-* In a narrative style if your parts are short or you are using screenshots to do most of the talking.   
-* In a "Goal > Steps > Outcome" structure to build a predictable flow in all your tutorial parts.
+## Before you begin 
 
-Whatever option you choose when designing your tutorial should be carried through in subsequent parts.
-}
+{Use this section to tell users about any steps they need to complete before they start the tutorial.}
 
-# Part 2 - <_Part Title_>
+Before you start the tutorial, complete the following steps:
 
-{
-Continue the design approach you chose in the previous part and continue it through to the end of the tutorial.
-}
+* Prerequisite 1
+* Prerequisite 2
+* Prerequisite 3
 
-# What you've learned
+## Part 1 - {Description}
 
-{Summarise what knowledge the reader has gained by completing the tutorial, including a summary of each part's Goals (this is a good way to validate whether your tutorial has covered all you need it to.)}
+Feel free to use this section to summarize what users will complete in the following steps.
+
+### Step 1 - {Task name}
+
+{Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
+Include any code samples, snippets, or screenshots that will help your user complete the task}.
+
+{If users should see a result after complete this step, make sure to include it.}
+
+#### Sub step 1 - {Subtask name}
+
+{Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
+
+### Step 2 - {Task name}
+
+{Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
+Include any code samples, snippets, or screenshots that will help your user complete the task}.
+
+{If users should see a result after complete this step, make sure to include it.}
+
+#### Sub step 1 - {Subtask name}
+
+{Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
+
+## Part 2 - {Description}
+
+Feel free to use this section to summarize what users will complete in the following steps.
+
+### Step 1 - {Task name}
+
+{Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
+Include any code samples, snippets, or screenshots that will help your user complete the task}.
+
+{If users should see a result after complete this step, make sure to include it.}
+
+#### Sub step 1 - {Subtask name}
+
+{Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
+
+### Step 2 - {Task name}
+
+{Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
+Include any code samples, snippets, or screenshots that will help your user complete the task}.
+
+{If users should see a result after complete this step, make sure to include it.}
+
+#### Sub step 1 - {Subtask name}
+
+{Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
+
+## Conclusion 
+
+{Use this section to summarize tasks the users completed in the tutorial and to provide further reading and resources.}
+
+In this tutorial, you learned how to:
+
+* Learning objective 1
+* Learning objective 2
+* Learning objective 3
+
+### Next steps
+
+{Use this section to share related tutorials users can try, links to relevant documentation, or helpful links if users want to learn more about the concepts covered in this tutorial.}
