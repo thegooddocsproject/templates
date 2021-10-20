@@ -31,7 +31,7 @@ Include any code samples, snippets, or screenshots that will help your user comp
 
 {If users should see a result after complete this step, make sure to include it.}
 
-#### Sub step 1 - {Subtask name}
+#### Substep 1 - {Subtask name}
 
 {Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
 
@@ -42,7 +42,7 @@ Include any code samples, snippets, or screenshots that will help your user comp
 
 {If users should see a result after complete this step, make sure to include it.}
 
-#### Sub step 1 - {Subtask name}
+#### Substep 1 - {Subtask name}
 
 {Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
 
@@ -57,7 +57,7 @@ Include any code samples, snippets, or screenshots that will help your user comp
 
 {If users should see a result after complete this step, make sure to include it.}
 
-#### Sub step 1 - {Subtask name}
+#### Substep 1 - {Subtask name}
 
 {Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
 
@@ -68,7 +68,7 @@ Include any code samples, snippets, or screenshots that will help your user comp
 
 {If users should see a result after complete this step, make sure to include it.}
 
-#### Sub step 1 - {Subtask name}
+#### Substep 1 - {Subtask name}
 
 {Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
 
