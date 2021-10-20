@@ -51,4 +51,8 @@ Use this section to include links to other tutorials, such as tutorials that all
 
 ## Helpful tips when writing your tutorial 
 
-* Keep your tutorial focused. If needed, link out to other pieces of documentation that might explain some concept in more depth. 
+* Keep your tutorial focused. If needed, include links to other pieces of documentation that explain concepts or terms in more depth.
+* If users will copy and paste code samples, make sure they include the following:
+  * Any required `import` or `using` statements
+  * Code comments that explain what the code does 
+* Lengthy tutorials can overwhelm users. Consider condensing or removing steps or reevaluating the scope of the tutorial.
