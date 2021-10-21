@@ -35,7 +35,7 @@ This pull request:
 - [ ] Template guide is present.
 - [ ] Template deep dive is present (optional).
 - [ ] Template example is present (optional).
-- [ ] If the optional template example is not present, open a new issue to track this task in [Chronologue repository](https://github.com/thegooddocsproject/chronologue/issues), then include the link here.
+- [ ] If the optional template example is not present, open a new issue to track this task in the [Chronologue repository](https://github.com/thegooddocsproject/chronologue/issues), then include the link here.
 
 
 ## Template pull request reviewer checklist
