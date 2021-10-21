@@ -35,7 +35,7 @@ This pull request:
 - [ ] Template guide is present.
 - [ ] Template deep dive is present (optional).
 - [ ] Template example is present (optional).
-- [ ] If the optional template example is not present, open a new issue was created to track this task (include link).
+- [ ] If the optional template example is not present, open a new issue to track this task in [Chronologue repository](https://github.com/thegooddocsproject/chronologue/issues), then include the link here.
 
 
 ## Template pull request reviewer checklist
@@ -55,7 +55,7 @@ NOTE: Pull requests can only be merged when all boxes are checked.
 ### Overall usability - PULL REQUEST REVIEWER ONLY
 
 - [ ] The scope of the template set is appropriate, meaning it is not too simple or overly complex (i.e. it needs to be expanded or broken into multiple smaller templates).
-- [ ] The template is complete and comphrehensive.
+- [ ] The template is complete and comprehensive.
 - [ ] The template set is well-organized and the contents flow in a logical order.
 - [ ] The template is well-written and clear.
 - [ ] The template set provides sufficient guidance about how to fill it in and implement the template in a documentation project.
@@ -69,7 +69,7 @@ NOTE: Pull requests can only be merged when all boxes are checked.
 - [ ] Embedded writing tips are formatted with {curly brackets}.
 - [ ] The template is free from grammar errors and typos.
 - [ ] The scope of the template is appropriate, meaning it is not too simple or overly complex (i.e. it needs to be expanded or broken into multiple smaller templates).
-- [ ] The template is complete and comphrehensive.
+- [ ] The template is complete and comprehensive.
 - [ ] The template is well-organized and the contents flow in a logical order.
 - [ ] The template is well-written and clear.
 
