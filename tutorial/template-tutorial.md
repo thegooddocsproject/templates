@@ -29,7 +29,7 @@ Feel free to use this section to summarize what users will complete in the follo
 {Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
 Include any code samples, snippets, or screenshots that will help your user complete the task}.
 
-{If users should see a result after complete this step, make sure to include it.}
+{If users should see a result after completing this step, make sure to include it.}
 
 #### Substep 1 - {Subtask name}
 
