@@ -5,9 +5,9 @@
 ## Overview
 
 This quickstart guides you through:
-+ [Part 1](#part-1-{description})
-+ [Part 2](#part-2-{description})
-+ [Part n](#part-n-{description})
++ [Part 1](#part-1-description)
++ [Part 2](#part-2-description)
++ [Part n](#part-n-description)
 
 {(Optional) Link each part to its corresponding section for easy access}
 
@@ -16,7 +16,7 @@ It is intended for {audience}. It assumes that you have basic knowledge of:
 + Concept 2
 + Concept 3 
 
-{Link each concept to its corresponding content that helps users understand the concepts and ideas behind your soft. }
+{Link each concept to its corresponding content that helps users understand the concepts and ideas behind your software. }
 
 ## Before You Begin
 
