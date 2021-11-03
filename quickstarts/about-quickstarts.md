@@ -105,5 +105,5 @@ Optionally you can provide links to relevant resources, like blogs, reference do
 
 ## References
 
-[What is quickstart to you?](https://ffeathers.wordpress.com/2018/10/08/what-is-a-quickstart-to-you/)
-[Quickstart Guide Wiki](https://en.wikipedia.org/wiki/Quickstart_guide)
+[What is a quickstart to you?](https://ffeathers.wordpress.com/2018/10/08/what-is-a-quickstart-to-you/)
+
