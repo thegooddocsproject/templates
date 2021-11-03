@@ -5,7 +5,7 @@
 ## Introduction
 
 The quickstart is intended for introducing your users to your product or framework for the first time. 
-It focuses on the **hero feature** of the product and helps your users' to start using the product as quickly as possible.
+It focuses on the **hero feature** of the product and helps your users to start using the product as quickly as possible.
 
 A good quickstart answers the following questions:
 
@@ -14,7 +14,7 @@ A good quickstart answers the following questions:
 + How to get any required access keys or authentication credentials?
 + How can I install/setup this software?
 + How to configure the product? For a developer-focused product, this usually involves creating a hello world application. For an end-user product, this may mean setting up a corporate or user profile and choosing other preferences.
-+ How can I get started with the product? This is often a walkthrough of a simple but a common use case, that helps the user learn the patterns of the product
++ How can I get started with the product? This is often a walkthrough of a simple but common use case, that helps the user learn the patterns of the product
 + What other options (advanced features) are available for the user to explore in the product?
 + What should the user do if something does not work (Link to troubleshooting guide or any support email ID)
 
@@ -22,19 +22,19 @@ A good quickstart answers the following questions:
 A Quickstart guide is often confused with a Getting Started guide. Though both these documents help the users get acquainted with the product 
 they widely differ in their target audience. 
 
-The table below gives a quick differences between the two:
+The table below gives quick differences between the two:
 
 |Quickstart Guide|Getting Started Guide|
 |----------------|----------------------|
 |Domain Experts: Know the problem space and are aware of what they need to do|Beginners:New to problem space and the product|
 |Minimal conceptual information|Detailed conceptual information on product/domain|
-|Focuses on "how to"|Focuses on both "how to" and "why"| 
+|Focuses on "how-to"|Focuses on both "how-to" and "why"| 
 
 ## Why do I need a Quickstart?
 Quickstarts are key to helping your users get started with the product as quickly as possible. 
 A good quickstart can improve customer experience and help to reduce costs by lowering the number of support requests. As a result:
 + Make users comfortable using the product
-+ Lead to willingness to handle complex workflows
++ Lead to the willingness to handle complex workflows
 + Explore more product features
 
 ## Tips for writing a Quickstart
@@ -65,7 +65,7 @@ Defining the audience right in the beginning will help the users identify if the
 ## About "Before You Begin" section
 
 Use this section to mention any requirements/configuration prerequisites that the user must complete before they start the quickstart. 
-For easy understanding, we recommend that you classify the prerequisites to different categories such as software prerequisites, hardware prerequisites, and so on. 
+For easy understanding, we recommend that you classify the prerequisites into different categories such as software prerequisites, hardware prerequisites, and so on. 
 
 ## About the installation section
 
@@ -77,7 +77,7 @@ Use this section to provide:
 
 > **Note:**
 > Some quickstarts may not require Installation instructions, in such scenarios, you can use this section to provide steps to tell the users 
-> how to sign up, obtain user credentials to log in, and any other authorization/authentication related information.
+> how to sign up, obtain user credentials to log in, and any other authorization/authentication-related information.
 
 ## About the "Steps" section
 
@@ -98,9 +98,9 @@ You're welcome to follow this structure or use the step headings on their own.
 
 ## About the "Next Steps" section
 
-Use this section to include links to other tutorials/articles that the users can try after completing the quickstart. 
-Consider a logical connect from the current quickstart that can act as a basis for your users’ next learning.  
-Optionally you can provide links to relevant resources, like blogs, reference docs, videos, how tos, and so on under a new heading **See Also**. 
+Use this section to provide links to other tutorials/articles that the users can try after completing the quickstart. 
+Consider the logical use case from the current quickstart that can act as a basis for your users’ next learning.  
+Optionally you can provide links to relevant resources, like blogs, reference docs, videos, how-tos, and so on under a new heading **See Also**. 
 
 
 ## References
