@@ -4,12 +4,12 @@
 
 ## Overview
 
-{This quickstart guides you through:
-+ [Part 1](#Part 1 - {Description})
-+ [Part 2](#Part 2 - {Description})
-+ [Part n](#Part n - {Description})
+This quickstart guides you through:
++ [Part 1](#part-1-{description})
++ [Part 2](#part-2-{description})
++ [Part n](#part-n-{description})
 
-(Optional) Link each part to its corresponding section for easy access
+{(Optional) Link each part to its corresponding section for easy access}
 
 It is intended for {audience}. It assumes that you have basic knowledge of: 
 + Concept 1
@@ -20,11 +20,11 @@ It is intended for {audience}. It assumes that you have basic knowledge of:
 
 ## Before You Begin
 
-{Complete all prerequisites before proceeding with the rest of the quickstart
+Complete all prerequisites before proceeding with the rest of the quickstart
 
 + Prerequisite 1
 + Prerequisite 2
-+ Prerequisite 3}
++ Prerequisite 3
  
 ## Installation 
 
@@ -36,17 +36,8 @@ It is intended for {audience}. It assumes that you have basic knowledge of:
 
 ### Step 1 - {Task name}
 
-{
-+ Start the heading with a verb and express the heading as a full thought. 
-+ Provide an overview of this task's purpose and any background information for this task if required. 
-+ Use plain language and define the terminology of any technical term next to it.
-+ Provide series of instructions that the user must complete to accomplish the task. 
-+ Include just one action in an instruction.
-+ Include any code samples, snippets, or screenshots that will help your user complete the task.
-+ If users should see a result after completing this step, make sure to include it 
-}
-
-
+{+ Include any code samples, snippets, or screenshots that will help your user complete the task.}
+{+ If users should see a result after completing this step, make sure to include it.}
 
 #### (Optional) Sub step 1 - {Subtask name}
 
@@ -81,8 +72,8 @@ It is intended for {audience}. It assumes that you have basic knowledge of:
 
 ## Next Steps
 
-{Now that you've completed this quickstart, try these to learn more about {feature}. 
+Now that you've completed this quickstart, try these to learn more about {feature}. 
 + Reference Link 1
 + Reference Link 2
-+ Reference Link n}
++ Reference Link n
 
