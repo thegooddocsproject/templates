@@ -1,72 +1,88 @@
-# Overview
+# Title
 
-{Use this section to provide an overview of what learning objectives or goals users will complete in this tutorial. You can also explicitly state who this tutorial is for.}
+{Before using this template, read the accompanying [quickstart template guide](about-quickstarts.md).}
 
-In this tutorial, you'll learn how to {learning objective} using {product}. This tutorial is intended for {audience}. It assumes that you have basic knowledge of {concept 1}, {concept 2}, and {concept 3}. <!--Link to resources here?-->
+## Overview
 
-## Installation <!--May not be needed?-->
+{This quickstart guides you through:
++ [Part 1](#Part 1 - {Description})
++ [Part 2](#Part 2 - {Description})
++ [Part n](#Part n - {Description})
 
-To install {product name}, you'll need to {explain what command users must run, or provide link to download your product}.
+(Optional) Link each part to its corresponding section for easy access
+
+It is intended for {audience}. It assumes that you have basic knowledge of: 
++ Concept 1
++ Concept 2
++ Concept 3 
+
+{Link each concept to its corresponding content that helps users understand the concepts and ideas behind your soft. }
+
+## Before You Begin
+
+{Complete all prerequisites before proceeding with the rest of the quickstart
+
++ Prerequisite 1
++ Prerequisite 2
++ Prerequisite 3}
+ 
+## Installation 
+
+{Use this section to provide installation instructions.} 
 
 ## Part 1 - {Description}
 
-Use this section to summarize what users will complete in the following steps.
+{Use this section to summarize what users will complete in the following steps.}
 
 ### Step 1 - {Task name}
 
-{Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
-Include any code samples, snippets, or screenshots that will help your user complete the task}.
+{
++ Start the heading with a verb and express the heading as a full thought. 
++ Provide an overview of this task's purpose and any background information for this task if required. 
++ Use plain language and define the terminology of any technical term next to it.
++ Provide series of instructions that the user must complete to accomplish the task. 
++ Include just one action in an instruction.
++ Include any code samples, snippets, or screenshots that will help your user complete the task.
++ If users should see a result after completing this step, make sure to include it 
+}
 
-{If users should see a result after complete this step, make sure to include it.}
 
-#### (Optional) Sub step 1 - {Subtask name}
-
-{Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
-
-### Step 2 - {Task name}
-
-{Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
-Include any code samples, snippets, or screenshots that will help your user complete the task}.
-
-{If users should see a result after completing this step, make sure to include it.}
 
 #### (Optional) Sub step 1 - {Subtask name}
 
 {Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
+
 ## Part 2 - {Description}
 
-Use this section to summarize what users will complete in the following steps.
-
-### Step 1 - {Task name}
-
-{Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
-Include any code samples, snippets, or screenshots that will help your user complete the task}.
-
-{If users should see a result after completing this step, make sure to include it.}
-
-#### (Optional) Sub step 1 - {Subtask name}
-
-{Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.}
+...
 
 ### Step 2 - {Task name}
 
-{Provide background information for the task here. You might want to define any terminology here and provide any overview of this task's purpose.
-Include any code samples, snippets, or screenshots that will help your user complete the task}.
+...
 
-{If users should see a result after completing this step, make sure to include it.}
+#### (Optional) Sub step 2 - {Subtask name}
 
-### Summary
+...
 
-{Use the summary to summarize the tasks users completed in the tutorial and what they learned from it.}
 
-In this tutorial, you learned how to:
+## Part n - {Description}
 
-* Learning objective 1
-* Learning objective 2
-* Learning objective 3
+...
 
-### Next steps
+### Step n - {Task name}
 
-{Use this section to provide links to other tutorials or resources for users who want to learn more about the concepts covered in the tutorial.}
+...
 
-Now that you've completed this tutorial, try these tutorials to learn more about {feature}. If you're interested in learning more about {concept}, visit {resource link}.
+#### (Optional) Sub step n - {Subtask name}
+
+...
+
+
+
+## Next Steps
+
+{Now that you've completed this quickstart, try these to learn more about {feature}. 
++ Reference Link 1
++ Reference Link 2
++ Reference Link n}
+
