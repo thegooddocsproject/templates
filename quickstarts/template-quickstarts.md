@@ -36,8 +36,8 @@ Complete all prerequisites before proceeding with the rest of the quickstart
 
 ### Step 1 - {Task name}
 
-{+ Include any code samples, snippets, or screenshots that will help your user complete the task.}
-{+ If users should see a result after completing this step, make sure to include it.}
+{Include any code samples, snippets, or screenshots that will help your user complete the task.}
+{If users should see a result after completing this step, make sure to include it.}
 
 #### (Optional) Sub step 1 - {Subtask name}
 
