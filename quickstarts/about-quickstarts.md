@@ -60,15 +60,12 @@ Use this section to provide:
 
 Defining the audience right in the beginning will help the users identify if the quickstart is relevant for them or if they should continue searching.
 
-
-
 ## About "Before You Begin" section
 
 Use this section to mention any requirements/configuration prerequisites that the user must complete before they start the quickstart. 
 For easy understanding, we recommend that you classify the prerequisites into different categories such as software prerequisites, hardware prerequisites, and so on. 
 
-## About the installation section
-
+## About the "Installation" section
 
 Use this section to provide:
 + Basic instructions/commands to install your product

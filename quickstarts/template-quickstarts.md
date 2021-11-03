@@ -2,6 +2,14 @@
 
 {Before using this template, read the accompanying [quickstart template guide](about-quickstarts.md).}
 
+**Document Version:**{MAJOR.MINOR.PATCH}
+**Last Updated:** {"Month DD, _YYYY" or "Month YYYY"} 
+**Application Version:** 
+	+ {Application 1}: {MAJOR.MINOR.PATCH}
+	+ {Application 2}: {MAJOR.MINOR.PATCH} or later
+	+ ...
+
+
 ## Overview
 
 This quickstart guides you through:
@@ -16,7 +24,7 @@ It is intended for {audience}. It assumes that you have basic knowledge of:
 + Concept 2
 + Concept 3 
 
-{Link each concept to its corresponding content that helps users understand the concepts and ideas behind your software. }
+{Link each concept to its corresponding content that help users understand the concepts and ideas behind your software. }
 
 ## Before You Begin
 
