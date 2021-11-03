@@ -3,26 +3,28 @@
 {Before using this template, read the accompanying [quickstart template guide](about-quickstarts.md).}
 
 **Document Version:**{MAJOR.MINOR.PATCH} 
-**Last Updated:** {"Month DD, _YYYY" or "Month YYYY"}   
-**Application Version:**   
-	+ {Application 1}: {MAJOR.MINOR.PATCH}
-	+ {Application 2}: {MAJOR.MINOR.PATCH} or later
-	+ ...
 
+**Last Updated:** {"Month DD, _YYYY" or "Month YYYY"}   
+
+**Application Version:**   
+
+* {Application 1}: {MAJOR.MINOR.PATCH}
+* {Application 2}: {MAJOR.MINOR.PATCH} or later
+* ...
 
 ## Overview
 
 This quickstart guides you through:
-+ [Part 1](#part-1-description)
-+ [Part 2](#part-2-description)
-+ [Part n](#part-n-description)
+* [Part 1](#part-1-description)
+* [Part 2](#part-2-description)
+* [Part n](#part-n-description)
 
 {(Optional) Link each part to its corresponding section for easy access}
 
 It is intended for {audience}. It assumes that you have basic knowledge of: 
-+ Concept 1
-+ Concept 2
-+ Concept 3 
+* Concept 1
+* Concept 2
+* Concept 3 
 
 {Link each concept to its corresponding content that help users understand the concepts and ideas behind your software. }
 
@@ -30,9 +32,9 @@ It is intended for {audience}. It assumes that you have basic knowledge of:
 
 Complete all prerequisites before proceeding with the rest of the quickstart
 
-+ Prerequisite 1
-+ Prerequisite 2
-+ Prerequisite 3
+* Prerequisite 1
+* Prerequisite 2
+* Prerequisite 3
  
 ## Installation 
 
@@ -81,7 +83,7 @@ completing this step, make sure to include it.}
 ## Next Steps
 
 Now that you've completed this quickstart, try these to learn more about {feature}. 
-+ Reference Link 1
-+ Reference Link 2
-+ Reference Link n
+* Reference Link 1
+* Reference Link 2
+* Reference Link n
 
