@@ -1,3 +1,4 @@
+
 # Quickstart Guide
 
 {Read this document before you start working on the [quickstart template](template-quickstarts.md)}
@@ -11,12 +12,12 @@ A good quickstart answers the following questions:
 
 * What can this software/application do? Purpose of this quickstart
 * Where can I find the product. It can point to a web address or a download link.
-* How to get any required access keys or authentication credentials?
+* How can I get any required access keys or authentication credentials?
 * How can I install/setup this software?
-* How to configure the product? For a developer-focused product, this usually involves creating a hello world application. For an end-user product, this may mean setting up a corporate or user profile and choosing other preferences.
+* How can I configure the product? For a developer-focused product, this usually involves creating a hello world application. For an end-user product, this may mean setting up a corporate or user profile and choosing other preferences.
 * How can I get started with the product? This is often a walkthrough of a simple but common use case, that helps the user learn the patterns of the product
-* What other options (advanced features) are available for the user to explore in the product?
-* What should the user do if something does not work (Link to troubleshooting guide or any support email ID)
+* What other options (advanced features) are available to explore more in the product?
+* What should I do if something does not work? (Link to troubleshooting guide or any support email ID)
 
 
 A Quickstart guide is often confused with a Getting Started guide. Though both these documents help the users get acquainted with the product 
@@ -42,7 +43,7 @@ A good quickstart can improve customer experience and help to reduce costs by lo
 * Highlight the main (hero) feature of your product.
 * Document the quickest/easiest way to implement the main (hero) feature  of your product.
 * Pick a use case that the user can complete within 5-20 mts with a preference for a shorter time.
-* Do not complicate the quickstart by including error scenarios/complex use cases
+* Do not complicate the quickstart by including error scenarios/complex use cases.
 * Lengthy quickstarts can overwhelm users. Consider condensing or removing steps or reevaluating the scope of the quickstart.
 * For code samples, ensure that you include:  
 	- Any required `import` or `using` statements
@@ -96,7 +97,7 @@ You're welcome to follow this structure or use the step headings on their own.
 ## About the "Next Steps" section
 
 Use this section to provide links to other tutorials/articles that the users can try after completing the quickstart. 
-Consider a logical use case from the current quickstart that can act as a basis for your users’ next learning.  
+Consider a logical connect from the current quickstart that can act as a basis for your users’ next learning.  
 Optionally you can provide links to relevant resources, like blogs, reference docs, videos, how-tos, and so on under a new heading **See Also**. 
 
 
