@@ -16,7 +16,7 @@ In comparison, tutorials give your users hands-on experience with your product s
 ## About the tutorial template 
 
 This tutorial can be used in one of two ways: 
-* For providing a walkthrough of a particular feature
+* For providing a walkthrough of a particular feature.
 * Walking users through completing a small project. 
 
 Ideally, your users already completed a quickstart or "getting started" tutorial and have a general understanding of your product.  
@@ -33,9 +33,11 @@ Learning objectives usually start off with, "By the end of this tutorial, you wi
 
 Here are some examples:
 
-* By the end of this tutorial, you'll be able to define components in React
-* By the end of this tutorial, you'll be able to perform common tasks in Google Drive, such as viewing, editing, and saving documents
-* By the end of this tutorial, you'll be able to create a private channel in Slack
+* By the end of this tutorial, you'll be able to define components in React.
+* By the end of this tutorial, you'll be able to perform common tasks in Google Drive, such as viewing, editing, and saving documents.
+* By the end of this tutorial, you'll be able to create a private channel in Slack.
+
+If you need help with creating learning objectives, consider using Arizona State University's [Learning Objectives Builder tool](https://teachonline.asu.edu/objectives-builder/).
 
 ### About the "Background" section
 
@@ -51,15 +53,41 @@ Use this section to list any prerequisites for completing the tutorial. This may
 
 ### About the "Steps" section
 
-The steps section is where you describe what the user needs to do. How you write your steps will vary depending on your organization's style guide. 
+The steps section is where you describe what the user needs to do to complete the tutorial. The template organizes steps in the following way:
 
-This template breaks down the tutorial into _parts_. One _part_ of the tutorial may focus on completing several related steps. You're welcome to follow this structure or use the step headings on their own.
+```
+1. {Write the command here. Start with a verb.}
 
-#### Tips for writing steps in a tutorial
+   {Optional: Explanatory text}
 
-* When writing your steps, make sure to provide any background information your users may need to complete the task. 
-* Remember to orient your users when walking them through each step. If they need to open a particular file or dialog to complete the task, provide that information first.
-* Start your step heading with a verb. Make sure to use the base form of the verb (for example, "Create", "Migrate", "Remove"). Verbs that end in -ing (for example, "Creating", "Migrating", "Removing") are harder to translate.
+   {Optional: Code sample or screenshot that helps your users complete this step}
+
+   {Optional: Result}
+
+```
+
+The first element is the command itself, like "Enter a name for your new repository." 
+
+Next, you may choose to add some additional information about the step. Continuing with the example, you might provide some best practices for creating memorable repository names.
+
+Optionally, you can add a code sample or screenshot after the explanatory text, depending on the type of tutorial you're writing. Screenshots are a great way to show specific parts of the screen you are referring to in a step. 
+
+If you're including code samples in your repository, make sure to add comments to your code to help learners understand what each part of the code does. Additionally, make sure your code samples work, as learners will copy and paste your code to use in their own projects.
+
+The last, and optional, element in a step, is the result. Continuing with the example, you might describe what happens after a user click the "Create repository" button.
+
+Here is an example step:
+
+```
+1. Enter a name for your new repository.   
+
+   Good repository names are short and self-explanatory. Avoid repository names with three or more words.
+   
+   After you click "Create repository", GitHub creates your repository and the main page for the repository is displayed.
+```
+
+#### Tips for writing substeps
+
 
 ### About the "Summary" section
 
