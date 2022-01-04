@@ -42,9 +42,9 @@ To get started, {the first thing your user should do}.
 
 2. {Write the step here. Use a verb to start.}
    
-   a. {Sub-step 1}
+   a. {Substep 1}
 
-   b. {Sub-step 1} 
+   b. {Substep 1} 
 
 
 
