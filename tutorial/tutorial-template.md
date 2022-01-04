@@ -32,13 +32,20 @@ Before you start the tutorial, complete these steps:
 
 To get started, {the first thing your user should do}.
 
-1. {Write the step here. Use a verb.}
+1. {Write the step here. Use a verb to start.}
 
     {Explanatory text}
 
     {Optional: Code sample or screenshot that helps your users complete this step}
 
     {Optional: Result}
+
+2. {Write the step here. Use a verb to start.}
+   
+   a. {Sub-step 1}
+
+   b. {Sub-step 1} 
+
 
 
 ## Summary
