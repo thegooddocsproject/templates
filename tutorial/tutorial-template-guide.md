@@ -13,6 +13,14 @@ Tutorials are often confused with how-to guides because they help users achieve 
 
 In comparison, tutorials give your users hands-on experience with your product so that they can understand key concepts about your product in a more practical context. Hands-on learning often helps learners gain a deeper understanding of the product by helping them see how they can use a tool to accomplish a task they care about.
 
+## Helpful tips when writing your tutorial 
+
+* Keep your tutorial focused. If needed, include links to other pieces of documentation that explain concepts or terms in more depth.
+* Lengthy tutorials can overwhelm users. Consider condensing or removing steps or reevaluating the scope of the tutorial.
+* If users will copy and paste code samples, make sure they include the following:
+  * Any required `import` or `using` statements
+  * Code comments that explain what the code does 
+
 ## About the tutorial template 
 
 This tutorial can be used in one of two ways: 
@@ -66,7 +74,10 @@ The steps section is where you describe what the user needs to do to complete th
 
 ```
 
-The first element is the command itself, like "Enter a name for your new repository." 
+The first element is the step itself, like "Enter a name for your new repository." When writing steps, keep these tips in mind:
+
+* Start with an imperative verb. For example, "connect", "set up", or "arrange." Don't use the *-ing* form of the verb because it is harder to translate.
+* Express steps as a complete thought. Instead of saying, "Set up access", you might say, "Set up access to a Cloud Storage bucket."
 
 Next, you may choose to add some additional information about the step. Continuing with the example, you might provide some best practices for creating memorable repository names.
 
@@ -86,10 +97,31 @@ Here is an example step:
    After you click "Create repository", GitHub creates your repository and the main page for the repository is displayed.
 ```
 
-#### Tips for writing substeps
+If needed, you can add substeps below a primary step. Make sure to indent the substep one tab space over. 
 
+```
+1. Create a new pull request.
+
+   a. Navigate to the main page of your repository. 
+
+   b. Under your repository name, click **Pull requests**.
+
+      By default, all open pull requests are displayed.
+
+   c. ....
+```
+
+#### Tips for writing steps
+
+Here are some more tips to follow when writing procedural steps:
+
+* Remember to orient your users when walking them through each step. If they need to open a particular file or dialog to complete the task, provide that information first.
+* Avoid writing procedures that are more than seven primary steps long.
+* Aim for no more than four substeps in any primary step.
 
 ### About the "Summary" section
+
+The summary section of the tutorial is your chance to 
 
 Use the summary section of the tutorial to sum up what tasks your user completed during the tutorial and what your users now know how to do.
 
@@ -97,10 +129,3 @@ Use the summary section of the tutorial to sum up what tasks your user completed
 
 Use this section to include links to other tutorials, such as tutorials that allow users to learn about other features. You can also include links to relevant resources, like articles, blogs, or videos.
 
-## Helpful tips when writing your tutorial 
-
-* Keep your tutorial focused. If needed, include links to other pieces of documentation that explain concepts or terms in more depth.
-* If users will copy and paste code samples, make sure they include the following:
-  * Any required `import` or `using` statements
-  * Code comments that explain what the code does 
-* Lengthy tutorials can overwhelm users. Consider condensing or removing steps or reevaluating the scope of the tutorial.
