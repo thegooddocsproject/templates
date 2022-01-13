@@ -54,9 +54,9 @@ To get started, {the first thing your user should do}.
 
 In this tutorial, you learned how to:
 
-* Learning objective 1
-* Learning objective 2
-* Learning objective 3
+* Summary point 1
+* Summary point 2
+* Summary point 3
 
 ## Next steps
 
