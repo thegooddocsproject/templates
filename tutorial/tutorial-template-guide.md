@@ -121,11 +121,12 @@ Here are some more tips to follow when writing procedural steps:
 
 ### About the "Summary" section
 
-The summary section of the tutorial is your chance to 
+In the summary section, you can list the knowledge and skills your users have gained by completing your tutorial. Try to avoid repeating the learning objectives you listed in the overview section word for word. 
 
-Use the summary section of the tutorial to sum up what tasks your user completed during the tutorial and what your users now know how to do.
+For example, if one of your learning objectives is "define components in React", you might specify *what* your users learned about defining components in React. Did they learn how to build different types of components? Or did they learn about all required functions needed to build a component? Think about some of the most important skills they gained and list them here. 
+
+Listing the actual skills and knowledge your users gained can also help to motivate your users to continue using your product, or try other tutorials. 
 
 ### About the "Next Steps" section
 
 Use this section to include links to other tutorials, such as tutorials that allow users to learn about other features. You can also include links to relevant resources, like articles, blogs, or videos.
-
