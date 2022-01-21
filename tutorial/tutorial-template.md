@@ -4,11 +4,17 @@
 
 ## Overview
 
-In this tutorial, you'll learn how to {learning objective} using {product}. This tutorial is intended for {audience}. It assumes you have basic knowledge of:
+In this tutorial, you'll learn how to {top learning objective} using {product}. This tutorial is intended for {audience}. It assumes you have basic knowledge of:
 
 * Concept 1
 * Concept 2
-* Concept 3
+* Concept 3...
+
+By the end of this tutorial, you'll be able to:
+
+* Learning objective 1
+* Learning objective 2
+* Learning objective 3...
 
 ## Background
 
@@ -26,7 +32,7 @@ Before you start the tutorial, complete these steps:
 
 * Prerequisite 1
 * Prerequisite 2
-* Prerequisite 3
+* Prerequisite 3...
 
 ## {Task name}
 
@@ -56,7 +62,7 @@ In this tutorial, you learned how to:
 
 * Summary point 1
 * Summary point 2
-* Summary point 3
+* Summary point 3..
 
 ## Next steps
 
@@ -66,4 +72,4 @@ Consider completing some other common tasks using {feature}:
 
 * Task 1
 * Task 2
-* Task 3
+* Task 3...
