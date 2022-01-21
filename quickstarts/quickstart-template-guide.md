@@ -1,6 +1,3 @@
-
- 
-
 # Quickstart Guide
 
 :information_source: Read this document before you start working on the [quickstart template](template-quickstarts.md)
