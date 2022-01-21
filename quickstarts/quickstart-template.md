@@ -1,3 +1,5 @@
+ 
+
 # Title
 
 :information_source: Before using this template, read the accompanying [quickstart template guide](about-quickstarts.md).
@@ -6,7 +8,7 @@
 
 **Last Updated:** {"Month DD, YYYY" or "Month YYYY"}   
 
-**Application Version:**   
+**Application Version:** 
 
 - {Application 1}: {MAJOR.MINOR.PATCH}
 - {Application 2}: {MAJOR.MINOR.PATCH} or later
@@ -15,9 +17,9 @@
 ## Overview
 
 This quickstart guides you through:
-- [Part 1](#part-1-description)
-- [Part 2](#part-2-description)
-- [Part n](#part-n-description)
+- [Part 1](#part-1-taskname)
+- [Part 2](#part-2-taskname)
+- [Part n](#part-n-taskname)
 
 :information_source: (Optional) Link each part to its corresponding section for easy access
 
@@ -30,50 +32,51 @@ It is intended for {audience}. It assumes that you have basic knowledge of:
 
 ## Before you begin
 
+:information_source: This section is optional.
+
 Complete all prerequisites before proceeding with the rest of the quickstart
 
 - Prerequisite 1
 - Prerequisite 2
 - Prerequisite 3
  
-## Installation
+## Install
 
-:information_source: (Optional) Use this section to provide installation instructions.
+:information_source: This section is optional. Use this section to provide install instructions.
 
-## Part 1 - {Description}
+## Part 1: {Task name}
 
-:information_source: Use this section to summarize what users will complete in the following steps.
+:information_source: Use this section to summarize what users complete in the following steps.
 
-### Step 1 - {Task name}
+### Step 1: {Step name}
 
-:information_source: Include any code samples, snippets, or screenshots that will help your user complete the task.If users should see a result after 
-completing this step, make sure to include it.
+:information_source: Include any code samples, snippets, or screenshots that helps your users to complete the task. If users should see a result after completing this step, make sure to include it.
 
-#### (Optional) Sub step 1 - {Subtask name}
+#### (Optional) Sub step 1: {Substep name}
 
 :information_source: Beware of asking your users to do too much in one step. If needed, break a step into one or two smaller substeps.
 
-## Part 2 - {Description}
+## Part 2: {Task name}
 
 ...
 
-### Step 2 - {Task name}
+### Step 2: {Step name}
 
 ...
 
-#### (Optional) Sub step 2 - {Subtask name}
+#### (Optional) Sub step 2: {Subtask name}
 
 ...
 
-## Part n - {Description}
+## Part n: {Task name}
 
 ...
 
-### Step n - {Task name}
+### Step n: {Step name}
 
 ...
 
-#### (Optional) Sub step n - {Subtask name}
+#### (Optional) Sub step n: {Subtask name}
 
 ...
 
