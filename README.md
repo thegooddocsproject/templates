@@ -54,8 +54,8 @@ Current templates:
 | API Quickstart | Concept, Task | Simplest possible method of implementing your API |
 | API Reference | Reference | List of references related to your API |
 | Explanation | Concept | Longer document giving background or context to a topic |
-| How-to | Task | Short series of steps for a particular task |
-| Tutorial | Concept, Task | A training document for a product or topic |
+| How-to | Task | A concise set of numbered steps to do one task with the product. |
+| Tutorial | Concept, Task | Instructions for setting up an example project using the product, for the purpose of learning. |
 | General reference entry | Reference | Specific details about a particular topic |
 | Logging reference | Reference | Description of log pipelines |
 
