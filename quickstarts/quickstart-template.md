@@ -2,17 +2,7 @@
 
 # Title
 
-:information_source: Before using this template, read the accompanying [quickstart template guide](about-quickstarts.md).
-
-**Document Version:** {MAJOR.MINOR.PATCH} 
-
-**Last Updated:** {"Month DD, YYYY" or "Month YYYY"}   
-
-**Application Version:** 
-
-- {Application 1}: {MAJOR.MINOR.PATCH}
-- {Application 2}: {MAJOR.MINOR.PATCH} or later
-- ...
+:information_source: Before using this template, read the accompanying [quickstart template guide](quickstart-template-guide.md).
 
 ## Overview
 
@@ -21,7 +11,7 @@ This quickstart guides you through:
 - [Part 2](#part-2-taskname)
 - [Part n](#part-n-taskname)
 
-:information_source: (Optional) Link each part to its corresponding section for easy access
+:information_source: (Optional) Link each part to its corresponding section for easy access.
 
 It is intended for {audience}. It assumes that you have basic knowledge of: 
 - Concept 1
@@ -34,7 +24,7 @@ It is intended for {audience}. It assumes that you have basic knowledge of:
 
 :information_source: This section is optional.
 
-Complete all prerequisites before proceeding with the rest of the quickstart
+Before running this quickstart, you {should / will need to} have completed the following prerequisites:
 
 - Prerequisite 1
 - Prerequisite 2
