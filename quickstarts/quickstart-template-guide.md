@@ -1,6 +1,6 @@
 # Quickstart Guide
 
-:information_source: Read this document before you start working on the [quickstart template](quickstart-template.md).
+:information_source: Read this document before you start working on the [quickstart template](quickstart-template.md.
 
 ## Introduction
 
@@ -16,16 +16,16 @@ A good quickstart answers the following questions:
    - How do I download, install, and configure the application?
    - How can I get any required access keys or authentication credentials?
 - Hello  World: 
-:memo: A hello world approach is a simplest and easiest task through which your user can get an end-to-end sense of how an application works. It also serves as a sanity check.
+:memo: A hello world approach is the simplest and easiest task through which your user can get an end-to-end sense of how an application works. It also serves as a sanity check.
    - How can I run a simple workflow for a core feature or a common use case?
 - Next steps:
    - What other features are available to explore in the application?
 
-Quickstart guides are often confused with getting started and marketing guides.Though these documents help the users get acquainted with the application, they widely differ in their target audience. The following table describes about the differences:
+Quickstart guides are often confused with getting started and marketing guides. Though these documents help the users get acquainted with the application, they widely differ in their target audience. The following table describes the differences:
 
 | |Quickstart Guide|Getting Started Guide| Marketing Guide|
 |--------|----------------|----------------------|---------------|
- |Target Audience|Domain experts who know the problem space|Beginners who are new to the problem space and the product|Business decision makers who need to make strategic decisions such as whether to buy the product
+ |Target Audience|Domain experts who know the problem space|Beginners who are new to the problem space and the product|Business decision-makers who need to make strategic decisions such as whether to buy the product
 |Content|Minimal conceptual information|Detailed conceptual information on product/domain| No/less conceptual information. Instead focuses on the benefits and the customers using the product.
 |Focus|how-to| how-to and why|  sales
 
@@ -38,17 +38,16 @@ A quickstart is often the first opportunity for your users to form a positive im
 - Improve the user experience, and help reduce costs by lowering the number of support requests.
  
 ## Before writing a quickstart
-Before you start working on your quickstart, identify:
-- Primary feature of your application. 
+Before you start working on your quickstart, identify:- Primary feature of your application. 
 - Quickest and the easiest way to implement end-to-end the primary feature of your application. 
 - Use case that your user can complete within 1 - 2 hours with a preference for a shorter time.
-- Audience as it helps the users determine if the quickstart is relevant for their usage.
+- Audience as it helps the users determine if the quickstart is relevant for their use.
 
 ## Best practices for writing a quickstart
 -  Avoid complicating the quickstart by including error scenarios/complex use cases.
 - Lengthy quickstarts can overwhelm users. Consider condensing or removing steps or reevaluating the scope of the quickstart.
 - Remove the burden of setup requirements as much as possible through sandbox accounts.
-- Ensure that the quickstart actually works and provides the advertised result.
+- Ensure that the quickstart works and provides the advertised result.
 - For code samples, ensure that you include:  
    - Any required `import` or `using` statements.
    - Code comments that explain what the code does.
@@ -75,9 +74,9 @@ This section is optional.
 
 :memo: Not all quickstart guides require an installation section. Include this section if:
       - Installation and/or configuration is done at the same time, and by the same person running the quickstart.
-      - Installation of a specific software(s) are a prerequisite to running the quickstart. 
+      - Installation of specific software(s) is a prerequisite to running the quickstart. 
  
-The purpose of this section is to provide instructions to your users on how to install  and configure a particular software/tool before running the quickstart. 
+The purpose of this section is to provide instructions to your users on how to install and configure a particular software/tool before running the quickstart. 
 
 :memo: This section may not be relevant for Cloud/API-based applications where authorization and authentication information is more applicable.
 
@@ -85,7 +84,7 @@ Use this section to provide:
 - Basic instructions and commands to install your application.
    - Always validate the commands and check for technical accuracy with your engineering team.
    - Provide instructions to verify that the installation is successful.
-- Link to the detailed installation guide if you do not provide install instructions. 
+- Link to the detailed installation guide if you do not provide installation instructions. 
 - Links to the upstream docs for common software installation instructions.
 
 ## About the "Steps" section
@@ -130,18 +129,19 @@ Step 3 Configure your new project
 ### Tips for writing steps in a quickstart
 
 - Number the steps in the format {part}.{step} as it helps your users to easily identify and locate procedures in the quickstart. Also, this helps in referencing a particular step in a lengthy quickstart.
-- Start the heading with a verb and express the step/part headings as a complete thought. For example, you could use the heading **Connect to the VM instance** instead of **Connect**.  Don't use the *-ing* form of the verb because it is harder to translate. 
-- For each step, provide some background information about the task so users know what they're about to do and why.For example, while selecting a template for your Visual Studio project, you can provide details on the purpose of choosing a template and the  differents types of templates available in Visual Studio. 
+- Start the heading with a verb and express the step/part headings as a complete thought. Don't use the *-ing* form of the verb because it is harder to translate. For example, you could use the heading **Connect to the VM instance** instead of **Connect**.   
+- For each step, provide some background information about the task so users know what they're about to do and why. For example, while selecting a template for your Visual Studio project, you can provide details on the purpose of choosing a template and the different types of templates available in Visual Studio. 
 - Remember to orient your users when walking them through each step. If they need to open a particular file or dialog to complete the task, provide that information first.
+- Provide examples of sample output such as return data, a message so that the users can validate that they performed the step correctly or not.
 -  Use plain language and define the terminology of any technical term next to it.
 - Include one action in a step.
 
-:information_source: For additional tips on writing steps, see [Writing Procedural Steps](writing-tips.md#writing-procedural-steps) from **The Good Docs Project**.
+:information_source: For additional tips on writing steps, see [Writing Procedural Steps](writing-tips.md#writing-procedural-steps) from The Good Docs Project.
 
 ## About the "Next steps" section
 
 - Use this section to provide links to other tutorials/articles that the users can try on completing the quickstart. 
-- Consider a logical connect from the current quickstart that can act as a basis for your users’ next learning.  
+- Consider a logical connection from the current quickstart that can act as a basis for your users’ next learning.  
 - (Optional) Provide links to relevant resources, like blogs, reference docs, videos, how-tos, and so on under a new heading **See Also**. 
 
 ## References

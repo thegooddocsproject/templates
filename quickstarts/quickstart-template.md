@@ -18,13 +18,13 @@ It is intended for {audience}. It assumes that you have basic knowledge of:
 - Concept 2
 - Concept 3 
 
-:information_source: Link each concept to its corresponding content that help users understand the concepts and ideas behind your software. 
+:information_source: Link each concept to its corresponding content that helps users understand the concepts and ideas behind your software. 
 
 ## Before you begin
 
 :information_source: This section is optional.
 
-Before running this quickstart, you {should / will need to} have completed the following prerequisites:
+Before running this quickstart, complete the following prerequisites:
 
 - Prerequisite 1
 - Prerequisite 2
@@ -32,7 +32,7 @@ Before running this quickstart, you {should / will need to} have completed the f
  
 ## Install
 
-:information_source: This section is optional. Use this section to provide install instructions.
+:information_source: This section is optional. Use this section to provide installation instructions.
 
 ## Part 1: {Task name}
 
@@ -40,7 +40,10 @@ Before running this quickstart, you {should / will need to} have completed the f
 
 ### Step 1: {Step name}
 
-:information_source: Include any code samples, snippets, or screenshots that helps your users to complete the task. If users should see a result after completing this step, make sure to include it.
+:information_source: You can use this format to describe your step:
+Explanatory text 
+(Optional) Code sample or screenshot that helps your users complete this step.  
+(Optional) Result on completing this step.
 
 #### (Optional) Sub step 1: {Substep name}
 
