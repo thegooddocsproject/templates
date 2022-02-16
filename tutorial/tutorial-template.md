@@ -4,7 +4,7 @@
 
 ## Overview
 
-In this tutorial, you'll learn how to {top learning objective} using {product}. This tutorial is intended for {audience}. It assumes you have basic knowledge of:
+In this tutorial, you'll learn how to {insert brief description of the main tutorial task}. This tutorial is intended for {audience}. It assumes you have basic knowledge of:
 
 * Concept 1
 * Concept 2
