@@ -27,17 +27,19 @@ This tutorial can be used in one of two ways:
 * For providing a walkthrough of a particular feature.
 * Walking users through completing a small project. 
 
-Ideally, your users already completed a quickstart or "getting started" tutorial and have a general understanding of your product.  
+Ideally, your users already completed a quickstart or "getting started" tutorial and have a general understanding of your product before they begin your tutorial.  
 
 ### About the "Overview" section
 
 The overview section is important, as it can motivate your users to begin their learning journey with your product and help set them up for success. There are three topics you should cover in this section: learning objectives, intended audience, and any prerequisite background knowledge. 
 
+#### Learning objectives
+
 One of the first things users want to know when they begin a tutorial is, "What will I be able to do? What knowledge will I gain by completing this tutorial?" Well-written learning objectives can help to answer these questions. **Learning objectives** describe the specific skills or knowledge users will be able to demonstrate after completing your tutorial.
 
 Before you start writing your tutorial, develop some learning objectives. After you identify *what* skills and knowledge you want users to gain from your tutorial, you can start planning out the content itself, using the learning objectives to help you decide what topics are in scope, and which ones are out of scope. 
 
-Learning objectives usually start off with, "By the end of this tutorial, you will be able to...", are followed by a phrase that starts with a verb like *design*, *assess*, or *develop*.
+Learning objectives usually start off with, "By the end of this tutorial, you will be able to..." and are followed by a phrase that starts with a verb like *design*, *assess*, or *develop*. If your tutorial includes more than one learning objective, consider presenting them as a bulleted list.
 
 Here are some examples:
 
@@ -46,6 +48,19 @@ Here are some examples:
 * By the end of this tutorial, you'll be able to create a private channel in Slack.
 
 If you need help with creating learning objectives, consider using Arizona State University's [Learning Objectives Builder tool](https://teachonline.asu.edu/objectives-builder/).
+
+
+#### Intended audience and background knowledge
+
+Before you begin writing your tutorial, you need to think about who you're writing for. The audience will influence the content you include in the tutorial. 
+
+Here are some questions to think about as you plan your tutorial:
+
+* Is the tutorial intended for users looking to become more familiar with your product? Or is it for users who are already familiar with your product and are looking to build upon the skills they already have?
+* Is the tutorial intended for users with a certain level of technical knowledge? What technical knowledge should they know? 
+* Is it for a certain demographic, like senior-level database administrators who routinely complete certain tasks?
+
+It's important to mention the intended audience and any prerequisite knowledge in the overview section. This information helps users determine if the content is appropriate for them. 
 
 ### About the "Background" section
 
@@ -85,7 +100,7 @@ Optionally, you can add a code sample or screenshot after the explanatory text, 
 
 If you're including code samples in your repository, make sure to add comments to your code to help learners understand what each part of the code does. Additionally, make sure your code samples work, as learners will copy and paste your code to use in their own projects.
 
-The last, and optional, element in a step, is the result. Continuing with the example, you might describe what happens after a user click the "Create repository" button.
+The last, and optional, element in a step, is the result. Continuing with the example, you might describe what happens after a user clicks the "Create repository" button.
 
 Here is an example step:
 
@@ -97,7 +112,7 @@ Here is an example step:
    After you click "Create repository", GitHub creates your repository and the main page for the repository is displayed.
 ```
 
-If needed, you can add substeps below a primary step. Make sure to indent the substep one tab space over. 
+If needed, you can add substeps below a primary step. Make sure to indent the substep one tab space over if you're using Markdown:
 
 ```
 1. Create a new pull request.
@@ -111,11 +126,21 @@ If needed, you can add substeps below a primary step. Make sure to indent the su
    c. ....
 ```
 
+If you're including code samples in your steps, make sure they are also indented correctly:
+
+1. Set your Git username for your repository. 
+   
+   You can change the name that is associated with your Git commits using the `git config` command.
+
+   ```bash
+   git config user.name "Dakota Everson"
+   ```
+
 #### Tips for writing steps
 
 Here are some more tips to follow when writing procedural steps:
 
-* Remember to orient your users when walking them through each step. If they need to open a particular file or dialog to complete the task, provide that information first.
+* Remember to orient your users when guiding them through each step. If they need to open a particular file or dialog to complete the task, provide that information first.
 * Avoid writing procedures that are more than seven primary steps long.
 * Aim for no more than four substeps in any primary step.
 
