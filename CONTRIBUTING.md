@@ -140,7 +140,6 @@ Contributing a template project to our repository has five phases, as summarized
     <td>4 - Get feedback on drafts from the community</td>
     <td><ul>
           <li>Revise and refine the drafts of your deliverables. Expect to receive feedback from at least three community reviewers. Community reviewers are anyone who is a member of the Good Docs Project, including members of template writing working groups.</li>
-
           <li>Optional: Revise and refine your draft with individuals beyond our community (such as Write the Docs or subject matter experts).</li>
           <li>After making revisions, work with your template mentor and the templates coordinator to determine when your draft is ready for the next phase.</li>
         </ul>
