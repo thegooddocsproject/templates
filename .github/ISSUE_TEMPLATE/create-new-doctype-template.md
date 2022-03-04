@@ -7,12 +7,11 @@ assignees: ''
 
 ---
 # Title
-{Keep the title short, yet descriptive.}
-
-Some examples are listed below:
+{Keep the title short, yet descriptive.
+Here are some examples:
 * Create a new {doc_type} template 
 * Align the existing {doc_type} template to new contributing guidelines
-* Include a quality checklist for the quickstart template  
+* Include a quality checklist for the quickstart template }
 
 ## Before you begin
 {Optional: In this section specify any pre-requisites, background knowledge that the templateer should know before working on a template.}
