@@ -7,9 +7,9 @@
 ## Overview
 
 This quickstart guides you through:
-- [Part 1](#part-1-taskname)
-- [Part 2](#part-2-taskname)
-- [Part n](#part-n-taskname)
+- [Part 1](#part-1-task-name)
+- [Part 2](#part-2-task-name)
+- [Part n](#part-n-task-name)
 
 :information_source: (Optional) Link each part to its corresponding section for easy access.
 
@@ -40,10 +40,10 @@ Before running this quickstart, complete the following prerequisites:
 
 ### Step 1: {Step name}
 
-:information_source: You can use this format to describe your step:
-Explanatory text 
-(Optional) Code sample or screenshot that helps your users complete this step.  
-(Optional) Result on completing this step.
+:information_source: You can use this format to describe your step:  
+Explanatory text  
+(Optional) Code sample or screenshot that helps your users complete this step.   
+(Optional) Result on completing this step. 
 
 #### (Optional) Sub step 1: {Substep name}
 

@@ -33,19 +33,20 @@ Quickstart guides are often confused with getting started and marketing guides. 
 
 A quickstart is often the first opportunity for your users to form a positive impression on your product, and build an opinion on the technology it was built on. It can:
 - Make users comfortable using the application.
-- Lead to the willingness to handle complex workflows.
+- Motivate the users to take up more complex tasks.
 - Reduce users' onboarding time and give them the feeling that the application is easy to use.
 - Improve the user experience, and help reduce costs by lowering the number of support requests.
  
 ## Before writing a quickstart
-Before you start working on your quickstart, identify:- Primary feature of your application. 
-- Quickest and the easiest way to implement end-to-end the primary feature of your application. 
-- Use case that your user can complete within 1 - 2 hours with a preference for a shorter time.
-- Audience as it helps the users determine if the quickstart is relevant for their use.
+Before you start working on your quickstart, identify:
+- The primary feature of your application. 
+- The quickest and the easiest way to implement end-to-end the primary feature of your application. 
+- An use case that your user can complete within 1 - 2 hours with a preference for a shorter time.
+- The audience, as it helps the users determine if the quickstart is relevant for their use.
 
 ## Best practices for writing a quickstart
--  Avoid complicating the quickstart by including error scenarios/complex use cases.
-- Lengthy quickstarts can overwhelm users. Consider condensing or removing steps or reevaluating the scope of the quickstart.
+-  Lengthy quickstarts can overwhelm users. Consider condensing or removing steps or reevaluating the scope of the quickstart.
+-  Avoid complicating the quickstart by including error scenarios or complex use cases.
 - Remove the burden of setup requirements as much as possible through sandbox accounts.
 - Ensure that the quickstart works and provides the advertised result.
 - For code samples, ensure that you include:  
@@ -72,8 +73,8 @@ For easy understanding, consider classifying the prerequisites into different ca
 
 This section is optional.
 
-:memo: Not all quickstart guides require an installation section. Include this section if:
-      - Installation and/or configuration is done at the same time, and by the same person running the quickstart.
+:memo: Not all quickstart guides require an installation section. Include this section if:  
+      - Installation and/or configuration is done at the same time, and by the same person running the quickstart.   
       - Installation of specific software(s) is a prerequisite to running the quickstart. 
  
 The purpose of this section is to provide instructions to your users on how to install and configure a particular software/tool before running the quickstart. 
