@@ -41,7 +41,7 @@ A quickstart is often the first opportunity for your users to form a positive im
 Before you start working on your quickstart, identify:
 - The primary feature of your application. 
 - The quickest and the easiest way to implement end-to-end the primary feature of your application. 
-- An use case that your user can complete within 1 - 2 hours with a preference for a shorter time.
+- A use case that your user can complete within 1 - 2 hours with a preference for a shorter time.
 - The audience, as it helps the users determine if the quickstart is relevant for their use.
 
 ## Best practices for writing a quickstart
