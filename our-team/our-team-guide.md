@@ -6,7 +6,8 @@ We welcome any kind of feedback on our templates, both positive and negative.
 To suggest improvements, open an issue on our (https://github.com/thegooddocsproject/templates/issues)[Templates repository].
 ---
 
-The `Our Team` template is for open source software projects helps you clearly communicate who belongs to your open source project or organization.
+The `Our Team` template is for open source software projects.
+The template helps you clearly communicate who belongs to your open source project or organization.
 This template:
 
 - Lists the teams or roles for your organization or project.
