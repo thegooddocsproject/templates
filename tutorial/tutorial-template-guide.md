@@ -7,7 +7,7 @@ The tutorial template includes:
 
 ## Why do I need tutorials?
 
-Tutorials are integral to helping your users become acquainted with your product. They are learning-oriented, which means that they teach users how to do a practical task, like debugging a JavaScript application. 
+Tutorials are integral to helping your users become acquainted with your product. They are learning-oriented, which means that they teach users a specific skill, like debugging a JavaScript application. 
 
 Tutorials are often confused with how-to guides because they help users achieve a specific goal. However, how-to guides assume that your users have some experience with your product or are familiar with certain concepts. 
 
@@ -15,7 +15,7 @@ In comparison, tutorials give your users hands-on experience with your product s
 
 ## Helpful tips when writing your tutorial 
 
-* Keep your tutorial focused. If needed, include links to other pieces of documentation that explain concepts or terms in more depth.
+* Keep your tutorial focused. If needed, include links to other pieces of documentation that explain concepts or terms in more depth. Ideally, your tutorial should take 15 to 60 minutes to complete. 
 * Lengthy tutorials can overwhelm users. Consider condensing or removing steps or reevaluating the scope of the tutorial.
 * If users will copy and paste code samples, make sure they include the following:
   * Any required `import` or `using` statements
@@ -27,7 +27,7 @@ This tutorial can be used in one of two ways:
 * For providing a walkthrough of a particular feature.
 * Walking users through completing a small project. 
 
-Ideally, your users already completed a quickstart or "getting started" tutorial and have a general understanding of your product before they begin your tutorial.  
+Ideally, your users have already completed a quickstart or "getting started" tutorial and have a general understanding of your product before they begin your tutorial.  
 
 ### About the "Overview" section
 
@@ -54,17 +54,17 @@ If you need help with creating learning objectives, consider using Arizona State
 
 Before you begin writing your tutorial, you need to think about who you're writing for. The audience will influence the content you include in the tutorial. 
 
+It's important to mention the intended audience and any prerequisite knowledge in the overview section. This information helps users determine if the content is appropriate for them. 
+
 Here are some questions to think about as you plan your tutorial:
 
 * Is the tutorial intended for users looking to become more familiar with your product? Or is it for users who are already familiar with your product and are looking to build upon the skills they already have?
 * Is the tutorial intended for users with a certain level of technical knowledge? What technical knowledge should they know? 
 * Is it for a certain demographic, like senior-level database administrators who routinely complete certain tasks?
 
-It's important to mention the intended audience and any prerequisite knowledge in the overview section. This information helps users determine if the content is appropriate for them. 
-
 ### About the "Background" section
 
-The purpose of the background section is to provide any necessary context for your users before they start your tutorial. 
+The purpose of the background section is to summarize any necessary context for your users before they start your tutorial. 
 
 If you're writing a tutorial that's focused on learning how a particular feature works, you might describe that feature here. For example, a tutorial around using Microsoft Visio's templates to build flowcharts might start with an explanation of how flowcharts are used or what flowchart shapes represent. 
 
@@ -72,7 +72,7 @@ If you're writing a tutorial where you provide users with a starter project, you
 
 ### About the "Before you begin" section
 
-Use this section to list any prerequisites for completing the tutorial. This may include operating systems, languages, package managers, or software.
+This section helps readers avoid getting halfway through a tutorial and then discovering they don't have something needed to complete. You can use list prerequisites for completing the tutorial, such as operating systems, languages, package managers, or software.
 
 ### About the "Steps" section
 
