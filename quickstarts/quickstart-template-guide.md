@@ -27,7 +27,7 @@ Quickstart guides are often confused with getting started and marketing guides. 
 |--------|----------------|----------------------|---------------|
  |Target Audience|Domain experts who know the problem space|Beginners who are new to the problem space and the product|Business decision-makers who need to make strategic decisions such as whether to buy the product
 |Content|Minimal conceptual information|Detailed conceptual information on product/domain| No/less conceptual information. Instead focuses on the benefits and the customers using the product.
-|Focus|how-to| how-to and why|  sales
+|Focus|How-to| How-to and why|  Sales
 
 ## Why do I need a quickstart?
 
