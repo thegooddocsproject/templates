@@ -50,7 +50,7 @@ Current templates:
 
 | Template name | Documentation type | Description |
 | ------------- | ------------------ | ----------- |
-| [API Project overview](https://github.com/thegooddocsproject/templates/blob/dev/api-overview/about-overview.md) | Concept | An overview of your API |
+| [API Project overview](about-overview.md) | Concept | An overview of your API |
 | [API Quickstart](https://github.com/thegooddocsproject/templates/blob/dev/api-quickstart/about-quickstart.md) | Concept, Task | Simplest possible method of implementing your API |
 | [API Reference](https://github.com/thegooddocsproject/templates/blob/dev/api-reference/about-api-reference.md) | Reference | List of references related to your API |
 | [Explanation](https://github.com/thegooddocsproject/templates/blob/dev/explanation/about-explanation.md) | Concept | Longer document giving background or context to a topic |
