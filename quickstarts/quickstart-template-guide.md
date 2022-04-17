@@ -1,6 +1,6 @@
 # Quickstart Guide
 
-:information_source: Read this document before you start working on the [quickstart template](quickstart-template.md.
+:information_source: Read this document before you start working on the [quickstart template](quickstart-template.md).
 
 ## Introduction
 
