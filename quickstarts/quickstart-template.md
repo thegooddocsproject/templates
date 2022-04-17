@@ -41,8 +41,11 @@ Before running this quickstart, complete the following prerequisites:
 ### Step 1: {Step name}
 
 :information_source: You can use this format to describe your step:  
+
 Explanatory text  
+
 (Optional) Code sample or screenshot that helps your users complete this step.   
+
 (Optional) Result on completing this step. 
 
 #### (Optional) Sub step 1: {Substep name}
