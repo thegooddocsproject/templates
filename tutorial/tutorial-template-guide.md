@@ -7,11 +7,11 @@ The tutorial template includes:
 
 ## Why do I need tutorials?
 
-Tutorials are integral to helping your users become acquainted with your product. They are learning-oriented, which means that they teach users a specific skill, like debugging a JavaScript application. 
+Tutorials are integral to helping your users become acquainted with your product. They are learning-oriented and are usually focused on teaching users a specific skill, like debugging a JavaScript application. 
 
-Tutorials are often confused with how-to guides because they help users achieve a specific goal. However, how-to guides assume that your users have some experience with your product or are familiar with certain concepts. 
+Tutorials are often confused with how-to guides because they do help users achieve a specific goal. However, how-to guides assume that your users have some experience with your product or are familiar with certain concepts. They also are usually focused on helping users complete a specific task, like how to add an email account to Microsoft Outlook. 
 
-In comparison, tutorials give your users hands-on experience with your product so that they can understand key concepts about your product in a more practical context. Hands-on learning often helps learners gain a deeper understanding of the product by helping them see how they can use a tool to accomplish a task they care about.
+In comparison, tutorials give your users hands-on experience with your product so that they can understand key concepts about your product in a more practical context. Hands-on learning often helps learners gain a deeper understanding of the product by helping them see how they can use a tool to accomplish a task they care about. 
 
 ## Helpful tips when writing your tutorial 
 

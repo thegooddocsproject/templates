@@ -26,9 +26,15 @@ By the end of this tutorial, you'll be able to:
 
 ## Before you begin 
 
-{Use this section to tell users about any steps they need to complete before they start the tutorial.}
+{Use this section to tell users about any prerequisites needed before they start the tutorial, such as:
 
-Before you start the tutorial, complete these steps:
+* Expected prior knowledge.
+* Software or hardware to obtain.
+* Environments to set up and configure.
+* Access codes to obtain.
+}
+
+Before you start the tutorial, you should:
 
 * Prerequisite 1
 * Prerequisite 2
