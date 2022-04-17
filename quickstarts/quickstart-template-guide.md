@@ -31,7 +31,7 @@ Quickstart guides are often confused with getting started and marketing guides. 
 
 ## Why do I need a quickstart?
 
-A quickstart is often the first opportunity for your users to form a positive impression on your product, and build an opinion on the technology it was built on. It can:
+A quickstart is often the first opportunity for your users to form a positive impression on your product, and form an opinion on the technology it was built on. It can:
 - Make users comfortable using the application.
 - Motivate the users to take up more complex tasks.
 - Reduce users' onboarding time and give them the feeling that the application is easy to use.
