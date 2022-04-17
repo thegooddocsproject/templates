@@ -154,4 +154,4 @@ Listing the actual skills and knowledge your users gained can also help to motiv
 
 ### About the "Next Steps" section
 
-Use this section to include links to other tutorials, such as tutorials that allow users to learn about other features. You can also include links to relevant resources, like articles, blogs, or videos.
+Use this section to include links to other tutorials, such as tutorials that allow users to learn about related features. You can also include links to relevant resources, like articles, blogs, or videos.
