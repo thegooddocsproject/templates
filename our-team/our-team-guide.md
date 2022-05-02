@@ -21,7 +21,7 @@ You can feel free to disregard some of the suggestions made in this template and
 ## Why do I need the Our Team template?
 At the end of the day, open source communities are powered by people.
 The success of an open source project depends less on the cool tech or resources you're building and more about the health of the community of people who both contribute to the project and use the technologies you create.
-In order to help your project succeed, both your users and your contributors need to be able to communicate effectively with you to accomplish important tasks, including (but not limited to):
+To help your project succeed, both your users and your contributors need to be able to communicate effectively with you to accomplish important tasks, including (but not limited to):
 
 - Joining your community and collaborating with you to exchange ideas and help your technology improve.
 - Making your technology better by letting you know about bugs or usability improvements that can help increase the chances your technology will be adopted.
@@ -31,12 +31,12 @@ In order to help your project succeed, both your users and your contributors nee
 To make it easier for people to accomplish these tasks, it helps tremendously to have a page in your repository or website that explains who are in key roles and teams in your project.
 
 Additionally, creating this content will help you and your project get more clear about what roles you have and what they mean.
-The `Our Team` template will help you to think through these roles and create this content.
+The `Our Team` template will help you think through these roles and create this content.
 
 
 ## What kind of teams and roles should my project have?
 
-The teams and roles your project needs will depend on what type of organization you are, how mature your project is, what your community is like, and what your community governance style is.
+The teams and roles your project needs will depend on the type of organization you are, how mature your project is, what your community is like, and your community governance style.
 In other words, it depends on a lot of different factors.
 
 For now, just focus on describing your teams and roles the way they currently exist in your project.
@@ -72,7 +72,7 @@ In GitHub-flavored Markdown, you can link to specific sections of your guide usi
   - [Sub-heading three](#sub-heading-three)
 ```
 
-Just make sure your document actually contains this headings or else the relative links will break.
+Just make sure your document actually contains these headings or else the relative links will break.
 Test the table of content links if possible.
 
 
@@ -92,7 +92,7 @@ If you don't already have this team, consider creating a team of community moder
 This team should be comprised of individuals who occupy a position of trust in your community and who come from a diverse set of backgrounds if possible.
 
 Perhaps most importantly, community members need to know who they can contact for support if a potential Code of Conduct incident occurs in your community.
-Ideally, your community moderator team should be equipped with adequate training and authority to effectively rspond to Code of Conduct incidents.
+Ideally, your community moderator team should be equipped with adequate training and authority to effectively respond to Code of Conduct incidents.
 See the [Code of Conduct template](../code-of-conduct) for more resources.
 
 In this section, you can describe what tasks your community moderators are responsible for, adapting the provided boilerplate text for your needs.
