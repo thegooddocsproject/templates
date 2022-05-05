@@ -38,7 +38,8 @@ For example, yyyy-001.}
 
 ## Reporter's contact information (optional)
 
-{Fill in the contact information.}
+{Ask the reporter if they would like to provide their name and contact information.
+If yes, fill in the contact information.}
 
 
 ## Permission from incident reporter to proceed?

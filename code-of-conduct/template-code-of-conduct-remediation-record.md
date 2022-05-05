@@ -30,10 +30,27 @@ When meeting with a community member to explain the outcome of a Code of Conduct
 
 ## Name of community member involved in the incident
 
-{List the name of the community member who is the subject of the behavior modification plan.}
+{List the name of the community member who committed the Code of Conduct violation.}
 
 
-## Consequences
+## Severity level
+
+Select one:
+
+[ ] High
+[ ] Medium
+[ ] Low
+
+
+## Impact level
+
+Select one:
+
+[ ] High
+[ ] Low
+
+
+## Outcome
 
 Select one:
 
@@ -43,22 +60,29 @@ Select one:
 [ ] Permanent ban
 [ ] None
 
-{List any additional details about the consequences as needed.}
+{List any additional details about the outcome and consequences as needed.}
 
 
-## Behavioral modification plan
+## Behavior modification plan
 
-{List the details of the behavioral modification plan as discussed with the other community moderators.}
+{List the details of the behavioral modification plan as discussed with the other community moderators.
 
 
-## Consequences if they do not agree to the behavioral modification plan
+## Do you agree to follow the plan?
 
-{List the consequences if they do not agree to the plan.}
+{Yes/no.} {If no, proceed to the consequences listed in the next section.}
+
+
+## Consequences if they do not agree to the behavior modification plan
+
+{List the consequences if the community member who committed the Code of Conduction violation does not agree to the plan.
+The suggested consequence is removal from the community.}
 
 
 ## Who can they appeal this decision to?
 
-{Explain the options for appealing a decision as explained in the Code of Conduct policy.}
+{Explain the options for appealing a decision as explained in the Code of Conduct policy.
+Explain that they must still comply with the incident response plan as the appeal process is underway.}
 
 
 ## Reported person's response to the plan

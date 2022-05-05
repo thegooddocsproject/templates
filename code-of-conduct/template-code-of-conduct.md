@@ -62,9 +62,9 @@ We expect our members, contributors, and leaders to:
 - Attempt collaboration before conflict. Seek out and be respectful of differing opinions, styles, viewpoints, and experiences.
 - Give and accept constructive feedback, gracefully. When expressing disagreement, be professional and respectful. Be open to learning from and educating others where needed.
 - Demonstrate empathy and kindness toward other people. Be considerate and respectful in your word choice, speech, and actions. Show respect with the terms you use to address others.
-- Look out for those around you in the community, especially if you are in a position of influence. Alert our {Project name} {link to your community moderators document [community moderators](community_moderators.md)} if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
+- Look out for those around you in the community, especially if you are in a position of influence. Alert our {Project name} {link to your community moderators document [community moderators](../our-team/template-our_team.md)} if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
 - Gracefully accept responsibility and apologize to those affected by any mistakes, whether made intentionally or unintentionally. If someone says they have been harmed through your words or actions, listen carefully, make amends, learn from the experience, and correct the behavior going forward.
-- Focus on what is best for the overall community, not just for us as individuals. Ensure that leadership roles and opportunities are well-distributed across the community membership and not just centered in one person or the same few people. To help our community develop and build up leaders at every level of the Good Docs Project, ensure that you share knowledge with others as much as possible and be mindful of fostering healthy dialogue where no one voice dominates a conversation.
+- Focus on what is best for the overall community, not just for us as individuals. Ensure that leadership roles and opportunities are well-distributed across the community membership and not just centered in one person or the same few people. To help our community develop and build up leaders at every level of the {Project name}, ensure that you share knowledge with others as much as possible and be mindful of fostering healthy dialogue where no one voice dominates a conversation.
 
 
 ## Behavior that will not be tolerated
@@ -84,7 +84,7 @@ The following behaviors are unacceptable within our community, whether they occu
 - Deliberate misgendering.
 - Knowingly making harmful false claims about a person.
 - Pushing a person to drink alcohol when they don’t want to drink, or deceiving someone into drinking alcohol.
-- Marketing to our community members either individually or collectively without their express approval. Solicitations on behalf of your business should be restricted to designated channels or areas. For more information about appropriate ways to market your business to the community, ask one of the {Project name} {link to your community moderators document [community moderators](community_moderators.md)}.
+- Marketing to our community members either individually or collectively without their express approval. Solicitations on behalf of your business should be restricted to designated channels or areas. For more information about appropriate ways to market your business to the community, ask one of the {Project name} {link to your community moderators document [community moderators](../our-team/template-our_team.md)}.
 - Repeatedly communicating with a community member who has asked you to leave them alone.
 - Sustained disruption of community events, including meetings and presentations.
 - Recording or photography at community meetings and events without explicit permission.
@@ -97,35 +97,43 @@ The following behaviors are unacceptable within our community, whether they occu
 Unacceptable behavior from any {Project name} community member, contributor, sponsors, or leaders will not be tolerated.
 We expect everyone to comply with requests to stop unacceptable behavior immediately.
 
-If a community member engages in unacceptable behavior, any community member or moderator should report the incident to the {Project name} {link to your community moderators document [community moderators](community_moderators.md)}.
-The moderators will investigate the incident to determine the incident’s severity and overall impact to the community. Depending on the risk and impact level, the moderators may respond by requiring:
+If a community member engages in unacceptable behavior, any community member or moderator should report the incident to the {Project name} {link to your community moderators document [community moderators](../our-team/template-our_team.md)}.
+The moderators will investigate the incident to determine the incident’s severity and overall impact to the community.
+See our {link to your [Code of Conduct response plan](template-code-of-conduct-response-plan.md)} for more details.
+
+Depending on the risk and impact level, the moderators may respond by requiring:
 
 - **Correction:** A private, written warning from community moderators, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate and what behavior is expected going forward. A public apology may be requested.
 - **Warning:** A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with community moderators, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.
 - **Temporary ban:** A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with community moderators, is allowed during this period. Violating these terms may lead to a permanent ban. Readmittance to the community usually requires an additional meeting with a community moderator to ensure future compliance.
 - **Permanent ban:** A permanent ban from any sort of public interaction within the community.
 
-The action taken is at the discretion of the {Project name} {link to your community moderators document [community moderators](community_moderators.md)}.
+The action taken is at the discretion of the {Project name} {link to your community moderators document [community moderators](../our-team/template-our_team.md)}.
 Participants are expected to comply immediately, and further action may be taken in case a participant does not comply.
-A record will be kept of all incidents.
+
+Every community member is entitled to one appeal using the same process for reporting a Code of Conduct incident.
+Community members are expected to comply with the requested action while appeals are being considered.
+After an appeal has been resolved, the decision is considered final.
 
 
 ## Reporting an incident
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to one of the {Project name}
-{link to your community moderators document [community moderators](community_moderators.md)}.
+{link to your community moderators document [community moderators](../our-team/template-our_team.md)}.
 If you would like to discuss your concerns or if you have personally experienced unacceptable behavior, please reach out to a community moderator as soon as possible.
-Please report all violations of these guidelines, even if the situation is not happening to you.
+Please reach out to report any potential violations of these guidelines, even if the situation is not happening to you.
 
 
 ## Addressing Code of Conduct reports
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to one of the {Project name}
-{link to your community moderators document [community moderators](community_moderators.md)}.
+{link to your community moderators document [community moderators](../our-team/template-our_team.md)}.
 All complaints will be reviewed and investigated promptly and fairly.
 If possible, community moderators will recuse themselves in cases where there is a conflict of interest.
+See our {link to your [Code of Conduct response plan](template-code-of-conduct-response-plan.md)} for more details.
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+An internal record will be kept of all incidents.
+However, all community leaders are obligated to respect the privacy and security of the reporter of any incident.
 In some cases, community moderators may determine that a public statement will need to be made.
 If that's the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
 
@@ -134,26 +142,18 @@ If you feel you have been unfairly accused of violating these guidelines, please
 
 ## Where this Code of Conduct applies
 
-These guidelines apply to all members of the Good Docs Project and to all Good Docs Project activities, including but not limited to:
+These guidelines apply to all members of the {Project name} and to all {Project name} activities, including but not limited to:
 
-- Representing the Good Docs Project at public events and in social media.
-- Participating in the Good Docs Project meetings and events, whether virtual or in person.
-- Participating in the Good Docs Project’s related messaging forums, including our Slack workspace and mailing list and other Good Docs Project-related correspondence.
-- Interpersonal communications between Good Docs Project community members, whether virtual or in person.
+- Representing the {Project name} at public events and in social media.
+- Participating in the {Project name} meetings and events, whether virtual or in person.
+- Participating in the {Project name}’s related messaging forums, including our Slack workspace and mailing list and other {Project name}-related correspondence.
+- Interpersonal communications between {Project name} community members, whether virtual or in person.
 
-While this Code of Conduct applies specifically to the Good Docs Project’s work and community, it is possible for actions taken outside of the Good Docs Project’s online or in-person spaces to have a deep impact on community health if it concerns the Good Docs Project or its members in some way.
-The Code of Conduct moderators reserve the right to consider communications or actions that occur outside of official Good Docs Project spaces if they have a demonstrated impact on one or more community members.
+While this Code of Conduct applies specifically to the {Project name}’s work and community, it is possible for actions taken outside of the{Project name}’s online or in-person spaces to have a deep impact on community health if it concerns the {Project name} or its members in some way.
+The Code of Conduct moderators reserve the right to consider communications or actions that occur outside of official {Project name} spaces if they have a demonstrated impact on one or more community members.
 
-## Resources
 
-In creating this Code of Conduct, the authors adapted or were inspired by the following resources, listed alphabetically:
+## Related resources
 
-- [Ada Initiative](https://adainitiative.org/2014/02/18/howto-design-a-code-of-conduct-for-your-community/)
-- [Apache Foundation Code of Conduct](http://www.apache.org/foundation/policies/conduct#code-of-conduct)
-- [Citizen Code of Conduct](https://github.com/stumpsyn/policies/blob/master/citizen_code_of_conduct.md)
-- [Contributor Covenant 2.0](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
-- [Django Code of Conduct](https://www.djangoproject.com/conduct/)
-- [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/)
-- [No more rock stars: how to stop abuse in tech communities](https://hypatia.ca/2016/06/21/no-more-rock-stars/)
-- [Otter Tech Code of Conduct Enforcement Training](https://otter.technology/code-of-conduct-training/)
-- [Rust Community Code of Conduct](https://www.rust-lang.org/policies/code-of-conduct)
+{Include a list of links to related resources, such as your Code of Conduct Response Plan and the Our Team page where you list who can be contacted to report Code of Conduct incidents.
+You can also include additional information, such as links to articles that explain the rationale behind your Code of Conduct.}

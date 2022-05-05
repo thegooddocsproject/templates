@@ -12,19 +12,17 @@ The Code of Conduct response plan template includes:
 
 This document explains:
 
-- How to contact the current {Project name} community moderators, such as to report a [Code of Conduct](CODE_OF_CONDUCT.md) incident).
+- How to contact the current {Project name} community moderators, such as to report a [Code of Conduct](code-of-conduct.md) incident).
 - The policies and procedures that community moderators should follow when responding to a Code of Conduct incident.
 - Additional governing policies for the community moderator team (also sometimes referred to as the “Code of Conduct committee”).
 
 
 ## Community moderators
 
-For a list of the current {Project name} community moderators and the best way to reach them, see [Community Moderators](our-team.md#community-moderators).
+For a list of the current {Project name} community moderators and the best way to reach them, see [Community Moderators](our-team.md).
 You may contact any of these individuals to make a Code of Conduct incident report.
 
-{Alternatively, you could list the names of the community moderators and their preferred contact information, such as Slack handles.
-You could also link to a dedicated email address or contact form.
-See the `code-of-conduct-guide.md` for more information about the advantages and disadvantages.}
+{Instead of linking to a separate page, you could list the names of the community moderators and their preferred contact information.}
 
 
 ## Contacting a community moderator
@@ -80,7 +78,7 @@ The {Project name} community will notify the community of any revisions by publi
 
 This section provides a definition of key terms and roles that appear in the incident response policy that follows this section:
 
-- **Incident** - Also known as a “Code of Conduct incident” or “conduct violation,” an incident is a behavior by a member of the {Project name} that allegedly violates the community [Code of Conduct](CODE_OF_CONDUCT.md).
+- **Incident** - Also known as a “Code of Conduct incident” or “conduct violation,” an incident is a behavior by a member of the {Project name} that allegedly violates the community [Code of Conduct](code-of-conduct.md).
 - **Incident report** - Also sometimes referred to as the “report,” an incident report begins when a member of the {Project name} reports behavior that violates the community Code of Conduct. The incident report refers to the violating behavior that is then investigated by community moderators.
 - **Incident reporter** - Also sometimes referred to as the “reporter,” the incident reporter is the person who reports a Code of Conduct violation to a community moderator.
 - **Handling an incident report** - Also known as “investigating a report,” handling an incident report is the process of investigating and resolving an incident report as explained using the processes and guidelines in the subsequent sections.
@@ -127,6 +125,7 @@ During the listening phase, the investigating moderator will:
 - Listen to the incident reporter’s explanation of the Code of Conduct violation.
 - Explain the available outcomes.
 - Obtain permission to proceed to the next steps in the investigation.
+- Fill out the {link to your [Code of Conduct incident record](code-of-conduct-incident-record.md)}. NOTE: This record can be filled out after taking the report if needed.
 
 Throughout the process, the investigating moderator will treat the reporter’s identity as confidential and will only disclose their identity to other moderators on a need-to-know basis.
 
@@ -137,12 +136,12 @@ During this meeting, the investigating moderator should:
 - Note the reporter’s name and contact information.
 - If possible, note the incident’s date, time, and/or location.
 - Listen carefully to the incident reporter and get a complete understanding of the incident, its context, and the parties involved. The moderator should strive to listen with empathy and understanding. They should default to believing the incident responder.
-- Ask what the incident reporter would need in order to feel emotionally whole or restored. Explain the possible outcomes that are available, as provided in the [Code of Conduct](CODE_OF_CONDUCT.md) (correction, warning, temporary ban, permanent ban). However, the moderator should not make any direct promises for exactly how the report will be handled until the investigation is concluded.
+- Ask what the incident reporter would need in order to feel emotionally whole or restored. Explain the possible outcomes that are available, as provided in the [Code of Conduct](code-of-conduct.md) (correction, warning, temporary ban, permanent ban). However, the moderator should not make any direct promises for exactly how the report will be handled until the investigation is concluded.
 - Obtain permission from the incident reporter to proceed with the investigation. If permission is not granted, the investigator can offer to hold the incident report in escrow. Escrowed reports will not be acted upon until there is a second report of the same incident or a similar incident involving the same individual. The goal of escrow reports is to retain incident reports in case there is a pattern of misbehavior by the same individual.
 
 During or immediately after the meeting, the investigating moderator should:
 
-- Fill out the {link to your [Code of Conduct incident record](code-of-conduct-incident-record)} to ensure that all information from the meeting has been accurately captured. The investigating moderator should avoid over-documenting the incident: only document information required to inform the report resolution. Where possible, avoid documenting your opinion about the incident, or any information about individuals that is not relevant to the report.
+- Fill out the {link to your [Code of Conduct incident record](code-of-conduct-incident-record.md)} to ensure that all information from the meeting has been accurately captured. The investigating moderator should avoid over-documenting the incident: only document information required to inform the report resolution. Where possible, avoid documenting your opinion about the incident, or any information about individuals that is not relevant to the report.
 - File the incident record in the {describe where these files are kept}. If permission was not obtained, the incident report is kept in the incident record archives. If the incident reporter wanted to keep the report in escrow, the incident report is kept in the escrow incident report archives.
 - If permission was obtained, proceed with the rest of the investigation.
 
@@ -225,7 +224,7 @@ Impact refers to how public the incident was and the number of community members
     <td>
       <ul>
         <li>The incident occurred in a public event, in a {Project name} meeting or community event, or on a community forum (such as on a mailing list or in Slack).</li>
-        <li>The accused individual is a Good Docs Project leader or a high-profile community member.</li>
+        <li>The accused individual is a {Project name} leader or a high-profile community member.</li>
         <li>Incidents involving someone who was representing {Project name} in an official capacity while the incident occurred.</li>
       </ul>
     </td>
@@ -257,14 +256,17 @@ Impact refers to how public the incident was and the number of community members
 
 ### Recommend
 
-Once an initial risk or impact level has been assigned, the investigating moderator should send a private message to the rest of the community moderators through email.
+Once an initial severity or impact level has been assigned, the investigating moderator should send a private message to the rest of the community moderators through email.
 Moderators who have recused themselves over conflicts of interest should not be included in this email.
-A separate direct message on Slack to notify the other moderators to check for the email would also be appropriate to ensure everyone is aware of the email.
+It would also be appropriate to send a separate direct message on Slack to notify the other moderators to check for the email to ensure everyone is aware of the email.
 
 In the email, indicate your assessment of the incident’s severity and impact level and your recommended response.
-See the [Code of Conduct](CODE_OF_CONDUCT.md) for the four possible responses to a conduct violation (correction, warning, temporary ban, permanent ban).
+See the [Code of Conduct](code-of-conduct.md) for the four possible responses to a conduct violation (correction, warning, temporary ban, permanent ban).
 
-Community moderators should respond as soon as possible whether they concur with the incident severity and impact levels and the recommended response.
+Community moderators have an ethical responsibility to respond as soon as possible and work toward consensus.
+Delaying action in response to the Code of Conduct violation can possibly make the situation worse.
+
+In their response, moderators should indicate whether they agree with the incident severity and impact levels and the recommended response.
 If community moderators disagree with the original assessment, the moderators should indicate the nature of their disagreement. Where disagreements occur, the committee should work quickly to reach a consensus (ideally within 1-2 days) and may require a video conference discussion.
 If a consensus cannot be reached and has ended in a stalemate, the response should be put to a vote.
 In incidents where a tied vote occurs, the chair of the community moderators acts as the deciding vote.
@@ -277,23 +279,23 @@ After a response has been recommended, the incident reporter should be notified 
 Once the incident response has been determined by the community moderators, the investigating moderator should meet with the accused individual in person (either through an online video conference or by phone).
 The moderator may invite an additional moderator to attend the meeting if support is desired.
 
+Before this meeting, the investigating moderator should fill out the [Code of Conduct remediation record](code-of-conduct-remediation-record.md) and use this document to guide the meeting.
+
 In this meeting, the moderator should explain the nature of the reported incident and the specifics of the incident response (correction, warning, temporary ban, permanent ban).
 The accused individual will be given a chance to respond (within reason) and will be informed about the process for appealing the incident response.
 
 If a new Code of Conduct violation occurs in this meeting (such as a derogatory or threatening comment made to a community moderator or about another member of the community), it should be treated as a separate incident and should be reported as a new incident to the community moderators.
 
 If the individual wishes to appeal the incident response, the community moderator can send them a link to this document for information.
+Ensure that the individual is aware that they must still comply with the incident response plan as the appeal process is underway.
 
-To protect the identity of the incident reporter, the accused individual will not be given the identity of the incident reporter nor will they be allowed to contact the incident reporter, even to apologize.
+To protect the identity of the incident reporter, the accused individual must not be given the identity of the incident reporter nor will they be allowed to contact the incident reporter, even to apologize.
 If an apology is required as part of the response, the following options are permissible:
 
 - The apology can be delivered to the investigating community moderator who will then deliver it to the incident reporter.
 - The apology may be delivered in a public forum with permission from the investigating community moderator.
 
-During or immediately after the meeting, the investigating moderator should:
-
-- Fill out the {link to your [Code of Conduct remediation record](code-of-conduct-remediation-record)} to ensure that all information from the meeting has been accurately captured.
-- File the incident record in the {describe where these files are kept}.
+During or immediately after the meeting, the investigating moderator should fill out the any additional notes on the the [Code of Conduct remediation record](code-of-conduct-remediation-record) to ensure that all information from the meeting has been accurately captured.
 
 
 ### Resolve
@@ -305,8 +307,10 @@ If a temporary ban was implemented, a community moderator who handled the incide
 
 All documentation should be filed in the {describe where your documents are kept}:
 
-- The incident response form should be retained in the appropriate archive.
-- In a separate form, the investigator should indicate the incident’s severity and impact level and the resolution (correction, warning, temporary ban, permanent ban).
+- The [Code of Conduct incident record](code-of-conduct-incident-record.md) form.
+- The [Code of Conduct remediation record](code-of-conduct-remediation-record.md) form.
+
+It is important to file this documentation to enable the community moderators to identify and prevent potential repeated patterns of abuse.
 
 
 ## Handling incident appeals
@@ -314,6 +318,7 @@ All documentation should be filed in the {describe where your documents are kept
 If an accused individual wants to dispute the decision of the community moderators, that individual is entitled to one appeal.
 An appeal can be requested directly from the community moderators using the same process of reporting an incident.
 That means that the accused individual can send a direct message to one of the community moderators to request an appeal.
+While the appeal process is underway, the accused individual must still comply with the incident response plan.
 
 When an appeal is requested, 2-3 members of {Project name} {team name} will review the incident documentation and the reason for the appeal.
 They will consult with the community moderators about the investigation and decision-making process to determine if the Code of Conduct was fairly and properly applied.
