@@ -1,20 +1,5 @@
 # Code of Conduct template
 
-<!-- Done:
-* Code of Conduct template
-* Our Team template
-* Code of conduct response guide template
-* Incident record form
-* Remediation record form -->
-
-<!-- To do: Create supplemental guide for these templates -->
-
-<!-- To do: Create Code of Conduct training (deep dive)? -->
-
-<!-- To do: I added a paragraph to the opening statement and some additional items to the unacceptable behavior.
-I'll need to change that in our real CoC too.
-Also need to change our Community Moderators doc to CoC Response Guide and make minor edits.-->
-
 ---
 The Code of Conduct template includes:
 
