@@ -69,11 +69,12 @@ The {resource name} is used to {xxx}.
 
 ## Data model
 
-| Attribute | Type | Required/Optional | Description | Notes |
-|-----------|------|-------------------|-------------|-------|
-|           |      |                   |             |       |
-|           |      |                   |             |       |
-|           |      |                   |             |       |
+| Attribute | Type   | Required/Optional | Description                |
+|-----------|--------|-------------------|----------------------------|
+| {id}      | string | REQUIRED          | {Unique identifier of xx.} |
+| {name}    | string | Optional          | {Name of xx}.              |
+|           |        |                   |                            |
+
 
 ## Example
 
@@ -113,7 +114,7 @@ This endpoint ...
 
 ## Authorization
 
-The {authorization method} is required for each API request.
+The [{authorization method}](#authorization) is required for each API request.
 
 (Optional) Calling this endpoint also requires the {xx} permission.
 
@@ -124,37 +125,37 @@ The {authorization method} is required for each API request.
 
 {This section is optional.}
 
-| Path parameter | Type   | Required/Optional | Description              | Notes |
-|----------------|--------|-------------------|--------------------------|-----|
-| {Id}           | string | Required          | Unique identifier of {}. |     |
-| {name}         | string | Optional          | Name of {}.              |     |
-|                |        |                   |                          |     |
+| Path parameter | Type   | Required/Optional | Description                |
+|----------------|--------|-------------------|----------------------------|
+| {id}           | string | REQUIRED          | {Unique identifier of xx.} |
+|                |        |                   |                            |
 
 ### Query parameters
 
-{This section is optional.} 
+{This section is optional.}
 
-| Query parameter | Type | Required/Optional | Description | Notes |
-|-----------------|------|-------------------|-------------|-------|
-|                 |      |                   |             |       |
-
+| Query parameter | Type | Required/Optional | Description                     |
+|-----------------|------|-------------------|---------------------------------|
+| {pageSize}      | int  | Optional          | {The number of items to be returned in a single request. The default value is 20.} |
+|                 |      |                   |                                 |
 
 ### Header parameters
 
-{This section is optional.} 
+{This section is optional.}
 
-| Header parameter | Type | Required/Optional | Description | Notes |
-|------------------|------|-------------------|-------------|-------|
-|                  |      |                   |             |       |
+| Header parameter | Type   | Required/Optional | Description                  |
+|------------------|--------|-------------------|------------------------------|
+| {Content-Type}   | string | REQUIRED          | {Media type of the resource. Must be xx}. |
+|                  |        |                   |                              |
 
 ### Request body
 
-{This section is optional.} 
+{This section is optional.}
 
-| Field | Type | Required/Optional | Description | Notes |
-|-------|------|-------------------|-------------|-------|
-|       |      |                   |             |       |
-
+| Field  | Type   | Required/Optional | Description                |
+|--------|--------|-------------------|----------------------------|
+| {Id}   | string | REQUIRED          | {Unique identifier of xx.} |
+| {name} | string | Optional          | {Name of xx}.              |
 
 ## Request example
 
@@ -165,15 +166,23 @@ The {authorization method} is required for each API request.
 
 ## Response schema
 
-If the request succeeds, this endpoint returns {one of the following options:
-* a {data} in the response body in the {content type} format.
-* a 200 status code with no response body.
-}
+| Status code | Schema                                              | Description |
+|-------------|-----------------------------------------------------|----------|
+| 2xx         | [{ExampleDataType}](link_to_data_type_definition)   | {Describe the result where the request succeeds.} |
+| 4xx         | [{ExampleErrorType}](link_to_error_type_definition) | {Describe the result where the request fails with the specified error code.} |
 
-Otherwise, this endpoint returns {[xx errors](link_to_error_list)}.
+### ExampleErrorType
+
+{This section is optional.}
+
+| Field          | Type     | Description                                      |
+|----------------|----------|--------------------------------------------------|
+| {errorType}    | {enum}   | {Predefined error codes. Possible enum values are xx, yy, ..., and zz.} |
+| {errorMessage} | {string} | {Additional information about why the error occurs.} |
 
 ## Response example
 
 ```
 <EXAMPLE>
+
 ```
