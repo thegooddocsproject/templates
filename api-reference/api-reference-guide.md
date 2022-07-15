@@ -2,23 +2,17 @@
 
 This `api-reference-guide` document provides extra writing tips describing **HOW** to fill in each of the sections within the [`api-reference-template`](api-reference-template.md) file.
 
-- _Document version_: 0.0.1
+- _Document version_: 0.1
 - _Last updated_: June 27, 2022
 
 ## Overview
 
-API references are technical manuals that provide the specifications and integration instructions of APIs. An accurate, concise, well-structured API documentation facilitates the adoption of APIs and increases the overall user experience.
+Application Programme Interface (API) references are technical manuals that provide API specifications and integration instructions to help your audience understand the product. The audience can vary based on your product user groups, and they can be technical or non-technical.
+
+Accurate, concise, well-structured API documentation facilitates efficient adoption of APIs and increases the overall user experience.
 
 The [`api-reference-template`](api-reference-template.md) is designed to help you build the API documentation efficiently and keep it consistent in both format and appearance.
 
-## Before writing the API references
-
-- Familiarize yourself with the API protocol. If possible, try making some API calls in a testing environment. This API reference template works best with the REST API protocol. If you are working with other protocols, you may need to adjust the organization of some sections.
-- Interact with your API developers to learn about the APIs that you are documenting. Understand the data models and the logical connections between the API endpoints.
-- Discuss the logic of grouping the API endpoints. Although grouping the endpoints by resource type is a common practice, as used in this template, it is also possible to group them by use case or other characteristics that better suit the user's needs.
-- Conduct some user research about how the audience of your documentation would use the APIs. Identify the programming languages that your audience would most likely adopt to interact with your APIs.
-- Explore the possibility of auto-generating the API references.
-- Optimize the visual presentation of the API references by applying customized stylesheet, such as using syntax highlighting, table of contents, multi-column layout, etc.
 
 ## Document structure
 
@@ -28,6 +22,18 @@ Assuming that your API documentation set includes references of many API endpoin
 - The [API resource reference section](#about-the-api-resource-reference-section) provides reference information for a subset of API endpoints that are grouped around a resource type. It describes resource-wise API specifications, such as the data model of the resource.
 - The [API endpoint reference section](#about-the-api-endpoint-reference-section)
  provides reference information for a specific API endpoint. It describes the specifications of an API endpoint, such as the method, URL, request, and response schema.
+
+## Before writing the API references
+
+You may follow these guidelines to help you write better API reference documentation:
+
+- Familiarize yourself with the API protocol. If possible, try making some API calls in a testing environment.
+- Adjust the organization of some sections to align with your API protocol. This API reference template works best with the [Representational State Transfer (REST)](https://en.wikipedia.org/wiki/Representational_state_transfer) API protocol.
+- Interact with your API developers to learn about the APIs that you are documenting. Understand the data models and the logical connections between the API endpoints.
+- Discuss the logic of grouping the API endpoints. Although grouping the endpoints by resource type is a common practice, as used in this template, it is also possible to group them by use case or other characteristics that better suit the user's needs.
+- Conduct some user research about how the audience of your documentation would use the APIs. Identify the programming languages that your audience would most likely adopt to interact with your APIs.
+- Explore the possibility of auto-generating the API references.
+- Optimize the visual presentation of the API references by applying customized stylesheet, such as using syntax highlighting, table of contents, multi-column layout, etc.
 
 ## About the API reference overview section
 
