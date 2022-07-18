@@ -5,8 +5,13 @@ The Code of Conduct incident record template includes:
 
 * Placeholder text that you can replace with your own text. This text is indicated in {curly braces}.
 * Writing instructions, also in {curly braces}.
-* An accompanying `template-code-of-conduct-response.md` template that should be used to create your Code of Conduct Response at the same time you create your Code of Conduct.
-* See the accompanying `code-of-conduct-guide.md` file for more detailed information about using these templates.
+* A supplementary Code of Conduct incident record guide that provides more detailed information about using this template. Read the guide document first! This guide is located in the same folder as the template and is named `guide-code-of-conduct-incident-record.md`.
+* The Code of Conduct remediation template should be used along with several other templates, including:
+  * A Code of Conduct that you can use to create and explain your community's Code of Conduct. This template is included in the same folder as this template and is named `template-code-of-conduct.md`. See its accompany guide: `guide-code-of-conduct.md`.
+  * A Code of Conduct response plan template that you can use to create and explain the policy your team will follow as you handle Code of Conduct incidents. This template is included in the same folder as the Code of Conduct template and is named `template-code-of-conduct-response-plan.md`. See its accompany guide: `guide-code-of-conduct-response-plan.md`.
+  * A Code of Conduct remediation record template for a form that is filled out when a community moderator meets with a community member to explain the consequences of a Code of Conduct violation. This template is included in the same folder as the Code of Conduct template and is named `template-code-of-conduct-remediation-record.md`. See its accompany guide: `guide-code-of-conduct-remediation-record.md`.
+
+You might also consider using the `../our-team/template-our-team.md` template to let your community members know who they can contact to report a Code of Conduct violation. This document is useful beyond Code of Conduct violations. It is a core document that helps you clearly communicate who belongs to your open source project or organization.
 ---
 
 TIPS FOR THE COMMUNITY MODERATOR:

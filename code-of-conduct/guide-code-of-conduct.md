@@ -3,29 +3,24 @@
 ---
 Thank you for downloading the Code of Conduct template from The Good Docs Project!
 We welcome any kind of feedback on our templates, both positive and negative.
-To suggest improvements, open an issue on our (https://github.com/thegooddocsproject/templates/issues)[Templates repository].
----
+To suggest improvements, open an issue on our [Templates repository](https://github.com/thegooddocsproject/templates/issues).
 
 This is the guide that explains how to use the Good Docs Project Code of Conduct, which is part of the Code of Conduct template set.
 
 The Code of Conduct template set includes:
 
-- A `template-code-of conduct.md` file that you can use to create your community's public-facing Code of Conduct.
-- A `template-code-of-conduct-response-plan.md` file that you can use to create and explain the response policy and procedures your team will follow as you handle Code of Conduct incidents. This template is included in the same folder as the Code of Conduct template.
-- A `template-code-of-conduct-incident-record.md` file for a form that is filled out when a community moderator takes an incident report from a community members. This template is included in the same folder as the Code of Conduct template.
-- A `template-code-of-conduct-remediation-record.md` file for a form that is filled out when a community moderator meets with a community member to explain the consequences of a Code of Conduct violation. This template is included in the same folder as the Code of Conduct template.
-- The following guides:
-  - `guide-code-of-conduct.md`
-  - `guide-code-of-conduct-response-plan.md`
-  - `guide-code-of-conduct-incident-record.md`
-  - `guide-code-of-conduct-remediation-record`
+* A Code of Conduct that you can use to create and explain your community's Code of Conduct. This template is included in the same folder as this template and is named `template-code-of-conduct.md`. See its accompany guide: `guide-code-of-conduct.md`.
+* A Code of Conduct response plan template that you can use to create and explain the policy your team will follow as you handle Code of Conduct incidents. This template is included in the same folder as the Code of Conduct template and is named `template-code-of-conduct-response-plan.md`. See its accompany guide: `guide-code-of-conduct-response-plan.md`.
+* A Code of Conduct incident record template for a form that is filled out when a community moderator takes an incident report from a community member. This template is included in the same folder as the Code of Conduct template as the Code of Conduct template and is named `template-code-of-conduct-incident-record.md`. See its accompany guide: `guide-code-of-conduct-incident-record.md`.
+* A Code of Conduct remediation record template for a form that is filled out when a community moderator meets with a community member to explain the consequences of a Code of Conduct violation. This template is included in the same folder as the Code of Conduct template and is named `template-code-of-conduct-remediation-record.md`. See its accompany guide: `guide-code-of-conduct-remediation-record.md`.
 
-You might also consider using the `../our-team/template-our-team.md` template to let your community members know who they can contact to report a Code of Conduct violation. This document is not only necessary for Code of Conduct violations. It is a core document that helps you clearly communicate who belongs to your open source project or organization.
+You might also consider using the `../our-team/template-our-team.md` template to let your community members know who they can contact to report a Code of Conduct violation. This document is useful beyond Code of Conduct violations. It is a core document that helps you clearly communicate who belongs to your open source project or organization.
+---
 
 
 ## Why do I need a Code of Conduct and a response plan?
 
-A Code of Conduct is a lot like a good insurance policy: hopefully you won't have to use it because your community will always be healthy, productive, and inclusive.
+A Code of Conduct is a lot like a good insurance policy: hopefully you'll never have to enforce it.
 However, if or when a problem occurs in your community, you'll be glad that your Code of Conduct is there to support you.
 
 A Code of Conduct has many purposes and benefits. It can:
@@ -33,14 +28,14 @@ A Code of Conduct has many purposes and benefits. It can:
 - Help you define and clearly communicate your organization's mission, values, and guiding principles.
 - Encourage members of your community to behave ethically and inclusively.
 - Make your community a better place to collaborate and work.
-- Demonstrate to prospective community members that your community is one that is welcoming and safe to join.
+- Demonstrate to prospective community members that your community is one that is warm, welcoming, and safe to join.
 
 But it's not enough to merely have a Code of Conduct.
 You should also have a clear plan for how your team will respond if a Code of Conduct incident occurs.
 Your response plan should include important details, such as:
 
 - How incidents are reported and documented.
-- Who will recieve and handle Code of Conduct incidents.
+- Who will receive and handle Code of Conduct incidents.
 - How incidents are investigated and resolved.
 - How you will handle appeals or potential conflicts of interest.
 
@@ -53,7 +48,7 @@ Hopefully, as you create your Code of Conduct and your response plan, your commu
 ## Maintenance strategy
 
 A Code of Conduct is considered a foundational document for a healthy open source community.
-For that reason, it is important to review your Code of Conduct and your response plan regularly to make sure it hasn't gone stale and meets your community's needs.
+For that reason, it is important to review your Code of Conduct and your response plan regularly to make sure it hasn't gone stale and still meets your community's needs.
 
 If you do have a Code of Conduct incident, consider holding a retrospective meeting shortly after resolving a Code of Conduct incident to make sure your Code of Conduct and response plan was effective.
 
@@ -70,7 +65,7 @@ The following sections provide guidance about how to fill out each section of th
 :information_source: The Code of Conduct template includes boilerplate text that you can customize or adapt, use as-is, or completely replace with your own text. If you use the boilerplate text, make sure you replace the project name placeholders with your own project name.
 
 
-### About the "Opening statment of purpose" section
+### About the "Opening statement of purpose" section
 
 The first section in the template is where you'll put your opening statement of purpose.
 Your opening statement should include information about your core values and the purpose of your Code of Conduct.
@@ -78,7 +73,7 @@ Your opening statement should include information about your core values and the
 
 ### About the "Expected behavior" section
 
-An effective Code of Conduct can help your community feel more warm and welcoming if it starts with a section outlining the positive, pro-social behaviors you'd like to see in your community.
+An effective Code of Conduct can help your community feel more warm and welcoming if it starts with a section outlining the positive, prosocial behaviors you'd like to see in your community.
 In the *Expected behavior* section, you can list the specific behaviors and attitudes that best support the ethical values you mentioned in your opening statement.
 
 

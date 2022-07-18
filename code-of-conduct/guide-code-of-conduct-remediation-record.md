@@ -4,23 +4,18 @@
 Thank you for downloading the Code of Conduct template from The Good Docs Project!
 We welcome any kind of feedback on our templates, both positive and negative.
 To suggest improvements, open an issue on our (https://github.com/thegooddocsproject/templates/issues)[Templates repository].
----
 
-This is the guide that explains how to use the Good Docs Project Code of Conduct remediation record template, which is part of the Code of Conduct template set.
+This is the guide that explains how to use the Good Docs Project Code of Conduct remediation record, which is part of the Code of Conduct template set.
 
 The Code of Conduct template set includes:
 
-- A `template-code-of-conduct.md` file that you can use to create your community's public-facing Code of Conduct.
-- A `template-code-of-conduct-response-plan.md` file that you can use to create and explain the response policy and procedures your team will follow as you handle Code of Conduct incidents. This template is included in the same folder as the Code of Conduct template.
-- A `template-code-of-conduct-incident-record.md` file for a form that is filled out when a community moderator takes an incident report from a community members. This template is included in the same folder as the Code of Conduct template.
-- A `template-code-of-conduct-remediation-record.md` file for a form that is filled out when a community moderator meets with a community member to explain the consequences of a Code of Conduct violation. This template is included in the same folder as the Code of Conduct template.
-- The following guides:
-  - `guide-code-of-conduct.md`
-  - `guide-code-of-conduct-response-plan.md`
-  - `guide-code-of-conduct-incident-record.md`
-  - `guide-code-of-conduct-remediation-record`
+* A Code of Conduct that you can use to create and explain your community's Code of Conduct. This template is included in the same folder as this template and is named `template-code-of-conduct.md`. See its accompany guide: `guide-code-of-conduct.md`.
+* A Code of Conduct response plan template that you can use to create and explain the policy your team will follow as you handle Code of Conduct incidents. This template is included in the same folder as the Code of Conduct template and is named `template-code-of-conduct-response-plan.md`. See its accompany guide: `guide-code-of-conduct-response-plan.md`.
+* A Code of Conduct incident record template for a form that is filled out when a community moderator takes an incident report from a community member. This template is included in the same folder as the Code of Conduct template as the Code of Conduct template and is named `template-code-of-conduct-incident-record.md`. See its accompany guide: `guide-code-of-conduct-incident-record.md`.
+* A Code of Conduct remediation record template for a form that is filled out when a community moderator meets with a community member to explain the consequences of a Code of Conduct violation. This template is included in the same folder as the Code of Conduct template and is named `template-code-of-conduct-remediation-record.md`. See its accompany guide: `guide-code-of-conduct-remediation-record.md`.
 
-You might also consider using the `../our-team/template-our-team.md` template to let your community members know who they can contact to report a Code of Conduct violation. This document is not only necessary for Code of Conduct violations. It is a core document that helps you clearly communicate who belongs to your open source project or organization.
+You might also consider using the `../our-team/template-our-team.md` template to let your community members know who they can contact to report a Code of Conduct violation. This document is useful beyond Code of Conduct violations. It is a core document that helps you clearly communicate who belongs to your open source project or organization.
+---
 
 
 ## Why do I need a Code of Conduct remediation record?

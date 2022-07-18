@@ -4,24 +4,18 @@
 Thank you for downloading the Code of Conduct response plan template from The Good Docs Project!
 We welcome any kind of feedback on our templates, both positive and negative.
 To suggest improvements, open an issue on our (https://github.com/thegooddocsproject/templates/issues)[Templates repository].
----
 
-This is the guide that explains how to use the Good Docs Project Code of Conduct response plan template, which is part of the Code of Conduct template set.
+This is the guide that explains how to use the Good Docs Project Code of Conduct response plan, which is part of the Code of Conduct template set.
 
 The Code of Conduct template set includes:
 
-- The following guides:
-- A `template-code-of conduct.md` file that you can use to create your community's public-facing Code of Conduct.
-- A `template-code-of-conduct-response-plan.md` file that you can use to create and explain the response policy and procedures your team will follow as you handle Code of Conduct incidents. This template is included in the same folder as the Code of Conduct template.
-- A `template-code-of-conduct-incident-record.md` file for a form that is filled out when a community moderator takes an incident report from a community members. This template is included in the same folder as the Code of Conduct template.
-- A `template-code-of-conduct-remediation-record.md` file for a form that is filled out when a community moderator meets with a community member to explain the consequences of a Code of Conduct violation. This template is included in the same folder as the Code of Conduct template.
-- The following guides:
-  - `guide-code-of-conduct.md`
-  - `guide-code-of-conduct-response-plan.md`
-  - `guide-code-of-conduct-incident-record.md`
-  - `guide-code-of-conduct-remediation-record`
+* A Code of Conduct that you can use to create and explain your community's Code of Conduct. This template is included in the same folder as this template and is named `template-code-of-conduct.md`. See its accompany guide: `guide-code-of-conduct.md`.
+* A Code of Conduct response plan template that you can use to create and explain the policy your team will follow as you handle Code of Conduct incidents. This template is included in the same folder as the Code of Conduct template and is named `template-code-of-conduct-response-plan.md`. See its accompany guide: `guide-code-of-conduct-response-plan.md`.
+* A Code of Conduct incident record template for a form that is filled out when a community moderator takes an incident report from a community member. This template is included in the same folder as the Code of Conduct template as the Code of Conduct template and is named `template-code-of-conduct-incident-record.md`. See its accompany guide: `guide-code-of-conduct-incident-record.md`.
+* A Code of Conduct remediation record template for a form that is filled out when a community moderator meets with a community member to explain the consequences of a Code of Conduct violation. This template is included in the same folder as the Code of Conduct template and is named `template-code-of-conduct-remediation-record.md`. See its accompany guide: `guide-code-of-conduct-remediation-record.md`.
 
-You might also consider using the `../our-team/template-our-team.md` template to let your community members know who they can contact to report a Code of Conduct violation. This document is not only necessary for Code of Conduct violations. It is a core document that helps you clearly communicate who belongs to your open source project or organization.
+You might also consider using the `../our-team/template-our-team.md` template to let your community members know who they can contact to report a Code of Conduct violation. This document is useful beyond Code of Conduct violations. It is a core document that helps you clearly communicate who belongs to your open source project or organization.
+---
 
 
 ## Why do I need a Code of Conduct and a response plan?
@@ -84,7 +78,7 @@ Some training options and resources you can consider using:
 - If there are other resources that we are not aware of, please (open an issue)[https://github.com/thegooddocsproject/templates/issues] to let us know!
 
 In addition to these resources, we recommend holding regular practice sessions with your community moderators where you role-play what it would be like to handle an actual incident if one were to occur.
-Try creating a hypothetical situation and seeing if you can take it through the entire process to its conclusion.
+Try creating a hypothetical situation and see if you can take it through the entire process to its conclusion.
 
 
 ### About the "Community moderator terms of service" section
@@ -115,7 +109,7 @@ The *Handling incident reports* section includes several subsections.
 It makes up the main body of this document and explains how you will handle incident reports.
 
 The remediation process explained in this template was based on the Mozilla process for handling incidents.
-You can feel free to adapt the process for your community if needed.
+Feel free to adapt the process for your community if needed.
 Whatever you do, we want you to truly make this process your own.
 Take time to really think through the logistics of how to make this process work for your community.
 
@@ -160,7 +154,7 @@ At the beginning of this phase, the investigating moderator should fill out the 
 
 The *Resolve* section explains how to conclude the Code of Conduct investigation by filing the necessary paperwork for record-keeping purposes.
 
-It is important to file this documentation to enable the community moderators to identify and prevent potential repeated patterns of abuse in the community.
+It is important to record and store this documentation to enable the community moderators to identify and prevent potential repeated patterns of abuse in the community.
 
 
 ### About the "Handling incident appeals" section
@@ -185,4 +179,4 @@ The following lists some of the resources for training your moderators that were
 - [Mozilla's Community Participation Guidelines Enforcement](https://mozilla.teachable.com/p/cpg-training-contributors)
 - [Otter Tech Code of Conduct Enforcement Training](https://otter.technology/code-of-conduct-training/)
 
-Once again, if there are other resources that we are not aware of, please (open an issue)[https://github.com/thegooddocsproject/templates/issues] to let us know!
+Once again, if there are other resources that we are not aware of, please [open an issue](https://github.com/thegooddocsproject/templates/issues) to let us know!

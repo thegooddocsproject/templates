@@ -5,17 +5,17 @@ The Code of Conduct template includes:
 
 * Placeholder text that you can replace with your own text. This text is indicated in {curly braces}.
 * Writing instructions, also in {curly braces}.
-* A supplementary `code-of-conduct-guide.md` that provides more detailed information about using this template. Read the guide document first!
+* A supplementary Code of Conduct guide that provides more detailed information about using this template. Read the guide document first! This guide is located in the same folder as the template and is named `guide-code-of-conduct.md`.
 * The Code of Conduct template should be used along with several other templates, including:
-  * A `template-code-of-conduct-response.md` file that you can use to create and explain the policy your team will follow as you handle Code of Conduct incidents. This template is included in the same folder as the Code of Conduct template.
-  * A `template-code-of-conduct-incident-record.md` file for a form that is filled out when a community moderator takes an incident report from a community members. This template is included in the same folder as the Code of Conduct template.
-  * A `template-code-of-conduct-remediation-record.md` file for a form that is filled out when a community moderator meets with a community member to explain the consequences of a Code of Conduct violation. This template is included in the same folder as the Code of Conduct template.
-  * A `template-our-team.md` file that you can use to let community members know who they can contact to report a Code of Conduct violation. This document is not only necessary for Code of Conduct violations, so it is kept in a separate folder and directory.
-* See the accompanying `code-of-conduct-guide.md` file for more detailed information about using these templates.
+  * A Code of Conduct response plan template that you can use to create and explain the policy your team will follow as you handle Code of Conduct incidents. This template is included in the same folder as the Code of Conduct template and is named `template-code-of-conduct-response-plan.md`. See its accompany guide: `guide-code-of-conduct-response-plan.md`.
+  * A Code of Conduct incident record template for a form that is filled out when a community moderator takes an incident report from a community member. This template is included in the same folder as the Code of Conduct template as the Code of Conduct template and is named `template-code-of-conduct-incident-record.md`. See its accompany guide: `guide-code-of-conduct-incident-record.md`.
+  * A Code of Conduct remediation record template for a form that is filled out when a community moderator meets with a community member to explain the consequences of a Code of Conduct violation. This template is included in the same folder as the Code of Conduct template and is named `template-code-of-conduct-remediation-record.md`. See its accompany guide: `guide-code-of-conduct-remediation-record.md`.
+
+You might also consider using the `../our-team/template-our-team.md` template to let your community members know who they can contact to report a Code of Conduct violation. This document is useful beyond Code of Conduct violations. It is a core document that helps you clearly communicate who belongs to your open source project or organization.
 ---
 
 {Include your project's opening statement of purpose in this section.
-You can use this boilerplate text and replace your own project's name in the indicated placeholder text.
+Replace your own project's name in the indicated placeholder text.
 You are welcome to customize or reword this boilerplate text as needed.
 Alternatively, you can write your own project's statement of purpose from scratch.}
 
@@ -43,22 +43,22 @@ It’s a set of guidelines to make it easier to enrich our community.
 We expect our members, contributors, and leaders to:
 
 - Participate in the community actively and authentically. Your meaningful contributions add to the health and longevity of this community.
-- When you make commitments to other members of the project, do your best to keep those commitments. Other community members will trust you and build confidence in you if you fulfill your promises. If something may prevent you from keeping a commitment or if you discover you won't be able to complete a task on time, try to notify others as soon as possible.
+- When you make commitments, do your best to keep those commitments. Other community members will trust you and build confidence in you if you fulfill your promises. If something may prevent you from keeping a commitment or if you discover you won't be able to complete a task on time, try to notify others as soon as possible.
 - Attempt collaboration before conflict. Seek out and be respectful of differing opinions, styles, viewpoints, and experiences.
 - Give and accept constructive feedback, gracefully. When expressing disagreement, be professional and respectful. Be open to learning from and educating others where needed.
 - Demonstrate empathy and kindness toward other people. Be considerate and respectful in your word choice, speech, and actions. Show respect with the terms you use to address others.
-- Look out for those around you in the community, especially if you are in a position of influence. Alert our {Project name} {link to your community moderators document [community moderators](../our-team/template-our_team.md)} if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
+- Look out for those around you in the community, especially if you are in a position of influence. Alert the {Project name} {link to your community moderators document [community moderators](../our-team/template-our_team.md)} if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
 - Gracefully accept responsibility and apologize to those affected by any mistakes, whether made intentionally or unintentionally. If someone says they have been harmed through your words or actions, listen carefully, make amends, learn from the experience, and correct the behavior going forward.
-- Focus on what is best for the overall community, not just for us as individuals. Ensure that leadership roles and opportunities are well-distributed across the community membership and not just centered in one person or the same few people. To help our community develop and build up leaders at every level of the {Project name}, ensure that you share knowledge with others as much as possible and be mindful of fostering healthy dialogue where no one voice dominates a conversation.
+- Focus on what is best for the overall community, not just for each of us individually. Ensure that leadership roles and opportunities are well-distributed across the community membership and not just centered in one person or the same few people. To help our community develop and build up leaders at every level of the {Project name}, ensure that you share knowledge with others as much as possible and be mindful of fostering healthy dialogue where no one voice dominates a conversation.
 
 
 ## Behavior that will not be tolerated
 
 The following behaviors are unacceptable within our community, whether they occur online, offline, privately, or publicly:
 
-- Violent threats or language directed against another person.
+- Violent language or threats directed against another person.
 - Sexist, racist, or otherwise discriminatory jokes and language.
-- Deliberate intimidation, stalking, or following (online or in person).
+- Deliberate intimidation, following, or stalking (online or in person).
 - Personal insults, especially those related to gender, sexual orientation, race, religion, or disability. This includes misgendering, name calling, and mockery.
 - Trolling (posting controversial comments in order to provoke others), insulting, or making derogatory comments.
 - The use of sexualized language, jokes, or imagery, and sexual attention, inappropriate physical contact, or sexual advances of any kind.
@@ -82,21 +82,21 @@ The following behaviors are unacceptable within our community, whether they occu
 Unacceptable behavior from any {Project name} community member, contributor, sponsors, or leaders will not be tolerated.
 We expect everyone to comply with requests to stop unacceptable behavior immediately.
 
-If a community member engages in unacceptable behavior, any community member or moderator should report the incident to the {Project name} {link to your community moderators document [community moderators](../our-team/template-our_team.md)}.
+If any community member engages in unacceptable behavior, any community member or moderator should report the incident to the {Project name} {link to your community moderators document [community moderators](../our-team/template-our_team.md)}.
 The moderators will investigate the incident to determine the incident’s severity and overall impact to the community.
 See our {link to your [Code of Conduct response plan](template-code-of-conduct-response-plan.md)} for more details.
 
 Depending on the risk and impact level, the moderators may respond by requiring:
 
-- **Correction:** A private, written warning from community moderators, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate and what behavior is expected going forward. A public apology may be requested.
-- **Warning:** A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with community moderators, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.
+- **Correction:** A private, written warning from community moderators, providing clarity around the nature of the violation, an explanation of why the behavior was inappropriate, and what behavior is expected going forward. A public apology may be requested.
+- **Warning:** A warning with consequences for continued behavior. No interaction with the people involved is allowed for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media and it includes unsolicited interaction with community moderators. Violating these terms may lead to a temporary or permanent ban.
 - **Temporary ban:** A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with community moderators, is allowed during this period. Violating these terms may lead to a permanent ban. Readmittance to the community usually requires an additional meeting with a community moderator to ensure future compliance.
 - **Permanent ban:** A permanent ban from any sort of public interaction within the community.
 
 The action taken is at the discretion of the {Project name} {link to your community moderators document [community moderators](../our-team/template-our_team.md)}.
 Participants are expected to comply immediately, and further action may be taken in case a participant does not comply.
 
-Every community member is entitled to one appeal using the same process for reporting a Code of Conduct incident.
+Every community member is entitled to one appeal using the [same process for reporting a Code of Conduct incident](#reporting-an-incident).
 Community members are expected to comply with the requested action while appeals are being considered.
 After an appeal has been resolved, the decision is considered final.
 
@@ -106,13 +106,18 @@ After an appeal has been resolved, the decision is considered final.
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to one of the {Project name}
 {link to your community moderators document [community moderators](../our-team/template-our_team.md)}.
 If you would like to discuss your concerns or if you have personally experienced unacceptable behavior, please reach out to a community moderator as soon as possible.
-Please reach out to report any potential violations of these guidelines, even if the situation is not happening to you.
+
+We encourage reaching out to a community moderator, even if you are unsure whether something counts as a Code of Conduct incident or even if the situation is merely something you observed and did not happen to you directly.
+
+Please reach out as soon as possible if:
+
+* You would like to discuss any concerns.
+* You have personally experienced unacceptable or potentially unacceptable behavior.
+* You want to report a situation happening to someone else.
 
 
 ## Addressing Code of Conduct reports
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to one of the {Project name}
-{link to your community moderators document [community moderators](../our-team/template-our_team.md)}.
 All complaints will be reviewed and investigated promptly and fairly.
 If possible, community moderators will recuse themselves in cases where there is a conflict of interest.
 See our {link to your [Code of Conduct response plan](template-code-of-conduct-response-plan.md)} for more details.
@@ -122,7 +127,7 @@ However, all community leaders are obligated to respect the privacy and security
 In some cases, community moderators may determine that a public statement will need to be made.
 If that's the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
 
-If you feel you have been unfairly accused of violating these guidelines, please follow the same reporting process to request an appeal.
+If you feel you have been unfairly accused of violating these guidelines, please follow the [same process for reporting a Code of Conduct incident](#reporting-an-incident).
 
 
 ## Where this Code of Conduct applies
