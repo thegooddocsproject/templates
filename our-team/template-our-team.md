@@ -52,6 +52,11 @@ The current community moderators are:
 
 {Writing tip: Consider listing people alphabetically by first name.}
 
+For more information:
+
+- {Link to your Code of Conduct}
+- {link to your Code of Conduct response guide}
+
 
 ## {Name of first team or role}
 
@@ -69,6 +74,11 @@ The current {name of team or role} members are:
 - {Role, optional}: {Name}, {link to Slack handle or other contact info}
 - {Role, optional}: {Name}, {link to Slack handle or other contact info}
 
+For more information:
+
+- {Link to document describing how to contact this team}
+- {link to document describing how to join this team}
+
 
 ## {Name of second team or role}
 
@@ -85,6 +95,12 @@ The current {name of team or role} members are:
 - {Role, optional}: {Name}, {link to Slack handle or other contact info}
 - {Role, optional}: {Name}, {link to Slack handle or other contact info}
 - {Role, optional}: {Name}, {link to Slack handle or other contact info}
+
+For more information:
+
+- {Link to document describing how to contact this team}
+- {link to document describing how to join this team}
+
 
 
 ## Thank you to past team members

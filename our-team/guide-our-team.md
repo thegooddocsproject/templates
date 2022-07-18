@@ -101,6 +101,8 @@ Then, list the names of the individuals who are currently on this team.
 If possible, indicate the best way to contact these individuals.
 Remember to keep their personal contact information private and only provide project-level methods of communication if possible.
 
+At the end of this section, link to your Code of Conduct and your Code of Conduct response documents so that contributors can know how to work with this team.
+
 
 ### About the "Name of first team or role" section
 
@@ -122,6 +124,9 @@ For example:
 - Chair: Dorothy Gale, [Slack handle](https://example.slack.com/team/U0123)
 - Vice-chair: Frank Baum, [Slack handle](https://example.slack.com/team/U0456)
 - Zeb Hugson, [Slack handle](https://example.slack.com/team/U0789)
+
+At the end of this section, link to any documents that can help people know how to contact this team or how to join the team.
+You can include any other helpful documents as needed.
 
 
 ### About the "Name of second team or role" section
