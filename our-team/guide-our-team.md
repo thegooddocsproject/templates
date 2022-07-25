@@ -3,7 +3,7 @@
 ---
 Thank you for downloading the Our Team template from The Good Docs Project!
 We welcome any kind of feedback on our templates, both positive and negative.
-To suggest improvements, open an issue on our (https://github.com/thegooddocsproject/templates/issues)[Templates repository].
+To suggest improvements, open an issue on our [Templates repository](https://github.com/thegooddocsproject/templates/issues).
 ---
 
 The `Our Team` template is for open source software projects.
@@ -30,8 +30,9 @@ To help your project succeed, both your users and your contributors need to be a
 
 To make it easier for people to accomplish these tasks, it helps tremendously to have a page in your repository or website that explains who are in key roles and teams in your project.
 
-Additionally, creating this content will help you and your project get more clear about what roles you have and what they mean.
-The `Our Team` template will help you think through these roles and create this content.
+Additionally, creating this content will help you and your project better identify and explain about what roles you have and what they are responsible for or should be responsible for.
+Sometimes the process of creating a document like this helps to get more clarity, buy-in, and alignment throughout the project.
+In that way, using the `Our Team` template will help you think through these roles and how they help meet your project's needs.
 
 
 ## What kind of teams and roles should my project have?
@@ -43,7 +44,7 @@ For now, just focus on describing your teams and roles the way they currently ex
 
 However, if you want to think more deeply about effective open source governance, consider checking out these resources:
 
-- (https://opensource.guide/leadership-and-governance/)[Leadership and governance] (opensource.guide)
+- [Leadership and governance](https://opensource.guide/leadership-and-governance/) (opensource.guide)
 - *Working in Public: The Making and Maintenance of Open Source Software* by Nadia Eghbal
 - *The Art of Community* by Jono Bacon
 
@@ -156,4 +157,4 @@ Alternatively, you can simply make a mental note to update it any time a new ind
 
 ## Acknowledgements
 
-While creating this template, the authors were inspired by the (https://www.writethedocs.org/team/)[Write the Docs Team] page.
+While creating this template, the authors were inspired by the [Write the Docs Team](https://www.writethedocs.org/team/) page.
