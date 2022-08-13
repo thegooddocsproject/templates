@@ -117,7 +117,7 @@ each requirement can stand on its own.
 When referencing external documents, ensure the document and relevant section,
 or sections, are uniquely identified.
 
-Requirements often reference an external document, such stating that a component
+Requirements often reference an external document, such as stating that a component
 must comply with a specific standard.
 
 When referring to the document, ensure that you include sufficient information
