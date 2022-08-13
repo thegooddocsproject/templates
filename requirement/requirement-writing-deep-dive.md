@@ -171,15 +171,6 @@ which were referenced when creating this material.
    * <a href="http://www.cse.chalmers.se/~jenho/Teaching/RETeachingMaterial/Lectures/4_ConceptsWritingQuality.pdf">Uni of Gothenburg Requirements & User Experience Lecture notes
    </td>
   </tr>
-    <tr>
-   <td>Avoid run-on requirements
-   </td>
-   <td>* <a href="https://www.iso.org/obp/ui/#iso:std:iso-iec-ieee:29148:ed-2:v1:en">ISO/IEC/IEEE 29148:2018(en) Systems and software engineering - Life cycle processes - Requirements engineering</a> 5.2.5 Characteristics of individual requirements
-<p>* <a href="https://www.amazon.com.au/Requirements-Writing-Michael-Ryan-ebook/dp/B071JKRZ3K">Requirements Writing by Dr Michael Ryan</a>, section 3.2.17 Avoid Cross-references Including Pronouns.
-<p>* <a href="https://www.informit.com/articles/article.aspx?p=1152528&seqNum=4">Excerpt from Requirements Management Using IBM Rational RequisitePro</a> section 1.4 Characteristics of a Good Requirement, subsection: Independent
-   </td>
-  </tr>
-
   <tr>
    <td>Avoid combining requirements
    </td>

@@ -57,21 +57,6 @@ It helps answer questions such as:
 
 > For my device, has every feature been implemented, tested, and verified?
 
-### Avoid run-on requirements
-
-Avoid writing requirements which depend on knowledge of prior requirements
-(typically the previous requirement).
-
-**Recommended:**
-
-> *   [ ] The control panel MUST display the device location.
-> *   [ ] The control panel MUST display the date.
-
-**Not recommended:**
-
-> *   [ ] The control panel MUST display the device location.
-> *   [ ] **It** MUST also display the date.
-
 ### Avoid combining requirements
 
 Be wary of using conjunction words, such as “and” in requirements. It usually
@@ -122,7 +107,7 @@ requirement to understand this requirement.
 **Not recommended:**
 
 > *   [ ] The control panel MUST display the device location.
-> *   [ ] **It** must also MUST display the date.
+> *   [ ] **It** MUST also display the date.
 
 The resulting language doesn’t flow as well as normal English, but it means that
 each requirement can stand on its own.
