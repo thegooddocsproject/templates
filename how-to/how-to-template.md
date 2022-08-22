@@ -3,11 +3,11 @@
 
 # Title
 
-:information_source: Before using this template, read the accompanying [how-to template guide](how-to-template-guide)
+::information_source: Before using this template, read the accompanying [how-to template guide](how-to-template-guide.md)
 
 ## Overview
 
-This guide explains how to {insert brief description of the task}.
+This guide explains how to {insert a brief description of the task}.
 
 :information_source: Here are some examples:
 
@@ -15,13 +15,13 @@ This guide explains how to {insert brief description of the task}.
 - This guide explains how to create or delete a branch on Github.
 - This guide explains how to create a repository.
 
-(Optional) Specify the scenario under which this how-to guide can be used.
+(Optional) Specify when and why your user might want to perform the task.
 
 ## Before you begin
 
 <!-- Delete this section if your readers can go to the steps without requiring any prerequisite knowledge. -->
 
-Before you {insert brief description of the task}, complete the following prerequisites:
+Before you {insert a brief description of the task}, complete the following prerequisites:
 
 - Prerequisite 1
 - Prerequisite 2
@@ -32,9 +32,12 @@ Before you {insert brief description of the task}, complete the following prereq
 1. {Write the step here. Use a verb to start.}
 
 :information_source: You can use this format to describe your step:
+
 Explanatory text
+
 (Optional) Code sample or screenshot that helps your users complete this step.
-(Optional) Result on completing this step.
+
+(Optional) The result of completing this step.
 
 2.  {Write the step here. Use a verb to start.}
 
@@ -44,8 +47,8 @@ Explanatory text
 
 ## See also
 
-:information_source: Include references and/or links to other related documentation such as how-to guides, conceptual topics, troubleshooting information, limitation details if any.
+:information_source: Include references and/or links to other related documentation such as how-to guides, conceptual topics, troubleshooting information, and limitation details if any.
 
-- Reference link 1
-- Concept link 2
-- Troubleshooting link n
+- Reference link
+- Concept link
+- Troubleshooting link
